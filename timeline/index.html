@@ -1,0 +1,58 @@
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Symp15</title>
+    <script src="lib/d3.v2.min.js"></script>
+    <script src="lib/jquery-1.11.3.min.js"></script>
+    <script src="lib/lodash.min.js"></script>
+    <script src="data.js"></script>
+    <script src="timeline.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body style="margin:0;padding:0;">
+    <div id="timeline" style="width:100%"></div>
+    <div id="eventInfo" style="visibility:hidden">
+        <table id="eventTable">
+            <thead>
+                <tr>
+                    <th>Místnost</th>
+                    <th>Přednášející</th>
+                    <th>Název přednášky</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+    <script>
+        TimeKnots.draw("#timeline",
+            schedule, {
+                color: "#669",
+                height: 200,
+                width: "100%",
+                showLabels: true,
+                labelFormat: "%H:%M"
+            },
+            function (d) {
+                if (eventInfo[d.date] !== undefined) {
+                    $("#eventInfo").css("visibility", "visible");
+                    $('#eventTable tbody').html("");
+                    eventInfo[d.date].forEach(function(event){
+                        console.log(JSON.stringify(event));
+                        $('#eventTable tbody')
+                            .append($('<tr>')
+                                .append($('<td>').html(event.room))
+                                .append($('<td>').html(event.speaker))
+                                .append($('<td>').html(event.title))
+                            );
+                    });
+                } else {
+                    $("#eventInfo").html("Chyba: přednáška nebyla nalezena");
+                }
+
+            });
+    </script>
+</body>
+
+</html>
