@@ -6,7 +6,6 @@
     <script src="lib/d3.v2.min.js"></script>
     <script src="lib/jquery-1.11.3.min.js"></script>
     <script src="lib/lodash.min.js"></script>
-    <script src="data.js"></script>
     <script src="timeline.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
@@ -40,12 +39,11 @@
                     $("#eventInfo").css("visibility", "visible");
                     $('#eventTable tbody').html("");
                     data.events[d.date].forEach(function(event){
-                        console.log(JSON.stringify(event));
                         $('#eventTable tbody')
                             .append($('<tr>')
                                 .append($('<td>').html(event.room))
                                 .append($('<td>').html(event.speaker))
-                                .append($('<td>').html(event.title))
+                                .append($('<td>').html(event.talk))
                             );
                     });
                 } else {
