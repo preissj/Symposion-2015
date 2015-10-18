@@ -26,8 +26,9 @@
         </table>
     </div>
     <script>
-        TimeKnots.draw("#timeline",
-            schedule, {
+        $.getJSON("data.json", function(data) {
+            TimeKnots.draw("#timeline",
+            Object.keys(data.events).map(function(x){return {date:x}}), {
                 color: "#669",
                 height: 200,
                 width: "100%",
@@ -35,10 +36,10 @@
                 labelFormat: "%H:%M"
             },
             function (d) {
-                if (eventInfo[d.date] !== undefined) {
+                if (data.events[d.date] !== undefined) {
                     $("#eventInfo").css("visibility", "visible");
                     $('#eventTable tbody').html("");
-                    eventInfo[d.date].forEach(function(event){
+                    data.events[d.date].forEach(function(event){
                         console.log(JSON.stringify(event));
                         $('#eventTable tbody')
                             .append($('<tr>')
@@ -52,6 +53,7 @@
                 }
 
             });
+        });
     </script>
 </body>
 
