@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="cs">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Vlny - Symposion 2015</title>
+        <link rel="stylesheet" type="text/css" href="/static/css/style.scss.css">
+        <link rel="stylesheet" type="text/css" href="/static/css/jquery.fullPage.css">
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    </head>
+
+    <body class="demo">
+        <div id="fullpage">
+            <div class="section" id="section1">
+                <img id="logo" src="/static/images/vlny2.png">
+                <div class="info">
+                    <h1>SYMPOSION</h1>
+                    <h1>2015</h1>
+                    <h2>15. - 17. 11.</h2>
+                    <h2>Gymnázium Jana Keplera</h2>
+                </div>
+            </div>
+            <div class="section" id="section2">
+                <h1>O akci</h1>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Integer imperdiet lectus quis justo. Mauris dictum facilisis augue. Nunc dapibus tortor vel mi dapibus sollicitudin. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus ac leo pretium faucibus. Fusce tellus. Etiam posuere lacus quis dolor. Fusce dui leo, imperdiet in, aliquam sit amet, feugiat eu, orci. Nullam rhoncus aliquam metus. Fusce nibh. Aliquam id dolor. Phasellus rhoncus. Proin mattis lacinia justo.</p>
+
+                <p>Phasellus et lorem id felis nonummy placerat. Donec ipsum massa, ullamcorper in, auctor et, scelerisque sed, est. Nunc dapibus tortor vel mi dapibus sollicitudin. Cras pede libero, dapibus nec, pretium sit amet, tempor quis. Mauris suscipit, ligula sit amet pharetra semper, nibh ante cursus purus, vel sagittis velit mauris vel metus. Proin in tellus sit amet nibh dignissim sagittis. Mauris dolor felis, sagittis at, luctus sed, aliquam non, tellus. Etiam dictum tincidunt diam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam sapien sem, ornare ac, nonummy non, lobortis a enim. In enim a arcu imperdiet malesuada. Duis sapien nunc, commodo et, interdum suscipit, sollicitudin et, dolor. Nullam faucibus mi quis velit. Praesent id justo in neque elementum ultrices. Cras pede libero, dapibus nec, pretium sit amet, tempor quis.</p>
+            </div>
+            <div class="section" id="section3">
+                <h1>Hosté</h1>
+                <table>
+                    
+                </table>
+                <p>Phasellus et lorem id felis nonummy placerat. Donec ipsum massa, ullamcorper in, auctor et, scelerisque sed, est. Nunc dapibus tortor vel mi dapibus sollicitudin. Cras pede libero, dapibus nec, pretium sit amet, tempor quis. Mauris suscipit, ligula sit amet pharetra semper, nibh ante cursus purus, vel sagittis velit mauris vel metus. Proin in tellus sit amet nibh dignissim sagittis. Mauris dolor felis, sagittis at, luctus sed, aliquam non, tellus. Etiam dictum tincidunt diam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam sapien sem, ornare ac, nonummy non, lobortis a enim. In enim a arcu imperdiet malesuada. Duis sapien nunc, commodo et, interdum suscipit, sollicitudin et, dolor. Nullam faucibus mi quis velit. Praesent id justo in neque elementum ultrices. Cras pede libero, dapibus nec, pretium sit amet, tempor quis.</p>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="/static/js/jquery.fullPage.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                $('#fullpage').fullpage();
+            });
+        </script>
+        <script src="/static/js/jquery.ripples.js"></script>
+        <script>
+            $(document).ready(function() {
+                $('.demo').ripples({
+                    resolution: 512,
+                    dropRadius: 20,
+                    perturbance: 0.015,
+                    interactive: true
+                });
+            });
+            $('body').ripples("drop", x, y, radius, strength)
+        </script>
+    </body>
+</html>
