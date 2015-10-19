@@ -25,20 +25,19 @@
         </table>
     </div>
     <script>
-        $.getJSON("data.json", function(data) {
-            TimeKnots.draw("#timeline",
-            Object.keys(data.events).map(function(x){return {date:x}}), {
-                color: "#669",
-                height: 200,
-                width: "100%",
-                showLabels: true,
-                labelFormat: "%H:%M"
-            },
-            function (d) {
-                if (data.events[d.date] !== undefined) {
+        $.getJSON("data.json", function (data) {
+            TimeKnots.draw("#timeline", data.events, {
+                    color: "#669",
+                    height: 200,
+                    width: "100%",
+                    showLabels: true,
+                    labelFormat: "%H:%M"
+                },
+                function (i) {
+                    //console.log(i);
                     $("#eventInfo").css("visibility", "visible");
                     $('#eventTable tbody').html("");
-                    data.events[d.date].forEach(function(event){
+                    data.events[i].events.forEach(function (event) {
                         $('#eventTable tbody')
                             .append($('<tr>')
                                 .append($('<td>').html(event.room))
@@ -46,11 +45,8 @@
                                 .append($('<td>').html(event.talk))
                             );
                     });
-                } else {
-                    $("#eventInfo").html("Chyba: přednáška nebyla nalezena");
                 }
-
-            });
+            );
         });
     </script>
 </body>

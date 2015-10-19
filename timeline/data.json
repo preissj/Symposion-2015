@@ -1,23 +1,110 @@
 {
-    "events" : {
-    "2012-09-28T06:00:00":[{"room": "P2.3", "speaker":"Mařenka Vomáčková","talk":"Vlny a tak"},
-                          {"room": "Sborovna", "speaker":"Vašek Volhejn","talk":"Jak nepřepisovat JS knihovny"}],
-    "2012-09-28T07:45:00":[{"room": "Aula", "speaker":"Pepíček Mrkvička","talk":"Úvod do metafyziky"}],
-    "2012-09-28T11:30:00":[{"room": "Aula", "speaker":"Pepíček Mrkvička","talk":"Úvod do metafyziky"}],
-    "2012-09-28T13:15:00":[{"room": "Aula", "speaker":"Pepíček Mrkvička","talk":"Úvod do metafyziky"}],
-    "2012-09-28T17:16:00":[{"room": "Aula", "speaker":"Pepíček Mrkvička","talk":"Úvod do metafyziky"}],
-    "2012-09-28T18:13:00":[{"room": "Aula", "speaker":"Pepíček Mrkvička","talk":"Úvod do metafyziky"}],
-    "2012-09-28T20:16:00":[{"room": "Aula", "speaker":"Pepíček Mrkvička","talk":"Úvod do metafyziky"}],
-    "2012-09-28T23:00:00":[{"room": "Aula", "speaker":"Pepíček Mrkvička","talk":"Úvod do metafyziky"}]
-    },
+    "events": [
+        {
+            "label": "Pondělí"
+        },
+        {
+            "time": "2015-11-16T09:00:00",
+            "events": [{
+                    "room": "P2.3",
+                    "speaker": "Mařenka Vomáčková",
+                    "talk": "Vlny a tak"
+                },
+                {
+                    "room": "Sborovna",
+                    "speaker": "Vašek Volhejn",
+                    "talk": "Jak nepřepisovat JS knihovny"
+                }]
+        },
+        {
+            "time": "2015-11-16T12:00:00",
+            "events": [{
+                "room": "Aula",
+                "speaker": "Pepíček Mrkvička",
+                "talk": "Úvod do metafyziky"
+            }]
+        },
+        {
+            "time": "2015-11-16T14:00:00",
+            "events": [{
+                "room": "Aula",
+                "speaker": "Pepíček Mrkvička",
+                "talk": "Úvod do metafyziky"
+            }]
+        },
+        {
+            "time": "2015-11-16T16:00:00",
+            "events": [{
+                "room": "Aula",
+                "speaker": "Pepíček Mrkvička",
+                "talk": "Úvod do metafyziky"
+            }]
+        },
+        {
+            "time": "2015-11-16T18:00:00",
+            "events": [{
+                "room": "Aula",
+                "speaker": "Pepíček Mrkvička",
+                "talk": "Úvod do metafyziky"
+            }]
+        },
+        {
+            "time": "2015-11-16T20:30:00",
+            "events": [{
+                "room": "Aula",
+                "speaker": "Pepíček Mrkvička",
+                "talk": "Úvod do metafyziky"
+            }]
+        },
+        {
+            "label": "Úterý"
+        },
+        {
+            "time": "2015-11-17T09:00:00",
+            "events": [{
+                    "room": "P2.3",
+                    "speaker": "Mařenka Vomáčková",
+                    "talk": "Vlny a tak"
+                },
+                {
+                    "room": "Sborovna",
+                    "speaker": "Vašek Volhejn",
+                    "talk": "Jak nepřepisovat JS knihovny"
+                }]
+        },
+        {
+            "time": "2015-11-17T12:00:00",
+            "events": [{
+                "room": "Aula",
+                "speaker": "Pepíček Mrkvička",
+                "talk": "Úvod do metafyziky"
+            }]
+        },
+        {
+            "time": "2015-11-17T14:00:00",
+            "events": [{
+                "room": "Aula",
+                "speaker": "Pepíček Mrkvička",
+                "talk": "Úvod do metafyziky"
+            }]
+        },
+        {
+            "time": "2015-11-17T16:00:00",
+            "events": [{
+                "room": "Aula",
+                "speaker": "Pepíček Mrkvička",
+                "talk": "Úvod do metafyziky"
+            }]
+        }
+    ],
     "speakers": {
-        "Mařenka Vomáčková" : "Mařenka Vomáčková je fiktivní postava, která neexistuje.",
-        "Václav Volhejn" : "To jsem já.",
-        "Pepíček Mrkvička" : "Mrkvička je světově proslulý filosof, který sepsal několik bestsellerů."
+        "Mařenka Vomáčková": "Mařenka Vomáčková je fiktivní postava, která neexistuje.",
+        "Václav Volhejn": "To jsem já.",
+        "Pepíček Mrkvička": "Mrkvička je světově proslulý filosof, který sepsal několik bestsellerů."
     },
     "talks": {
-        "Úvod do metafyziky" : "Pepíčkova super přednáška o metafyzice.",
-        "Jak nepřepisovat JS knihovny" : "Poučte se z Vaškových chyb.",
-        "Vlny a tak" : "Tématická přednáška o vlnách. A tak."
+        "Úvod do metafyziky": "Pepíčkova super přednáška o metafyzice.",
+        "Jak nepřepisovat JS knihovny": "Poučte se z Vaškových chyb.",
+        "Vlny a tak": "Tématická přednáška o vlnách. A tak."
     }
 }

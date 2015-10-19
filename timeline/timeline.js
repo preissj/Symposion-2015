@@ -1,6 +1,16 @@
 var TimeKnots = {
     draw: function (id, events, options, showEvent) {
         'use strict';
+
+        for (var i = 0; i < events.length; i++) events[i].pos = i;
+
+        var blocks = events.filter(function (x) {
+            return x.events !== undefined;
+        });
+        var labels = events.filter(function (x) {
+            return x.events === undefined;
+        });
+
         var cfg = {
             width: 600,
             height: 200,
@@ -32,50 +42,61 @@ var TimeKnots = {
             });
         }
         var svg = d3.select(id).append('svg').attr("width", cfg.width).attr("height", cfg.height);
-        
-        
-        //Calculate times in terms of timestamps
-        var minValue, maxValue, timestamps;
-        if (!cfg.dateDimension) {
-            timestamps = events.map(function (d) {
-                return d.value;
-            }); //new Date(d.date).getTime()});
-            maxValue = d3.max(timestamps);
-            minValue = d3.min(timestamps);
-        } else {
-            timestamps = events.map(function (d) {
-                return Date.parse(d.date);
-            }); //new Date(d.date).getTime()});
-            maxValue = d3.max(timestamps);
-            minValue = d3.min(timestamps);
-        }
-        var margin = (d3.max(events.map(function (d) {
-            return d.radius;
-        })) || cfg.radius) * 1.5 + cfg.lineWidth;
-        var step = (((cfg.horizontalLayout) ? cfg.width : cfg.height) - 2 * margin) / (maxValue - minValue);
-        var series = [];
-        if (maxValue == minValue) {
-            step = 0;
-            if (cfg.horizontalLayout) {
-                margin = cfg.width / 2;
-            } else {
-                margin = cfg.height / 2;
-            }
-        }
-        var xscale = d3.scale.linear().domain([minValue, maxValue]).range([minValue, maxValue]);
-        var zoom = d3.behavior.zoom().scaleExtent([1, 1]).x(xscale)
-        .on('zoom', function() {
-            svg.selectAll('circle').attr("cx", function (d) {
-                if (cfg.horizontalLayout) {
-                    var datum = (cfg.dateDimension) ? new Date(d.date).getTime() : d.value;
-                    var x = step * (datum - minValue) + margin;
-                    return xscale(x);
-                }
-                return cfg.width / 2;
-            });
-        });
-        //svg.call(zoom);
-        
+
+
+        var margin = (cfg.radius) * 1.5 + cfg.lineWidth;
+        var step = (((cfg.horizontalLayout) ? cfg.width : cfg.height) - 2 * margin) / (events.length);
+
+        //CIRCLE ANIMATIONS foldstart
+        var translateCircle = function (circle, x, duration) {
+            if (duration === undefined) duration = 600;
+            circle.transition("translation")
+                .duration(duration)
+                .attr("transform", "translate(" + x + ",0)");
+        };
+
+        var selectCircle = function (on, filled) {
+            return function (circle) {
+                circle.transition("select")
+                    .duration(200)
+                    .style("fill", function () {
+                        if (filled) {
+                            return cfg.color;
+                        } else {
+                            return cfg.background;
+                        }
+                    })
+                    .attr("r", function (d) {
+                        return Math.floor(cfg.radius * (on ? 1.5 : 1));
+                    });
+            };
+        };
+        //foldend
+
+        var positionToX = function (time) {
+            return time * 80;
+        };
+
+        svg.selectAll("line")
+            .data(labels).enter().append("line")
+            .each(function (d) {
+                events[d.pos].d3 = this;
+            })
+            .attr("x1", function (d) {
+                return positionToX(d.pos);
+            })
+            .attr("x2", function (d) {
+                return positionToX(d.pos);
+            })
+            .attr("y1", Math.floor(cfg.height / 2) - cfg.radius)
+            .attr("y2", Math.floor(cfg.height / 2) + cfg.radius)
+            .style("stroke", cfg.color)
+            .style("stroke-width", function (d) {
+                return cfg.lineWidth;
+            })
+            .style("stroke-linecap", "round")
+            .attr("class", "timeline-event");
+
         svg.append("line")
             .style("stroke", cfg.color)
             .style("stroke-width", cfg.lineWidth)
@@ -84,138 +105,91 @@ var TimeKnots = {
             .attr("x2", cfg.width)
             .attr("y2", cfg.height / 2);
 
-        //CIRCLE ANIMATIONS foldstart
-        var translateCircle = function (circle, x) {
-            circle.transition("translation")
-                .duration(600)
-                .attr("transform", "translate(" + x + ",0)");
-        };
-
-        var selectCircle = function (on, filled) {
-            return function (circle) {
-                circle.transition("select")
-                    .duration(200)
-                    .style("fill", function (d) {
-                        if (filled) {
-                            return (d.color !== undefined) ? d.color : cfg.color;
-                        } else {
-                            return (d.color !== undefined) ? d.background : cfg.background;
-                        }
-                    })
-                    .attr("r", function (d) {
-                        var coef = on ? 1.5 : 1;
-                        if (d.radius !== undefined) {
-                            return Math.floor(d.radius * coef);
-                        }
-                        return Math.floor(cfg.radius * coef);
-                    });
-            };
-        };
-        //foldend
 
         //CIRCLES POSITiON foldstart
         svg.selectAll("circle")
-            .data(events).enter()
+            .data(blocks).enter()
             .append("circle")
+            .each(function (d) {
+                events[d.pos].d3 = this;
+            })
             .attr("class", "timeline-event")
-            .attr("r", function (d) {
-                if (d.radius !== undefined) {
-                    return d.radius;
-                }
-                return cfg.radius;
-            })
-            .style("stroke", function (d) {
-                if (d.color !== undefined) {
-                    return d.color;
-                }
-                if (d.series !== undefined) {
-                    if (series.indexOf(d.series) < 0) {
-                        series.push(d.series);
-                    }
-                    console.log(d.series, series, series.indexOf(d.series));
-                    return cfg.seriesColor(series.indexOf(d.series));
-                }
-                return cfg.color;
-            })
-            .style("stroke-width", function (d) {
-                if (d.lineWidth !== undefined) {
-                    return d.lineWidth;
-                }
-                return cfg.lineWidth;
-            })
-            .style("fill", function (d) {
-                if (d.background !== undefined) {
-                    return d.background;
-                }
-                return cfg.background;
-            })
-            .attr("cy", function (d) {
-                if (cfg.horizontalLayout) {
-                    return Math.floor(cfg.height / 2);
-                }
-                var datum = (cfg.dateDimension) ? new Date(d.date).getTime() : d.value;
-                return Math.floor(step * (datum - minValue) + margin);
-            })
+            .attr("r", cfg.radius)
+            .style("stroke", cfg.color)
+            .style("stroke-width", cfg.lineWidth)
+            .style("fill", cfg.background)
+            .attr("cy", Math.floor(cfg.height / 2))
             .attr("cx", function (d) {
-                if (cfg.horizontalLayout) {
-                    var datum = (cfg.dateDimension) ? new Date(d.date).getTime() : d.value;
-                    var x = step * (datum - minValue) + margin;
-                    return xscale(x);
-                }
-                return Math.floor(cfg.width / 2);
+                return positionToX(d.pos);
                 //foldend
-        //CIRCLE EVENTS foldstart
-            }).on("mouseover", function (d) {
-                d3.select(this).call(selectCircle(true, (this===d3selection)));
+                //CIRCLE EVENTS foldstart
+            })
+            .on("mouseover", function (d) {
+                d3.select(this).call(selectCircle(true, (this === d3selection)));
             })
             .on("mouseout", function () {
                 if (this !== d3selection)
                     d3.select(this).call(selectCircle(false, false));
             }).on("mousedown", function (d) {
-                var xPos = -(step * (new Date(d.date).getTime() - minValue) + margin) + cfg.width / 2;
-
+                var xPos = -positionToX(d.pos) + cfg.width / 2;
                 if (d3selection !== undefined) {
                     d3.select(d3selection).call(selectCircle(false, false));
                 }
                 d3selection = this;
                 dataSelection = d;
-
                 d3.select(this)
                     .call(selectCircle(true, true));
-                d3.selectAll("circle,text").call(translateCircle, xPos);
-                showEvent(d);
+                d3.selectAll(".timeline-event,.timeline-label").call(translateCircle, xPos);
+                showEvent(d.pos);
             });
         //foldend
         //TIME LABELS foldstart
-        if (cfg.showLabels !== false) {
-            var format;
-            if (cfg.dateDimension) {
-                format = d3.time.format(cfg.labelFormat);
-            } else {
-                format = function (d) {
-                    return d;
-                }; //Should I do something else?
-            }
-            timestamps.forEach(function (datum) {
-                var str = format(new Date(datum));
-                svg.append("text")
-                    .text(str).style("font-size", "100%")
-                    .attr("x", function (d) {
-                        if (cfg.horizontalLayout) {
-                            var x = step * (datum - minValue);
-                            x = d3.max([x, (margin - this.getBBox().width / 2)]); //pro první prvek
-                            return x;
-                        }
-                        return Math.floor(this.getBBox().width / 2);
-                    })
-                    .attr("y", function (d) {
-                        if (cfg.horizontalLayout) {
-                            return Math.floor(cfg.height / 2 - (margin + this.getBBox().height));
-                        }
-                        return margin + this.getBBox().height / 2;
-                    });
+        svg.selectAll("text")
+            .data(events).enter()
+            .append("text")
+            .attr("class", "timeline-label")
+            .text(function (d) {
+                if (d.label !== undefined) return d.label;
+                return d3.time.format(cfg.labelFormat)(new Date(d.time));
+            })
+            .style("font-weight", function (d) {
+                return (d.label === undefined) ? "normal" : "bold";
+            })
+            .style("font-size", "100%")
+            .attr("x", function (d) {
+                return positionToX(d.pos) - this.getBBox().width / 2;
+            })
+            .attr("y", function (d) {
+                return Math.floor(cfg.height / 2 - (margin / 2 + this.getBBox().height));
             });
-        }
         //foldend
+
+        //počáteční pozice
+        d3.selectAll(".timeline-event,.timeline-label")
+            .call(translateCircle, cfg.width / 2 - (positionToX(events.length) / 2), 0);
+
+        document.onkeydown = function (e) {
+            if (d3selection === undefined) return;
+            var nextPos = dataSelection.pos;
+            if (e.keyCode == '37') { //L
+                do {
+                    if (nextPos === 0) return;
+                    nextPos--;
+                } while (events[nextPos].events === undefined);
+            } else if (e.keyCode == '39') { //R
+                do {
+                    if (nextPos === events.length - 1) return;
+                    nextPos++;
+                } while (events[nextPos].events === undefined);
+            }
+            d3.select(d3selection).call(selectCircle(false, false));
+            d3selection = events[nextPos].d3;
+            dataSelection = events[nextPos];
+            d3.select(d3selection)
+                .call(selectCircle(true, true));
+            var xPos = -positionToX(dataSelection.pos) + cfg.width / 2;
+            d3.selectAll(".timeline-event,.timeline-label").call(translateCircle, xPos, 200);
+            showEvent(nextPos);
+        }
     }
 };
