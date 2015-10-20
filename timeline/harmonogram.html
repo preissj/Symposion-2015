@@ -1,0 +1,39 @@
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Symp15</title>
+    <script src="lib/jquery-1.11.3.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body style="margin:0;padding:0;">
+    <div id="timeline" style="width:100%"></div>
+    <div id="eventInfo" style="visibility:hidden">
+        <table id="harmonogram"></table>
+    </div>
+    <script>
+        $.getJSON("data.json", function (data) {
+            $("#eventInfo").css("visibility", "visible");
+            $('#harmonogram').html("");
+            for (var i = 0; i < data.events.length; i++) {
+                if (data.events[i].label !== undefined) {
+                    $('#harmonogram')
+                        .append($('<tr>').html(data.events[i].label));
+                } else {
+                    data.events[i].events.forEach(function (event, j) {
+                        $('#harmonogram')
+                            .append($('<tr>')
+                                .append($('<td>').html((j === 0) ? data.events[i].time : ""))
+                                .append($('<td>').html(event.room))
+                                .append($('<td>').html(event.speaker))
+                                .append($('<td>').html(event.talk))
+                            );
+                    });
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>
