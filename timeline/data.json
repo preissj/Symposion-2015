@@ -4,7 +4,7 @@
             "label": "Pondělí"
         },
         {
-            "time": "2015-11-16T09:00:00",
+            "time": "10:00",
             "events": [{
                     "room": "P2.3",
                     "speaker": "Mařenka Vomáčková",
@@ -17,7 +17,7 @@
                 }]
         },
         {
-            "time": "2015-11-16T12:00:00",
+            "time": "13:00",
             "events": [{
                 "room": "Aula",
                 "speaker": "Pepíček Mrkvička",
@@ -25,7 +25,7 @@
             }]
         },
         {
-            "time": "2015-11-16T14:00:00",
+            "time": "15:00",
             "events": [{
                 "room": "Aula",
                 "speaker": "Pepíček Mrkvička",
@@ -33,7 +33,7 @@
             }]
         },
         {
-            "time": "2015-11-16T16:00:00",
+            "time": "17:00",
             "events": [{
                 "room": "Aula",
                 "speaker": "Pepíček Mrkvička",
@@ -41,7 +41,7 @@
             }]
         },
         {
-            "time": "2015-11-16T18:00:00",
+            "time": "19:00",
             "events": [{
                 "room": "Aula",
                 "speaker": "Pepíček Mrkvička",
@@ -49,7 +49,7 @@
             }]
         },
         {
-            "time": "2015-11-16T20:30:00",
+            "time": "21:30",
             "events": [{
                 "room": "Aula",
                 "speaker": "Pepíček Mrkvička",
@@ -60,7 +60,7 @@
             "label": "Úterý"
         },
         {
-            "time": "2015-11-17T09:00:00",
+            "time": "10:00",
             "events": [{
                     "room": "P2.3",
                     "speaker": "Mařenka Vomáčková",
@@ -73,7 +73,7 @@
                 }]
         },
         {
-            "time": "2015-11-17T12:00:00",
+            "time": "13:00",
             "events": [{
                 "room": "Aula",
                 "speaker": "Pepíček Mrkvička",
@@ -81,7 +81,7 @@
             }]
         },
         {
-            "time": "2015-11-17T14:00:00",
+            "time": "15:00",
             "events": [{
                 "room": "Aula",
                 "speaker": "Pepíček Mrkvička",
@@ -89,7 +89,7 @@
             }]
         },
         {
-            "time": "2015-11-17T16:00:00",
+            "time": "17:00",
             "events": [{
                 "room": "Aula",
                 "speaker": "Pepíček Mrkvička",

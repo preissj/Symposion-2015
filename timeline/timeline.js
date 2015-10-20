@@ -1,5 +1,5 @@
 var TimeKnots = {
-    draw: function (id, events, options, showEvent) {
+    draw: function (id, events, showEvent) {
         'use strict';
 
         for (var i = 0; i < events.length; i++) events[i].pos = i;
@@ -14,9 +14,9 @@ var TimeKnots = {
         var cfg = {
             width: 600,
             height: 200,
-            radius: 10,
+            radius: 15,
             lineWidth: 4,
-            color: "#999",
+            color: "#66D",
             background: "#FFF",
             dateFormat: "%Y/%m/%d %H:%M:%S",
             horizontalLayout: true,
@@ -24,17 +24,26 @@ var TimeKnots = {
             labelFormat: "%Y/%m/%d %H:%M:%S",
             addNow: false,
             seriesColor: d3.scale.category20(),
-            dateDimension: true
+            dateDimension: true,
+            step: 80,
+            hoveredCoef: 1.5,
+            selectedCoef: 1.5,
+            minPadding: 70,
+            scrollBound: 1000,
+            labelHeight: 15,
         };
+        var inTransition = false;
+        var lastX = 0;
         var d3selection, dataSelection;
-
-        //default configuration override
-        if (options !== undefined) {
-            for (var i in options) {
-                cfg[i] = options[i];
-            }
+        var calculateWidths = function () {
             cfg.width = $(id).width();
-        }
+            cfg.margin = (cfg.radius) * 1.6 + cfg.lineWidth;
+            cfg.step = (Math.max(cfg.scrollBound, cfg.width) - 2 * cfg.margin) / (events.length);
+        };
+        calculateWidths();
+        var positionToX = function (time) {
+            return time * cfg.step;
+        };
         if (cfg.addNow !== false) {
             events.push({
                 date: new Date(),
@@ -42,17 +51,30 @@ var TimeKnots = {
             });
         }
         var svg = d3.select(id).append('svg').attr("width", cfg.width).attr("height", cfg.height);
-
-
-        var margin = (cfg.radius) * 1.5 + cfg.lineWidth;
-        var step = (((cfg.horizontalLayout) ? cfg.width : cfg.height) - 2 * margin) / (events.length);
-
         //CIRCLE ANIMATIONS foldstart
         var translateCircle = function (circle, x, duration) {
             if (duration === undefined) duration = 600;
             circle.transition("translation")
                 .duration(duration)
-                .attr("transform", "translate(" + x + ",0)");
+                .attr("transform", "translate(" + x + ",0)")
+                .each("end", function () {
+                    inTransition = false;
+                });
+        };
+
+        var toBounds = function (x) {
+            var res = Math.min(cfg.margin, x);
+            res = Math.max(cfg.width - positionToX(events.length), res);
+            return res;
+        }
+
+        var translateAll = function (x, duration) {
+            if (cfg.width >= cfg.scrollBound) return;
+            inTransition = true;
+            x = toBounds(x);
+            d3.selectAll(".timeline-event,.timeline-label")
+                .call(translateCircle, x, duration)
+            lastX = x;
         };
 
         var selectCircle = function (on, filled) {
@@ -72,10 +94,6 @@ var TimeKnots = {
             };
         };
         //foldend
-
-        var positionToX = function (time) {
-            return time * 80;
-        };
 
         svg.selectAll("line")
             .data(labels).enter().append("line")
@@ -97,9 +115,10 @@ var TimeKnots = {
             .style("stroke-linecap", "round")
             .attr("class", "timeline-event");
 
-        svg.append("line")
+        var axisLine = svg.append("line")
             .style("stroke", cfg.color)
             .style("stroke-width", cfg.lineWidth)
+            .attr("class", "axis-line")
             .attr("x1", 0)
             .attr("y1", cfg.height / 2)
             .attr("x2", cfg.width)
@@ -139,7 +158,7 @@ var TimeKnots = {
                 dataSelection = d;
                 d3.select(this)
                     .call(selectCircle(true, true));
-                d3.selectAll(".timeline-event,.timeline-label").call(translateCircle, xPos);
+                translateAll(xPos);
                 showEvent(d.pos);
             });
         //foldend
@@ -150,7 +169,7 @@ var TimeKnots = {
             .attr("class", "timeline-label")
             .text(function (d) {
                 if (d.label !== undefined) return d.label;
-                return d3.time.format(cfg.labelFormat)(new Date(d.time));
+                return d.time;
             })
             .style("font-weight", function (d) {
                 return (d.label === undefined) ? "normal" : "bold";
@@ -160,13 +179,18 @@ var TimeKnots = {
                 return positionToX(d.pos) - this.getBBox().width / 2;
             })
             .attr("y", function (d) {
-                return Math.floor(cfg.height / 2 - (margin / 2 + this.getBBox().height));
+                return Math.floor(cfg.height / 2 - (cfg.labelHeight + this.getBBox().height));
             });
         //foldend
 
         //počáteční pozice
-        d3.selectAll(".timeline-event,.timeline-label")
-            .call(translateCircle, cfg.width / 2 - (positionToX(events.length) / 2), 0);
+        var resetPositions = function () {
+            var x = (cfg.margin < cfg.scrollBound) ? (positionToX(0.75)) : (cfg.width / 2 - (positionToX(events.length - 1) / 2));
+            x = toBounds(x);
+            d3.selectAll(".timeline-event,.timeline-label").call(translateCircle, x, 0);
+            lastX = x;
+        };
+        resetPositions();
 
         document.onkeydown = function (e) {
             if (d3selection === undefined) return;
@@ -188,8 +212,55 @@ var TimeKnots = {
             d3.select(d3selection)
                 .call(selectCircle(true, true));
             var xPos = -positionToX(dataSelection.pos) + cfg.width / 2;
-            d3.selectAll(".timeline-event,.timeline-label").call(translateCircle, xPos, 200);
+            translateAll(xPos, 200);
             showEvent(nextPos);
-        }
+        };
+        $(window).resize(function () {
+            calculateWidths();
+            svg.attr("width", cfg.width);
+            axisLine.attr("x2", cfg.width);
+            svg.selectAll(".timeline-event")
+                .attr("x1", function (d) {
+                    return positionToX(d.pos);
+                })
+                .attr("x2", function (d) {
+                    return positionToX(d.pos);
+                })
+                .attr("cx", function (d) {
+                    return positionToX(d.pos);
+                });
+            svg.selectAll(".timeline-label")
+                .attr("x", function (d) {
+                    return positionToX(d.pos) - this.getBBox().width / 2;
+                });
+            resetPositions();
+        });
+
+        var drag = d3.behavior.drag()
+            .on("drag", dragmove).on("dragstart", dragstart);
+        svg.call(drag);
+
+        var moved = 0; //record the translate x moved by the g which contains the bars.
+        var dragStartX = 0; //record teh point from where the drag started
+        var oldTranslateX = 0;
+        var discard = false;
+
+        function dragstart(d) {
+            d3.event.sourceEvent.stopPropagation();
+            if (inTransition) {
+                discard = true;
+                return;
+            }
+            discard = false;
+            oldTranslateX = lastX;
+            dragStartX = d3.event.sourceEvent.clientX;
+        };
+
+        function dragmove(d) {
+            d3.event.sourceEvent.stopPropagation();
+            if (discard) return;
+            translateAll(d3.event.x - dragStartX + oldTranslateX, 0);
+            moved = toBounds(moved);
+        };
     }
 };
