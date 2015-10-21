@@ -2,63 +2,134 @@
     "events": [
         {
             "label": "Pondělí"
-        },
+            },
         {
             "time": "10:00",
-            "events": [{
+            "events": [
+                {
                     "room": "P2.3",
-                    "speaker": "Mařenka Vomáčková",
-                    "talk": "Vlny a tak"
+                    "speaker": "Otamar Kittnar",
+                    "talk": "Příliv hormonů (pouze do 11..)"
+                },
+                {
+                    "room": "Aula",
+                    "speaker": "Cyril Höschl",
+                    "talk": "Deprese jakožto vlny emocí"
                 },
                 {
                     "room": "Sborovna",
-                    "speaker": "Vašek Volhejn",
-                    "talk": "Jak nepřepisovat JS knihovny"
-                }]
-        },
-        {
+                    "speaker": "Mirek Kovářík",
+                    "talk": "Vlna 60. let - začátek druhého národního obrození?"
+                },
+                {
+                    "room": "USV",
+                    "speaker": "Bušková",
+                    "talk": "spánek, sny"
+                }
+]
+        }, {
             "time": "13:00",
-            "events": [{
-                "room": "Aula",
-                "speaker": "Pepíček Mrkvička",
-                "talk": "Úvod do metafyziky"
-            }]
-        },
+            "events": [
+                {
+                    "room": "P2.3",
+                    "speaker": "Debata",
+                    "talk": "školství"
+                },
+                {
+                    "room": "Aula",
+                    "speaker": "Vladimír Binar",
+                    "talk": "vlny v české literatuře 1968-89"
+                    }, {
+                    "room": "Sborovna",
+                    "speaker": "Vít Vilímek",
+                    "talk": "Ničivé vlny tsunami"
+                    },
+                {
+                    "room": "USV",
+                    "speaker": "Michal Stehlik",
+                    "talk": "Exilova politika"
+                    }
+                    ]
+            },
         {
             "time": "15:00",
-            "events": [{
-                "room": "Aula",
-                "speaker": "Pepíček Mrkvička",
-                "talk": "Úvod do metafyziky"
-            }]
-        },
+            "events": [
+                {
+                    "room": "P2.3",
+                    "speaker": "Petr Cuhra",
+                    "talk": "potraviny"
+                    },
+                {
+                    "room": "Aula",
+                    "speaker": "Machala + Veronika Kulířová",
+                    "talk": "šíření viru HIV"
+                    },
+                {
+                    "room": "Sborovna",
+                    "speaker": "Tereze Freidingerová",
+                    "talk": "Vietnamci v České republice"
+                    },
+                {
+                    "room": "USV",
+                    "speaker": "Václav Švorčík",
+                    "talk": "biokompatibilita polymerů"
+                    }
+            ]
+            },
         {
             "time": "17:00",
-            "events": [{
-                "room": "Aula",
-                "speaker": "Pepíček Mrkvička",
-                "talk": "Úvod do metafyziky"
-            }]
-        },
+            "events": [
+                {
+                    "room": "P2.3",
+                    "speaker": "Honza Harant",
+                    "talk": "Malíř"
+                    },
+                {
+                    "room": "Aula",
+                    "speaker": "Jaromír Typlt",
+                    "talk": "Vlny pronikající (spisovatel, teoretik)-art brut"
+                    },
+                {
+                    "room": "Sborovna",
+                    "speaker": "Václav Janda",
+                    "talk": "Kvalita pitných vod v ČR"
+                    },
+                {
+                    "room": "USV",
+                    "speaker": "Dino Numerato",
+                    "talk": "subkultury, konkrétně fanoušci fotbalu, mexické vlny"
+                    }
+            ]
+            },
         {
             "time": "19:00",
-            "events": [{
-                "room": "Aula",
-                "speaker": "Pepíček Mrkvička",
-                "talk": "Úvod do metafyziky"
-            }]
-        },
-        {
-            "time": "21:30",
-            "events": [{
-                "room": "Aula",
-                "speaker": "Pepíček Mrkvička",
-                "talk": "Úvod do metafyziky"
-            }]
-        },
+            "events": [
+                {
+                    "room": "P2.3",
+                    "speaker": "Martin Šíp",
+                    "talk": "Bitcoin, P2P, decentralizace"
+                    },
+                {
+                    "room": "Aula",
+                    "speaker": "Martin Strba",
+                    "talk": "Promitani dokumentu Vlna vs breh"
+                    },
+                {
+                    "room": "Sborovna",
+                    "speaker": "Janek Rubeš",
+                    "talk": "Praha vs Prachy"
+                    },
+                {
+                    "room": "USV",
+                    "speaker": "profesor Vlnas",
+                    "talk": "baroko"
+            }
+            ]
+            },
+
         {
             "label": "Úterý"
-        },
+            },
         {
             "time": "10:00",
             "events": [{
@@ -69,9 +140,9 @@
                 {
                     "room": "Sborovna",
                     "speaker": "Vašek Volhejn",
-                    "talk": "Jak nepřepisovat JS knihovny"
+                    "talk": "JS knihovny"
                 }]
-        },
+            },
         {
             "time": "13:00",
             "events": [{
@@ -79,7 +150,7 @@
                 "speaker": "Pepíček Mrkvička",
                 "talk": "Úvod do metafyziky"
             }]
-        },
+            },
         {
             "time": "15:00",
             "events": [{
@@ -87,7 +158,7 @@
                 "speaker": "Pepíček Mrkvička",
                 "talk": "Úvod do metafyziky"
             }]
-        },
+            },
         {
             "time": "17:00",
             "events": [{
@@ -95,8 +166,8 @@
                 "speaker": "Pepíček Mrkvička",
                 "talk": "Úvod do metafyziky"
             }]
-        }
-    ],
+            }
+            ],
     "speakers": {
         "Mařenka Vomáčková": "Mařenka Vomáčková je fiktivní postava, která neexistuje.",
         "Václav Volhejn": "To jsem já.",
