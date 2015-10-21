@@ -25,7 +25,7 @@
         </table>
     </div>
     <script>
-        $.getJSON("data.json", function (data) {
+        $.getJSON("/static/js/data.json", function (data) {
             TimeKnots.draw("#timeline", data.events,
                 function (i) {
                     //console.log(i);

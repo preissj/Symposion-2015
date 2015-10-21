@@ -1,0 +1,186 @@
+{
+    "events": [
+        {
+            "label": "Pondělí"
+            },
+        {
+            "time": "10:00",
+            "events": [
+                {
+                    "room": "BLOK1",
+                    "speaker": "Otamar Kittnar",
+                    "talk": "Příliv hormonů (pouze do 11..)"
+                },
+                {
+                    "room": "BLOK2",
+                    "speaker": "Cyril Höschl",
+                    "talk": "Deprese jakožto vlny emocí"
+                },
+                {
+                    "room": "BLOK3",
+                    "speaker": "Mirek Kovářík",
+                    "talk": "Vlna 60. let - začátek druhého národního obrození?"
+                },
+                {
+                    "room": "BLOK4",
+                    "speaker": "Bušková",
+                    "talk": "spánek, sny"
+                }
+]
+        }, {
+            "time": "12:00",
+            "events": [
+                {"talk": "Oběd"}
+            ]
+        }, {
+            "time": "13:00",
+            "events": [
+                {
+                    "room": "BLOK1",
+                    "speaker": "Debata",
+                    "talk": "školství"
+                },
+                {
+                    "room": "BLOK2",
+                    "speaker": "Vladimír Binar",
+                    "talk": "vlny v české literatuře 1968-89"
+                    }, {
+                    "room": "BLOK3",
+                    "speaker": "Vít Vilímek",
+                    "talk": "Ničivé vlny tsunami"
+                    },
+                {
+                    "room": "BLOK4",
+                    "speaker": "Michal Stehlik",
+                    "talk": "Exilova politika"
+                    }
+                    ]
+            },
+        {
+            "time": "15:00",
+            "events": [
+                {
+                    "room": "BLOK1",
+                    "speaker": "Petr Cuhra",
+                    "talk": "potraviny"
+                    },
+                {
+                    "room": "BLOK2",
+                    "speaker": "Machala + Veronika Kulířová",
+                    "talk": "šíření viru HIV"
+                    },
+                {
+                    "room": "BLOK3",
+                    "speaker": "Tereze Freidingerová",
+                    "talk": "Vietnamci v České republice"
+                    },
+                {
+                    "room": "BLOK4",
+                    "speaker": "Václav Švorčík",
+                    "talk": "biokompatibilita polymerů"
+                    }
+            ]
+            },
+        {
+            "time": "17:00",
+            "events": [
+                {
+                    "room": "BLOK1",
+                    "speaker": "Honza Harant",
+                    "talk": "Malíř"
+                    },
+                {
+                    "room": "BLOK2",
+                    "speaker": "Jaromír Typlt",
+                    "talk": "Vlny pronikající (spisovatel, teoretik)-art brut"
+                    },
+                {
+                    "room": "BLOK3",
+                    "speaker": "Václav Janda",
+                    "talk": "Kvalita pitných vod v ČR"
+                    },
+                {
+                    "room": "BLOK4",
+                    "speaker": "Dino Numerato",
+                    "talk": "subkultury, konkrétně fanoušci fotbalu, mexické vlny"
+                    }
+            ]
+            },
+        {
+            "time": "19:00",
+            "events": [
+                {
+                    "room": "BLOK1",
+                    "speaker": "Martin Šíp",
+                    "talk": "Bitcoin, P2P, decentralizace"
+                    },
+                {
+                    "room": "BLOK2",
+                    "speaker": "Martin Strba",
+                    "talk": "Promitani dokumentu Vlna vs breh"
+                    },
+                {
+                    "room": "BLOK3",
+                    "speaker": "Janek Rubeš",
+                    "talk": "Praha vs Prachy"
+                    },
+                {
+                    "room": "BLOK4",
+                    "speaker": "profesor Vlnas",
+                    "talk": "baroko"
+            }
+            ]
+            },
+
+        {
+            "label": "Úterý"
+            },
+        {
+            "time": "10:00",
+            "events": [{
+                    "room": "BLOK1",
+                    "speaker": "Mařenka Vomáčková",
+                    "talk": "Vlny a tak"
+                },
+                {
+                    "room": "BLOK3",
+                    "speaker": "Vašek Volhejn",
+                    "talk": "JS knihovny"
+                }]
+            },
+        {
+            "time": "13:00",
+            "events": [{
+                "room": "BLOK2",
+                "speaker": "Pepíček Mrkvička",
+                "talk": "Úvod do metafyziky"
+            }]
+            },
+        {
+            "time": "15:00",
+            "events": [{
+                "room": "BLOK2",
+                "speaker": "Pepíček Mrkvička",
+                "talk": "Úvod do metafyziky"
+            }]
+            },
+        {
+            "time": "17:00",
+            "events": [{
+                "room": "BLOK2",
+                "speaker": "Pepíček Mrkvička",
+                "talk": "Úvod do metafyziky"
+            }]
+            }
+            ],
+    "speakers": {
+        "Mařenka Vomáčková": "Mařenka Vomáčková je fiktivní postava, která neexistuje.",
+        "Václav Volhejn": "To jsem já.",
+        "Pepíček Mrkvička": "Mrkvička je světově proslulý filosof, který sepsal několik bestsellerů."
+    },
+    "talks": {
+        "Úvod do metafyziky": "Pepíčkova super přednáška o metafyzice.",
+        "Jak nepřepisovat JS knihovny": "Poučte se z Vaškových chyb.",
+        "Vlny a tak": "Tématická přednáška o vlnách. A tak."
+    }
+}
