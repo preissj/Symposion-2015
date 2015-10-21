@@ -31,6 +31,7 @@ var TimeKnots = {
             minPadding: 70,
             scrollBound: 1000,
             labelHeight: 15,
+            translateDuration: 400,
         };
         var inTransition = false;
         var lastX = 0;
@@ -53,7 +54,7 @@ var TimeKnots = {
         var svg = d3.select(id).append('svg').attr("width", cfg.width).attr("height", cfg.height);
         //CIRCLE ANIMATIONS foldstart
         var translateCircle = function (circle, x, duration) {
-            if (duration === undefined) duration = 600;
+            if (duration === undefined) duration = cfg.translateDuration;
             circle.transition("translation")
                 .duration(duration)
                 .attr("transform", "translate(" + x + ",0)")
@@ -66,14 +67,14 @@ var TimeKnots = {
             var res = Math.min(cfg.margin, x);
             res = Math.max(cfg.width - positionToX(events.length), res);
             return res;
-        }
+        };
 
         var translateAll = function (x, duration) {
             if (cfg.width >= cfg.scrollBound) return;
             inTransition = true;
             x = toBounds(x);
             d3.selectAll(".timeline-event,.timeline-label")
-                .call(translateCircle, x, duration)
+                .call(translateCircle, x, duration);
             lastX = x;
         };
 
@@ -88,9 +89,7 @@ var TimeKnots = {
                             return cfg.background;
                         }
                     })
-                    .attr("r", function (d) {
-                        return Math.floor(cfg.radius * (on ? 1.5 : 1));
-                    });
+                    .attr("r", Math.floor(cfg.radius * (on ? (filled ? cfg.selectedCoef : cfg.hoveredCoef) : 1)));
             };
         };
         //foldend
@@ -238,6 +237,8 @@ var TimeKnots = {
 
         var drag = d3.behavior.drag()
             .on("drag", dragmove).on("dragstart", dragstart);
+        //.on("touchmove", dragmove).on("touchstart", dragstart);
+
         svg.call(drag);
 
         var moved = 0; //record the translate x moved by the g which contains the bars.
@@ -253,12 +254,14 @@ var TimeKnots = {
             }
             discard = false;
             oldTranslateX = lastX;
-            dragStartX = d3.event.sourceEvent.clientX;
-        };
+            dragStartX = undefined;
+            $("#debugdiv").html("");
+        }
 
         function dragmove(d) {
             d3.event.sourceEvent.stopPropagation();
             if (discard) return;
+            if (dragStartX === undefined) dragStartX = d3.event.x;
             translateAll(d3.event.x - dragStartX + oldTranslateX, 0);
             moved = toBounds(moved);
         };
