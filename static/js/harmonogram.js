@@ -52,13 +52,13 @@ $.getJSON("/static/js/data.json", function (data) {
             });
         }
     }
-    /*
-        $('.demo').ripples({ //.demo
+
+        $('#section1').ripples({ //.demo
             resolution: 512,
             dropRadius: 20,
             perturbance: 0.005,
             interactive: true
-        });*/
+        });
 });
 
 var handleClick = function (name) {
