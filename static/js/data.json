@@ -76,7 +76,7 @@
             },
                 {
                     "room": "BLOK5",
-                    "speaker": "Vlnas"
+                    "speaker": "Vít Vlnas"
             }
           ],
             "time": "15:00"
@@ -84,7 +84,7 @@
         {
             "events": [{
                     "room": "BLOK1",
-                    "speaker": "Royt"
+                    "speaker": "Jan Royt"
             },
                 {
                     "room": "BLOK2",
@@ -133,42 +133,164 @@
         {
             "events": [{
                     "room": "BLOK1",
-                    "speaker": "Mařenka Vomáčková"
+                    "speaker": "Ivan Douda"
+            },
+                {
+                    "room": "BLOK2",
+                    "speaker": "Ondřej Pilný"
             },
                 {
                     "room": "BLOK3",
-                    "speaker": "Vašek Volhejn",
-                    "talkname": "JS knihovny"
+                    "speaker": "Julius Lukeš"
+            },
+                {
+                    "room": "BLOK4",
+                    "speaker": "Marek Orko Vácha"
+            },
+                {
+                    "room": "BLOK5",
+                    "speaker": "Jiří Pehe"
             }
           ],
             "time": "10:00"
       },
+
         {
-            "events": [{
-                "room": "BLOK2",
-                "speaker": "Pepíček Mrkvička",
-                "talkname": "Úvod do metafyziky"
+            "events": [
+                {
+                    "room": "BLOK1",
+                    "speaker": "Miroslav Zámečník"
+            },
+                {
+                    "room": "BLOK2",
+                    "speaker": "Radim Tolasz"
+            },
+                {
+                    "room": "BLOK3",
+                    "speaker": "Lindner, Tureček"
+            },
+                {
+                    "room": "BLOK4",
+                    "speaker": "Feinberg"
+            },
+                {
+                    "room": "BLOK5",
+                    "speaker": "Milan Šotek"
             }],
             "time": "13:00"
       },
         {
             "events": [{
-                "room": "BLOK2",
-                "speaker": "Pepíček Mrkvička",
-                "talkname": "Úvod do metafyziky"
-            }],
+                    "room": "BLOK1",
+                    "speaker": "Martin Doleček"
+            },
+                {
+                    "room": "BLOK2",
+                    "speaker": "David Girsa"
+            },
+                {
+                    "room": "BLOK3",
+                    "speaker": "Veronika Křesťanová"
+            },
+                {
+                    "room": "BLOK4",
+                    "speaker": "Gunther Kletetschka"
+            },
+                {
+                    "room": "BLOK5",
+                    "speaker": "Ladislav Koreň"
+            }
+              ],
             "time": "15:00"
       },
         {
+
             "events": [{
-                "room": "BLOK2",
-                "speaker": "Pepíček Mrkvička",
-                "talkname": "Úvod do metafyziky"
-            }],
+                    "room": "BLOK1",
+                    "speaker": "K. Novotná, Michal Zeman"
+            },
+                {
+                    "room": "BLOK2",
+                    "speaker": "Jiří Svoboda"
+            },
+                {
+                    "room": "BLOK3",
+                    "speaker": "Architekti domu AIR House"
+            },
+                {
+                    "room": "BLOK4",
+                    "speaker": "Kateřina Kolářová"
+            },
+                {
+                    "room": "BLOK5",
+                    "speaker": "Jiří Mrázek"
+            }
+              ],
             "time": "17:00"
       }
     ],
+
+
     "speakers": {
+        "K. Novotná, Michal Zeman": {
+            "talkname": "Biotechnologie"
+        },
+        "Architekti domu AIR House": {
+            "talkname": "???"
+        },
+        "Kateřina Kolářová": {
+            "talkname": "Disability Studies"
+        },
+        "Jiří Mrázek": {
+            "talkname": "Voda v Novém zákoně"
+        },
+
+        "Martin Doleček": {
+            "talkname": "Mořeplavecká beseda"
+        },
+        "Gunther Kletetschka": {
+            "talkname": "Jak nasadit vlnám ohlávku"
+        },
+        "Ladislav Koreň": {
+            "talkname": "Filosofie ekonomie",
+            "fullname": "Mgr. Koreň Ladislav PhD."
+        },
+        "Miroslav Zámečník": {
+            "talkname": "Ekonomie"
+        },
+        "Radim Tolasz": {
+            "talkname": "Klimatická změna"
+        },
+        "Lindner, Tureček": {
+            "talkname": "Debata: Válka v Sýrii - existuje řešení?"
+        },
+        "Feinberg": {
+            "talkname": "KA"
+        },
+        "Milan Šotek": {
+            "talkname": "Mezi dvěma břehy - velká scéna a malé formy"
+        },
+
+        "Ivan Douda": {
+            "talkname": "Drogová problematika"
+        },
+        "Ondřej Pilný": {
+            "talkname": "Irské literární obrození"
+        },
+        "Julius Lukeš": {
+            "talkname": "Expedice TARA (?)"
+        },
+        "Marek Orko Vácha": {
+            "talkname": "Etika"
+        },
+        "Jiří Pehe": {
+            "talkname": "Nové vlny v české politice"
+        },
+
+        "Julius Lukeš": {
+            "talkname": "Expedice TARA (?)"
+        },
+
         "Pavel Klusák": {
             "talkname": "Možnosti vzpoury aneb Po smrti undergroundu"
         },
@@ -193,13 +315,15 @@
             "talkname": "Kvalita pitných vod v ČR"
         },
 
-        "Royt": {
-            "talkname": "???"
+        "Jan Royt": {
+            "fullname": "Prof. PhDr. Ing. Jan Royt",
+            "speakerdesc": "je český historik umění, prorektor pro tvůrčí a ediční činnost na UK. Hlavní oblastí jeho zájmu je křesťanská ikonografie a středověké malířství.",
+            "talkname": "Baroko"
         },
 
-        "Vlnas": {
-            "talkname": "Baroko",
-            "fullname": "Prof. Vlnas"
+        "Vít Vlnas": {
+            "talkname": "Vlny v baroku",
+            "fullname": "Prof. PhDr. Vít Vlnas, Ph.D."
         },
 
         "Václav Švorčík": {
@@ -226,6 +350,7 @@
         },
         "David Girsa": {
             "fullname": "MUDr. David Girsa",
+            "talkname": "Zobrazovací metody",
             "speakerdesc": "vystudoval 2. lékařskou fakultu Univerzity Karlovy. Získal atestaci z obecné radiologie II. stupně, poté působil 13 let v pražských nemocnicích. V letech 2009-2013 pracoval v nemocnici ve švédském Örebro, od té doby pracuje v Thomayerově nemocnici.",
             "talkdesc": "O tom, co Vilém Konrád objevil a co z toho vzešlo, aneb rentgenologie není jen Röntgen Stručný průvodce fyzikálními základy, historií i současností radiologie, tedy jednoho z dnes nejbouřlivěji se rozvíjejících medicínských oborů. Kromě rentgenu bude řeč i o ultrazvuku a nukleární magnetické rezonanci. V průběhu vymezeného času se pokusíme najít odpovědi nejen na následující otázky: Jaké informace můžeme od těchto vyšetření očekávat a jaké ne? Kdy je vhodné které vyšetření použít? Jak tato vyšetření probíhají? A jde o vyšetření pro pacienta i personál bezpečná? Opravdu je doménou radiologie pouze zobrazování? Jakým směrem se vyšetřovací metody dnes ubírají a co lze od nich očekávat v budoucnosti?"
         },
@@ -236,6 +361,7 @@
         },
         "Jiří Svoboda": {
             "fullname": "RNDr. Jiří Svoboda, Ph.D",
+            "talkname": "Objevy rentgenové astronomie - minulé i budoucí",
             "speakerdesc": "pracuje v Astronomickém ústavu Akademie věd ČR. Astronomii vystudoval na Matematicko-fyzikální fakultě Univerzity Karlovy. V letech 2011-2013 působil v Evropské kosmické agentuře v Madridu ve Španělsku. V roce 2014 získal prestižní Prémii Otty Wichterleho. Jiří Svoboda se zabývá rentgenovou astronomii, zejména výzkumem černých děr v aktivních galaxiích.  V současné době patří k významným tuzemským vědcům. ",
             "talkdesc": "Objevy rentgenové astronomie - minulé i budoucí: Rentgenové okno do vesmíru bylo otevřeno před více než půl stoletím a přineslo spoustu nečekaných objevů, od neutronových hvězd až po bizarní černé díry s hmotností miliardkrát převyšující hmotnost Slunce. Co se astronomům podařilo za uplynulá desetiletí zjistit o těchto objektech a co dalšího nás zajímá? Povíme si, jaké odpovědi může přinést nová rentgenová mise, plánovaná Evropskou kosmickou agenturou, jejímž členem je i Česká Republika."
         },
@@ -260,6 +386,7 @@
         },
         "Veronika Křesťanová": {
             "fullname": "JUDr. Veronika Křesťanová",
+            "talkname": "Právo",
             "speakerdesc": "absolvovala Právnickou fakultu v Praze v roce 1992, autorskému právu se věnovala již při studiu a bylo i tématem její diplomové práce. Od roku 1992 působila v advokacii, a to v Advokátní kanceláři Kříž a Bělina. Zde dosáhla své profesní zletilosti, po 18 let v profesi „přeběhla“ do justice. Od roku 2010 tak působí jako soudkyně Městského soudu v Praze a rozhoduje i autorskoprávní agendu, je současně členem odvolacího senátu specializovaného na ochranu osobnosti. Po celou dobu svého pracovního působení se věnuje i pedagogické a vědecké činnosti v oboru. Od roku 1992 vyučuje na UK Mediální právo, od roku 1994 je pracovnicí Ústavu autorského práva, práv průmyslových a práva soutěžního. Vedla diplomové a rigorózních práce řadě dnešních kolegů v oboru autorského práva. V oboru publikuje a podílí se jako konzultant i na přípravě zákonů. V oboru duševního vlastnictví získala za rok 2014 prestižní ocenění Právník roku. Je dárcem krve.",
             "talkdesc": ""
         },
