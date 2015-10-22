@@ -60,11 +60,13 @@
         {
             "events": [{
                     "room": "BLOK1",
-                    "speaker": "Petr Cuhra"
+                    "speaker": "Petr Cuhra",
+                    "talkname": "Potraviny"
             },
                 {
                     "room": "BLOK2",
-                    "speaker": "Machala + Veronika Kulířová"
+                    "speaker": "Machala + Veronika Kulířová",
+                    "talkname": "šíření viru HIV"
             },
                 {
                     "room": "BLOK3",
@@ -72,11 +74,13 @@
             },
                 {
                     "room": "BLOK4",
-                    "speaker": "Václav Švorčík"
+                    "speaker": "Václav Švorčík",
+                    "talkname": "Biokompatibilita polymerů"
             },
                 {
                     "room": "BLOK5",
-                    "speaker": "Vít Vlnas"
+                    "speaker": "Vlnas",
+                    "talkname": "profesor Vlnas - Baroko"
             }
           ],
             "time": "15:00"
@@ -84,19 +88,23 @@
         {
             "events": [{
                     "room": "BLOK1",
-                    "speaker": "Jan Royt"
+                    "speaker": "Honza Harant",
+                    "talkname": "Malíř"
             },
                 {
                     "room": "BLOK2",
-                    "speaker": "Jaromír Typlt"
+                    "speaker": "Jaromír Typlt",
+                    "talkname": "Vlny pronikající - Art brut"
             },
                 {
                     "room": "BLOK3",
-                    "speaker": "Václav Janda"
+                    "speaker": "Václav Janda",
+                    "talkname": "Kvalita pitných vod v ČR"
             },
                 {
                     "room": "BLOK4",
-                    "speaker": "Dino Numerato"
+                    "speaker": "Dino Numerato",
+                    "talkname": "subkultury, fanoušci fotbalu, mexické vlny"
             }
           ],
             "time": "17:00"
@@ -104,236 +112,70 @@
         {
             "events": [{
                     "room": "BLOK1",
-                    "speaker": "Martin Šíp"
+                    "speaker": "Martin Šíp",
+                    "talkname": "Bitcoin, P2P, decentralizace"
             },
                 {
                     "room": "BLOK2",
-                    "speaker": "Martin Štrba"
+                    "speaker": "Martin Strba",
+                    "talkname": "Promitani dokumentu Vlna vs breh"
             },
                 {
                     "room": "BLOK3",
-                    "speaker": "Janek Rubeš"
+                    "speaker": "Janek Rubeš",
+                    "talkname": "Praha vs Prachy"
             },
                 {
                     "room": "BLOK4",
-                    "speaker": "Pavel Klusák"
+                    "speaker": "profesor Vlnas",
+                    "talkname": "baroko"
             }
           ],
             "time": "19:00"
       },
-        {
-            "events": [{
-                "speaker": "_Filmová noc"
-            }],
-            "time": "21:30"
-        },
         {
             "label": "Úterý"
         },
         {
             "events": [{
                     "room": "BLOK1",
-                    "speaker": "Ivan Douda"
-            },
-                {
-                    "room": "BLOK2",
-                    "speaker": "Ondřej Pilný"
+                    "speaker": "Mařenka Vomáčková",
+                    "talkname": "Vlny a tak"
             },
                 {
                     "room": "BLOK3",
-                    "speaker": "Julius Lukeš"
-            },
-                {
-                    "room": "BLOK4",
-                    "speaker": "Marek Orko Vácha"
-            },
-                {
-                    "room": "BLOK5",
-                    "speaker": "Jiří Pehe"
+                    "speaker": "Vašek Volhejn",
+                    "talkname": "JS knihovny"
             }
           ],
             "time": "10:00"
       },
-
         {
-            "events": [
-                {
-                    "room": "BLOK1",
-                    "speaker": "Miroslav Zámečník"
-            },
-                {
-                    "room": "BLOK2",
-                    "speaker": "Radim Tolasz"
-            },
-                {
-                    "room": "BLOK3",
-                    "speaker": "Lindner, Tureček"
-            },
-                {
-                    "room": "BLOK4",
-                    "speaker": "Feinberg"
-            },
-                {
-                    "room": "BLOK5",
-                    "speaker": "Milan Šotek"
+            "events": [{
+                "room": "BLOK2",
+                "speaker": "Pepíček Mrkvička",
+                "talkname": "Úvod do metafyziky"
             }],
             "time": "13:00"
       },
         {
             "events": [{
-                    "room": "BLOK1",
-                    "speaker": "Martin Doleček"
-            },
-                {
-                    "room": "BLOK2",
-                    "speaker": "David Girsa"
-            },
-                {
-                    "room": "BLOK3",
-                    "speaker": "Veronika Křesťanová"
-            },
-                {
-                    "room": "BLOK4",
-                    "speaker": "Gunther Kletetschka"
-            },
-                {
-                    "room": "BLOK5",
-                    "speaker": "Ladislav Koreň"
-            }
-              ],
+                "room": "BLOK2",
+                "speaker": "Pepíček Mrkvička",
+                "talkname": "Úvod do metafyziky"
+            }],
             "time": "15:00"
       },
         {
-
             "events": [{
-                    "room": "BLOK1",
-                    "speaker": "K. Novotná, Michal Zeman"
-            },
-                {
-                    "room": "BLOK2",
-                    "speaker": "Jiří Svoboda"
-            },
-                {
-                    "room": "BLOK3",
-                    "speaker": "Architekti domu AIR House"
-            },
-                {
-                    "room": "BLOK4",
-                    "speaker": "Kateřina Kolářová"
-            },
-                {
-                    "room": "BLOK5",
-                    "speaker": "Jiří Mrázek"
-            }
-              ],
+                "room": "BLOK2",
+                "speaker": "Pepíček Mrkvička",
+                "talkname": "Úvod do metafyziky"
+            }],
             "time": "17:00"
       }
     ],
-
-
     "speakers": {
-        "K. Novotná, Michal Zeman": {
-            "talkname": "Biotechnologie"
-        },
-        "Architekti domu AIR House": {
-            "talkname": "???"
-        },
-        "Kateřina Kolářová": {
-            "talkname": "Disability Studies"
-        },
-        "Jiří Mrázek": {
-            "talkname": "Voda v Novém zákoně"
-        },
-
-        "Martin Doleček": {
-            "talkname": "Mořeplavecká beseda"
-        },
-        "Gunther Kletetschka": {
-            "talkname": "Jak nasadit vlnám ohlávku"
-        },
-        "Ladislav Koreň": {
-            "talkname": "Filosofie ekonomie",
-            "fullname": "Mgr. Koreň Ladislav PhD."
-        },
-        "Miroslav Zámečník": {
-            "talkname": "Ekonomie"
-        },
-        "Radim Tolasz": {
-            "talkname": "Klimatická změna"
-        },
-        "Lindner, Tureček": {
-            "talkname": "Debata: Válka v Sýrii - existuje řešení?"
-        },
-        "Feinberg": {
-            "talkname": "KA"
-        },
-        "Milan Šotek": {
-            "talkname": "Mezi dvěma břehy - velká scéna a malé formy"
-        },
-
-        "Ivan Douda": {
-            "talkname": "Drogová problematika"
-        },
-        "Ondřej Pilný": {
-            "talkname": "Irské literární obrození"
-        },
-        "Julius Lukeš": {
-            "talkname": "Expedice TARA (?)"
-        },
-        "Marek Orko Vácha": {
-            "talkname": "Etika"
-        },
-        "Jiří Pehe": {
-            "talkname": "Nové vlny v české politice"
-        },
-
-        "Julius Lukeš": {
-            "talkname": "Expedice TARA (?)"
-        },
-
-        "Pavel Klusák": {
-            "talkname": "Možnosti vzpoury aneb Po smrti undergroundu"
-        },
-
-        "Janek Rubeš": {
-            "talkname": "Praha vs Prachy"
-        },
-
-        "Martin Šíp": {
-            "talkname": "Bitcoin, P2P, decentralizace"
-        },
-
-        "Martin Štrba": {
-            "talkname": "Promitani dokumentu Vlna vs breh"
-        },
-
-        "Dino Numerato": {
-            "talkname": "subkultury, fanoušci fotbalu, mexické vlny"
-        },
-
-        "Václav Janda": {
-            "talkname": "Kvalita pitných vod v ČR"
-        },
-
-        "Jan Royt": {
-            "fullname": "Prof. PhDr. Ing. Jan Royt",
-            "speakerdesc": "je český historik umění, prorektor pro tvůrčí a ediční činnost na UK. Hlavní oblastí jeho zájmu je křesťanská ikonografie a středověké malířství.",
-            "talkname": "Baroko"
-        },
-
-        "Vít Vlnas": {
-            "talkname": "Vlny v baroku",
-            "fullname": "Prof. PhDr. Vít Vlnas, Ph.D."
-        },
-
-        "Václav Švorčík": {
-            "talkname": "Biokompatibilita polymerů"
-        },
-
-        "Machala + Veronika Kulířová": {
-            "talkname": "Šíření viru HIV"
-        },
-
         "Tereza Freidingerová": {
             "talkname": "Vietnamci v České republice"
         },
@@ -350,7 +192,6 @@
         },
         "David Girsa": {
             "fullname": "MUDr. David Girsa",
-            "talkname": "Zobrazovací metody",
             "speakerdesc": "vystudoval 2. lékařskou fakultu Univerzity Karlovy. Získal atestaci z obecné radiologie II. stupně, poté působil 13 let v pražských nemocnicích. V letech 2009-2013 pracoval v nemocnici ve švédském Örebro, od té doby pracuje v Thomayerově nemocnici.",
             "talkdesc": "O tom, co Vilém Konrád objevil a co z toho vzešlo, aneb rentgenologie není jen Röntgen Stručný průvodce fyzikálními základy, historií i současností radiologie, tedy jednoho z dnes nejbouřlivěji se rozvíjejících medicínských oborů. Kromě rentgenu bude řeč i o ultrazvuku a nukleární magnetické rezonanci. V průběhu vymezeného času se pokusíme najít odpovědi nejen na následující otázky: Jaké informace můžeme od těchto vyšetření očekávat a jaké ne? Kdy je vhodné které vyšetření použít? Jak tato vyšetření probíhají? A jde o vyšetření pro pacienta i personál bezpečná? Opravdu je doménou radiologie pouze zobrazování? Jakým směrem se vyšetřovací metody dnes ubírají a co lze od nich očekávat v budoucnosti?"
         },
@@ -361,7 +202,6 @@
         },
         "Jiří Svoboda": {
             "fullname": "RNDr. Jiří Svoboda, Ph.D",
-            "talkname": "Objevy rentgenové astronomie - minulé i budoucí",
             "speakerdesc": "pracuje v Astronomickém ústavu Akademie věd ČR. Astronomii vystudoval na Matematicko-fyzikální fakultě Univerzity Karlovy. V letech 2011-2013 působil v Evropské kosmické agentuře v Madridu ve Španělsku. V roce 2014 získal prestižní Prémii Otty Wichterleho. Jiří Svoboda se zabývá rentgenovou astronomii, zejména výzkumem černých děr v aktivních galaxiích.  V současné době patří k významným tuzemským vědcům. ",
             "talkdesc": "Objevy rentgenové astronomie - minulé i budoucí: Rentgenové okno do vesmíru bylo otevřeno před více než půl stoletím a přineslo spoustu nečekaných objevů, od neutronových hvězd až po bizarní černé díry s hmotností miliardkrát převyšující hmotnost Slunce. Co se astronomům podařilo za uplynulá desetiletí zjistit o těchto objektech a co dalšího nás zajímá? Povíme si, jaké odpovědi může přinést nová rentgenová mise, plánovaná Evropskou kosmickou agenturou, jejímž členem je i Česká Republika."
         },
@@ -386,7 +226,6 @@
         },
         "Veronika Křesťanová": {
             "fullname": "JUDr. Veronika Křesťanová",
-            "talkname": "Právo",
             "speakerdesc": "absolvovala Právnickou fakultu v Praze v roce 1992, autorskému právu se věnovala již při studiu a bylo i tématem její diplomové práce. Od roku 1992 působila v advokacii, a to v Advokátní kanceláři Kříž a Bělina. Zde dosáhla své profesní zletilosti, po 18 let v profesi „přeběhla“ do justice. Od roku 2010 tak působí jako soudkyně Městského soudu v Praze a rozhoduje i autorskoprávní agendu, je současně členem odvolacího senátu specializovaného na ochranu osobnosti. Po celou dobu svého pracovního působení se věnuje i pedagogické a vědecké činnosti v oboru. Od roku 1992 vyučuje na UK Mediální právo, od roku 1994 je pracovnicí Ústavu autorského práva, práv průmyslových a práva soutěžního. Vedla diplomové a rigorózních práce řadě dnešních kolegů v oboru autorského práva. V oboru publikuje a podílí se jako konzultant i na přípravě zákonů. V oboru duševního vlastnictví získala za rok 2014 prestižní ocenění Právník roku. Je dárcem krve.",
             "talkdesc": ""
         },
@@ -402,7 +241,7 @@
             "talkname": "Ničivé vlny tsunami"
         },
         "Zdeněk Ďuriš": {
-            "fullname": "Prof. RNDr. Zdeněk Ďuriš, CSc",
+            "fullname": "prof. RNDr. Zdeněk Ďuriš, CSc",
             "speakerdesc": "je profesorem zoologie na přírodovědecké fakultě v Ostravě. Na moskevské Lomonosovově univerzitě vystudoval obor zoologie bezobratlých, věnuje se hlavně korýšům a sladkovodním rakům. Je člen výboru pro spolupráci s mezivládní oceánografickou komisí při UNESCO, potápí se v mořích od Arktidy po jižní Afriku. Objevil více než dvacet nových druhů mořských tvorů. Zdeněk Ďuriš se zabývá výzkumy: Systematika a ekologie mořských korýšů řádů Decapoda a Stomatopoda, Symbiózy krevet v korálových společenstvech a Biologie a ekologie raků. Jeho první expedice se uskutečnila v roce 1991 do Arktidy, kde mapoval mělkovodní život ve fjordech Špicberků.",
             "talkdesc": "Většina krevet čeledi Palaemonidae obývajících tropická a subtropická moře Atlantského, Indického a Tichého oceánu se adaptovala k symbiózám se zástupci řady kmenů bezobratlých živočichů. Nejširší zastoupení symbiotických krevet je mezi těmi, které jsou ekto-symbioticky vázány na těla žahavců, je mezi nimi i řada čističů ryb. Známa jsou i podobná soužití s ostnokožci, ale najdeme je i jako endosymbionty v mořských houbách, mlžích a v sumkách. Většina symbiotických vztahů krevet s jejich hostiteli představuje komplex vztahů, vstupují do nich nezřídka i další organismy. Na korálových útesech patří mezi nejčastěji pozorované tzv. „sasankové krevetky“ rodu Ancylomene, které často působí jako čističi ryb. Video záběry, jež jsou součástí přednášky, přibližují některé prvky ekologie a chování těchto sasankových krevet.",
             "talkname": "Symbiózy krevet na korálových útesech"
@@ -412,9 +251,6 @@
         },
         "_Oběd": {
             "talkdesc": "Čas na oběd!"
-        },
-        "_Filmová noc": {
-            "talkdesc": "Promítání filmů: Čelisti + Die Welle + Sharknado + Nemo"
         }
     }
 }

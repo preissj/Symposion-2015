@@ -4,6 +4,7 @@ $modra: rgb(20, 60, 110);
 $pruhledna_modra: rgba(12, 60, 81, .7);
 $svetle_modra: opacify(lighten($pruhledna_modra, 80%), 0.1);
 $tmave_modra: darken($pruhledna_modra, 5%);
+
 body {
     font: 16px/1 "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -15,13 +16,12 @@ body {
     user-select: none;
     margin: 0px;
     padding: 0px;
-    background: url(/static/images/Crop.jpg) no-repeat center center fixed; //background2_crop
+    background: url(/static/images/Crop_blur.jpg) no-repeat center center fixed; //background2_crop
     background-size: cover;
     position: relative;
 }
 
-h1,
-h2 {
+h1, h2 {
     font: 16px/1.5 "Montserrat", sans-serif;
 }
 
@@ -48,9 +48,27 @@ a {
     padding: 160px 40px;
 }
 
-#section1 {
+.tab {
+    display: table;
+    width: 100%;
+}
+
+.section {
+    display: table-cell;
+    vertical-align: middle;
+    width:100%;
+    padding: 10% 0 10%;
+}
+
+#tab1 {
     background-color: $tmave_modra;
+}
+
+#section1 {
+    background: url(/static/images/Crop.jpg) no-repeat center center fixed; //background2_crop
+    background-size: cover;
     height: 100vh;
+    padding:0;
     h1 {
         font-size: 2.5vw;
         padding-top: 0;
@@ -60,12 +78,10 @@ a {
         $logo_width: 40%;
         width: $logo_width;
         margin-left: ((100%-$logo_width)/2);
-        margin-top: 12%;
     }
     .info {
         display: block;
         margin: auto;
-        //margin-top:5vh;
         line-height: 3vw;
         text-align: center;
         color: white;
@@ -78,11 +94,16 @@ a {
 #section2 {
     background-color: $svetle_modra;
     color: darken($modra, 5%);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 }
 
 #section3 {
+    display: block;
     background-color: $tmave_modra;
     color: lighten($modra, 90%);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     td {
         padding: 5px;
     }
@@ -94,7 +115,6 @@ a {
     .label {
         font-weight: bold;
         font-size: 150%;
-        padding-top: 5px;
     }
     .time {
         padding-top: 20px;
@@ -118,12 +138,8 @@ a {
 #section4 {
     background-color: $svetle_modra;
     color: darken($modra, 5%);
-}
-
-.section {
-    padding-bottom: 100px;
-    margin-bottom: 0px;
-    margin-top: 0px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 }
 
 h1 {
