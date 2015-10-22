@@ -148,7 +148,7 @@ h1 {
   top: 0;
   left: 0;
   right: 0;
-  margin: 100px;
+  margin: 20px 80px 20px 80px;
   display: block;
   padding: 50px;
   color: black;
@@ -157,6 +157,10 @@ h1 {
   text-align: center;
   z-index: 11;
   line-height: 120%; }
+  #modal a {
+    color: #000096; }
+  #modal i {
+    font-style: italic; }
   #modal h2 {
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: bold;

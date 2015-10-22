@@ -26,7 +26,8 @@ $.getJSON("/static/js/data.json", function (data) {
                         talk = "?";
                     }
                 }
-                var complete = dataJSON.speakers[id] && dataJSON.speakers[id].talkdesc;
+                var completeTalk = dataJSON.speakers[id] && dataJSON.speakers[id].talkdesc;
+                var completeSpeaker = dataJSON.speakers[id] && dataJSON.speakers[id].speakerdesc;
 
                 $('#harmonogram')
                     .append($('<tr>')
@@ -35,15 +36,18 @@ $.getJSON("/static/js/data.json", function (data) {
                             .addClass("firstCol"))
                         .append($('<td>').html(event.room).addClass("room"))
                         .append($('<td>')
-                            .addClass(complete ? "" : "invalid")
                             .addClass("singleEvent")
                             .click(function () {
                                 handleClick(id);
                             })
                             .append($('<span>')
                                 .html(speaker ? (speaker + " – ") : "")
-                                .addClass("speaker"))
-                            .append($('<span>').html(talk).addClass("talk")))
+                                .addClass("speaker")
+                                .addClass(completeSpeaker ? "" : "invalid"))
+                            .append($('<span>')
+                                .html(talk)
+                                .addClass("talk")
+                                .addClass(completeTalk ? "" : "invalid")))
                     );
             });
         }
@@ -73,25 +77,25 @@ var nameToDescription = function (name) {
     }
     var str = "";
     var talkname;
-    if(!name.startsWith('_')){
-        talkname = "Přednáška: " + info.talkname;
+    if (!name.startsWith('_')) {
+        talkname = "Téma: " + info.talkname;
         str += "<h2>" + name + "</h2>";
-        if(info.speakerdesc){
+        if (info.speakerdesc) {
             str += "<p class=\"speakerdesc\"><span class=\"speakername\">" +
-                (info.fullname?info.fullname:name)+"</span> ";
-            str += info.speakerdesc+"</p>";
+                (info.fullname ? info.fullname : name) + "</span> ";
+            str += info.speakerdesc + "</p>";
         }
     } else {
         talkname = name.substring(1);
     }
     str += "<h2 class=\"talkname\">" + talkname + "</h2>";
-    if(info.talkdesc){
+    if (info.talkdesc) {
         str += "<p class=\"talkdesc\">";
         str += info.talkdesc;
         str += "</p>";
     } else {
-        if(str===""){
-            str = "-popis chybí";
+        if (str === "") {
+            str = "-popis chybí-";
         }
     }
     return str;
