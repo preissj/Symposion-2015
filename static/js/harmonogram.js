@@ -22,4 +22,11 @@ $.getJSON("/static/js/data.json", function (data) {
                     });
                 }
             }
+
+                $('.demo').ripples({ //.demo
+                    resolution: 512,
+                    dropRadius: 20,
+                    perturbance: 0.005,
+                    interactive: true
+                });
         });

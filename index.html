@@ -11,9 +11,14 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans&subset=latin,latin-ext" rel="stylesheet" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="/static/js/jquery.fullPage.min.js"></script>
+    <script src="/static/js/jquery.ripples.js"></script>
 </head>
 
 <body class="demo">
+    <!--<div id="overlay"></div>
+    <div id="modal">default modal text</div>-->
+
+
     <div id="fullpage">
         <div class="section" id="section1">
             <img id="logo" src="/static/images/vlny2.svg">
@@ -43,25 +48,14 @@
         </div>
 
     </div>
-
-    <script>
-        $(document).ready(function () {
-            $('#fullpage').fullpage();
-        });
-    </script>
-    <script src="/static/js/jquery.ripples.js"></script>
-    <script>
-        $(document).ready(function () {
-            $('.demo').ripples({
-                resolution: 512,
-                dropRadius: 20,
-                perturbance: 0.015,
-                interactive: true
-            });
-        });
-    </script>
-
     <script src="static/js/harmonogram.js"></script>
+    <script>
+        $(document).ready(function () {
+            //$('#fullpage').fullpage();
+        });
+    </script>
+
+
 </body>
 
 </html>
