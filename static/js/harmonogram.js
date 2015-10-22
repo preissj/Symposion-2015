@@ -71,5 +71,28 @@ var nameToDescription = function (name) {
     if (info === undefined) {
         return "-chybí popis-";
     }
-    return info.talkdesc;
+    var str = "";
+    var talkname;
+    if(!name.startsWith('_')){
+        talkname = "Přednáška: " + info.talkname;
+        str += "<h2>" + name + "</h2>";
+        if(info.speakerdesc){
+            str += "<p class=\"speakerdesc\"><span class=\"speakername\">" +
+                (info.fullname?info.fullname:name)+"</span> ";
+            str += info.speakerdesc+"</p>";
+        }
+    } else {
+        talkname = name.substring(1);
+    }
+    str += "<h2 class=\"talkname\">" + talkname + "</h2>";
+    if(info.talkdesc){
+        str += "<p class=\"talkdesc\">";
+        str += info.talkdesc;
+        str += "</p>";
+    } else {
+        if(str===""){
+            str = "-popis chybí";
+        }
+    }
+    return str;
 };

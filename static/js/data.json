@@ -60,13 +60,11 @@
         {
             "events": [{
                     "room": "BLOK1",
-                    "speaker": "Petr Cuhra",
-                    "talkname": "Potraviny"
+                    "speaker": "Petr Cuhra"
             },
                 {
                     "room": "BLOK2",
-                    "speaker": "Machala + Veronika Kulířová",
-                    "talkname": "šíření viru HIV"
+                    "speaker": "Machala + Veronika Kulířová"
             },
                 {
                     "room": "BLOK3",
@@ -74,13 +72,11 @@
             },
                 {
                     "room": "BLOK4",
-                    "speaker": "Václav Švorčík",
-                    "talkname": "Biokompatibilita polymerů"
+                    "speaker": "Václav Švorčík"
             },
                 {
                     "room": "BLOK5",
-                    "speaker": "Vlnas",
-                    "talkname": "profesor Vlnas - Baroko"
+                    "speaker": "Vlnas"
             }
           ],
             "time": "15:00"
@@ -88,23 +84,19 @@
         {
             "events": [{
                     "room": "BLOK1",
-                    "speaker": "Honza Harant",
-                    "talkname": "Malíř"
+                    "speaker": "Royt"
             },
                 {
                     "room": "BLOK2",
-                    "speaker": "Jaromír Typlt",
-                    "talkname": "Vlny pronikající - Art brut"
+                    "speaker": "Jaromír Typlt"
             },
                 {
                     "room": "BLOK3",
-                    "speaker": "Václav Janda",
-                    "talkname": "Kvalita pitných vod v ČR"
+                    "speaker": "Václav Janda"
             },
                 {
                     "room": "BLOK4",
-                    "speaker": "Dino Numerato",
-                    "talkname": "subkultury, fanoušci fotbalu, mexické vlny"
+                    "speaker": "Dino Numerato"
             }
           ],
             "time": "17:00"
@@ -112,35 +104,36 @@
         {
             "events": [{
                     "room": "BLOK1",
-                    "speaker": "Martin Šíp",
-                    "talkname": "Bitcoin, P2P, decentralizace"
+                    "speaker": "Martin Šíp"
             },
                 {
                     "room": "BLOK2",
-                    "speaker": "Martin Strba",
-                    "talkname": "Promitani dokumentu Vlna vs breh"
+                    "speaker": "Martin Štrba"
             },
                 {
                     "room": "BLOK3",
-                    "speaker": "Janek Rubeš",
-                    "talkname": "Praha vs Prachy"
+                    "speaker": "Janek Rubeš"
             },
                 {
                     "room": "BLOK4",
-                    "speaker": "profesor Vlnas",
-                    "talkname": "baroko"
+                    "speaker": "Pavel Klusák"
             }
           ],
             "time": "19:00"
       },
+        {
+            "events": [{
+                "speaker": "_Filmová noc"
+            }],
+            "time": "21:30"
+        },
         {
             "label": "Úterý"
         },
         {
             "events": [{
                     "room": "BLOK1",
-                    "speaker": "Mařenka Vomáčková",
-                    "talkname": "Vlny a tak"
+                    "speaker": "Mařenka Vomáčková"
             },
                 {
                     "room": "BLOK3",
@@ -176,6 +169,47 @@
       }
     ],
     "speakers": {
+        "Pavel Klusák": {
+            "talkname": "Možnosti vzpoury aneb Po smrti undergroundu"
+        },
+
+        "Janek Rubeš": {
+            "talkname": "Praha vs Prachy"
+        },
+
+        "Martin Šíp": {
+            "talkname": "Bitcoin, P2P, decentralizace"
+        },
+
+        "Martin Štrba": {
+            "talkname": "Promitani dokumentu Vlna vs breh"
+        },
+
+        "Dino Numerato": {
+            "talkname": "subkultury, fanoušci fotbalu, mexické vlny"
+        },
+
+        "Václav Janda": {
+            "talkname": "Kvalita pitných vod v ČR"
+        },
+
+        "Royt": {
+            "talkname": "???"
+        },
+
+        "Vlnas": {
+            "talkname": "Baroko",
+            "fullname": "Prof. Vlnas"
+        },
+
+        "Václav Švorčík": {
+            "talkname": "Biokompatibilita polymerů"
+        },
+
+        "Machala + Veronika Kulířová": {
+            "talkname": "Šíření viru HIV"
+        },
+
         "Tereza Freidingerová": {
             "talkname": "Vietnamci v České republice"
         },
@@ -241,7 +275,7 @@
             "talkname": "Ničivé vlny tsunami"
         },
         "Zdeněk Ďuriš": {
-            "fullname": "prof. RNDr. Zdeněk Ďuriš, CSc",
+            "fullname": "Prof. RNDr. Zdeněk Ďuriš, CSc",
             "speakerdesc": "je profesorem zoologie na přírodovědecké fakultě v Ostravě. Na moskevské Lomonosovově univerzitě vystudoval obor zoologie bezobratlých, věnuje se hlavně korýšům a sladkovodním rakům. Je člen výboru pro spolupráci s mezivládní oceánografickou komisí při UNESCO, potápí se v mořích od Arktidy po jižní Afriku. Objevil více než dvacet nových druhů mořských tvorů. Zdeněk Ďuriš se zabývá výzkumy: Systematika a ekologie mořských korýšů řádů Decapoda a Stomatopoda, Symbiózy krevet v korálových společenstvech a Biologie a ekologie raků. Jeho první expedice se uskutečnila v roce 1991 do Arktidy, kde mapoval mělkovodní život ve fjordech Špicberků.",
             "talkdesc": "Většina krevet čeledi Palaemonidae obývajících tropická a subtropická moře Atlantského, Indického a Tichého oceánu se adaptovala k symbiózám se zástupci řady kmenů bezobratlých živočichů. Nejširší zastoupení symbiotických krevet je mezi těmi, které jsou ekto-symbioticky vázány na těla žahavců, je mezi nimi i řada čističů ryb. Známa jsou i podobná soužití s ostnokožci, ale najdeme je i jako endosymbionty v mořských houbách, mlžích a v sumkách. Většina symbiotických vztahů krevet s jejich hostiteli představuje komplex vztahů, vstupují do nich nezřídka i další organismy. Na korálových útesech patří mezi nejčastěji pozorované tzv. „sasankové krevetky“ rodu Ancylomene, které často působí jako čističi ryb. Video záběry, jež jsou součástí přednášky, přibližují některé prvky ekologie a chování těchto sasankových krevet.",
             "talkname": "Symbiózy krevet na korálových útesech"
@@ -251,6 +285,9 @@
         },
         "_Oběd": {
             "talkdesc": "Čas na oběd!"
+        },
+        "_Filmová noc": {
+            "talkdesc": "Promítání filmů: Čelisti + Die Welle + Sharknado + Nemo"
         }
     }
 }
