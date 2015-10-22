@@ -39,11 +39,12 @@ body {
   user-select: none;
   margin: 0px;
   padding: 0px;
-  background: url(/static/images/Crop_blur.jpg) no-repeat center center fixed;
+  background: url(/static/images/Crop2_blur.jpg) no-repeat center center fixed;
   background-size: cover;
   position: relative; }
 
-h1, h2 {
+h1,
+h2 {
   font: 16px/1.5 "Montserrat", sans-serif; }
 
 p {
@@ -79,7 +80,7 @@ a {
   background-color: rgba(9, 44, 59, 0.7); }
 
 #section1 {
-  background: url(/static/images/Crop.jpg) no-repeat center center fixed;
+  background: url(/static/images/Crop2.jpg) no-repeat center center fixed;
   background-size: cover;
   height: 100vh;
   padding: 0; }
@@ -122,12 +123,16 @@ a {
     font-size: 150%; }
   #section3 .time {
     padding-top: 20px; }
+  #section3 .room {
+    visibility: hidden; }
   #section3 .speaker {
+    cursor: pointer;
     font-weight: bold; }
-  #section3 .singleEvent:hover {
+  #section3 .talk {
     cursor: pointer; }
   #section3 .invalid {
-    color: #ffb4b4; }
+    color: #ffb4b4;
+    cursor: default; }
   #section3 .firstCol {
     padding-right: 20px; }
 

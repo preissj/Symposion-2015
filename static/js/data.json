@@ -9,6 +9,32 @@
             }]
         },
         {
+            "label": "Neděle"
+        },
+        {
+            "events": [{
+                "speaker": "_Zahájení"
+            }],
+            "time": "18:00"
+        },
+        {
+            "events": [{
+                    "room": "BLOK1",
+                    "speaker": "Ondřej Štindl"
+            },
+                {
+                    "room": "BLOK2",
+                    "speaker": "Jaroslav Lorman"
+                }],
+            "time": "18:30"
+        },
+        {
+            "events": [{
+                "speaker": "_Studentské přednášky"
+            }],
+            "time": "20:00"
+        },
+        {
             "label": "Pondělí"
         },
         {
@@ -72,7 +98,7 @@
             },
                 {
                     "room": "BLOK2",
-                    "speaker": "Machala + Veronika Kulířová"
+                    "speaker": "Ladislav Machala, Veronika Kulířová"
             },
                 {
                     "room": "BLOK3",
@@ -105,7 +131,11 @@
                 {
                     "room": "BLOK4",
                     "speaker": "Dino Numerato"
-            }
+            },
+                {
+                    "room": "BLOK5",
+                    "speaker": "Michal Burian"
+                       }
           ],
             "time": "17:00"
       },
@@ -161,6 +191,12 @@
             }
           ],
             "time": "10:00"
+      },
+        {
+            "events": [{
+                "speaker": "_Oběd"
+            }],
+            "time": "12:00"
       },
         {
             "events": [{
@@ -251,11 +287,11 @@
         "David Girsa": {
             "fullname": "MUDr. David Girsa",
             "speakerdesc": "vystudoval 2. lékařskou fakultu Univerzity Karlovy. Získal atestaci z obecné radiologie II. stupně, poté působil 13 let v pražských nemocnicích. V letech 2009-2013 pracoval v nemocnici ve švédském Örebro, od té doby pracuje v Thomayerově nemocnici.",
-            "talkdesc": "O tom, co Vilém Konrád objevil a co z toho vzešlo, aneb rentgenologie není jen Röntgen Stručný průvodce fyzikálními základy, historií i současností radiologie, tedy jednoho z dnes nejbouřlivěji se rozvíjejících medicínských oborů. Kromě rentgenu bude řeč i o ultrazvuku a nukleární magnetické rezonanci. V průběhu vymezeného času se pokusíme najít odpovědi nejen na následující otázky: Jaké informace můžeme od těchto vyšetření očekávat a jaké ne? Kdy je vhodné které vyšetření použít? Jak tato vyšetření probíhají? A jde o vyšetření pro pacienta i personál bezpečná? Opravdu je doménou radiologie pouze zobrazování? Jakým směrem se vyšetřovací metody dnes ubírají a co lze od nich očekávat v budoucnosti?",
-            "talkname": "Zobrazovací metody"
+            "talkdesc": "Stručný průvodce fyzikálními základy, historií i současností radiologie, tedy jednoho z dnes nejbouřlivěji se rozvíjejících medicínských oborů. Kromě rentgenu bude řeč i o ultrazvuku a nukleární magnetické rezonanci. V průběhu vymezeného času se pokusíme najít odpovědi nejen na následující otázky: Jaké informace můžeme od těchto vyšetření očekávat a jaké ne? Kdy je vhodné které vyšetření použít? Jak tato vyšetření probíhají? A jde o vyšetření pro pacienta i personál bezpečná? Opravdu je doménou radiologie pouze zobrazování? Jakým směrem se vyšetřovací metody dnes ubírají a co lze od nich očekávat v budoucnosti?",
+            "talkname": "O tom, co Vilém Konrád objevil a co z toho vzešlo, aneb rentgenologie není jen Röntgen"
         },
         "Dino Numerato": {
-            "talkname": "subkultury, fanoušci fotbalu, mexické vlny"
+            "talkname": "Fotbalový Fandom"
         },
         "Feinberg": {
             "talkname": "KA"
@@ -264,7 +300,7 @@
             "talkname": "Jak nasadit vlnám ohlávku"
         },
         "Ivan Douda": {
-            "talkname": "Drogová problematika",
+            "talkname": "Vlny drog v závislosti na aktuální společenské situaci",
             "fullname": "PhDr. Ivan Douda",
             "speakerdesc": "je vedoucím psychologem nadace Drop In, kterou s MUDr. Jiřím Preslem založili v roce 1991. Nadace se zabývá prevencí a léčbou závislostí se zaměřením na nealkoholové drogy. Tomuto tématu se PhDr. Ivan Douda věnuje více než třicet let své profesní kariéry. Velký důraz klade na prevenci, sám mezi dětmi a studenty základních a středních škol pořádá přednášky a diskuse. Jedním z jeho stěžejních názorů je nerepresivní přístup k drogám. Argumentuje tím, že zakazovat je nemá smysl, zakázané ovoce totiž chutná nejlépe."
         },
@@ -281,6 +317,9 @@
             "talkdesc": "Mozky vysílající a přijímající myšlenky, osobně řídící počasí na planetě Zemi, vynalézající stroje na ochranu před všemi nemocemi... Krátký průhled do podivuhodného světa několika osobností vylučovaných za hranici psychické \"normality\", kterým se snad začalo trochu lépe rozumět až po objevení kategorie \"art brut\" (ve volném překladu \"umění v surovém stavu\").",
             "talkname": "Vlny pronikající"
         },
+        "Jaroslav Lorman": {
+            "talkname": "Katolická církev a homosexualita"
+        },
         "Jiří Mrázek": {
             "talkname": "Voda v Novém zákoně",
             "talkdesc": "Voda patří k základním lidským symbolům, ale současně je to symbol velmi dvojznačný. Je životodárná i ničivá. Zahrnuje celou škálu symbolických významů, od studánky, která napojí žíznivého, přes vodu, která omývá a čistí – ať už Augiášův chlév či lidské nitro – až po povodeň nebo potopu, která je obrazem soudu, a dokonce „řeku zapomnění“, za kterou je „onen břeh“.<br>Křesťanská Bible, zejména její novozákonní část spolu-formovala po dlouhá staletí evropské myšlení a kulturu. Jakou roli má tedy voda v Bibli? Který z těch základních významů je v ní nejsilnější? A jak s tím vším souvisí křest?"
@@ -295,7 +334,7 @@
             "talkname": "Objevy rentgenové astronomie - minulé i budoucí"
         },
         "Julius Lukeš": {
-            "talkname": "Expedice TARA (?)",
+            "talkname": "Expedice TARA",
             "fullname": "Prof. RNDr. Julius Lukeš, CSc.",
             "speakerdesc": "studoval na Přírodovědecké fakultě Univerzity Karlovy. Pracuje pro Parazitologický ústav AVČR České Budějovice, jehož je i ředitelem, v laboratoři molekulární biologie prvoků, oddělení molekulární parazitologie a na Přírodovědecké fakultě Jihočeské univerzity a Canadian Institute for Advanced Research v Torontu. Je členem Učené společnosti ČR. V roce 1993 byl na post-doktorském pobytu na University of Amsterdam v Holandsku a v letech 1997-1998 působil na University of California, Los Angeles a stal se členem Molecular Biology Institute v USA. Za celou svou kariéru získal mnoho ocenění jak českých, tak zahraničních. V České republice se u široké veřejnosti zapsal tím, že snědl tasemnici, ve vědeckém světě svými výzkumy."
         },
@@ -315,8 +354,10 @@
             "talkname": "Debata: Válka v Sýrii - existuje řešení?",
             "talkdesc": "Mezitím, co se Evropa zoufale snaží vypořádat s migrační vlnou, z války v Sýrii se pomalu stává celosvětový konflikt. Naše pozornost se upírá k uprchlickým kvótám a posilujícímu hnutí islamofobie, neměli bychom ale raději pohlédnout za své hranice a zaměřit se na řešení situace v domovské zemi většiny uprchlíků? Je možné najít kompromis v místě, kde se střetávají zájmy západního a východního světa, a udělat tak ze Sýrie zemi, ve které se dá žít v míru?"
         },
-        "Machala + Veronika Kulířová": {
-            "talkname": "Šíření viru HIV"
+        "Ladislav Machala, Veronika Kulířová": {
+            "talkname": "Šíření viru HIV",
+            "fullname": "Doc. MUDr. Ladislav Machala, Ph.D.",
+            "speakerdesc": ", sám absolvent gymnázia Jana Keplera, vystudoval medicínu na Univerzitě Karlově. Momentálně působí jako vedoucí AIDS centra, jež je součástí Nemocnice Na Bulovce. KOnkrétně se zajímá například o problematiku rezistence HIV na antiretrovirotika, o infekci toxoplazmózou u HIV pozitivních pacientů a další. Také přednáší na 3. lékařské fakultě Univerzity Karlovy v rámci oboru infekčních nemocí. Objevil se například <a href=\"http://www.ceskatelevize.cz/specialy/hydepark/5.2.2015/\">v pořadu ČT 24 Hyde Park</a> či <a href=\"http://www.rozhlas.cz/leonardo/dnes/_zprava/host-studia-leonardo-lekar-doc-ladislav-machala--1463977\">ve vysílání Radiožurnálu</a>, ať už ve spojitosti s virem HIV, či čistě s infekčními nemocemi.</p><p><span class=\"speakername\">Mgr. Veronika Kulířová</span></p>"
         },
         "Marek Orko Vácha": {
             "talkname": "Etika"
@@ -326,7 +367,7 @@
             "speakerdesc": "(*1984) je dnes známý český jachtař, který se již několikrát představil i na největších jachtařských srazech, kde mu přezdívají \"námořní svéráz\". Krom nespočtu plaveb všude po světě, podnikl cestu na vlastnoručně postaveném katamaránu Elis II po Evropě a dvě plavby přes Atlantický oceán s plachetnici Alya II. Nyní si realizuje svůj další sen, a to SOLO PLAVBU KOLEM SVĚTA. Tento projekt, odstartovaný začátkem roku 2014, představuje nejen osobnost Martina Dolečka, ale zároveň způsob osamělé plavby, která rozhodně není jen tak pro někoho."
         },
         "Martin Štrba": {
-            "talkname": "Promitani dokumentu Vlna vs breh"
+            "talkname": "Promítání dokumentu Vlna vs břeh"
         },
         "Martin Šíp": {
             "talkname": "Bitcoin, P2P, decentralizace"
@@ -334,6 +375,9 @@
         "Mařenka Vomáčková": {
             "speakerdesc": "Mařenka Vomáčková je fiktivní postava, která neexistuje.",
             "talkdesc": ""
+        },
+        "Michal Burian": {
+            "talkname": "Rádiové vlny v protektorátu"
         },
         "Michal Stehlík": {
             "talkname": "Exilová politika"
@@ -348,13 +392,16 @@
             "talkname": "Vlna 60. let - začátek druhého národního obrození?"
         },
         "Miroslav Zámečník": {
-            "talkname": "Ekonomie",
+            "talkname": "Ekonomické vlny od roku 1 dodnes",
             "fullname": "Ing. Miroslav Zámečník",
             "speakerdesc": "je ekonomický konzultant a od počátku devadesátých let jeden z aktérů ekonomické transformace České republiky. Od roku 2010 se jako člen Národní ekonomické rady vlády (NERV) podílí na protikrizových opatřeních Vlády ČR. Absolvoval Vysokou školu ekonomickou v Praze a Georgetown University ve Washingtonu, poté působil několik let jako zástupce České republiky ve Světové bance. Od roku 1993 byl poradcem Václava Klause na ministerstvu financí a následně vedoucím Centra pro ekonomickou analýzu v kanceláři Václava Havla. Později pracoval jako konzultant pro řadu soukromých společností. Až do loňského roku byl předsedou dozorčí rady Lesů ČR, několik let stál i v čele totožného orgánu v ČSA. Je spoluautorem ekonomického programu Strany zelených, který se zabývá vytvářením takzvaných \"smart jobs\", tedy pracovních míst spjatých s vědou a výzkumem."
         },
         "Ondřej Pilný": {
-            "talkname": "Jezdci k moři (a irské drama)",
+            "talkname": "Jezdci k moři a irské drama",
             "talkdesc": "Povídání o hře irského dramatika J.M. Synga. O kusu skály v bouřícím moři a o životě na něm. O chlebu a prknech na rakve. O irském obrození a černých ovcích. A především o divadle."
+        },
+        "Ondřej Štindl": {
+            "talkname": "Na vlně pirátského rádia"
         },
         "Otamar Kittnar": {
             "talkname": "Příliv hormonů"
@@ -423,6 +470,12 @@
         },
         "_Koncert": {
             "talkdesc": "Máte problémy se zvládáním stresu? Neumíte své tělo řádně rozvlnit? Stavte se 13.11. ve Fatal Music Club na pražském Žižkově, kde vaše tělo při zahajování letošního Symposionu zalije nemalá vlna endorfinů, a to hned několikrát! K Vaší potěše Vám zahrají interpreti jako FadeX, The Life of Grandma, Frenchise a další. A to chcete!"
+        },
+        "_Zahájení": {
+            "talkdesc": "Oficiální zahájení Symposionu 2015."
+        },
+        "_Studentské přednášky": {
+            "talkdesc": "Přednášky absolventů Gymnázia Jana Keplera."
         }
     }
 }

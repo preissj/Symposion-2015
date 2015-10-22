@@ -38,7 +38,7 @@ $.getJSON("/static/js/data.json", function (data) {
                         .append($('<td>')
                             .addClass("singleEvent")
                             .click(function () {
-                                handleClick(id);
+                                if (completeTalk || completeSpeaker) handleClick(id);
                             })
                             .append($('<span>')
                                 .html(speaker ? (speaker + " – ") : "")
@@ -53,12 +53,12 @@ $.getJSON("/static/js/data.json", function (data) {
         }
     }
 
-        $('#section1').ripples({ //.demo
-            resolution: 512,
-            dropRadius: 20,
-            perturbance: 0.005,
-            interactive: true
-        });
+    $('#section1').ripples({ //.demo
+        resolution: 512,
+        dropRadius: 20,
+        perturbance: 0.005,
+        interactive: true
+    });
 });
 
 var handleClick = function (name) {
@@ -82,8 +82,8 @@ var nameToDescription = function (name) {
         str += "<h2>" + name + "</h2>";
         if (info.speakerdesc) {
             str += "<p class=\"speakerdesc\"><span class=\"speakername\">" +
-                (info.fullname ? info.fullname : name) + "</span> ";
-            str += info.speakerdesc + "</p>";
+                (info.fullname ? info.fullname : name) + "</span>";
+            str += (info.speakerdesc.startsWith(",") ? "" : " ") + info.speakerdesc + "</p>";
         }
     } else {
         talkname = name.substring(1);

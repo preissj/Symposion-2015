@@ -3,7 +3,6 @@ $modra: rgb(20, 60, 110);
 $pruhledna_modra: rgba(12, 60, 81, .7);
 $svetle_modra: opacify(lighten($pruhledna_modra, 80%), 0.1);
 $tmave_modra: darken($pruhledna_modra, 5%);
-
 body {
     font: 16px/1 "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -15,12 +14,13 @@ body {
     user-select: none;
     margin: 0px;
     padding: 0px;
-    background: url(/static/images/Crop_blur.jpg) no-repeat center center fixed; //background2_crop
+    background: url(/static/images/Crop2_blur.jpg) no-repeat center center fixed; //background2_crop
     background-size: cover;
     position: relative;
 }
 
-h1, h2 {
+h1,
+h2 {
     font: 16px/1.5 "Montserrat", sans-serif;
 }
 
@@ -55,7 +55,7 @@ a {
 .section {
     display: table-cell;
     vertical-align: middle;
-    width:100%;
+    width: 100%;
     padding: 10% 0 10%;
 }
 
@@ -64,10 +64,10 @@ a {
 }
 
 #section1 {
-    background: url(/static/images/Crop.jpg) no-repeat center center fixed; //background2_crop
+    background: url(/static/images/Crop2.jpg) no-repeat center center fixed; //background2_crop
     background-size: cover;
     height: 100vh;
-    padding:0;
+    padding: 0;
     h1 {
         font-size: 2.5vw;
         padding-top: 0;
@@ -118,15 +118,19 @@ a {
     .time {
         padding-top: 20px;
     }
+    .room {
+        visibility: hidden;
+    }
     .speaker {
+        cursor: pointer;
         font-weight: bold;
     }
-    .talk {}
-    .singleEvent:hover {
+    .talk {
         cursor: pointer;
     }
     .invalid {
         color: rgb(255, 180, 180);
+        cursor: default;
     }
     .firstCol {
         //border-right: 1px white solid;
