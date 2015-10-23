@@ -1,3 +1,10 @@
+if (!String.prototype.startsWith) {
+    String.prototype.startsWith = function (searchString, position) {
+        position = position || 0;
+        return this.indexOf(searchString, position) === position;
+    };
+}
+
 var dataJSON;
 
 $.getJSON("/static/js/data.json", function (data) {
@@ -64,13 +71,16 @@ $.getJSON("/static/js/data.json", function (data) {
 });
 
 var handleClick = function (name) {
-    $('#overlay').css("visibility", "visible").click(function () {
-        $('#overlay').css("visibility", "hidden");
-        $('#modal').css("visibility", "hidden");
+    $('#modal-wrapper').css("display", "block").click(function () {
+        //$('#modal').css("visibility", "hidden");
+        $('#modal-wrapper').css("display", "none");
+        $('body').removeClass("noscroll").width("100%");
     });
-    $('#modal').css("visibility", "visible").html(nameToDescription(name));
-
-}
+    $('body').width($('body').width());
+    $('body').addClass("noscroll");
+    var desc = nameToDescription(name);
+    $('#modal').html(desc ? desc : "Nepodařilo se načíst popis.");
+};
 
 var nameToDescription = function (name) {
     var info = dataJSON.speakers[name];
