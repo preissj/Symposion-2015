@@ -8,7 +8,7 @@ $.getJSON("/static/js/data.json", function (data) {
             $('#harmonogram')
                 .append($('<tr>')
                     .append($('<td>')
-                        .attr('colspan', 2)
+                        .attr('colspan', 3)
                         .html(data.events[i].label).addClass("label")));
         } else {
             data.events[i].events.forEach(function (event, j) {
@@ -43,11 +43,13 @@ $.getJSON("/static/js/data.json", function (data) {
                             .append($('<span>')
                                 .html(speaker ? (speaker + " – ") : "")
                                 .addClass("speaker")
-                                .addClass(completeSpeaker ? "" : "invalid"))
+                                .addClass((completeTalk || completeSpeaker) ? "" : "invalid")
+                            )
                             .append($('<span>')
                                 .html(talk)
                                 .addClass("talk")
-                                .addClass(completeTalk ? "" : "invalid")))
+                                .addClass((completeTalk || completeSpeaker) ? "" : "invalid")
+                            ))
                     );
             });
         }

@@ -8,10 +8,6 @@ body {
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
     color: #777;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
     margin: 0px;
     padding: 0px;
     background: url(/static/images/Crop2_blur.jpg) no-repeat center center fixed; //background2_crop
@@ -64,6 +60,10 @@ a {
 }
 
 #section1 {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     background: url(/static/images/Crop2.jpg) no-repeat center center fixed; //background2_crop
     background-size: cover;
     height: 100vh;
@@ -114,6 +114,7 @@ a {
     .label {
         font-weight: bold;
         font-size: 150%;
+        padding-top: 10px;
     }
     .time {
         padding-top: 20px;
@@ -129,7 +130,7 @@ a {
         cursor: pointer;
     }
     .invalid {
-        color: rgb(255, 180, 180);
+        //color: rgb(255, 180, 180);
         cursor: default;
     }
     .firstCol {

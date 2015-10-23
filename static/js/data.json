@@ -1,7 +1,7 @@
 {
     "events": [
         {
-            "label": "Pátek"
+            "label": "Pátek 13. 11."
         },
         {
             "events": [{
@@ -9,7 +9,7 @@
             }]
         },
         {
-            "label": "Neděle"
+            "label": "Neděle 15. 11."
         },
         {
             "events": [{
@@ -35,7 +35,7 @@
             "time": "20:00"
         },
         {
-            "label": "Pondělí"
+            "label": "Pondělí 16. 11."
         },
         {
             "events": [{
@@ -166,7 +166,7 @@
             "time": "21:30"
       },
         {
-            "label": "Úterý"
+            "label": "Úterý 17. 11."
         },
         {
             "events": [{
@@ -297,7 +297,9 @@
             "talkname": "KA"
         },
         "Gunther Kletetschka": {
-            "talkname": "Jak nasadit vlnám ohlávku"
+            "talkname": "Jak nasadit vlnám ohlávku",
+            "fullname": "RNDr. Gunther Kletetschka, Ph.D.",
+            "speakerdesc": "vystudoval obor Geofyzika a meteorologie na MFF UK, následně působil mnoho let v USA, mimo jiné pracoval i pro NASA. Specializuje se na výzkum v oboru elektromagnetiky. Proslavil se jako objevitel meteoritu, který dopadl v roce 2013 v oblasti Čeljabinsku, kde způsobil značné škody. Jednalo se o největší takový incident od dob tzv. Tunguské události v roce 1908. V současnosti působí na PřF UK a AV ČR v Praze."
         },
         "Ivan Douda": {
             "talkname": "Vlny drog v závislosti na aktuální společenské situaci",
@@ -322,7 +324,9 @@
         },
         "Jiří Mrázek": {
             "talkname": "Voda v Novém zákoně",
-            "talkdesc": "Voda patří k základním lidským symbolům, ale současně je to symbol velmi dvojznačný. Je životodárná i ničivá. Zahrnuje celou škálu symbolických významů, od studánky, která napojí žíznivého, přes vodu, která omývá a čistí – ať už Augiášův chlév či lidské nitro – až po povodeň nebo potopu, která je obrazem soudu, a dokonce „řeku zapomnění“, za kterou je „onen břeh“.<br>Křesťanská Bible, zejména její novozákonní část spolu-formovala po dlouhá staletí evropské myšlení a kulturu. Jakou roli má tedy voda v Bibli? Který z těch základních významů je v ní nejsilnější? A jak s tím vším souvisí křest?"
+            "talkdesc": "Symbolika vody v Novém zákoně Voda patří k základním lidským symbolům, ale současně je to i symbol velmi ambivalentní. Je životodárná i ničivá. Zahrnuje celou škálu symbolických významů, od studánky, která napojí žíznivého, přes vodu, která omývá a čistí – ať už Augiášův chlév, nebo lidské nitro, až po povodeň nebo potopu, která je obrazem soudu, a dokonce „řeku zapomnění“, za kterou je „onen břeh“. Křesťanská Bible, zejména její novozákonní část spolu-formovala po dlouhá staletí evropské myšlení a evropskou kulturu. Jakou roli má tedy voda v Bibli? Který z těch základních významů je v ní nejsilnější? A jak s tím vším souvisí křest?",
+            "fullname": "Doc. ThDr. Jiří Mrázek",
+            "speakerdesc": "je děkanem Evangelické teologické fakulty Univerzity Karlovy v Praze a autorem teologických knih zejména na téma teologie synoptických evangelií, obecných epištol, podobenství a Apokalypsy. Narodil se v roce 1960 v Brně, studoval na Komenského evangelické bohoslovecké fakultě (dnešní ETF) v Praze a na teologické fakultě univerzity v Halle. V letech 1984-1989 působil jako farář ČCE v Kostelci nad Orlicí. Od roku 1990 učí při Centru biblických studií AV a UK v Praze a na katedře Nového Zákona EFT UK."
         },
         "Jiří Pehe": {
             "talkname": "Nové vlny v české politice"
@@ -336,7 +340,8 @@
         "Julius Lukeš": {
             "talkname": "Expedice TARA",
             "fullname": "Prof. RNDr. Julius Lukeš, CSc.",
-            "speakerdesc": "studoval na Přírodovědecké fakultě Univerzity Karlovy. Pracuje pro Parazitologický ústav AVČR České Budějovice, jehož je i ředitelem, v laboratoři molekulární biologie prvoků, oddělení molekulární parazitologie a na Přírodovědecké fakultě Jihočeské univerzity a Canadian Institute for Advanced Research v Torontu. Je členem Učené společnosti ČR. V roce 1993 byl na post-doktorském pobytu na University of Amsterdam v Holandsku a v letech 1997-1998 působil na University of California, Los Angeles a stal se členem Molecular Biology Institute v USA. Za celou svou kariéru získal mnoho ocenění jak českých, tak zahraničních. V České republice se u široké veřejnosti zapsal tím, že snědl tasemnici, ve vědeckém světě svými výzkumy."
+            "speakerdesc": "je špičkový, mezinárodně uznávaný a velmi nekonvenční vědec v parazitologii, který se u široké veřejnosti zapsal tím, že snědl tasemnici, ve vědeckém světě však svými výzkumy. Studoval na Přírodovědecké fakultě Univerzity Karlovy. Pracuje pro Parazitologický ústav AVČR České Budějovice, jehož je i ředitelem, v laboratoři molekulární biologie prvoků, oddělení molekulární parazitologie a na Přírodovědecké fakultě Jihočeské univerzity a také v Canadian Institute for Advanced Research v Torontu. Je členem Učené společnosti ČR. V roce 1993 byl na post-doktorském pobytu na University of Amsterdam v Holandsku a v letech 1997-1998 působil na University of California, Los Angeles a stal se členem Molecular Biology Institute v USA. Za celou svou kariéru získal mnoho ocenění jak českých, tak zahraničních.",
+            "talkdesc": "Julius Lukeš se zúčastnil největší vědecké expedice současnosti, TARA Oceans, a téměř měsíc se plavil v mořích za severním polárním kruhem. Expedice TARA vůbec poprvé v lidské historii mapuje mikrosvět v mořích po celé planetě. Ve své přednášce pojedná o expedici TARA Oceans a TARA Artic Circle, o smyslu expedice, nečekaných objevech pod hladinou a podivuhodném světě, který měl možnost poznat a zažít. „…Ve spojení s vlnami se mi vybavuje určitý pocit v žaludku - na mořskou nemoc jsem si zvykal trochu bolestně...“"
         },
         "Kateřina Novotná, Michal Zeman": {
             "talkname": "Biotechnologie",
@@ -352,10 +357,12 @@
         },
         "Lindner, Tureček": {
             "talkname": "Debata: Válka v Sýrii - existuje řešení?",
-            "talkdesc": "Mezitím, co se Evropa zoufale snaží vypořádat s migrační vlnou, z války v Sýrii se pomalu stává celosvětový konflikt. Naše pozornost se upírá k uprchlickým kvótám a posilujícímu hnutí islamofobie, neměli bychom ale raději pohlédnout za své hranice a zaměřit se na řešení situace v domovské zemi většiny uprchlíků? Je možné najít kompromis v místě, kde se střetávají zájmy západního a východního světa, a udělat tak ze Sýrie zemi, ve které se dá žít v míru?"
+            "talkdesc": "Mezitím, co se Evropa zoufale snaží vypořádat s migrační vlnou, z války v Sýrii se pomalu stává celosvětový konflikt. Naše pozornost se upírá k uprchlickým kvótám a posilujícímu hnutí islamofobie, neměli bychom ale raději pohlédnout za své hranice a zaměřit se na řešení situace v domovské zemi většiny uprchlíků? Je možné najít kompromis v místě, kde se střetávají zájmy západního a východního světa, a udělat tak ze Sýrie zemi, ve které se dá žít v míru?",
+            "fullname": "Tomáš Lindner",
+            "speakerdesc": "je český novinář, který v současné době působí v redakci týdeníku Respekt. Vystudoval na Institutu politologie Fakulty sociálních věd Univerzity Karlovy. Jeden rok strávil studiem mezinárodních vztahů na univerzitě v německé Kostnici a další půlrok pracoval v jihoafrické Zambii. V redakci Respektu vede zahraniční oddělení, v roce 2009 získal cenu European Young Journalist Award za reportáž o bulharské mafii “Svítání nad městěm hříchu”, v roce 2010 mu za článek o dnešní Rwandě “Jak se staví tygr” byla udělena cena za nejlepší reportáž roku."
         },
         "Ladislav Machala, Veronika Kulířová": {
-            "talkname": "Šíření viru HIV",
+            "talkname": "Virus HIV a trendy šetření",
             "fullname": "Doc. MUDr. Ladislav Machala, Ph.D.",
             "speakerdesc": ", sám absolvent gymnázia Jana Keplera, vystudoval medicínu na Univerzitě Karlově. Momentálně působí jako vedoucí AIDS centra, jež je součástí Nemocnice Na Bulovce. KOnkrétně se zajímá například o problematiku rezistence HIV na antiretrovirotika, o infekci toxoplazmózou u HIV pozitivních pacientů a další. Také přednáší na 3. lékařské fakultě Univerzity Karlovy v rámci oboru infekčních nemocí. Objevil se například <a href=\"http://www.ceskatelevize.cz/specialy/hydepark/5.2.2015/\">v pořadu ČT 24 Hyde Park</a> či <a href=\"http://www.rozhlas.cz/leonardo/dnes/_zprava/host-studia-leonardo-lekar-doc-ladislav-machala--1463977\">ve vysílání Radiožurnálu</a>, ať už ve spojitosti s virem HIV, či čistě s infekčními nemocemi.</p><p><span class=\"speakername\">Mgr. Veronika Kulířová</span></p>"
         },
@@ -370,20 +377,27 @@
             "talkname": "Promítání dokumentu Vlna vs břeh"
         },
         "Martin Šíp": {
-            "talkname": "Bitcoin, P2P, decentralizace"
+            "talkname": "O P2P a dencentralizaci aneb proč Bitcoin změní svět",
+            "talkdesc": "Mnoho lidí považuje Bitcoin, první digitální měnu nezavislou ná státech, za mediální bublinu a podvod. Málo z nich ale tuší, že Bitcoin je přelomová decentralizační technologie, srovnatelná svým významem s významem Internetu. Co je Bitcoin a čím je přelomový? Proč se odvětví kolem Bitcoinu tak rychle rozrůstá a jaké nové aplikace a služby přináší?"
         },
         "Mařenka Vomáčková": {
             "speakerdesc": "Mařenka Vomáčková je fiktivní postava, která neexistuje.",
             "talkdesc": ""
         },
         "Michal Burian": {
-            "talkname": "Rádiové vlny v protektorátu"
+            "talkname": "Rádiové vlny v protektorátu",
+            "fullname": "Plk. Mrg. Michal Burian, Ph.D.",
+            "speakerdesc": "je předním českým historikem, ředitelem muzejního odboru Vojenského historického ústavu (VHÚ). V rámci své práce se mimo jiné zaměřuje na dějiny československého vojenství ve 20. století, historii armádní techniky a Československou obec sokolskou. Je autorem či spoluautorem mnoha publikací a knih, pod záštitou VHÚ či Národního muzea uspořádal desítky tematických výstav po celé Evropě. Mimo to je kurátorem sbírek automobilní a těžké bojové techniky a spojovacího materiálu - díky tomu například vedl převoz ostatků Václava Havla na historické lafetě děla, na které byla převážena i rakev Tomáše G. Masaryka."
         },
         "Michal Stehlík": {
-            "talkname": "Exilová politika"
+            "talkname": "Exilová politika",
+            "fullname": "Doc. PhDr. Michal Stehlík, Ph.D.",
+            "speakerdesc": "je historik, slovakista, kurátor, ale také naivní slávista. Michal Stehlík je absolventem historie a slovakistiky Filosofické fakulty UK v Praze a odborníkem na moderní dějiny střední Evropy. V letech 2006-2014 působil jako děkan FF UK v Praze (dokonce po dvě volební období) a následně v roce 2014 nastoupil do funkce náměstka generálního ředitele pro výstavní a sbírkotvornou činnost Národního muzea, kde působí dodnes. Stále však zůstává na FF UK jakožto docent na Ústavu českých dějin.<br>Zabývá se především českými a slovenskými dějinami 20. století a je autorem několika knih o tomto období, např. Slovensko: Země probuzená 1918-1938 či Češi a Slováci 1882-1914, a spoluautorem knih Národnostní politika v Československu 1918-1938 či Tváře undergroundu.<br><a href=\"https://www.youtube.com/watch?v=rZP5JaZ1uuQ\">Nalaďte se na stejnou vlnu s panem docentem a přednáškou Dědictví 20. století.</a>"
         },
         "Milan Šotek": {
-            "talkname": "Mezi dvěma břehy - velká scéna a malé formy"
+            "talkname": "Mezi velkou činohrou a malými formami",
+            "talkdesc": "Ozdravné odskoky „z velké na malou“. Vztah činohry a kabaretu. Tradice antického mimu. Od jednotlivých scén k dramatu. Dramatický text jako „scénický projekt“. To vše na příkladu osobnosti Eduarda Basse a Divadla Rokoko.",
+            "speakerdesc": "je dramaturgem Činohry Národního Divadla, autorem a textařem, hercem a držitelem Ceny Alfréda Radoka za Nejlepší původní českou hru roku 2013 (Plejtvák).<br>Po maturitě na Gymnáziu Jana Keplera vystudoval na pražské DAMU obor Dramaturgie činoherního divadla, kde v roce 2008 spoluzaložil autorské divadlo Cabaret Calambour. Tři sezony působil jako dramaturg činohry Moravského divadla Olomouc, dvě sezony pak jako dramaturg Divadla na Vinohradech. Jeho talent je rozepjat mezi velkou činohru a malé formy, v roce 2012 publikoval knižní výbor dramatických textů Hry se slovy a tanci (KANT 2012).<br>Na českých a moravských jevištích se aktuálně uvádějí jeho Fraška a la krab (Slovácké divadlo Uherské Hradiště) a Lázeňská veverka (Západočeské divadlo Cheb). Autor v nich rozvíjí poetiku divadel malých forem i českého literárního kabaretu s jeho důrazem na slovní ekvilibristiku, v zásadě však vždy znovu a znovu tradici mimu a mimování. "
         },
         "Mirek Kovářík": {
             "fullname": "PhDr. Mirek Kovářík",
@@ -398,10 +412,13 @@
         },
         "Ondřej Pilný": {
             "talkname": "Jezdci k moři a irské drama",
-            "talkdesc": "Povídání o hře irského dramatika J.M. Synga. O kusu skály v bouřícím moři a o životě na něm. O chlebu a prknech na rakve. O irském obrození a černých ovcích. A především o divadle."
+            "talkdesc": "Povídání o hře irského dramatika J.M. Synga. O kusu skály v bouřícím moři a o životě na něm. O chlebu a prknech na rakve. O irském obrození a černých ovcích. A především o divadle.",
+            "fullname": "Doc. Ondřej Pilný, Ph.D.",
+            "speakerdesc": "je docent Karlovy University, ředitel Ústavu anglofonních literatur a kultur a vedoucí Kabinetu irských studií na Filosofické fakultě. Učí irskou anglicky psanou literaturu, především moderní a současné drama a modernistickou a postmoderní prózu. Přeložil román Flanna O'Briena Třetí Strážník, divadelní hry z pera J. M. Synga, Briana Friela a Martina McDonagha, povídky Samuela Becketta a Bernarda MacLavertyho, podílel se na vydání antologií současné irské poezie a irských povídek. Nejnověji publikoval kritické vydání děl J.M. Synga v nových českých překladech (J.M.Synge, Hrdina západu - dramata a próza)."
         },
         "Ondřej Štindl": {
-            "talkname": "Na vlně pirátského rádia"
+            "talkname": "Na vlně pirátského rádia",
+            "speakerdesc": "(*1966) je novinář, spisovatel, scénárista a DJ. Psal pro Lidové noviny či českou verzi BBC, momentálně je komentátorem týdeníku Echo24. Příležitostně píše o hudbě do časopisů Týden a Respekt. Stojí za scénáři k filmům Pouta a Místa Radima Špačka - , za prvně jmenovaný získal Českého lva. V roce 2014 mu vyšla literární prvotina <i>Mondschein</i>. Výrazně se podílel na vzniku Radia Stalin, první soukromé rozhlasové stanice v Čechách. V její modifikaci, Radiu 1, vysílá jako DJ i dnes."
         },
         "Otamar Kittnar": {
             "talkname": "Příliv hormonů"
@@ -412,12 +429,12 @@
             "speakerdesc": "je známý hudební publicista a autor knihy 101 největších alb pop-music: od Elvise k Radiohead. Působí například v rádiu Wave (pořad Echo), píše stránku o hudbě do sobotní přílohy Orientace Lidových novin, přispíval i do Hospodářských novin či magazínu A2 a byl redaktorem časopisu Týden. Portfolio jeho činností doplňuje kurátorství hudebního programu MFDF Jihlava, účast v komisi pro výběr hudebních filmů pro MFF Karlovy Vary nebo občasný \"DJing\"."
         },
         "Petr Cuhra": {
-            "talkname": "Potraviny",
+            "talkname": "Jak hodně by měl stát kontrolovat potraviny?",
             "fullname": "Ing. Petr Cuhra",
-            "speakerdesc": "pracuje jako ředitel Inspektorátu Státní zemědělské a potravinářské inspekce v Praze. Dříve působil jako vedoucí odboru zkušební laboratoře stejnojmenné instituce, a vedl tak jeden z prvních týmů v České republice, který se začal zajímat nejen o bezpečnost, ale i o kvalitu potravin. Stál tak u zrodu vlny boje proti klamání zákazníků v podobě náhražek a dalších forem falšování potravin. Je absolventem Gymnázia Jana Keplera."
+            "speakerdesc": "byl po maturitě na Gymnáziu Jana Keplera přijat na Vysokou školu chemicko-technologickou v Praze (VŠCHT). Vystudoval specializaci zaměřenou na analýzu a chemii potravin a po skončení vysoké školy nastoupil v roce 1989 do laboratoře Státní zemědělské a potravinářské inspekce (SZPI), kde pracoval v oddělení hmotnostní spektrometrie. V roce 1993 se stal vedoucím laboratoře a zaměřil její činnost mimo jiné na analýzu organických kontaminantů a na metody pro odhalování falšování potravin. Pod jeho vedením se laboratoř stala Národní referenční laboratoří pro pesticidy a pro mykotoxiny a vybudovala řadu mezinárodních kontaktů. Téměř 16 let reprezentoval Českou republiku na jednáních výboru pro metody zkoušení mezinárodní organizace Codex Alimentarius při FAO/WHO, podílí se na práci Evropského úřadu pro bezpečnost potravin (EFSA) a účastní se auditů Evropské Komise jak v členských státech EU, tak ve třetích zemích. Od roku 2011 je ředitelem inspektorátu SZPI v Praze, který odpovídá za úřední kontrolu potravin v Praze a Středočeském kraji."
         },
         "Radim Tolasz": {
-            "talkname": "Klimatická změna"
+            "talkname": "Vlny extrémních klimatologicko-meteorologických jevů"
         },
         "Rychlíková, Reichová, Malinová": {
             "talkname": "Média a menšiny (+ promítání dokumentu)",
@@ -469,7 +486,7 @@
             "talkdesc": "Čas na oběd!"
         },
         "_Koncert": {
-            "talkdesc": "Máte problémy se zvládáním stresu? Neumíte své tělo řádně rozvlnit? Stavte se 13.11. ve Fatal Music Club na pražském Žižkově, kde vaše tělo při zahajování letošního Symposionu zalije nemalá vlna endorfinů, a to hned několikrát! K Vaší potěše Vám zahrají interpreti jako FadeX, The Life of Grandma, Frenchise a další. A to chcete!"
+            "talkdesc": "Klubová předehra Ještě než nás nedělní zahájení naplno vtáhne do kulturně intelektuálního programu Symposionu, je zde už tradičně možnost naladit se na tu správnou frekvenci již v pátek 13.11., v rámci klubové předehry.<br>Zveme Vás do Fatal Music Club na pražském Žižkově, kde Vaše údy svým uměním rozvlní hitparáda nejlepších hudebních skupin z Keplera a okolí. Zahrají Vám FadeX, The Life of Grandma, Frenchise a další. Nechte se unést s námi!"
         },
         "_Zahájení": {
             "talkdesc": "Oficiální zahájení Symposionu 2015."

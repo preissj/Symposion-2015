@@ -33,10 +33,6 @@ body {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   color: #777;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
   margin: 0px;
   padding: 0px;
   background: url(/static/images/Crop2_blur.jpg) no-repeat center center fixed;
@@ -80,6 +76,10 @@ a {
   background-color: rgba(9, 44, 59, 0.7); }
 
 #section1 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   background: url(/static/images/Crop2.jpg) no-repeat center center fixed;
   background-size: cover;
   height: 100vh;
@@ -120,7 +120,8 @@ a {
     border-spacing: 10px; }
   #section3 .label {
     font-weight: bold;
-    font-size: 150%; }
+    font-size: 150%;
+    padding-top: 10px; }
   #section3 .time {
     padding-top: 20px; }
   #section3 .room {
@@ -131,7 +132,6 @@ a {
   #section3 .talk {
     cursor: pointer; }
   #section3 .invalid {
-    color: #ffb4b4;
     cursor: default; }
   #section3 .firstCol {
     padding-right: 20px; }
