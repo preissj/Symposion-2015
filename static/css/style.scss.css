@@ -58,10 +58,9 @@ strong {
 
 a {
   text-decoration: none;
-  letter-spacing: 1px;
   padding-bottom: 1px;
   border-bottom: 1px solid rgba(9, 44, 59, 0.7);
-  color: rgba(9, 44, 59, 0.7);
+  color: #143c96;
   -webkit-transition: 500ms;
   -moz-transition: 500ms;
   -ms-transition: 500ms;
@@ -69,7 +68,7 @@ a {
   transition: 500ms; }
 
 a:hover {
-  letter-spacing: 2px; }
+  color: #2d65e3; }
 
 i {
   font-style: italic; }
@@ -102,7 +101,7 @@ i {
   height: 100vh;
   padding: 0;
   font-size: 100%;
-  font-family: "Montserrat",     sans-serif; }
+  font-family: "Montserrat", sans-serif; }
   #section1 h1 {
     font-size: 2em;
     padding-top: 0;
@@ -190,16 +189,16 @@ i {
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: bold;
     font-size: 150%;
-    margin-bottom: 10px; }
+    margin-bottom: 1.5em; }
   #modal p {
-    line-height: 120%;
+    line-height: 145%;
     margin: 0px; }
   #modal .speakername {
     font-weight: bold; }
   #modal .talkname {
     font-size: 130%;
-    margin-bottom: 0px;
-    margin-top: 10px; }
+    margin-bottom: 1.5em;
+    margin-top: 1.5em; }
 
 .noscroll {
   overflow: hidden; }
@@ -221,3 +220,5 @@ i {
   -ms-transform: rotate(90deg);
   -o-transform: rotate(90deg);
   transform: rotate(90deg); }
+
+/*# sourceMappingURL=style.scss.css.map */

@@ -6,6 +6,7 @@ $tmave_modra: darken($pruhledna_modra, 5%);
 $small_width: 650px;
 $transition_time: 500ms;
 $uhel: 90deg;
+$link_color: rgb(20, 60, 150);
 body {
     font: 16px/1 "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -41,10 +42,10 @@ strong {
 
 a {
     text-decoration: none;
-    letter-spacing: 1px;
+    //letter-spacing: 1px;
     padding-bottom: 1px;
     border-bottom: 1px solid $tmave_modra;
-    color: $tmave_modra;
+    color: $link_color;
     -webkit-transition: $transition_time;
     -moz-transition: $transition_time;
     -ms-transition: $transition_time;
@@ -53,7 +54,8 @@ a {
 }
 
 a:hover {
-    letter-spacing: 2px;
+    //letter-spacing: 2px;
+    color: lighten($link_color, 20%);
 }
 
 i {
@@ -92,9 +94,7 @@ i {
     height: 100vh;
     padding: 0;
     font-size: 100%;
-
-    font-family: "Montserrat",
-    sans-serif;
+    font-family: "Montserrat", sans-serif;
     h1 {
         font-size: 2em;
         padding-top: 0;
@@ -124,7 +124,6 @@ i {
             padding-top: 1em;
         }
     }
-
 }
 
 #section2 {
@@ -205,10 +204,10 @@ i {
         font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-weight: bold;
         font-size: 150%;
-        margin-bottom: 10px;
+        margin-bottom: 1.5em;
     }
     p {
-        line-height: 120%;
+        line-height: 145%; //120%
         margin: 0px;
     }
     .speakername {
@@ -217,8 +216,8 @@ i {
     .speakerdesc {}
     .talkname {
         font-size: 130%;
-        margin-bottom: 0px;
-        margin-top: 10px;
+        margin-bottom: 1.5em;
+        margin-top: 1.5em;
     }
 }
 
