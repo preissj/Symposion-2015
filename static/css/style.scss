@@ -41,7 +41,19 @@ strong {
 
 a {
     text-decoration: none;
-    color: rgb(0, 0, 150);
+    letter-spacing: 1px;
+    padding-bottom: 1px;
+    border-bottom: 1px solid $tmave_modra;
+    color: $tmave_modra;
+    -webkit-transition: $transition_time;
+    -moz-transition: $transition_time;
+    -ms-transition: $transition_time;
+    -o-transition: $transition_time;
+    transition: $transition_time;
+}
+
+a:hover {
+    letter-spacing: 2px;
 }
 
 i {
