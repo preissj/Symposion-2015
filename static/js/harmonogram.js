@@ -74,16 +74,16 @@ var handleClick = function (name) {
     $('#modal').css({
         "visibility": "visible",
         "opacity": 1
-    }).click(function () {
-        //$('#modal').css("visibility", "hidden");
-        $('#modal').css("visibility", "hidden");
-        $('#modal').css("opacity", "0");
-        $('body').removeClass("noscroll").width("100%");
     });
     $('body').width($('body').width());
     $('body').addClass("noscroll");
     var desc = nameToDescription(name);
     $('#modal').html(desc ? desc : "Nepodařilo se načíst popis.");
+    $('#cross').click(function () {
+        $('#modal').css("visibility", "hidden");
+        $('#modal').css("opacity", "0");
+        $('body').removeClass("noscroll").width("100%");
+    });
 };
 
 var nameToDescription = function (name) {

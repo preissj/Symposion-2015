@@ -39,9 +39,12 @@ body {
   background-size: cover;
   position: relative; }
 
-h1,
-h2 {
-  font: 16px/1.5 "Montserrat", sans-serif; }
+h1 {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 2.4em;
+  padding-bottom: 5vh;
+  padding-top: 5vh; }
 
 p {
   line-height: 1.5;
@@ -55,7 +58,10 @@ strong {
 
 a {
   text-decoration: none;
-  color: #5badf0; }
+  color: #000096; }
+
+i {
+  font-style: italic; }
 
 #wrapper {
   margin: 0 auto;
@@ -83,22 +89,32 @@ a {
   background: url(/static/images/Crop2.jpg) no-repeat center center fixed;
   background-size: cover;
   height: 100vh;
-  padding: 0; }
+  padding: 0;
+  font-size: 100%;
+  font-family: "Montserrat", sans-serif; }
   #section1 h1 {
-    font-size: 2.5vw;
+    font-size: 2em;
     padding-top: 0;
-    padding-bottom: 1vw; }
+    padding-bottom: 1em; }
+  #section1 h2 {
+    font-size: 1.3em; }
   #section1 #logo {
-    width: 40%;
-    margin-left: 30%; }
+    width: 32em;
+    display: block;
+    margin: 0 auto; }
   #section1 .info {
     display: block;
     margin: auto;
-    line-height: 3vw;
+    line-height: 1.8em;
     text-align: center;
     color: white; }
-  #section1 .info h2 {
-    font-size: 1.5vw; }
+  @media only screen and (max-width: 650px) {
+    #section1 {
+      font-size: 3.5vw; }
+      #section1 #logo {
+        width: 85vw; }
+      #section1 h1 {
+        padding-top: 1em; } }
 
 #section2 {
   background-color: rgba(247, 252, 254, 0.8);
@@ -138,12 +154,6 @@ a {
   background-color: rgba(247, 252, 254, 0.8);
   color: #103058; }
 
-h1 {
-  text-align: center;
-  font-size: 4vw;
-  padding-bottom: 5vh;
-  padding-top: 5vh; }
-
 #modal {
   visibility: hidden;
   opacity: 0;
@@ -158,17 +168,13 @@ h1 {
   bottom: 0;
   left: 0;
   right: 0;
-  padding: 10% 10% 10% 10%;
+  padding: 5% 10% 10% 10%;
   line-height: 120%;
   background-color: rgba(255, 255, 255, 0.97);
   color: black;
   text-align: center;
   z-index: 12;
   overflow-y: scroll; }
-  #modal a {
-    color: #000096; }
-  #modal i {
-    font-style: italic; }
   #modal h2 {
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: bold;
@@ -188,7 +194,7 @@ h1 {
   overflow: hidden; }
 
 #cross {
-  margin-left: 70%;
+  margin-left: 95%;
   margin-bottom: 5%;
   width: 10%;
   max-width: 50px;
@@ -204,3 +210,5 @@ h1 {
   -ms-transform: rotate(90deg);
   -o-transform: rotate(90deg);
   transform: rotate(90deg); }
+
+/*# sourceMappingURL=style.scss.css.map */

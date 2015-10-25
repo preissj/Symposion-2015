@@ -1,11 +1,10 @@
 {
-    "events": [
-        {
+    "events": [{
             "label": "Pátek 13. 11."
         },
         {
             "events": [{
-                "speaker": "_Koncert"
+                "speaker": "_Vlny endorfinů: Koncert ve Fatal Music Clubu"
             }]
         },
         {
@@ -16,7 +15,7 @@
                 "speaker": "_Zahájení"
             }],
             "time": "18:00"
-        },
+      },
         {
             "events": [{
                     "room": "BLOK1",
@@ -25,15 +24,16 @@
                 {
                     "room": "BLOK2",
                     "speaker": "Jaroslav Lorman"
-                }],
+            }
+          ],
             "time": "18:30"
-        },
+      },
         {
             "events": [{
                 "speaker": "_Studentské přednášky"
             }],
             "time": "20:00"
-        },
+      },
         {
             "label": "Pondělí 16. 11."
         },
@@ -70,7 +70,7 @@
         {
             "events": [{
                     "room": "BLOK1",
-                    "speaker": "Václav Klaus, Jana Straková, Michal Černý, Bob Kartous"
+                    "speaker": "Václav Klaus ml., Jana Straková, Michal Černý, Bob Kartous"
             },
                 {
                     "room": "BLOK2",
@@ -135,7 +135,7 @@
                 {
                     "room": "BLOK5",
                     "speaker": "Michal Burian"
-                       }
+            }
           ],
             "time": "17:00"
       },
@@ -209,7 +209,7 @@
             },
                 {
                     "room": "BLOK3",
-                    "speaker": "Lindner, Tureček"
+                    "speaker": "Tomáš Lindner, Břetislav Tureček, Ondřej Beránek, Chalid Bitar"
             },
                 {
                     "room": "BLOK4",
@@ -246,7 +246,7 @@
                 {
                     "room": "BLOK6",
                     "speaker": "Jiří Rejzek"
-                       }
+            }
           ],
             "time": "15:00"
       },
@@ -276,29 +276,20 @@
       }
     ],
     "speakers": {
-        "Jiří Rejzek": {
-            "talkname": "Slovanská expanze",
-            "fullname": "Doc. PhDr. Jiří Rejzek, Ph.D.",
-            "speakerdesc": "Filolog, bohemista, člověk označovaný za největšího českého etymologa současnosti, se narodil v roce 1964. Autor Českého etymologického slovníku absolvoval Filozofickou fakultu Univerzity Karlovy. V současné době působí v Ústavu českého jazyka a teorie komunikace, vedle toho vyučuje na FF UK."
-        },
-
-        "David Vávra": {
-            "talkname": "Vlastní tvorba  + povídání o emigrantských vlnách českých architektů (Šumné stopy)",
-            "fullname": "Akad. arch. David Vávra",
-            "speakerdesc": "je český architekt, herec a spisovatel. Absolvoval Akademii výtvarných umění a stavební fakultu ČVUT v Praze. Je zároveň spoluzakladatelem a dlouhodobě účinkujícím hercem alternativního divadla Sklep ze sedmdesátých let minulého století. Nasbírané zkušenosti a znalosti z obou oborů zužitkoval při výrobě populárně naučných televizních sérií <i><a href=\"http://www.ceskatelevize.cz/porady/1008546862-sumna-mesta/video/\">Šumná města</a></i> a <i><a href=\"http://www.ceskatelevize.cz/porady/10262550261-sumne-stopy/video/\">Šumné stopy</a></i>. Mezi jeho nejvýznamnější architektonické počiny patří stavba kulturního domu Dobeška, rekonstrukce Švandova divadla na Smíchově nebo třeba výstavba interiéru kulturního paláce Akropolis. Mezi jeho hereckými výkony třeba neopomenout roli ve filmech, jako je Mazaný Filip, či v televizní sérii Česká soda. David Vávra mimo jiné působí jako příležitostný básník na nejrůznější společenských událostech."
-        },
-        "Martin Čeňek, Karolína Kripnerová": {
-            "talkname": "Projekt energeticky nezávislého domu AIR house",
-            "talkdesc": "Přednáška se bude věnovat přístupům k udržitelné architektuře, které představí především na projektu experimentálního energeticky soběstačného domu AIR House, jejž navrhl tým studentů a mladých akademiků ČVUT pro mezinárodní studentskou soutěž U. S. Department of Energy Solar Decathlon 2013. Tato prestižní soutěž se konala v Kalifornii a AIR House zde získal celkové třetí místo. Po skončení soutěže byl dům rozebrán a dopraven zpět do Prahy, kde od prosince 2014 slouží v Dejvicích jako Informační centrum ČVUT. V roce 2014 obdržel Ekologického Oskara v soutěži E.ON Energy Globe Award ČR 2014 v kategorii Mládež, v říjnu 2015 připojil Cenu Nadace pro rozvoj architektury a stavitelství a Cenu veřejnosti v soutěži Stavba roku 2015 a nominaci na stavbu roku 2015. AIR House slouží i výzkumu - odborníci z ČVUT vyhodnocují fungování použitých technologií a materiálů nebo energetickou náročnost objektu."
+        "Bronislav Ostřanský": {
+            "fullname": "PhDr. Bronislav Ostřanský, Ph.D.",
+            "speakerdesc": "je český orientalista, momentálně pracující v Orientálním ústavu Akademie věd ČR. Na Filozofické fakultě Univerzity Karlovy vystudoval arabistiku a dějiny a kulturu islámských zemí, také absolvoval intenzivní kurz arabského jazyka v Sýrii na damašském Institutu pro výuku arabského jazyka pro cizince. Odborně se specializuje na islámskou středověkou mystiku, ale zajímá se i o přístup české společnosti k muslimům. Ve své nedávno vydané knize Atlas muslimských strašáků se pokouší vyvracet rozšířené mýty o východním náboženství.",
+            "talkdesc": "Přednáška se zamýšlí nad současnými českými debatami o islámu, jejich mediálními, jakož i politickými přesahy, pokusí se rovněž přiblížit spory o koncept islamofobie i odpovědět na věčné otázky, odkud odpor proti islámu vychází, jaké jsou jeho reálné motivace i soudobé projevy, jak lze odlišit kritiku islámu od islamofobie, kterak je tomu s paralelami mezi antisemitismem a islamofobií atd. Velký důraz bude kladen na prostor pro diskusi.",
+            "talkname": "Islám a muslimové jako předmět českých veřejných polemik"
         },
         "Bušková": {
             "talkname": "Spánek, sny"
         },
         "Cyril Höschl": {
-            "talkname": "Deprese jako multifacetový koncept",
             "fullname": "Prof. MUDr. Cyril Höschl, DrSc., FRCPsych.",
             "speakerdesc": "je jedním z předních českých psychiatrů. Po sametové revoluci byl prvním svobodně zvoleným děkanem 3. lékařské fakulty Univerzity Karlovy. Roku 1990 se stal přednostou Psychiatrické kliniky téže fakulty a ředitelem Národního ústavu duševního zdraví v Klecanech. Za svůj rozsáhlý přínos vědě byl několikrát oceněn. Obdržel Zlatou medaili Univerzity Karlovy a v roce 2009 mu byla udělena Čestná prezidentská plaketa k životnímu jubileu. Během své kariéry publikoval na dvě stě odborných textů a učebnic. Věnuje se také publicistice a popularizaci vědy. Vydává například pravidelnou rubriku v časopise Reflex.",
-            "talkdesc": "Deprese jako multifacetový koncept Depresivní syndrom, jenž zahrnuje příznaky, jakými jsou smutná nálada, pokles zájmu či potěšení v činnostech, významný hmotnostní úbytek nebo přírůstek, insomnie či hypersomnie, psychomotorická zpomalenost či agitovanost, únava a ztráta energie, pocity zbytečnosti a nepřiměřené viny, snížená schopnost přemýšlet a soustředit se, vracející se myšlenky na smrt nebo sebevražedné pokusy či tendence a narušení v sociálních, pracovních a jiných důležitých oblastech, se rozvíjí převážně u jedinců s vysokým skóre neurotismu a s pesimistickým atribučním stylem. Psychiatrie depresi zkoumá zhruba ve čtyřech konceptuálních rámcích (doménách): (1) teorie stresu a řízení osy hypotalamus – hypofýza – nadledvinky, (2) psychologie, utváření a ovlivňování depresogenních kognitivních schémat, (3) neurochemie mozku a mechanismus účinku antidepresiv a (4) chronobiologie. K tomu přistupuje zranitelnost jedince podmíněná genetickou vlohou. V přednášce budou probrány všechny čtyři domény, a navíc sociobiologické a evoluční pohledy na depresi."
+            "talkdesc": "Deprese jako multifacetový koncept Depresivní syndrom, jenž zahrnuje příznaky, jakými jsou smutná nálada, pokles zájmu či potěšení v činnostech, významný hmotnostní úbytek nebo přírůstek, insomnie či hypersomnie, psychomotorická zpomalenost či agitovanost, únava a ztráta energie, pocity zbytečnosti a nepřiměřené viny, snížená schopnost přemýšlet a soustředit se, vracející se myšlenky na smrt nebo sebevražedné pokusy či tendence a narušení v sociálních, pracovních a jiných důležitých oblastech, se rozvíjí převážně u jedinců s vysokým skóre neurotismu a s pesimistickým atribučním stylem. Psychiatrie depresi zkoumá zhruba ve čtyřech konceptuálních rámcích (doménách): (1) teorie stresu a řízení osy hypotalamus – hypofýza – nadledvinky, (2) psychologie, utváření a ovlivňování depresogenních kognitivních schémat, (3) neurochemie mozku a mechanismus účinku antidepresiv a (4) chronobiologie. K tomu přistupuje zranitelnost jedince podmíněná genetickou vlohou. V přednášce budou probrány všechny čtyři domény, a navíc sociobiologické a evoluční pohledy na depresi.",
+            "talkname": "Deprese jako multifacetový koncept"
         },
         "David Girsa": {
             "fullname": "MUDr. David Girsa",
@@ -306,23 +297,25 @@
             "talkdesc": "Stručný průvodce fyzikálními základy, historií i současností radiologie, tedy jednoho z dnes nejbouřlivěji se rozvíjejících medicínských oborů. Kromě rentgenu bude řeč i o ultrazvuku a nukleární magnetické rezonanci. V průběhu vymezeného času se pokusíme najít odpovědi nejen na následující otázky: Jaké informace můžeme od těchto vyšetření očekávat a jaké ne? Kdy je vhodné které vyšetření použít? Jak tato vyšetření probíhají? A jde o vyšetření pro pacienta i personál bezpečná? Opravdu je doménou radiologie pouze zobrazování? Jakým směrem se vyšetřovací metody dnes ubírají a co lze od nich očekávat v budoucnosti?",
             "talkname": "O tom, co Vilém Konrád objevil a co z toho vzešlo, aneb rentgenologie není jen Röntgen"
         },
-        "Dino Numerato": {
-            "talkname": "Fanoušci a vlna odporu proti modernímu fotbalu",
-            "talkdesc": "Většina fotbalových fanoušků je okouzlena uměním velkých hvězd, vychutnává si zážitky, jež jim nabízí propojení fotbalu, masových médií a byznysu, a bez zbytečného přemýšlení si při fandění užívají chvíle volného času. Najdou se však i takoví, kterým se současné směřování fotbalu nelíbí a kteří dávají svůj nesouhlas najevo; tu začnou kritizovat korupci, tu nezodpovědný management fotbalového klubu, tu bezpečnostní opatření, jež jsou zaváděna na stadiónech, a tu se bouří proti komercionalizaci fotbalu. Někteří fanoušci vyjádřují svůj nesouhlas protestem nebo tzv. choreem, jiní se snaží do vývoje fotbalu mluvit aktivněji, ať už podílením se na chodu fotbalových klubů, zasvěcenými diskusemi s fotbalovými funkcionáři nebo lobbingem na národní a mezinárodní politické úrovni. Přestože angažovaní fanoušci tvoří menšinu, vlna odporu proti tzv. modernímu fotbalu sílí. Jakou mají tyto vlny podobu? A co se stává ve chvíli, kdy dosáhnou břehů moderního fotbalu? Stojí břehy moderního fotbalu tak pevně, jak se zdá? A do jaké míry se pod tlakem vln odporu proměňují? Při hledání odpovědí na tyto otázky se kromě sociologického vědění opřu o výňatky z rozhovorů a z pozorování, která jsem v období 2013 až 2015 uskutečnil v Evropě, a to zejména v České republice, Anglii a Itálii."
+        "David Vávra": {
+            "fullname": "Akad. arch. David Vávra",
+            "speakerdesc": "je český architekt, herec a spisovatel. Absolvoval Akademii výtvarných umění a stavební fakultu ČVUT v Praze. Je zároveň spoluzakladatelem a dlouhodobě účinkujícím hercem alternativního divadla Sklep ze sedmdesátých let minulého století. Nasbírané zkušenosti a znalosti z obou oborů zužitkoval při výrobě populárně naučných televizních sérií <i><a href=\"http://www.ceskatelevize.cz/porady/1008546862-sumna-mesta/video/\">Šumná města</a></i> a <i><a href=\"http://www.ceskatelevize.cz/porady/10262550261-sumne-stopy/video/\">Šumné stopy</a></i>. Mezi jeho nejvýznamnější architektonické počiny patří stavba kulturního domu Dobeška, rekonstrukce Švandova divadla na Smíchově nebo třeba výstavba interiéru kulturního paláce Akropolis. Mezi jeho hereckými výkony třeba neopomenout roli ve filmech, jako je Mazaný Filip, či v televizní sérii Česká soda. David Vávra mimo jiné působí jako příležitostný básník na nejrůznější společenských událostech.",
+            "talkname": "Vlastní tvorba  + povídání o emigrantských vlnách českých architektů (Šumné stopy)"
         },
-        "Joe Grim Feinberg": {
-            "talkname": "Studium střední Evropy z pohledu kulturní antropologie"
+        "Dino Numerato": {
+            "talkdesc": "Většina fotbalových fanoušků je okouzlena uměním velkých hvězd, vychutnává si zážitky, jež jim nabízí propojení fotbalu, masových médií a byznysu, a bez zbytečného přemýšlení si při fandění užívají chvíle volného času. Najdou se však i takoví, kterým se současné směřování fotbalu nelíbí a kteří dávají svůj nesouhlas najevo; tu začnou kritizovat korupci, tu nezodpovědný management fotbalového klubu, tu bezpečnostní opatření, jež jsou zaváděna na stadiónech, a tu se bouří proti komercionalizaci fotbalu. Někteří fanoušci vyjádřují svůj nesouhlas protestem nebo tzv. choreem, jiní se snaží do vývoje fotbalu mluvit aktivněji, ať už podílením se na chodu fotbalových klubů, zasvěcenými diskusemi s fotbalovými funkcionáři nebo lobbingem na národní a mezinárodní politické úrovni. Přestože angažovaní fanoušci tvoří menšinu, vlna odporu proti tzv. modernímu fotbalu sílí. Jakou mají tyto vlny podobu? A co se stává ve chvíli, kdy dosáhnou břehů moderního fotbalu? Stojí břehy moderního fotbalu tak pevně, jak se zdá? A do jaké míry se pod tlakem vln odporu proměňují? Při hledání odpovědí na tyto otázky se kromě sociologického vědění opřu o výňatky z rozhovorů a z pozorování, která jsem v období 2013 až 2015 uskutečnil v Evropě, a to zejména v České republice, Anglii a Itálii.",
+            "talkname": "Fanoušci a vlna odporu proti modernímu fotbalu"
         },
         "Gunther Kletetschka": {
-            "talkname": "Jak nasadit vlnám ohlávku",
             "fullname": "RNDr. Gunther Kletetschka, Ph.D.",
             "speakerdesc": "vystudoval obor Geofyzika a meteorologie na MFF UK, následně působil mnoho let v USA, mimo jiné pracoval i pro NASA. Specializuje se na výzkum v oboru elektromagnetiky. Proslavil se jako objevitel meteoritu, který dopadl v roce 2013 v oblasti Čeljabinsku, kde způsobil značné škody. Jednalo se o největší takový incident od dob tzv. Tunguské události v roce 1908. V současnosti působí na PřF UK a AV ČR v Praze.",
-            "talkdesc": "Jak nasadit vlnám ohlávku Vlny jsou barevné, hlučné i neviditelné. Jejich kouzlo spočívá v tom, že jsou u kolébky moudrosti světa kolem nás. Jak se vlní, tak si také povídají a předávají různé vzkazy. Například o tom, jestli jsou věci teplé, nebo studené. Nebo jestli se převalí přes loď a potopí ji, anebo místo toho vyloudí harmonickou posloupnost tónu v orchestru."
+            "talkdesc": "Jak nasadit vlnám ohlávku Vlny jsou barevné, hlučné i neviditelné. Jejich kouzlo spočívá v tom, že jsou u kolébky moudrosti světa kolem nás. Jak se vlní, tak si také povídají a předávají různé vzkazy. Například o tom, jestli jsou věci teplé, nebo studené. Nebo jestli se převalí přes loď a potopí ji, anebo místo toho vyloudí harmonickou posloupnost tónu v orchestru.",
+            "talkname": "Jak nasadit vlnám ohlávku"
         },
         "Ivan Douda": {
-            "talkname": "Vlny drog v závislosti na aktuální společenské situaci",
             "fullname": "PhDr. Ivan Douda",
-            "speakerdesc": "je vedoucím psychologem nadace Drop In, kterou s MUDr. Jiřím Preslem založili v roce 1991. Nadace se zabývá prevencí a léčbou závislostí se zaměřením na nealkoholové drogy. Tomuto tématu se PhDr. Ivan Douda věnuje více než třicet let své profesní kariéry. Velký důraz klade na prevenci, sám mezi dětmi a studenty základních a středních škol pořádá přednášky a diskuse. Jedním z jeho stěžejních názorů je nerepresivní přístup k drogám. Argumentuje tím, že zakazovat je nemá smysl, zakázané ovoce totiž chutná nejlépe."
+            "speakerdesc": "je vedoucím psychologem nadace Drop In, kterou s MUDr. Jiřím Preslem založili v roce 1991. Nadace se zabývá prevencí a léčbou závislostí se zaměřením na nealkoholové drogy. Tomuto tématu se PhDr. Ivan Douda věnuje více než třicet let své profesní kariéry. Velký důraz klade na prevenci, sám mezi dětmi a studenty základních a středních škol pořádá přednášky a diskuse. Jedním z jeho stěžejních názorů je nerepresivní přístup k drogám. Argumentuje tím, že zakazovat je nemá smysl, zakázané ovoce totiž chutná nejlépe.",
+            "talkname": "Vlny drog v závislosti na aktuální společenské situaci"
         },
         "Jan Royt": {
             "fullname": "Prof. PhDr. Ing. Jan Royt",
@@ -330,9 +323,9 @@
             "talkname": "Baroko"
         },
         "Janek Rubeš": {
-            "talkname": "Praha vs. Prachy",
             "fullname": "Janek Rubeš",
-            "speakerdesc": "(*1987) vystudoval marketing ve Zlíně na Univerzitě Tomáše Bati, ale už na střední škole, současně s rozšiřováním internetu a digitálních kamer, se začal věnovat natáčení virálních zábavných videí a krátkých spotů. Dneska působí jako redaktor v internetové televizi Stream.cz, sám o sobě tvrdí, že tam \"tak ryje do všeho\". Zde se podílí na kameře i střihu mnoha pořadů. V listopadu 2013 se začal věnovat tématu pražských podvodníků s pořadem <i>Město podvodů?</i>, ve kterém ověřoval používané podvodné praktiky, zveřejněné v dokumentu Scam City od National Geographic. Po znepokujících zjištěních o situaci v našem městě a neochotě magistrátu podniknout protiopatření se po roce a půl vrací na obrazovky internetové televize s pořadem <a href=\"https://www.stream.cz/porady/praha-vs-prachy\">Praha vs. Prachy</a>, kde se problémům věnuje důkladněji."
+            "speakerdesc": "(*1987) vystudoval marketing ve Zlíně na Univerzitě Tomáše Bati, ale už na střední škole, současně s rozšiřováním internetu a digitálních kamer, se začal věnovat natáčení virálních zábavných videí a krátkých spotů. Dneska působí jako redaktor v internetové televizi Stream.cz, sám o sobě tvrdí, že tam \"tak ryje do všeho\". Zde se podílí na kameře i střihu mnoha pořadů. V listopadu 2013 se začal věnovat tématu pražských podvodníků s pořadem <i>Město podvodů?</i>, ve kterém ověřoval používané podvodné praktiky, zveřejněné v dokumentu Scam City od National Geographic. Po znepokujících zjištěních o situaci v našem městě a neochotě magistrátu podniknout protiopatření se po roce a půl vrací na obrazovky internetové televize s pořadem <a href=\"https://www.stream.cz/porady/praha-vs-prachy\">Praha vs. Prachy</a>, kde se problémům věnuje důkladněji.",
+            "talkname": "Praha vs. Prachy"
         },
         "Jaromír Typlt": {
             "fullname": "PHDr. Jaromír Typlt",
@@ -344,16 +337,15 @@
             "talkname": "Katolická církev a homosexualita"
         },
         "Jiří Mrázek": {
-            "talkname": "Voda v Novém zákoně",
-            "talkdesc": "Symbolika vody v Novém zákoně Voda patří k základním lidským symbolům, ale současně je to i symbol velmi ambivalentní. Je životodárná i ničivá. Zahrnuje celou škálu symbolických významů, od studánky, která napojí žíznivého, přes vodu, která omývá a čistí – ať už Augiášův chlév, nebo lidské nitro, až po povodeň nebo potopu, která je obrazem soudu, a dokonce „řeku zapomnění“, za kterou je „onen břeh“. Křesťanská Bible, zejména její novozákonní část spolu-formovala po dlouhá staletí evropské myšlení a evropskou kulturu. Jakou roli má tedy voda v Bibli? Který z těch základních významů je v ní nejsilnější? A jak s tím vším souvisí křest?",
             "fullname": "Doc. ThDr. Jiří Mrázek",
-            "speakerdesc": "je děkanem Evangelické teologické fakulty Univerzity Karlovy v Praze a autorem teologických knih zejména na téma teologie synoptických evangelií, obecných epištol, podobenství a Apokalypsy. Narodil se v roce 1960 v Brně, studoval na Komenského evangelické bohoslovecké fakultě (dnešní ETF) v Praze a na teologické fakultě univerzity v Halle. V letech 1984-1989 působil jako farář ČCE v Kostelci nad Orlicí. Od roku 1990 učí při Centru biblických studií AV a UK v Praze a na katedře Nového Zákona EFT UK."
+            "speakerdesc": "je děkanem Evangelické teologické fakulty Univerzity Karlovy v Praze a autorem teologických knih zejména na téma teologie synoptických evangelií, obecných epištol, podobenství a Apokalypsy. Narodil se v roce 1960 v Brně, studoval na Komenského evangelické bohoslovecké fakultě (dnešní ETF) v Praze a na teologické fakultě univerzity v Halle. V letech 1984-1989 působil jako farář ČCE v Kostelci nad Orlicí. Od roku 1990 učí při Centru biblických studií AV a UK v Praze a na katedře Nového Zákona EFT UK.",
+            "talkdesc": "Symbolika vody v Novém zákoně Voda patří k základním lidským symbolům, ale současně je to i symbol velmi ambivalentní. Je životodárná i ničivá. Zahrnuje celou škálu symbolických významů, od studánky, která napojí žíznivého, přes vodu, která omývá a čistí – ať už Augiášův chlév, nebo lidské nitro, až po povodeň nebo potopu, která je obrazem soudu, a dokonce „řeku zapomnění“, za kterou je „onen břeh“. Křesťanská Bible, zejména její novozákonní část spolu-formovala po dlouhá staletí evropské myšlení a evropskou kulturu. Jakou roli má tedy voda v Bibli? Který z těch základních významů je v ní nejsilnější? A jak s tím vším souvisí křest?",
+            "talkname": "Voda v Novém zákoně"
         },
-        "Bronislav Ostřanský": {
-            "talkname": "Islám a muslimové jako předmět českých veřejných polemik",
-            "fullname": "PhDr. Bronislav Ostřanský, Ph.D.",
-            "speakerdesc": "je český orientalista, momentálně pracující v Orientálním ústavu Akademie věd ČR. Na Filozofické fakultě Univerzity Karlovy vystudoval arabistiku a dějiny a kulturu islámských zemí, také absolvoval intenzivní kurz arabského jazyka v Sýrii na damašském Institutu pro výuku arabského jazyka pro cizince. Odborně se specializuje na islámskou středověkou mystiku, ale zajímá se i o přístup české společnosti k muslimům. Ve své nedávno vydané knize Atlas muslimských strašáků se pokouší vyvracet rozšířené mýty o východním náboženství.",
-            "talkdesc": "Přednáška se zamýšlí nad současnými českými debatami o islámu, jejich mediálními, jakož i politickými přesahy, pokusí se rovněž přiblížit spory o koncept islamofobie i odpovědět na věčné otázky, odkud odpor proti islámu vychází, jaké jsou jeho reálné motivace i soudobé projevy, jak lze odlišit kritiku islámu od islamofobie, kterak je tomu s paralelami mezi antisemitismem a islamofobií atd. Velký důraz bude kladen na prostor pro diskusi."
+        "Jiří Rejzek": {
+            "fullname": "Doc. PhDr. Jiří Rejzek, Ph.D.",
+            "speakerdesc": "Filolog, bohemista, člověk označovaný za největšího českého etymologa současnosti, se narodil v roce 1964. Autor Českého etymologického slovníku absolvoval Filozofickou fakultu Univerzity Karlovy. V současné době působí v Ústavu českého jazyka a teorie komunikace, vedle toho vyučuje na FF UK.",
+            "talkname": "Slovanská expanze"
         },
         "Jiří Svoboda": {
             "fullname": "RNDr. Jiří Svoboda, Ph.D",
@@ -361,75 +353,76 @@
             "talkdesc": "Objevy rentgenové astronomie - minulé i budoucí: Rentgenové okno do vesmíru bylo otevřeno před více než půl stoletím a přineslo spoustu nečekaných objevů, od neutronových hvězd až po bizarní černé díry s hmotností miliardkrát převyšující hmotnost Slunce. Co se astronomům podařilo za uplynulá desetiletí zjistit o těchto objektech a co dalšího nás zajímá? Povíme si, jaké odpovědi může přinést nová rentgenová mise, plánovaná Evropskou kosmickou agenturou, jejímž členem je i Česká Republika.",
             "talkname": "Objevy rentgenové astronomie - minulé i budoucí"
         },
+        "Joe Grim Feinberg": {
+            "talkname": "Studium střední Evropy z pohledu kulturní antropologie"
+        },
         "Julius Lukeš": {
-            "talkname": "Expedice TARA",
             "fullname": "Prof. RNDr. Julius Lukeš, CSc.",
             "speakerdesc": "je špičkový, mezinárodně uznávaný a velmi nekonvenční vědec v parazitologii, který se u široké veřejnosti zapsal tím, že snědl tasemnici, ve vědeckém světě však svými výzkumy. Studoval na Přírodovědecké fakultě Univerzity Karlovy. Pracuje pro Parazitologický ústav AVČR České Budějovice, jehož je i ředitelem, v laboratoři molekulární biologie prvoků, oddělení molekulární parazitologie a na Přírodovědecké fakultě Jihočeské univerzity a také v Canadian Institute for Advanced Research v Torontu. Je členem Učené společnosti ČR. V roce 1993 byl na post-doktorském pobytu na University of Amsterdam v Holandsku a v letech 1997-1998 působil na University of California, Los Angeles a stal se členem Molecular Biology Institute v USA. Za celou svou kariéru získal mnoho ocenění jak českých, tak zahraničních.",
-            "talkdesc": "Julius Lukeš se zúčastnil největší vědecké expedice současnosti, TARA Oceans, a téměř měsíc se plavil v mořích za severním polárním kruhem. Expedice TARA vůbec poprvé v lidské historii mapuje mikrosvět v mořích po celé planetě. Ve své přednášce pojedná o expedici TARA Oceans a TARA Artic Circle, o smyslu expedice, nečekaných objevech pod hladinou a podivuhodném světě, který měl možnost poznat a zažít. „…Ve spojení s vlnami se mi vybavuje určitý pocit v žaludku - na mořskou nemoc jsem si zvykal trochu bolestně...“"
-        },
-        "Kateřina Novotná, Michal Zeman": {
-            "talkname": "Role rádiových vln při léčbě poruch srdečního rytmu",
-            "fullname": "Ing. Kateřina Novotná",
-            "speakerdesc": "pochází z Chrudimi a je absolventkou Elektrotechnické fakulty ČVUT, kde vystudovala obor biomedicínské inženýrství. Již devátým rokem pracuje jako zdravotnická technička pro americkou společnost, která se zabývá vývojem a výrobou zdravotnických přístrojů. Specializuje se na přístroje pro léčbu poruch srdečního rytmu.</p><p><span class=\"speakername\">Ing. Michal Zeman</span> se pod křídla stejné společnosti, kde pracuje Kateřina, zařadil už před deseti lety a v její české centrále je nyní služebně nejstarší. Ke své práci se dostal při pátém roku studia biomedicínského inženýrství na ČVUT v podstatě náhodou, když s maminkou, pracující na kardiochirurgické klinice FN Hradec Králové, navštěvoval kongresy České kardiologické společnosti v Brně. Za dva týdny dostal práci a zůstal v ní dodnes. Jeho specializací je dálková monitorace pacientů s přístroji pro léčbu poruch srdečního rytmu.</p>",
-            "talkdesc": "Kardiostimulátory a defibrilátory fungují na základě vysokoenergetického výboje a jsou základní součástí efektivní péče o pacienty s poruchami srdečního rytmu. Tito pacienti mají v současnosti díky využití elektromagnetického vlnění možnost dálkové kontroly. Systém dálkové monitorace umožňuje pomocí rádiových vln odesílat informace uložené v srdečních implantabilních přístrojích přímo lékaři. To vše probíhá automaticky, bez nutnosti aktivní účasti pacienta. Jediným předpokladem je dostupný signál mobilního operátora - poté už je možný přenos pacientových dat z jakéhokoli místa na světě."
+            "talkdesc": "Julius Lukeš se zúčastnil největší vědecké expedice současnosti, TARA Oceans, a téměř měsíc se plavil v mořích za severním polárním kruhem. Expedice TARA vůbec poprvé v lidské historii mapuje mikrosvět v mořích po celé planetě. Ve své přednášce pojedná o expedici TARA Oceans a TARA Artic Circle, o smyslu expedice, nečekaných objevech pod hladinou a podivuhodném světě, který měl možnost poznat a zažít. „…Ve spojení s vlnami se mi vybavuje určitý pocit v žaludku - na mořskou nemoc jsem si zvykal trochu bolestně...“",
+            "talkname": "Expedice TARA"
         },
         "Kateřina Kolářová": {
-            "talkname": "Disability Studies",
             "fullname": "Mgr. Kateřina Kolářová, PhD.",
-            "speakerdesc": "vystudovala na FF UK v Praze na katedře anglistiky a amerikanistiky, kde získala i doktorát. V současné době působí na Fakultě humanitních studií na katedře genderových studií. Ve svých předmětech se zabývá Queer theory/LGBT studies, feministickými kulturními studiemi a tzv. \"Disability studies\". O tomto tématu publikovala mnoho textů (<i>Jinakost - postižení - kritika: společenské konstrukty nezpůsobilosti a hendikepu: antologie textů z oboru disability studies</i>). Na mezinárodní úrovni se věnuje mnoha výzkumům o sexuálním harašení a queeru. Je členkou Society for Disability Studies."
+            "speakerdesc": "vystudovala na FF UK v Praze na katedře anglistiky a amerikanistiky, kde získala i doktorát. V současné době působí na Fakultě humanitních studií na katedře genderových studií. Ve svých předmětech se zabývá Queer theory/LGBT studies, feministickými kulturními studiemi a tzv. \"Disability studies\". O tomto tématu publikovala mnoho textů (<i>Jinakost - postižení - kritika: společenské konstrukty nezpůsobilosti a hendikepu: antologie textů z oboru disability studies</i>). Na mezinárodní úrovni se věnuje mnoha výzkumům o sexuálním harašení a queeru. Je členkou Society for Disability Studies.",
+            "talkname": "Disability Studies"
+        },
+        "Kateřina Novotná, Michal Zeman": {
+            "fullname": "Ing. Kateřina Novotná",
+            "speakerdesc": "pochází z Chrudimi a je absolventkou Elektrotechnické fakulty ČVUT, kde vystudovala obor biomedicínské inženýrství. Již devátým rokem pracuje jako zdravotnická technička pro americkou společnost, která se zabývá vývojem a výrobou zdravotnických přístrojů. Specializuje se na přístroje pro léčbu poruch srdečního rytmu.</p><p><span class=\"speakername\">Ing. Michal Zeman</span> se pod křídla stejné společnosti, kde pracuje Kateřina, zařadil už před deseti lety a v její české centrále je nyní služebně nejstarší. Ke své práci se dostal při pátém roku studia biomedicínského inženýrství na ČVUT v podstatě náhodou, když s maminkou, pracující na kardiochirurgické klinice FN Hradec Králové, navštěvoval kongresy České kardiologické společnosti v Brně. Za dva týdny dostal práci a zůstal v ní dodnes. Jeho specializací je dálková monitorace pacientů s přístroji pro léčbu poruch srdečního rytmu.</p>",
+            "talkdesc": "Kardiostimulátory a defibrilátory fungují na základě vysokoenergetického výboje a jsou základní součástí efektivní péče o pacienty s poruchami srdečního rytmu. Tito pacienti mají v současnosti díky využití elektromagnetického vlnění možnost dálkové kontroly. Systém dálkové monitorace umožňuje pomocí rádiových vln odesílat informace uložené v srdečních implantabilních přístrojích přímo lékaři. To vše probíhá automaticky, bez nutnosti aktivní účasti pacienta. Jediným předpokladem je dostupný signál mobilního operátora - poté už je možný přenos pacientových dat z jakéhokoli místa na světě.",
+            "talkname": "Role rádiových vln při léčbě poruch srdečního rytmu"
         },
         "Ladislav Koreň": {
             "fullname": "Mgr. Koreň Ladislav PhD.",
             "speakerdesc": "Vedoucí katedry filosofie a společenských věd na FF UHK a šéfredaktor časopisu <i>Filosofie Dnes</i>, se věnuje analytické filosofii, a to v oblastech poznání, jazyka, teorie her a rozhodování a logiky. V průběhu let studoval nebo působil ve Vídni, Praze, Mnichově a Hradci Králové. Poslední dobou se zabývá především racionalitou a lidskou motivací v dnešní společnosti ovlivněné ekonomickým myšlením.",
             "talkname": "Filosofie ekonomie"
         },
-        "Lindner, Tureček": {
-            "talkname": "Debata: Válka v Sýrii - existuje řešení?",
-            "talkdesc": "Mezitím, co se Evropa zoufale snaží vypořádat s migrační vlnou, z války v Sýrii se pomalu stává celosvětový konflikt. Naše pozornost se upírá k uprchlickým kvótám a posilujícímu hnutí islamofobie, neměli bychom ale raději pohlédnout za své hranice a zaměřit se na řešení situace v domovské zemi většiny uprchlíků? Je možné najít kompromis v místě, kde se střetávají zájmy západního a východního světa, a udělat tak ze Sýrie zemi, ve které se dá žít v míru?",
-            "fullname": "Tomáš Lindner",
-            "speakerdesc": "je český novinář, který v současné době působí v redakci týdeníku Respekt. Vystudoval na Institutu politologie Fakulty sociálních věd Univerzity Karlovy. Jeden rok strávil studiem mezinárodních vztahů na univerzitě v německé Kostnici a další půlrok pracoval v jihoafrické Zambii. V redakci Respektu vede zahraniční oddělení, v roce 2009 získal cenu European Young Journalist Award za reportáž o bulharské mafii “Svítání nad městěm hříchu”, v roce 2010 mu za článek o dnešní Rwandě “Jak se staví tygr” byla udělena cena za nejlepší reportáž roku."
-        },
         "Ladislav Machala, Veronika Kulířová": {
-            "talkname": "Virus HIV a trendy šetření",
             "fullname": "Doc. MUDr. Ladislav Machala, Ph.D.",
-            "speakerdesc": ", sám absolvent gymnázia Jana Keplera, vystudoval medicínu na Univerzitě Karlově. Momentálně působí jako vedoucí AIDS centra, jež je součástí Nemocnice Na Bulovce. KOnkrétně se zajímá například o problematiku rezistence HIV na antiretrovirotika, o infekci toxoplazmózou u HIV pozitivních pacientů a další. Také přednáší na 3. lékařské fakultě Univerzity Karlovy v rámci oboru infekčních nemocí. Objevil se například <a href=\"http://www.ceskatelevize.cz/specialy/hydepark/5.2.2015/\">v pořadu ČT 24 Hyde Park</a> či <a href=\"http://www.rozhlas.cz/leonardo/dnes/_zprava/host-studia-leonardo-lekar-doc-ladislav-machala--1463977\">ve vysílání Radiožurnálu</a>, ať už ve spojitosti s virem HIV, či čistě s infekčními nemocemi.</p><p><span class=\"speakername\">Mgr. Veronika Kulířová</span></p>"
+            "speakerdesc": ", sám absolvent gymnázia Jana Keplera, vystudoval medicínu na Univerzitě Karlově. Momentálně působí jako vedoucí AIDS centra, jež je součástí Nemocnice Na Bulovce. KOnkrétně se zajímá například o problematiku rezistence HIV na antiretrovirotika, o infekci toxoplazmózou u HIV pozitivních pacientů a další. Také přednáší na 3. lékařské fakultě Univerzity Karlovy v rámci oboru infekčních nemocí. Objevil se například <a href=\"http://www.ceskatelevize.cz/specialy/hydepark/5.2.2015/\">v pořadu ČT 24 Hyde Park</a> či <a href=\"http://www.rozhlas.cz/leonardo/dnes/_zprava/host-studia-leonardo-lekar-doc-ladislav-machala--1463977\">ve vysílání Radiožurnálu</a>, ať už ve spojitosti s virem HIV, či čistě s infekčními nemocemi.</p><p><span class=\"speakername\">Mgr. Veronika Kulířová</span></p>",
+            "talkname": "Virus HIV a trendy šetření"
         },
         "Marek Orko Vácha": {
             "talkname": "Etika"
         },
         "Martin Doleček": {
-            "talkname": "Sám na vlnách Pacifku",
             "speakerdesc": "(*1984) je dnes známý český jachtař, který se již několikrát představil i na největších jachtařských srazech, kde mu přezdívají \"námořní svéráz\". Krom nespočtu plaveb všude po světě, podnikl cestu na vlastnoručně postaveném katamaránu Elis II po Evropě a dvě plavby přes Atlantický oceán s plachetnici Alya II. Nyní si realizuje svůj další sen, a to SOLO PLAVBU KOLEM SVĚTA. Tento projekt, odstartovaný začátkem roku 2014, představuje nejen osobnost Martina Dolečka, ale zároveň způsob osamělé plavby, která rozhodně není jen tak pro někoho.",
-            "talkdesc": "Jaké jsou vlny v Panamském průplavu, Tichém oceánu, kolem Galapág a Markézy? Co skrývají korálové atoly Tuamotus a království Tonga? Jak jsou hluboké vody Tahity, Tasmanského moře a Nového Zélandu? Přednáška o osamocené plavbě Martina Dolečka vám odpoví na to a mnohem více. „Námořní svéráz“ bude vyprávět o celém svém dobrodružství v Pacifiku, jak se potýkal s technickými problémy kolem lodi, s byrokracií, kriminalitou, o bezvětří i bouřích a vlnách. Přijďte si poslechnout o veselých zážitcích a krásných a pro nás exotických místech naší planety, ale i o dramatických momentech v korálovém moři na plavbě do Austrálie, kde jeho loď Alya II přišla o kormidlo a Martin bojoval nejen o záchranu lodi, ale i o svůj vlastní život..."
+            "talkdesc": "Jaké jsou vlny v Panamském průplavu, Tichém oceánu, kolem Galapág a Markézy? Co skrývají korálové atoly Tuamotus a království Tonga? Jak jsou hluboké vody Tahity, Tasmanského moře a Nového Zélandu? Přednáška o osamocené plavbě Martina Dolečka vám odpoví na to a mnohem více. „Námořní svéráz“ bude vyprávět o celém svém dobrodružství v Pacifiku, jak se potýkal s technickými problémy kolem lodi, s byrokracií, kriminalitou, o bezvětří i bouřích a vlnách. Přijďte si poslechnout o veselých zážitcích a krásných a pro nás exotických místech naší planety, ale i o dramatických momentech v korálovém moři na plavbě do Austrálie, kde jeho loď Alya II přišla o kormidlo a Martin bojoval nejen o záchranu lodi, ale i o svůj vlastní život...",
+            "talkname": "Sám na vlnách Pacifku"
+        },
+        "Martin Čeňek, Karolína Kripnerová": {
+            "talkdesc": "Přednáška se bude věnovat přístupům k udržitelné architektuře, které představí především na projektu experimentálního energeticky soběstačného domu AIR House, jejž navrhl tým studentů a mladých akademiků ČVUT pro mezinárodní studentskou soutěž U. S. Department of Energy Solar Decathlon 2013. Tato prestižní soutěž se konala v Kalifornii a AIR House zde získal celkové třetí místo. Po skončení soutěže byl dům rozebrán a dopraven zpět do Prahy, kde od prosince 2014 slouží v Dejvicích jako Informační centrum ČVUT. V roce 2014 obdržel Ekologického Oskara v soutěži E.ON Energy Globe Award ČR 2014 v kategorii Mládež, v říjnu 2015 připojil Cenu Nadace pro rozvoj architektury a stavitelství a Cenu veřejnosti v soutěži Stavba roku 2015 a nominaci na stavbu roku 2015. AIR House slouží i výzkumu - odborníci z ČVUT vyhodnocují fungování použitých technologií a materiálů nebo energetickou náročnost objektu.",
+            "talkname": "Projekt energeticky nezávislého domu AIR house"
         },
         "Martin Štrba": {
-            "talkname": "Vlna vs břeh: promítání a beseda se členem Slovenské nové vlny",
             "fullname": "Martin Štrba",
-            "speakerdesc": "(*1961) je slovenský kameraman. V roce 1980 vystudoval fotografii na Střední umělecko-průmyslové škole v Bratislavě a v roce 1985 kameru na FAMU v Praze. Nejčastěji spolupracoval na filmech Martina Šulíka a Vladimíra Michálka. V roce 1999 získal cenu Český lev za kameru filmu <i>Je třeba zabít Sekala</i> režiséra Vladimíra Michálka a roku 2000 za nejlepší výtvarný počin ve filmu <i>Anděl Exit</i>. Byl také hlavním kameramanem multimediálního projektu <i>Zlatá šedesátá</i>, v jehož rámci vzniklo 26 televizních portrétů československých filmových osobností a jeden celovečerní film. Dalšího Českého lva získal také za film <i>Hořící keř</i>."
+            "speakerdesc": "(*1961) je slovenský kameraman. V roce 1980 vystudoval fotografii na Střední umělecko-průmyslové škole v Bratislavě a v roce 1985 kameru na FAMU v Praze. Nejčastěji spolupracoval na filmech Martina Šulíka a Vladimíra Michálka. V roce 1999 získal cenu Český lev za kameru filmu <i>Je třeba zabít Sekala</i> režiséra Vladimíra Michálka a roku 2000 za nejlepší výtvarný počin ve filmu <i>Anděl Exit</i>. Byl také hlavním kameramanem multimediálního projektu <i>Zlatá šedesátá</i>, v jehož rámci vzniklo 26 televizních portrétů československých filmových osobností a jeden celovečerní film. Dalšího Českého lva získal také za film <i>Hořící keř</i>.",
+            "talkname": "Vlna vs břeh: promítání a beseda se členem Slovenské nové vlny"
         },
         "Martin Šíp": {
-            "talkname": "O P2P a dencentralizaci aneb proč Bitcoin změní svět",
-            "talkdesc": "Mnoho lidí považuje Bitcoin, první digitální měnu nezavislou ná státech, za mediální bublinu a podvod. Málo z nich ale tuší, že Bitcoin je přelomová decentralizační technologie, srovnatelná svým významem s významem Internetu. Co je Bitcoin a čím je přelomový? Proč se odvětví kolem Bitcoinu tak rychle rozrůstá a jaké nové aplikace a služby přináší?"
+            "talkdesc": "Mnoho lidí považuje Bitcoin, první digitální měnu nezavislou ná státech, za mediální bublinu a podvod. Málo z nich ale tuší, že Bitcoin je přelomová decentralizační technologie, srovnatelná svým významem s významem Internetu. Co je Bitcoin a čím je přelomový? Proč se odvětví kolem Bitcoinu tak rychle rozrůstá a jaké nové aplikace a služby přináší?",
+            "talkname": "O P2P a dencentralizaci aneb proč Bitcoin změní svět"
         },
         "Mařenka Vomáčková": {
             "speakerdesc": "Mařenka Vomáčková je fiktivní postava, která neexistuje.",
             "talkdesc": ""
         },
         "Michal Burian": {
-            "talkname": "Na rádiových vlnách odboje",
             "fullname": "Plk. Mrg. Michal Burian, Ph.D.",
-            "speakerdesc": "je předním českým historikem, ředitelem muzejního odboru Vojenského historického ústavu (VHÚ). V rámci své práce se mimo jiné zaměřuje na dějiny československého vojenství ve 20. století, historii armádní techniky a Československou obec sokolskou. Je autorem či spoluautorem mnoha publikací a knih, pod záštitou VHÚ či Národního muzea uspořádal desítky tematických výstav po celé Evropě. Mimo to je kurátorem sbírek automobilní a těžké bojové techniky a spojovacího materiálu - díky tomu například vedl převoz ostatků Václava Havla na historické lafetě děla, na které byla převážena i rakev Tomáše G. Masaryka."
+            "speakerdesc": "je předním českým historikem, ředitelem muzejního odboru Vojenského historického ústavu (VHÚ). V rámci své práce se mimo jiné zaměřuje na dějiny československého vojenství ve 20. století, historii armádní techniky a Československou obec sokolskou. Je autorem či spoluautorem mnoha publikací a knih, pod záštitou VHÚ či Národního muzea uspořádal desítky tematických výstav po celé Evropě. Mimo to je kurátorem sbírek automobilní a těžké bojové techniky a spojovacího materiálu - díky tomu například vedl převoz ostatků Václava Havla na historické lafetě děla, na které byla převážena i rakev Tomáše G. Masaryka.",
+            "talkname": "Na rádiových vlnách odboje"
         },
         "Michal Stehlík": {
-            "talkname": "Odchody a návraty - český exil a emigrace ve 20. století",
-            "talkdesc": "Přednáška nahlédne na několik vln exilu a emigrace ve 20. století, na léta 1914, 1939, 1948, 1968, ale i na návraty, zejména po roce 1989. Jaké byly důvody odchodů, jak se choval stát k exulantům a emigrantům, jaké byly osudy exilu v zahraničí, jaké byly návraty? Připomeneme osudy významných osobností - Masaryk, Haas, Werich a Voskovec, Peroutka, Tigrid, Kryl, Kohout, Landovský..., ale i osudy tzv. bezejmenných - např. představitelů českého undergroundu po roce 1977. Pohled na složité 20. století přes vlny odchodů a návratů vyústí v otázku, zda si v dnešní složité situaci dokážeme vzít z vlastních dějin nějaké poučení či odkaz.",
             "fullname": "Doc. PhDr. Michal Stehlík, Ph.D.",
-            "speakerdesc": "je historik, slovakista, kurátor, ale také naivní slávista. Michal Stehlík je absolventem historie a slovakistiky Filosofické fakulty UK v Praze a odborníkem na moderní dějiny střední Evropy. V letech 2006-2014 působil jako děkan FF UK v Praze (dokonce po dvě volební období) a následně v roce 2014 nastoupil do funkce náměstka generálního ředitele pro výstavní a sbírkotvornou činnost Národního muzea, kde působí dodnes. Stále však zůstává na FF UK jakožto docent na Ústavu českých dějin.<br>Zabývá se především českými a slovenskými dějinami 20. století a je autorem několika knih o tomto období, např. Slovensko: Země probuzená 1918-1938 či Češi a Slováci 1882-1914, a spoluautorem knih Národnostní politika v Československu 1918-1938 či Tváře undergroundu.<br><a href=\"https://www.youtube.com/watch?v=rZP5JaZ1uuQ\">Nalaďte se na stejnou vlnu s panem docentem a přednáškou Dědictví 20. století.</a>"
+            "speakerdesc": "je historik, slovakista, kurátor, ale také naivní slávista. Michal Stehlík je absolventem historie a slovakistiky Filosofické fakulty UK v Praze a odborníkem na moderní dějiny střední Evropy. V letech 2006-2014 působil jako děkan FF UK v Praze (dokonce po dvě volební období) a následně v roce 2014 nastoupil do funkce náměstka generálního ředitele pro výstavní a sbírkotvornou činnost Národního muzea, kde působí dodnes. Stále však zůstává na FF UK jakožto docent na Ústavu českých dějin.<br>Zabývá se především českými a slovenskými dějinami 20. století a je autorem několika knih o tomto období, např. Slovensko: Země probuzená 1918-1938 či Češi a Slováci 1882-1914, a spoluautorem knih Národnostní politika v Československu 1918-1938 či Tváře undergroundu.<br><a href=\"https://www.youtube.com/watch?v=rZP5JaZ1uuQ\">Nalaďte se na stejnou vlnu s panem docentem a přednáškou Dědictví 20. století.</a>",
+            "talkdesc": "Přednáška nahlédne na několik vln exilu a emigrace ve 20. století, na léta 1914, 1939, 1948, 1968, ale i na návraty, zejména po roce 1989. Jaké byly důvody odchodů, jak se choval stát k exulantům a emigrantům, jaké byly osudy exilu v zahraničí, jaké byly návraty? Připomeneme osudy významných osobností - Masaryk, Haas, Werich a Voskovec, Peroutka, Tigrid, Kryl, Kohout, Landovský..., ale i osudy tzv. bezejmenných - např. představitelů českého undergroundu po roce 1977. Pohled na složité 20. století přes vlny odchodů a návratů vyústí v otázku, zda si v dnešní složité situaci dokážeme vzít z vlastních dějin nějaké poučení či odkaz.",
+            "talkname": "Odchody a návraty - český exil a emigrace ve 20. století"
         },
         "Milan Šotek": {
-            "talkname": "Mezi velkou činohrou a malými formami",
+            "speakerdesc": "je dramaturgem Činohry Národního Divadla, autorem a textařem, hercem a držitelem Ceny Alfréda Radoka za Nejlepší původní českou hru roku 2013 (Plejtvák).<br>Po maturitě na Gymnáziu Jana Keplera vystudoval na pražské DAMU obor Dramaturgie činoherního divadla, kde v roce 2008 spoluzaložil autorské divadlo Cabaret Calambour. Tři sezony působil jako dramaturg činohry Moravského divadla Olomouc, dvě sezony pak jako dramaturg Divadla na Vinohradech. Jeho talent je rozepjat mezi velkou činohru a malé formy, v roce 2012 publikoval knižní výbor dramatických textů Hry se slovy a tanci (KANT 2012).<br>Na českých a moravských jevištích se aktuálně uvádějí jeho Fraška a la krab (Slovácké divadlo Uherské Hradiště) a Lázeňská veverka (Západočeské divadlo Cheb). Autor v nich rozvíjí poetiku divadel malých forem i českého literárního kabaretu s jeho důrazem na slovní ekvilibristiku, v zásadě však vždy znovu a znovu tradici mimu a mimování. ",
             "talkdesc": "Ozdravné odskoky „z velké na malou“. Vztah činohry a kabaretu. Tradice antického mimu. Od jednotlivých scén k dramatu. Dramatický text jako „scénický projekt“. To vše na příkladu osobnosti Eduarda Basse a Divadla Rokoko.",
-            "speakerdesc": "je dramaturgem Činohry Národního Divadla, autorem a textařem, hercem a držitelem Ceny Alfréda Radoka za Nejlepší původní českou hru roku 2013 (Plejtvák).<br>Po maturitě na Gymnáziu Jana Keplera vystudoval na pražské DAMU obor Dramaturgie činoherního divadla, kde v roce 2008 spoluzaložil autorské divadlo Cabaret Calambour. Tři sezony působil jako dramaturg činohry Moravského divadla Olomouc, dvě sezony pak jako dramaturg Divadla na Vinohradech. Jeho talent je rozepjat mezi velkou činohru a malé formy, v roce 2012 publikoval knižní výbor dramatických textů Hry se slovy a tanci (KANT 2012).<br>Na českých a moravských jevištích se aktuálně uvádějí jeho Fraška a la krab (Slovácké divadlo Uherské Hradiště) a Lázeňská veverka (Západočeské divadlo Cheb). Autor v nich rozvíjí poetiku divadel malých forem i českého literárního kabaretu s jeho důrazem na slovní ekvilibristiku, v zásadě však vždy znovu a znovu tradici mimu a mimování. "
+            "talkname": "Mezi velkou činohrou a malými formami"
         },
         "Mirek Kovářík": {
             "fullname": "PhDr. Mirek Kovářík",
@@ -438,46 +431,52 @@
             "talkname": "Vlna 60. let - začátek druhého národního obrození?"
         },
         "Miroslav Zámečník": {
-            "talkname": "Kdo vládne světu, aneb dějiny od roku 1 dodnes",
             "fullname": "Ing. Miroslav Zámečník",
-            "speakerdesc": "je ekonomický konzultant a od počátku devadesátých let jeden z aktérů ekonomické transformace České republiky. Od roku 2010 se jako člen Národní ekonomické rady vlády (NERV) podílí na protikrizových opatřeních Vlády ČR. Absolvoval Vysokou školu ekonomickou v Praze a Georgetown University ve Washingtonu, poté působil několik let jako zástupce České republiky ve Světové bance. Od roku 1993 byl poradcem Václava Klause na ministerstvu financí a následně vedoucím Centra pro ekonomickou analýzu v kanceláři Václava Havla. Později pracoval jako konzultant pro řadu soukromých společností. Až do loňského roku byl předsedou dozorčí rady Lesů ČR, několik let stál i v čele totožného orgánu v ČSA. Je spoluautorem ekonomického programu Strany zelených, který se zabývá vytvářením takzvaných \"smart jobs\", tedy pracovních míst spjatých s vědou a výzkumem."
+            "speakerdesc": "je ekonomický konzultant a od počátku devadesátých let jeden z aktérů ekonomické transformace České republiky. Od roku 2010 se jako člen Národní ekonomické rady vlády (NERV) podílí na protikrizových opatřeních Vlády ČR. Absolvoval Vysokou školu ekonomickou v Praze a Georgetown University ve Washingtonu, poté působil několik let jako zástupce České republiky ve Světové bance. Od roku 1993 byl poradcem Václava Klause na ministerstvu financí a následně vedoucím Centra pro ekonomickou analýzu v kanceláři Václava Havla. Později pracoval jako konzultant pro řadu soukromých společností. Až do loňského roku byl předsedou dozorčí rady Lesů ČR, několik let stál i v čele totožného orgánu v ČSA. Je spoluautorem ekonomického programu Strany zelených, který se zabývá vytvářením takzvaných \"smart jobs\", tedy pracovních míst spjatých s vědou a výzkumem.",
+            "talkname": "Kdo vládne světu, aneb dějiny od roku 1 dodnes"
         },
         "Ondřej Pilný": {
-            "talkname": "Jezdci k moři a irské drama",
-            "talkdesc": "Povídání o hře irského dramatika J.M. Synga. O kusu skály v bouřícím moři a o životě na něm. O chlebu a prknech na rakve. O irském obrození a černých ovcích. A především o divadle.",
             "fullname": "Doc. Ondřej Pilný, Ph.D.",
-            "speakerdesc": "je docent Karlovy University, ředitel Ústavu anglofonních literatur a kultur a vedoucí Kabinetu irských studií na Filosofické fakultě. Učí irskou anglicky psanou literaturu, především moderní a současné drama a modernistickou a postmoderní prózu. Přeložil román Flanna O'Briena Třetí Strážník, divadelní hry z pera J. M. Synga, Briana Friela a Martina McDonagha, povídky Samuela Becketta a Bernarda MacLavertyho, podílel se na vydání antologií současné irské poezie a irských povídek. Nejnověji publikoval kritické vydání děl J.M. Synga v nových českých překladech (J.M.Synge, Hrdina západu - dramata a próza)."
+            "speakerdesc": "je docent Karlovy University, ředitel Ústavu anglofonních literatur a kultur a vedoucí Kabinetu irských studií na Filosofické fakultě. Učí irskou anglicky psanou literaturu, především moderní a současné drama a modernistickou a postmoderní prózu. Přeložil román Flanna O'Briena Třetí Strážník, divadelní hry z pera J. M. Synga, Briana Friela a Martina McDonagha, povídky Samuela Becketta a Bernarda MacLavertyho, podílel se na vydání antologií současné irské poezie a irských povídek. Nejnověji publikoval kritické vydání děl J.M. Synga v nových českých překladech (J.M.Synge, Hrdina západu - dramata a próza).",
+            "talkdesc": "Povídání o hře irského dramatika J.M. Synga. O kusu skály v bouřícím moři a o životě na něm. O chlebu a prknech na rakve. O irském obrození a černých ovcích. A především o divadle.",
+            "talkname": "Jezdci k moři a irské drama"
         },
         "Ondřej Štindl": {
-            "talkname": "Na vlně pirátského rádia",
-            "speakerdesc": "(*1966) je novinář, spisovatel, scénárista a DJ. Psal pro Lidové noviny či českou verzi BBC, momentálně je komentátorem týdeníku Echo24. Příležitostně píše o hudbě do časopisů Týden a Respekt. Stojí za scénáři k filmům Pouta a Místa Radima Špačka - , za prvně jmenovaný získal Českého lva. V roce 2014 mu vyšla literární prvotina <i>Mondschein</i>. Výrazně se podílel na vzniku Radia Stalin, první soukromé rozhlasové stanice v Čechách. V její modifikaci, Radiu 1, vysílá jako DJ i dnes."
+            "speakerdesc": "(*1966) je novinář, spisovatel, scénárista a DJ. Psal pro Lidové noviny či českou verzi BBC, momentálně je komentátorem týdeníku Echo24. Příležitostně píše o hudbě do časopisů Týden a Respekt. Stojí za scénáři k filmům Pouta a Místa Radima Špačka - , za prvně jmenovaný získal Českého lva. V roce 2014 mu vyšla literární prvotina <i>Mondschein</i>. Výrazně se podílel na vzniku Radia Stalin, první soukromé rozhlasové stanice v Čechách. V její modifikaci, Radiu 1, vysílá jako DJ i dnes.",
+            "talkname": "Na vlně pirátského rádia"
         },
         "Otomar Kittnar": {
-            "talkname": "Příliv hormonů",
             "fullname": "Prof. MUDr. Otomar Kittnar, CSc., MBA",
             "speakerdesc": "je nejen proděkanem 1. lékařské fakulty pro zahraniční studenty a sociální problematiku, ale také lékař vnitřních nemocí, fyziolog, biokybernetik a přednosta fyziologického ústavu, kde vyučuje. Působil také na 2. i 3. lékařské fakultě a Fakultě tělesné výchovy a sportu a od roku 2009 napsal už dvě odborné knihy. Zajímá se o kardiofyziologii a biomechaniku; mezi jeho hlavní zásluhy v oboru patří využití počítačů a elektrofyziologické metody v lékařském výzkumu. Studenty je hodnocen jako jeden z nejlépe přednášejících profesorů na Karlově univerzitě.",
-            "talkdesc": "Co jsou to hormony, k čemu jsou dobré a v jakých vlnách se produkují? Jak je vlastně naše tělo řízeno a jak spolupracuje nervové řízení s hormonálním? O různých typech hormonů a rozdílech v jejich působení na cílové tkáně a orgány. A také jak může hormonální řízení selhávat a jaké to může mít důsledky."
+            "talkdesc": "Co jsou to hormony, k čemu jsou dobré a v jakých vlnách se produkují? Jak je vlastně naše tělo řízeno a jak spolupracuje nervové řízení s hormonálním? O různých typech hormonů a rozdílech v jejich působení na cílové tkáně a orgány. A také jak může hormonální řízení selhávat a jaké to může mít důsledky.",
+            "talkname": "Příliv hormonů"
         },
         "Pavel Klusák": {
-            "talkname": "Možnosti vzpoury aneb Po smrti undergroundu",
+            "speakerdesc": "je známý hudební publicista a autor knihy 101 největších alb pop-music: od Elvise k Radiohead. Působí například v rádiu Wave (pořad Echo), píše stránku o hudbě do sobotní přílohy Orientace Lidových novin, přispíval i do Hospodářských novin či magazínu A2 a byl redaktorem časopisu Týden. Portfolio jeho činností doplňuje kurátorství hudebního programu MFDF Jihlava, účast v komisi pro výběr hudebních filmů pro MFF Karlovy Vary nebo občasný \"DJing\".",
             "talkdesc": "Dá se ještě dnes vtisknout hudbě rebelská dimenze? A stojíme o to? Jak být subverzivní, když všechny nové dobré nápady vzápětí převezme reklama a marketing? Jaké zbraně tasí dnešní autoři, když chtějí, aby jejich tvorbu nerozmělnil zábavní byznys? A jak s tím souvisí heslo bojového umění aikido - \"využít sílu protivníka\"? Hudbu pouští, komentuje a k otázkám provokuje Pavel Klusák (Radio Wave, Orientace LN, kurátor hudebního programu MFDF Jihlava atd.).",
-            "speakerdesc": "je známý hudební publicista a autor knihy 101 největších alb pop-music: od Elvise k Radiohead. Působí například v rádiu Wave (pořad Echo), píše stránku o hudbě do sobotní přílohy Orientace Lidových novin, přispíval i do Hospodářských novin či magazínu A2 a byl redaktorem časopisu Týden. Portfolio jeho činností doplňuje kurátorství hudebního programu MFDF Jihlava, účast v komisi pro výběr hudebních filmů pro MFF Karlovy Vary nebo občasný \"DJing\"."
+            "talkname": "Možnosti vzpoury aneb Po smrti undergroundu"
         },
         "Petr Cuhra": {
-            "talkname": "Jak hodně by měl stát kontrolovat potraviny?",
             "fullname": "Ing. Petr Cuhra",
             "speakerdesc": "byl po maturitě na Gymnáziu Jana Keplera přijat na Vysokou školu chemicko-technologickou v Praze (VŠCHT). Vystudoval specializaci zaměřenou na analýzu a chemii potravin a po skončení vysoké školy nastoupil v roce 1989 do laboratoře Státní zemědělské a potravinářské inspekce (SZPI), kde pracoval v oddělení hmotnostní spektrometrie. V roce 1993 se stal vedoucím laboratoře a zaměřil její činnost mimo jiné na analýzu organických kontaminantů a na metody pro odhalování falšování potravin. Pod jeho vedením se laboratoř stala Národní referenční laboratoří pro pesticidy a pro mykotoxiny a vybudovala řadu mezinárodních kontaktů. Téměř 16 let reprezentoval Českou republiku na jednáních výboru pro metody zkoušení mezinárodní organizace Codex Alimentarius při FAO/WHO, podílí se na práci Evropského úřadu pro bezpečnost potravin (EFSA) a účastní se auditů Evropské Komise jak v členských státech EU, tak ve třetích zemích. Od roku 2011 je ředitelem inspektorátu SZPI v Praze, který odpovídá za úřední kontrolu potravin v Praze a Středočeském kraji.",
-            "talkdesc": "Kontrola potravin prošla za posledních 25 let několika vlnami. Začátek 90. let byl ve znamení zbytků předrevolučního centrálního plánování. Státní podniky vyrábějící podle státních norem přesně definovaný sortiment výrobků byly kontrolovány státem tak, aby se toho vlastně moc nezjistilo. Stěžejní byly jakostní parametry vyjadřující obsah tuku, bílkovin nebo sacharidů. Státní podniky se ale postupně začaly rozpadat a normy přestaly předepisovat, jak má vypadat chleba, jogurt, vlašský salát nebo lovecký salám. Český trh se otevřel a spotřebitelé si začali zvykat na pestrou škálu potravin a stát přestával regulovat jakost potravin s tím, že spotřebitel si sám vybere to, co je dobré. Kontrola potravin se začala omezovat téměř výhradně na bezpečnost potravin, aby se po pár letech ukázalo, že potraviny jsou sice bezpečné, ale v řadě případů se nedají jíst a neobsahují to, co je na nich deklarováno. Tlak na ekonomickou rentabilitu vedl postupně k používání nejrůznějších náhražek, k zavádění nových technologií umožňujících eliminaci tradičních surovin a k nárůstu falšovaných potravin. V posledních letech se tak opět jakost a složení potravin začaly postupně dostávat do popředí zájmu spotřebitelů. Řada z nich je již ochotna si za lepší jakost a chuť potravin s garantovaným původem kvalitních surovin připlatit. Výsledky kontrol potvrzují, že v dnešní době máme mnohem více problémů s jakostí a autenticitou potravin než s jejich bezpečností. A jak bude vývoj pokračovat dále?"
+            "talkdesc": "Kontrola potravin prošla za posledních 25 let několika vlnami. Začátek 90. let byl ve znamení zbytků předrevolučního centrálního plánování. Státní podniky vyrábějící podle státních norem přesně definovaný sortiment výrobků byly kontrolovány státem tak, aby se toho vlastně moc nezjistilo. Stěžejní byly jakostní parametry vyjadřující obsah tuku, bílkovin nebo sacharidů. Státní podniky se ale postupně začaly rozpadat a normy přestaly předepisovat, jak má vypadat chleba, jogurt, vlašský salát nebo lovecký salám. Český trh se otevřel a spotřebitelé si začali zvykat na pestrou škálu potravin a stát přestával regulovat jakost potravin s tím, že spotřebitel si sám vybere to, co je dobré. Kontrola potravin se začala omezovat téměř výhradně na bezpečnost potravin, aby se po pár letech ukázalo, že potraviny jsou sice bezpečné, ale v řadě případů se nedají jíst a neobsahují to, co je na nich deklarováno. Tlak na ekonomickou rentabilitu vedl postupně k používání nejrůznějších náhražek, k zavádění nových technologií umožňujících eliminaci tradičních surovin a k nárůstu falšovaných potravin. V posledních letech se tak opět jakost a složení potravin začaly postupně dostávat do popředí zájmu spotřebitelů. Řada z nich je již ochotna si za lepší jakost a chuť potravin s garantovaným původem kvalitních surovin připlatit. Výsledky kontrol potvrzují, že v dnešní době máme mnohem více problémů s jakostí a autenticitou potravin než s jejich bezpečností. A jak bude vývoj pokračovat dále?",
+            "talkname": "Jak hodně by měl stát kontrolovat potraviny?"
         },
         "Radim Tolasz": {
             "talkname": "Vlny extrémních klimatologicko-meteorologických jevů"
         },
         "Rychlíková, Reichová, Malinová": {
-            "talkname": "Média a menšiny (+ promítání dokumentu)",
-            "talkdesc": "Jak se u nás média staví k problematice menšin, v čem selhávají a v čem naopak fungují dobře? Jaký typ filmů je vhodný pro rozbourávání předsudků? Jaké typy kampaní? Jaké máme zkušenosti s vlastními předsudky a limity? Apolena Rychlíková a Martina Malinová představí svůj krátký experimentální film <i>Za Adolfa by žádní morgoši neměli žádná práva</i>. Ten skrz vhled do života rodiny paterčat a střet každodennosti reálných starostí a virtuální reality internetových diskuzí odhaluje to nejhorší z českého vztahu k Romům.<br>Následně Tereza Reichová promítne svůj film <i>Terapie Mírou</i>, přinášející reality show o islamofobii a hranicích diskuze v každém z nás."
+            "talkdesc": "Jak se u nás média staví k problematice menšin, v čem selhávají a v čem naopak fungují dobře? Jaký typ filmů je vhodný pro rozbourávání předsudků? Jaké typy kampaní? Jaké máme zkušenosti s vlastními předsudky a limity? Apolena Rychlíková a Martina Malinová představí svůj krátký experimentální film <i>Za Adolfa by žádní morgoši neměli žádná práva</i>. Ten skrz vhled do života rodiny paterčat a střet každodennosti reálných starostí a virtuální reality internetových diskuzí odhaluje to nejhorší z českého vztahu k Romům.<br>Následně Tereza Reichová promítne svůj film <i>Terapie Mírou</i>, přinášející reality show o islamofobii a hranicích diskuze v každém z nás.",
+            "talkname": "Média a menšiny (+ promítání dokumentu)"
         },
         "Tereza Freidingerová": {
             "talkname": "Vietnamci v České republice"
+        },
+        "Tomáš Lindner, Břetislav Tureček, Ondřej Beránek, Chalid Bitar": {
+            "fullname": "Tomáš Lindner",
+            "speakerdesc": "je český novinář, který v současné době působí v redakci týdeníku Respekt. Vystudoval na Institutu politologie Fakulty sociálních věd Univerzity Karlovy. Jeden rok strávil studiem mezinárodních vztahů na univerzitě v německé Kostnici a další půlrok pracoval v jihoafrické Zambii. V redakci Respektu vede zahraniční oddělení, v roce 2009 získal cenu European Young Journalist Award za reportáž o bulharské mafii <i>Svítání nad městěm hříchu</i>, v roce 2010 mu za článek o dnešní Rwandě <i>Jak se staví tygr</i> byla udělena cena za nejlepší reportáž roku.",
+            "talkdesc": "Mezitím, co se Evropa zoufale snaží vypořádat s migrační vlnou, z války v Sýrii se pomalu stává celosvětový konflikt. Naše pozornost se upírá k uprchlickým kvótám a posilujícímu hnutí islamofobie, neměli bychom ale raději pohlédnout za své hranice a zaměřit se na řešení situace v domovské zemi většiny uprchlíků? Je možné najít kompromis v místě, kde se střetávají zájmy západního a východního světa, a udělat tak ze Sýrie zemi, ve které se dá žít v míru?",
+            "talkname": "Debata: Válka v Sýrii - existuje řešení?"
         },
         "Veronika Křesťanová": {
             "fullname": "JUDr. Veronika Křesťanová",
@@ -491,19 +490,24 @@
             "talkname": "Vlny v české literatuře 1968-89"
         },
         "Václav Janda": {
-            "talkname": "Kvalita pitných vod v ČR",
+            "speakerdesc": "V roce dokočil 1997 inženýrské a v roce 1981 doktorské studium v oboru Technologie vody na Katedře technologie vody a prostředí. Pracuje v Ústavu technologie vody a prostředí; roku 1993 se stal docentem a v roce 2000 byl jmenován profesorem. Absolvoval zahraniční stáže na University of Ghent v Belgii a University of Leeds ve Velké Británii. Je tajemníkem Československé asociace vodárenských expertů. Jeho hlavním zaměřením ve vědecké a pedagogické činnosti jsou chemické a biologické způsoby úpravy vlastností vody a analýza organických látek ve vodách a obecně v životním prostředí.",
             "speakername": "Prof. Ing. Václav Janda, CSc.",
-            "speakerdesc": "V roce dokočil 1997 inženýrské a v roce 1981 doktorské studium v oboru Technologie vody na Katedře technologie vody a prostředí. Pracuje v Ústavu technologie vody a prostředí; roku 1993 se stal docentem a v roce 2000 byl jmenován profesorem. Absolvoval zahraniční stáže na University of Ghent v Belgii a University of Leeds ve Velké Británii. Je tajemníkem Československé asociace vodárenských expertů. Jeho hlavním zaměřením ve vědecké a pedagogické činnosti jsou chemické a biologické způsoby úpravy vlastností vody a analýza organických látek ve vodách a obecně v životním prostředí."
+            "talkname": "Kvalita pitných vod v ČR"
+        },
+        "Václav Klaus ml., Jana Straková, Michal Černý, Bob Kartous": {
+            "fullname": "Mgr. Václav Klaus",
+            "speakerdesc": "absolvoval Přírodovědeckou fakultu UK, přes 15 let vedl gymnázium a poté síť škol PORG. Středoškolský profesor matematiky, autor mnoha odborných článků a zatím jedné učebnice (Matematika pro trojkaře aneb Maturita v kapse; 2013), zakladatel Asociace aktivních škol (sdružuje přes 100 českých škol). Vede jeden z největších českých šachových klubů a dosud aktivně závodí na kole. Je členem expertního týmu předsedy ODS pro školství.</p><p><span class=\"speakername\">RNDr. Jana Straková, Ph.D.</span> vystudovala elektronickou fyziku a optiku na MFF UK. Od 90. let se věnuje pedagogickému výzkumu, roku 2008 získala v tomto oboru doktorát. Dlouhá léta organizovala v ČR mezinárodní výzkumy vědomostí a dovedností. Spolupracuje s řadou nevládních i vládních organizací v ČR i v zahraničí, učí na Pedagogické fakultě UK. Spoluzakládala PORG a také tam několik let učila. Jejím hlavním odborným tématem je problematika <a href=\"http://www.eduin.cz/clanky/hospodarske-noviny-rozdelene-skolstvi-skodi-vsem-detem/\">nerovností ve vzdělávání</a>.</p><p><span class=\"speakername\">PaeDr. Michal Černý</span></p><p><span class=\"speakername\">Mgr. Bohumil Kartous Ph.D.</span> je absolvent Pedagogické fakulty, Fakulty sportovních studií MU v Brně a doktorského programu na Fakultě sociálních věd UK. Projekty, na kterých se podílí, mají těžiště v oblasti vzdělávání a médií. Jsou to zejména EDUin a Britské listy. Učí, publikuje, konferuje a moderuje. Typický představitel parazitického neziskového sektoru a omylu zvaného občanská společnost.</p>",
+            "talkname": "Debata: Vlny v dnešním školství"
         },
         "Václav Švorčík": {
-            "talkname": "Biokompatibilita polymerů",
             "fullname": "Prof. Ing. Václav Švorčík, DrSc.",
             "speakerdesc": "(*1957) je badatel v oblasti biomateriálů. Zabývá se modifikací materiálů, zejména polymerů, pomocí iontových, laserových a plasmatických svazků a zkoumá jejich povrchové, chemické a fyzikální vlastnosti včetně jejich cytokompatibility, tj. vzájemných reakcí mezi živými buňkami a testovaným materiálem. Je absolventem VŠCHT v Praze, konkrétně oboru Technologie výroby a zpracování polymerů. Na stejné škole získal titul kandidáta věd v oblasti technologie makromolekulárních látek. V roce 1992 se stal docentem v oboru materiálového inženýrství a o dva roky později obhájil práci (doktor věd) v oblasti Elektroniky a vakuové techniky (AV ČR). Obdivuhodný výčet jeho akamdemických titulů završuje ten nejvyšší - profesor oboru materiálového inženýrství na VŠCHT Praha. Od roku 1991 působí jako vedoucí Ústavu inženýrství pevných látek na VŠCHT. Absolvoval také dlouhodobé pobyty na zahraničních univerzitách a vědeckých pracovištích, především na J.Kepler Universität Linz, A.Fridrich Universität Erlangen a Fraunhofer Institut Erlangen. V impaktovaných časopisech publikoval celkem 338 prací, které byly 3296 krát citovány. Je autorem/spoluautorem 23 kapitol ve vědeckých knihách a původcem 14 patentů.",
-            "talkdesc": "Biokompatibilita polymerů Polymery a polymerní materiály vynikají řadou odlišných vlastností v porovnání s kovovými, skelnými a keramickými materiály. Právě tyto unikátní vlastnosti přiměly vědce ke studiu jejich modifikace, která je činí velmi atraktivními pro novodobé využití prakticky ve všech oblastech lidské činnosti. Přednáška se zaměří zejména na povrchovou úpravu polymerních folií fyzikálními a chemickými metodami s cílem zatraktivnit povrch pro další aplikace. Tyto podložky a materiály jsou vhodné pro tkáňové inženýrství, například jako podklady pro pěstování lidských buněk. Jsou však využitelné i pro elektroniku, kde napomáhají vyšší adhezi kovových vrstev na polymerní podložce či pro optoelektroniku, kde je lze použít např. k přípravě tzv. „neviditelných“ metamateriálů. V rámci přednášky bude ukázána i možnost přípravy a využití kovových nanostruktur pro tyto aplikace."
+            "talkdesc": "Biokompatibilita polymerů Polymery a polymerní materiály vynikají řadou odlišných vlastností v porovnání s kovovými, skelnými a keramickými materiály. Právě tyto unikátní vlastnosti přiměly vědce ke studiu jejich modifikace, která je činí velmi atraktivními pro novodobé využití prakticky ve všech oblastech lidské činnosti. Přednáška se zaměří zejména na povrchovou úpravu polymerních folií fyzikálními a chemickými metodami s cílem zatraktivnit povrch pro další aplikace. Tyto podložky a materiály jsou vhodné pro tkáňové inženýrství, například jako podklady pro pěstování lidských buněk. Jsou však využitelné i pro elektroniku, kde napomáhají vyšší adhezi kovových vrstev na polymerní podložce či pro optoelektroniku, kde je lze použít např. k přípravě tzv. „neviditelných“ metamateriálů. V rámci přednášky bude ukázána i možnost přípravy a využití kovových nanostruktur pro tyto aplikace.",
+            "talkname": "Biokompatibilita polymerů"
         },
         "Vít Vilímek": {
-            "talkname": "Ničivé vlny tsunami",
-            "talkdesc": "Vlny tsunami odpradávna dokázaly devastovat pobřeží přímořských států. Ani současná, technicky vyspělá společnost není před nimi v bezpečí, jak jsme se mohli přesvědčit třeba v roce 2004 v Indonésii či poměrně nedávno v Japonsku. Jejich původ je samozřejmě již delší dobu znám, přesto ohrožují nejen rozvojové státy, ale i země hospodářsky vyspělé. Budeme schopni je někdy předpovídat? Týkají se i nás v Evropě? Na tyto a podobné otázky se zaměříme. Dozvíte se něco o jejich původu či následcích, a také jak se před nimi chránit."
+            "talkdesc": "Vlny tsunami odpradávna dokázaly devastovat pobřeží přímořských států. Ani současná, technicky vyspělá společnost není před nimi v bezpečí, jak jsme se mohli přesvědčit třeba v roce 2004 v Indonésii či poměrně nedávno v Japonsku. Jejich původ je samozřejmě již delší dobu znám, přesto ohrožují nejen rozvojové státy, ale i země hospodářsky vyspělé. Budeme schopni je někdy předpovídat? Týkají se i nás v Evropě? Na tyto a podobné otázky se zaměříme. Dozvíte se něco o jejich původu či následcích, a také jak se před nimi chránit.",
+            "talkname": "Ničivé vlny tsunami"
         },
         "Vít Vlnas": {
             "fullname": "Prof. PhDr. Vít Vlnas, Ph.D.",
@@ -515,25 +519,20 @@
             "talkdesc": "Většina krevet čeledi Palaemonidae obývajících tropická a subtropická moře Atlantského, Indického a Tichého oceánu se adaptovala k symbiózám se zástupci řady kmenů bezobratlých živočichů. Nejširší zastoupení symbiotických krevet je mezi těmi, které jsou ekto-symbioticky vázány na těla žahavců, je mezi nimi i řada čističů ryb. Známa jsou i podobná soužití s ostnokožci, ale najdeme je i jako endosymbionty v mořských houbách, mlžích a v sumkách. Většina symbiotických vztahů krevet s jejich hostiteli představuje komplex vztahů, vstupují do nich nezřídka i další organismy. Na korálových útesech patří mezi nejčastěji pozorované tzv. „sasankové krevetky“ rodu Ancylomene, které často působí jako čističi ryb. Video záběry, jež jsou součástí přednášky, přibližují některé prvky ekologie a chování těchto sasankových krevet.",
             "talkname": "Symbiózy krevet na korálových útesech"
         },
-        "Václav Klaus, Jana Straková, Michal Černý, Bob Kartous": {
-            "talkname": "Debata: Vlny v dnešním školství",
-            "fullname": "Mgr. Václav Klaus",
-            "speakerdesc": "absolvoval Přírodovědeckou fakultu UK, přes 15 let vedl gymnázium a poté síť škol PORG. Středoškolský profesor matematiky, autor mnoha odborných článků a zatím jedné učebnice (Matematika pro trojkaře aneb Maturita v kapse; 2013), zakladatel Asociace aktivních škol (sdružuje přes 100 českých škol). Vede jeden z největších českých šachových klubů a dosud aktivně závodí na kole. Je členem expertního týmu předsedy ODS pro školství.</p><p><span class=\"speakername\">RNDr. Jana Straková, Ph.D.</span> vystudovala elektronickou fyziku a optiku na MFF UK. Od 90. let se věnuje pedagogickému výzkumu, roku 2008 získala v tomto oboru doktorát. Dlouhá léta organizovala v ČR mezinárodní výzkumy vědomostí a dovedností. Spolupracuje s řadou nevládních i vládních organizací v ČR i v zahraničí, učí na Pedagogické fakultě UK. Spoluzakládala PORG a také tam několik let učila. Jejím hlavním odborným tématem je problematika <a href=\"http://www.eduin.cz/clanky/hospodarske-noviny-rozdelene-skolstvi-skodi-vsem-detem/\">nerovností ve vzdělávání</a>.</p><p><span class=\"speakername\">PaeDr. Michal Černý</span></p><p><span class=\"speakername\">Mgr. Bohumil Kartous Ph.D.</span> je absolvent Pedagogické fakulty, Fakulty sportovních studií MU v Brně a doktorského programu na Fakultě sociálních věd UK. Projekty, na kterých se podílí, mají těžiště v oblasti vzdělávání a médií. Jsou to zejména EDUin a Britské listy. Učí, publikuje, konferuje a moderuje. Typický představitel parazitického neziskového sektoru a omylu zvaného občanská společnost.</p>"
-        },
         "_Filmová noc": {
             "talkdesc": "Zveme Vás na tradiční symposionovou filmovou noc do prvního patra Gymnázia Jana Keplera. Nabízíme zároveň odpočinek pro Vaše znavené mozky po mnoha vlnách koncentrace při různorodých přednáškách, tak i další intelektuální stimulaci pro filmové fajnšmekry. V odpočinkovějším a poněkud mainstreamovějším filmovém sále na Vás budou čekat filmy jako Die Welle, Žraloknádo či Hledá se Nemo, zatímco v našem druhém sále se můžete těšit na snímky z nové filmové vlny jak České, tak i mezinárodní, jako třeba Easy Rider, Případ pro začínajícího kata nebo U konce s dechem. Podrobný rozpis promítaných fimlů uvedeme v nejbližší době."
         },
         "_Oběd": {
             "talkdesc": "Čas na oběd!"
         },
-        "_Koncert": {
-            "talkdesc": "Klubová předehra Ještě než nás nedělní zahájení naplno vtáhne do kulturně intelektuálního programu Symposionu, je zde už tradičně možnost naladit se na tu správnou frekvenci již v pátek 13.11., v rámci klubové předehry.<br>Zveme Vás do Fatal Music Club na pražském Žižkově, kde Vaše údy svým uměním rozvlní hitparáda nejlepších hudebních skupin z Keplera a okolí. Zahrají Vám FadeX, The Life of Grandma, Frenchise a další. Nechte se unést s námi!"
+        "_Studentské přednášky": {
+            "talkdesc": "Přednášky absolventů Gymnázia Jana Keplera."
+        },
+        "_Vlny endorfinů: Koncert ve Fatal Music Clubu": {
+            "talkdesc": "Ještě než nás nedělní zahájení naplno vtáhne do kulturně-intelektuálního programu Symposionu, je zde tradičně možnost naladit se na tu správnou frekvenci už v pátek 13.11., v rámci páteční klubové předehry. Zveme Vás do Fatal Music Club na pražském Žižkově, kde Vaše údy svým uměním rozvlní hitparáda nejlepších hudebních skupin z Keplera a okolí. Zahrají Vám FadeX, The Life of Grandma, Frenchise a další. Nechte se s námi unést na páteční Vlně endorfinů!"
         },
         "_Zahájení": {
             "talkdesc": "Oficiální zahájení Symposionu 2015."
-        },
-        "_Studentské přednášky": {
-            "talkdesc": "Přednášky absolventů Gymnázia Jana Keplera."
         }
     }
 }

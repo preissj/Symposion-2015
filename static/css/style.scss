@@ -3,7 +3,7 @@ $modra: rgb(20, 60, 110);
 $pruhledna_modra: rgba(12, 60, 81, .7);
 $svetle_modra: opacify(lighten($pruhledna_modra, 80%), 0.1);
 $tmave_modra: darken($pruhledna_modra, 5%);
-$small_width: 400px;
+$small_width: 650px;
 $transition_time: 500ms;
 $uhel: 90deg;
 body {
@@ -18,9 +18,13 @@ body {
     position: relative;
 }
 
-h1,
-h2 {
-    font: 16px/1.5 "Montserrat", sans-serif;
+h1 {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    //font-size: 4vw;
+    font-size: 2.4em;
+    padding-bottom: 5vh;
+    padding-top: 5vh
 }
 
 p {
@@ -37,7 +41,11 @@ strong {
 
 a {
     text-decoration: none;
-    color: #5badf0;
+    color: rgb(0, 0, 150);
+}
+
+i {
+    font-style: italic;
 }
 
 #wrapper {
@@ -71,26 +79,40 @@ a {
     background-size: cover;
     height: 100vh;
     padding: 0;
+    font-size: 100%;
+
+    font-family: "Montserrat",
+    sans-serif;
     h1 {
-        font-size: 2.5vw;
+        font-size: 2em;
         padding-top: 0;
-        padding-bottom: 1vw;
+        padding-bottom: 1em;
+    }
+    h2 {
+        font-size: 1.3em;
     }
     #logo {
-        $logo_width: 40%;
-        width: $logo_width;
-        margin-left: ((100%-$logo_width)/2);
+        width: 32em;
+        display: block;
+        margin: 0 auto;
     }
     .info {
         display: block;
         margin: auto;
-        line-height: 3vw;
+        line-height: 1.8em;
         text-align: center;
         color: white;
     }
-    .info h2 {
-        font-size: 1.5vw;
+    @media only screen and (max-width: $small_width) {
+        font-size: 3.5vw;
+        #logo {
+            width: 85vw;
+        }
+        h1 {
+            padding-top: 1em;
+        }
     }
+
 }
 
 #section2 {
@@ -103,7 +125,7 @@ a {
     padding: 10% 5% 10% 5%;
     background-color: $tmave_modra;
     color: lighten($modra, 90%);
-    width:100%;
+    width: 100%;
     td {
         padding: 5px;
     }
@@ -145,16 +167,9 @@ a {
     color: darken($modra, 5%);
 }
 
-h1 {
-    text-align: center;
-    font-size: 4vw;
-    padding-bottom: 5vh;
-    padding-top: 5vh
-}
-
 #modal {
     visibility: hidden;
-    opacity:0;
+    opacity: 0;
     -webkit-transition: $transition_time;
     -moz-transition: $transition_time;
     -ms-transition: $transition_time;
@@ -163,22 +178,16 @@ h1 {
     display: block;
     position: fixed;
     top: 0;
-    bottom:0;
+    bottom: 0;
     left: 0;
     right: 0;
-    padding: 10% 10% 10% 10%;
+    padding: 5% 10% 10% 10%;
     line-height: 120%;
     background-color: rgba(255, 255, 255, 0.97);
     color: black;
     text-align: center;
     z-index: 12;
     overflow-y: scroll;
-    a {
-        color: rgb(0, 0, 150);
-    }
-    i {
-        font-style: italic;
-    }
     h2 {
         //jinak nebude diakritika
         font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -206,10 +215,10 @@ h1 {
 }
 
 #cross {
-    margin-left:70%;
-    margin-bottom:5%;
-    width:10%;
-    max-width:50px;
+    margin-left: 95%;
+    margin-bottom: 5%;
+    width: 10%;
+    max-width: 50px;
     -webkit-transition: $transition_time;
     -moz-transition: $transition_time;
     -ms-transition: $transition_time;
