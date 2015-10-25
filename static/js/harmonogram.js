@@ -71,9 +71,13 @@ $.getJSON("/static/js/data.json", function (data) {
 });
 
 var handleClick = function (name) {
-    $('#modal-wrapper').css("display", "block").click(function () {
+    $('#modal').css({
+        "visibility": "visible",
+        "opacity": 1
+    }).click(function () {
         //$('#modal').css("visibility", "hidden");
-        $('#modal-wrapper').css("display", "none");
+        $('#modal').css("visibility", "hidden");
+        $('#modal').css("opacity", "0");
         $('body').removeClass("noscroll").width("100%");
     });
     $('body').width($('body').width());
@@ -87,7 +91,7 @@ var nameToDescription = function (name) {
     if (info === undefined) {
         return "-chybí popis-";
     }
-    var str = "";
+    var str = '<img id="cross" src="/static/images/close.svg">';
     var talkname;
     if (!name.startsWith('_')) {
         talkname = "Téma: " + info.talkname;

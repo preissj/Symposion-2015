@@ -4,6 +4,8 @@ $pruhledna_modra: rgba(12, 60, 81, .7);
 $svetle_modra: opacify(lighten($pruhledna_modra, 80%), 0.1);
 $tmave_modra: darken($pruhledna_modra, 5%);
 $small_width: 400px;
+$transition_time: 500ms;
+$uhel: 90deg;
 body {
     font: 16px/1 "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -94,16 +96,14 @@ a {
 #section2 {
     background-color: $svetle_modra;
     color: darken($modra, 5%);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
 }
 
 #section3 {
     display: block;
+    padding: 10% 5% 10% 5%;
     background-color: $tmave_modra;
     color: lighten($modra, 90%);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    width:100%;
     td {
         padding: 5px;
     }
@@ -115,7 +115,7 @@ a {
     .label {
         font-weight: bold;
         font-size: 150%;
-        padding-top: 10px;
+        padding-top: 30px;
     }
     .time {
         padding-top: 20px;
@@ -143,8 +143,6 @@ a {
 #section4 {
     background-color: $svetle_modra;
     color: darken($modra, 5%);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
 }
 
 h1 {
@@ -154,34 +152,27 @@ h1 {
     padding-top: 5vh
 }
 
-#modal-wrapper {
-    display: none;
-    overflow-y: scroll;
+#modal {
+    visibility: hidden;
+    opacity:0;
+    -webkit-transition: $transition_time;
+    -moz-transition: $transition_time;
+    -ms-transition: $transition_time;
+    -o-transition: $transition_time;
+    transition: $transition_time;
+    display: block;
     position: fixed;
     top: 0;
+    bottom:0;
     left: 0;
     right: 0;
-    height: 100%;
-    width: 100%;
-}
-
-#modal {
-    //width: 600px;
-    margin: 20px 80px 20px 80px;
-    padding: 50px;
-    border-radius: 5px;
+    padding: 10% 10% 10% 10%;
     line-height: 120%;
-    @media screen and (max-device-width: $small_width) {
-        //mobilni verze
-        border-radius: 0px;
-        padding: 10px;
-        margin: 0px;
-        min-height: 100vh;
-    }
-    background-color: rgba(255, 255, 255, 0.95);
+    background-color: rgba(255, 255, 255, 0.97);
     color: black;
     text-align: center;
     z-index: 12;
+    overflow-y: scroll;
     a {
         color: rgb(0, 0, 150);
     }
@@ -212,4 +203,24 @@ h1 {
 
 .noscroll {
     overflow: hidden;
+}
+
+#cross {
+    margin-left:70%;
+    margin-bottom:5%;
+    width:10%;
+    max-width:50px;
+    -webkit-transition: $transition_time;
+    -moz-transition: $transition_time;
+    -ms-transition: $transition_time;
+    -o-transition: $transition_time;
+    transition: $transition_time;
+}
+
+#cross:hover {
+    -webkit-transform: rotate($uhel);
+    -moz-transform: rotate($uhel);
+    -ms-transform: rotate($uhel);
+    -o-transform: rotate($uhel);
+    transform: rotate($uhel);
 }

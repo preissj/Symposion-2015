@@ -102,16 +102,14 @@ a {
 
 #section2 {
   background-color: rgba(247, 252, 254, 0.8);
-  color: #103058;
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px); }
+  color: #103058; }
 
 #section3 {
   display: block;
+  padding: 10% 5% 10% 5%;
   background-color: rgba(9, 44, 59, 0.7);
   color: white;
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px); }
+  width: 100%; }
   #section3 td {
     padding: 5px; }
   #section3 #harmonogram {
@@ -121,7 +119,7 @@ a {
   #section3 .label {
     font-weight: bold;
     font-size: 150%;
-    padding-top: 10px; }
+    padding-top: 30px; }
   #section3 .time {
     padding-top: 20px; }
   #section3 .room {
@@ -138,9 +136,7 @@ a {
 
 #section4 {
   background-color: rgba(247, 252, 254, 0.8);
-  color: #103058;
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px); }
+  color: #103058; }
 
 h1 {
   text-align: center;
@@ -148,31 +144,27 @@ h1 {
   padding-bottom: 5vh;
   padding-top: 5vh; }
 
-#modal-wrapper {
-  display: none;
-  overflow-y: scroll;
+#modal {
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: 500ms;
+  -moz-transition: 500ms;
+  -ms-transition: 500ms;
+  -o-transition: 500ms;
+  transition: 500ms;
+  display: block;
   position: fixed;
   top: 0;
+  bottom: 0;
   left: 0;
   right: 0;
-  height: 100%;
-  width: 100%; }
-
-#modal {
-  margin: 20px 80px 20px 80px;
-  padding: 50px;
-  border-radius: 5px;
+  padding: 10% 10% 10% 10%;
   line-height: 120%;
-  background-color: rgba(255, 255, 255, 0.95);
+  background-color: rgba(255, 255, 255, 0.97);
   color: black;
   text-align: center;
-  z-index: 12; }
-  @media screen and (max-device-width: 400px) {
-    #modal {
-      border-radius: 0px;
-      padding: 10px;
-      margin: 0px;
-      min-height: 100vh; } }
+  z-index: 12;
+  overflow-y: scroll; }
   #modal a {
     color: #000096; }
   #modal i {
@@ -195,4 +187,20 @@ h1 {
 .noscroll {
   overflow: hidden; }
 
-/*# sourceMappingURL=style.scss.css.map */
+#cross {
+  margin-left: 70%;
+  margin-bottom: 5%;
+  width: 10%;
+  max-width: 50px;
+  -webkit-transition: 500ms;
+  -moz-transition: 500ms;
+  -ms-transition: 500ms;
+  -o-transition: 500ms;
+  transition: 500ms; }
+
+#cross:hover {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg); }
