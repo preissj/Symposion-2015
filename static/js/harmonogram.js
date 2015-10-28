@@ -51,18 +51,20 @@ $.getJSON("/static/js/data.json", function (data) {
                                 .html(speaker ? (speaker + " – ") : "")
                                 .addClass("speaker")
                                 .addClass((completeTalk || completeSpeaker) ? "" : "invalid")
+                                .addClass(completeSpeaker ? "" : "missingText")
                             )
                             .append($('<span>')
                                 .html(talk)
                                 .addClass("talk")
                                 .addClass((completeTalk || completeSpeaker) ? "" : "invalid")
+                                .addClass(completeTalk ? "" : "missingText")
                             ))
                     );
             });
         }
     }
 
-    $('#section1').ripples({ //.demo
+    $('#section1').ripples({
         resolution: 512,
         dropRadius: 20,
         perturbance: 0.005,
@@ -73,15 +75,25 @@ $.getJSON("/static/js/data.json", function (data) {
 var handleClick = function (name) {
     $('#modal').css({
         "visibility": "visible",
-        "opacity": 1
+        "opacity": 1,
+        "overflow-y": "scroll"
     });
     $('body').width($('body').width());
     $('body').addClass("noscroll");
     var desc = nameToDescription(name);
-    $('#modal').html(desc ? desc : "Nepodařilo se načíst popis.");
-    $('#cross').click(function () {
-        $('#modal').css("visibility", "hidden");
-        $('#modal').css("opacity", "0");
+    $('#modal-inner').html(desc ? desc : "Nepodařilo se načíst popis.")
+        .click(function (event) {
+            event.stopPropagation();
+        });
+    $(document).keydown(function (e) { //escape = click
+        if (e.keyCode === 27) $('#modal').click();
+    });
+    $('#modal').click(function () {
+        $('#modal').css({
+            "visibility": "hidden",
+            "opacity": 0,
+            "overflow-y": "hidden"
+        });
         $('body').removeClass("noscroll").width("100%");
     });
 };
@@ -91,7 +103,7 @@ var nameToDescription = function (name) {
     if (info === undefined) {
         return "-chybí popis-";
     }
-    var str = '<img id="cross" src="/static/images/close.svg">';
+    var str = '';
     var talkname;
     if (!name.startsWith('_')) {
         talkname = "Téma: " + info.talkname;
