@@ -5,6 +5,14 @@ if (!String.prototype.startsWith) {
     };
 }
 
+$(document).ready(function () {
+    $("#arrow").click(function () {
+        $('html, body').animate({
+            scrollTop: $("#section2").offset().top
+        }, 600);
+    });
+});
+
 var dataJSON;
 
 $.getJSON("/static/js/data.json", function (data) {

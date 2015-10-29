@@ -11,7 +11,7 @@ body {
     font: 16px/1 "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
-    color: #777;
+    color: white;
     margin: 0px;
     padding: 0px;
     background: url(/static/images/Crop2_blur.jpg) no-repeat center center fixed; //background2_crop
@@ -93,7 +93,6 @@ i {
     background-size: cover;
     height: 100vh;
     padding: 0;
-    font-size: 100%;
     font-family: "Montserrat", sans-serif;
     h1 {
         font-size: 2em;
@@ -114,6 +113,11 @@ i {
         line-height: 1.8em;
         text-align: center;
         color: white;
+    }
+    #arrow {
+        font-size: 600%;
+        margin-top: 0.4em;
+        cursor: pointer;
     }
     @media only screen and (max-width: $small_width) {
         font-size: 3.5vw;
