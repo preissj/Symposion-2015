@@ -36,7 +36,7 @@ $.getJSON("/static/js/data.json", function (data) {
                 } else {
                     speaker = id;
                     if (dataJSON.speakers[speaker]) {
-                        talk = dataJSON.speakers[speaker].talkname;
+                        talk = dataJSON.speakers[speaker].talkname + " - ";
                     } else { //chybějící název
                         talk = "?";
                     }
@@ -55,18 +55,19 @@ $.getJSON("/static/js/data.json", function (data) {
                             .click(function () {
                                 if (completeTalk || completeSpeaker) handleClick(id);
                             })
-                            .append($('<span>')
-                                .html(speaker ? (speaker + " – ") : "")
-                                .addClass("speaker")
-                                .addClass((completeTalk || completeSpeaker) ? "" : "invalid")
-                                .addClass(completeSpeaker ? "" : "missingText")
-                            )
-                            .append($('<span>')
+                                .append($('<span>')
                                 .html(talk)
                                 .addClass("talk")
                                 .addClass((completeTalk || completeSpeaker) ? "" : "invalid")
                                 .addClass(completeTalk ? "" : "missingText")
-                            ))
+                            )
+                            .append($('<span>')
+                                .html(speaker ? speaker : "")
+                                .addClass("speaker")
+                                .addClass((completeTalk || completeSpeaker) ? "" : "invalid")
+                                .addClass(completeSpeaker ? "" : "missingText")
+                            )
+                            )
                     );
             });
         }
