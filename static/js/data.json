@@ -60,7 +60,7 @@
             },
                 {
                     "room": "BLOK5",
-                    "speaker": "Rychlíková, Reichová, Malinová"
+                    "speaker": "Apolena Rychlíková, Tereza Reichová, Martina Malinová"
             }
           ],
             "time": "10:00"
@@ -320,9 +320,9 @@
         },
         "Dino Numerato": {
             "fullname": "Dino Numerato, Ph.D.",
-            "speakerdesc": "je sociolog, absolvent doktorského studia oboru sociologie na Fakultě sociálních studií Masarykovy univerzity v Brně. Absolvoval roční stáž na univerzitě La Sapienza v Římě, kde se zabýval studiem sociální komunikace a reprezentace. Dnes působí jako externista na Fakultě Sociálních Věd UK, ale hlavně jako Fellow na Marie Curie Research na School of Sport, Exercise and Health Sciences, Loughborough University v Anglii, kde pracuje na projektu “Football Fandom, Reflexivity and Social Change”. V rámci tohoto projektu se soustředí na studium občanské angažovanosti fotbalových fanoušků a na proces zavádění pozice referenta vztahů s fanoušky v evropských klubech. Ve výzkumu kombinuje kvalitativní a kvantitativní metody a kromě evropské úrovně věnuje zvláštní pozornost Anglii, České republice a Itálii.",
+            "speakerdesc": "je sociolog a v současné době působí jako externí výzkumník na Loughborough University ve Velké Británii a na Fakultě sociálních věd UK, kde bude od ledna 2016 působit jako odborný asistent a vedoucí Katedry sociologie. Je absolventem doktorského studia oboru sociologie na Fakultě sociálních studií Masarykovy univerzity v Brně. V rámci doktorského studia byl v roce 2004 na roční stáži na Univerzitě La Sapienza v Římě, v letech 2006-20013 působil jako výzkumník na Univerzitě Bocconi v Miláně a od roku 2013 do roku 2015 pracoval na School of Sport, Exercise and Health Sciences, Loughborough University ve Velké Británii. V rámci projektu “Football Fandom, Reflexivity and Social Change” (Fotbalové fanouškovství, reflexivita a sociální změna) se zabýval občanskou angažovaností fotbalových fanoušků a procesem zavádění pozice referenta vztahů s fanoušky v Evropě s tím, že zvláštní pozornost věnoval Anglii, České republice a Itálii.",
             "talkdesc": "Většina fotbalových fanoušků je okouzlena uměním velkých hvězd, vychutnává si zážitky, jež jim nabízí propojení fotbalu, masových médií a byznysu, a bez zbytečného přemýšlení si při fandění užívají chvíle volného času. Najdou se však i takoví, kterým se současné směřování fotbalu nelíbí a kteří dávají svůj nesouhlas najevo; tu začnou kritizovat korupci, tu nezodpovědný management fotbalového klubu, tu bezpečnostní opatření, jež jsou zaváděna na stadiónech, a tu se bouří proti komercionalizaci fotbalu. Někteří fanoušci vyjádřují svůj nesouhlas protestem nebo tzv. choreem, jiní se snaží do vývoje fotbalu mluvit aktivněji, ať už podílením se na chodu fotbalových klubů, zasvěcenými diskusemi s fotbalovými funkcionáři nebo lobbingem na národní a mezinárodní politické úrovni. Přestože angažovaní fanoušci tvoří menšinu, vlna odporu proti tzv. modernímu fotbalu sílí. Jakou mají tyto vlny podobu? A co se stává ve chvíli, kdy dosáhnou břehů moderního fotbalu? Stojí břehy moderního fotbalu tak pevně, jak se zdá? A do jaké míry se pod tlakem vln odporu proměňují? Při hledání odpovědí na tyto otázky se kromě sociologického vědění opřu o výňatky z rozhovorů a z pozorování, která jsem v období 2013 až 2015 uskutečnil v Evropě, a to zejména v České republice, Anglii a Itálii.",
-            "talkname": "Fanoušci a vlna odporu proti modernímu fotbalu"
+            "talkname": "Fanoušci a vlny odporu proti modernímu fotbalu"
         },
         "Gunther Kletetschka": {
             "fullname": "RNDr. Gunther Kletetschka, Ph.D.",
@@ -352,6 +352,8 @@
             "talkname": "Vlny pronikající"
         },
         "Jaroslav Lorman": {
+            "fullname": "ThLic. Mgr. Jaroslav Lorman, Th.D.",
+            "speakerdesc": "(*1973) je teologický etik, překladatel, dnes manažer a tajemník organizace ŽIVOT 90. Vystudoval němčinu, latinu a katolickou teologii, promoval na KTF UK v oboru morální teologie, kterou také roky tamtéž přednášel. Předmětem jeho zájmu byly křesťanské aspekty teologické etiky, etika partnerství, manželství a rodiny. Ač gay, oženil se a roky žil v manželství. Po svém coming outu dostal od pražského arcibiskupa zákaz vyučovat.",
             "talkname": "Sexuální menšiny v katolické většině"
         },
         "Jiří Mrázek": {
@@ -494,9 +496,11 @@
             "talkname": "Jak hodně by měl stát kontrolovat potraviny?"
         },
         "Radim Tolasz": {
+            "fullname": "RNDr. Radim Tolasz, Ph.D.",
+            "speakerdesc": "se narodil roku 1964 ve Frýdku-Místku. V roce 1987 absolvoval obor Fyzická geografie na Masarykově univerzitě v Brně. Od roku 1986 pracuje nepřetržitě v ČHMÚ, kde se postupně seznámil s praktickou klimatologií a meteorologií, s hydrologií a okrajově i s výzkumem čistoty ovzduší. V současnosti tam vede oddělení klimatické změny. Je expertem na zpracování klimatologických dat, významně se podílel na vývoji dnes již mezinárodně používané aplikace CLIMADATA. Dále působí jako vedoucí redaktor časopisu Meteorologické zprávy. Zastává funkci národní kontaktní osoby pro IPCC (Intergovernmental Panel on Climate Change). Z jeho bohaté bibliografie lze upozornit např. na edici známého <i>Atlasu podnebí Česka</i> (Univerzita Palackého v Olomouci, 2007).",
             "talkname": "Vlny extrémních klimatologicko-meteorologických jevů"
         },
-        "Rychlíková, Reichová, Malinová": {
+        "Apolena Rychlíková, Tereza Reichová, Martina Malinová": {
             "talkdesc": "Jak se u nás média staví k problematice menšin, v čem selhávají a v čem naopak fungují dobře? Jaký typ filmů je vhodný pro rozbourávání předsudků? Jaké typy kampaní? Jaké máme zkušenosti s vlastními předsudky a limity? Apolena Rychlíková a Martina Malinová představí svůj krátký experimentální film <i>Za Adolfa by žádní morgoši neměli žádná práva</i>. Ten skrz vhled do života rodiny paterčat a střet každodennosti reálných starostí a virtuální reality internetových diskuzí odhaluje to nejhorší z českého vztahu k Romům.<br>Následně Tereza Reichová promítne svůj film <i>Terapie Mírou</i>, přinášející reality show o islamofobii a hranicích diskuze v každém z nás.",
             "talkname": "Média a menšiny (+ promítání dokumentu)"
         },
@@ -543,10 +547,13 @@
         },
         "Vít Vilímek": {
             "talkdesc": "Vlny tsunami odpradávna dokázaly devastovat pobřeží přímořských států. Ani současná, technicky vyspělá společnost není před nimi v bezpečí, jak jsme se mohli přesvědčit třeba v roce 2004 v Indonésii či poměrně nedávno v Japonsku. Jejich původ je samozřejmě již delší dobu znám, přesto ohrožují nejen rozvojové státy, ale i země hospodářsky vyspělé. Budeme schopni je někdy předpovídat? Týkají se i nás v Evropě? Na tyto a podobné otázky se zaměříme. Dozvíte se něco o jejich původu či následcích, a také jak se před nimi chránit.",
-            "talkname": "Ničivé vlny tsunami"
+            "talkname": "Ničivé vlny tsunami",
+            "fullname": "Doc. RNDr. Vít Vilímek",
+            "speakerdesc": "vystudoval fyzickou geografii a kartografii na PfUK. Zabývá se hlavně studiem geomorfologických projevů neotektonických pohybů a rizikových geomorfologických procesů. Je členem mnoha mezinárodních odborných organizací a prováděl výzkum rizikových geomorfologických procesů v pohoří Vordillera Blanca v Peru, později monitoroval sesuvy na Machu Picchu."
         },
         "Vít Vlnas": {
             "fullname": "Prof. PhDr. Vít Vlnas, Ph.D.",
+            "speakerdesc": "krátce pracoval jako projektant, poté vystudoval historii na Filozofické fakultě Univerzity Karlovy v Praze. Od roku 1987 působí v Národní galerii, nejprve 10 let jako vedoucí jejího archivu, od roku 2001 pak v pozici ředitele Sbírky starého umění. Zároveň přednáší dějiny 16. až 18. století na Katedře dějin a didaktiky dějepisu Pedagogické fakulty UK. V Národní galerii v Praze se podílel na přípravě 11 výstavních projektů, z toho tří zahraničních (Itálie, Francie, SRN), a dvou vědeckých konferencí. Přednášel na univerzitách v Německu, Švýcarsku, Francii, Velké Británii a USA. Je autorem řady odborných i populárně naučných publikací, šéfredaktorem <i>Bulletinu Národní galerie</i> a členem pracovní skupiny pro historii při Akreditační komisi MŠMT. Zasedá též v řadě akademických orgánů. Je držitelem literární ceny Magnesia Litera. Jeho specializací je zejména baroko a svatý Jan Nepomucký.</p><p><a href=\"http://www.rozhlas.cz/dvojka/jejakaje/_zprava/podle-vita-vlnase-baroko-stale-vzrusuje-soucasniky--756374\">Rozhovor s Vítem Vlnasem o odkazu baroka v současnosti, vedení Národní galerie, Santinim či práci historika si můžete poslechnout zde.</a>",
             "talkname": "Vlny v baroku"
         },
         "Zdeněk Ďuriš": {
@@ -556,7 +563,7 @@
             "talkname": "Symbiózy krevet na korálových útesech"
         },
         "_Filmová noc": {
-            "talkdesc": "Zveme Vás na tradiční symposionovou filmovou noc do prvního patra Gymnázia Jana Keplera. Nabízíme zároveň odpočinek pro Vaše znavené mozky po mnoha vlnách koncentrace při různorodých přednáškách, tak i další intelektuální stimulaci pro filmové fajnšmekry. V odpočinkovějším a poněkud mainstreamovějším filmovém sále na Vás budou čekat filmy jako Die Welle, Žraloknádo či Hledá se Nemo, zatímco v našem druhém sále se můžete těšit na snímky z nové filmové vlny jak České, tak i mezinárodní, jako třeba Případ pro začínajícího kata, If... nebo A bout de souffle. Podrobný rozpis promítaných fimlů uvedeme v nejbližší době."
+            "talkdesc": "Zveme Vás na tradiční symposionovou filmovou noc do prvního patra Gymnázia Jana Keplera. Nabízíme zároveň odpočinek pro Vaše znavené mozky po mnoha vlnách koncentrace při různorodých přednáškách, tak i další intelektuální stimulaci pro filmové fajnšmekry. V odpočinkovějším a poněkud mainstreamovějším filmovém sále na Vás budou čekat filmy jako <i>Die Welle, Žraloknádo, Piráti z Karibiku</i> či <i>Hledá se Nemo</i>, zatímco v našem druhém sále se můžete těšit na snímky z nové filmové vlny jak české, tak i mezinárodní, jako třeba <i>Případ pro začínajícího kata, Pytel blech, If...</i> nebo <i>A bout de souffle</i>."
         },
         "_Oběd": {
             "talkdesc": "Čas na oběd!"
