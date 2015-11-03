@@ -283,7 +283,7 @@
         "David Uhlíř": {
             "talkname": "Právo",
             "fullname": "JUDr. David Uhlíř",
-            "speakerdesc": "vystudoval Právnickou fakultu Univerzity Karlovy v Praze. V roce 1981 složil rigorózní zkoušku a získal titul doktora práv. V roce 1983 složil advokátní zkoušky stal se členem Městského sdružení advokátů v Praze, kde se zabýval především trestním právem. Ač byl do roku 1989 členem KSČ, věnoval se obhajobě a zastupování klientů, kteří byli z politických důvodů perzekuováni. V letech 1990 a 1991 byl tajemníkem Magistrátu hl. m. Prahy za OF, v září 1991 na svoji funkci rezignoval a vrátil se do advokacie.V roce 1994 založil advokátní kancelář Uhlíř, Homola a společníci, kterou vedl do roku 2014. Kancelář se věnuje celému spektru obvyklé advokátní agendy, zejména civilnímu právu a trestním obhajobám. JUDr. David Uhlíř se zde věnoval především občanskoprávní a obchodní agendě, byl také insolvenčním správcem se zvláštním povolením."
+            "speakerdesc": "vystudoval Právnickou fakultu Univerzity Karlovy v Praze. V roce 1981 složil rigorózní zkoušku a získal titul doktora práv. V roce 1983 složil advokátní zkoušky stal se členem Městského sdružení advokátů v Praze, kde se zabýval především trestním právem. Ač byl do roku 1989 členem KSČ, věnoval se obhajobě a zastupování klientů, kteří byli z politických důvodů perzekuováni. V letech 1990 a 1991 byl tajemníkem Magistrátu hl. m. Prahy za OF, v září 1991 na svoji funkci rezignoval a vrátil se do advokacie.V roce 1994 založil advokátní kancelář Uhlíř, Homola a společníci, kterou vedl do roku 2014. Kancelář se věnuje celému spektru obvyklé advokátní agendy, zejména civilnímu právu a trestním obhajobám. JUDr. David Uhlíř se zde věnoval  především občanskoprávní a obchodní agendě, byl také insolvenčním správcem se zvláštním povolením. Od roku 1998 jako externí učitel vede semináře občanského práva hmotného na Právnické fakultě UK. Je členem l’Union Internationale des Avocats, sekce práva odpovědnosti za škodu. Publikuje v odborném i denním tisku, zejména články na témata spojená s rekodifikací soukromého práva. Od roku 2005 byl náhradníkem, od roku 2009 členem a od roku 2013 do svého jmenování ústavním soudcem dokonce místopředsedou představenstva České advokátní komory."
         },
 
         "Vladimír Kočí": {
@@ -333,7 +333,8 @@
         "Ivan Douda": {
             "fullname": "PhDr. Ivan Douda",
             "speakerdesc": "je vedoucím psychologem nadace Drop In, kterou s MUDr. Jiřím Preslem založili v roce 1991. Nadace se zabývá prevencí a léčbou závislostí se zaměřením na nealkoholové drogy. Tomuto tématu se PhDr. Ivan Douda věnuje více než třicet let své profesní kariéry. Velký důraz klade na prevenci, sám mezi dětmi a studenty základních a středních škol pořádá přednášky a diskuse. Jedním z jeho stěžejních názorů je nerepresivní přístup k drogám. Argumentuje tím, že zakazovat je nemá smysl, zakázané ovoce totiž chutná nejlépe.",
-            "talkname": "Vlny drog v závislosti na aktuální společenské situaci"
+            "talkname": "Drogový mix aneb vlny drog a prevence",
+            "talkdesc": "Drogy, v současné době běžně dostupná látka. Co je to drogová prevence? Jak vlastně prevence samotná probíhá? Vyskytují se ve společnosti vlny v užívání drog? Liší se od sebe alkoholová a drogová závislost a jejich prevence? O tom, jestli je přístup dnešní společnosti k závislostní problematice příliš tolerantní, nebo naopak příliš odmítavý, odborně promluví PhDr. Ivan Douda, psycholog s celoživotní praktickou zkušeností s uživateli drog a zakladatel nadace Drop-in."
         },
         "Jan Royt": {
             "fullname": "Prof. PhDr. Ing. Jan Royt",
@@ -354,7 +355,8 @@
         "Jaroslav Lorman": {
             "fullname": "ThLic. Mgr. Jaroslav Lorman, Th.D.",
             "speakerdesc": "(*1973) je teologický etik, překladatel, dnes manažer a tajemník organizace ŽIVOT 90. Vystudoval němčinu, latinu a katolickou teologii, promoval na KTF UK v oboru morální teologie, kterou také roky tamtéž přednášel. Předmětem jeho zájmu byly křesťanské aspekty teologické etiky, etika partnerství, manželství a rodiny. Ač gay, oženil se a roky žil v manželství. Po svém coming outu dostal od pražského arcibiskupa zákaz vyučovat.",
-            "talkname": "Sexuální menšiny v katolické většině"
+            "talkname": "Sexuální menšiny v katolické většině",
+            "talkdesc": "Pokud se zaměříme na sexuální přitažlivost, pak je římskokatolická církev velmi paradoxní skupinou: Výzkumy ukazují, že mezi římskokatolickým klérem může být až desetkrát vyšší přítomnost gayů, než se odhaduje v běžné populaci, ačkoliv oficiálně tato skupina zakazuje gayům, aby přijímali jakékoliv svěcení. Pro homosexuály platí v jejím rámci přísná omezení. Proto znamená pro většinu LGBT katolíků coming out také rozloučení se s církví. A pokud přesto někteří tzv. homosexuálové v církvi vědomě setrvávají, většinou prožívají svou sexualitu utajeně. Je to dobrý stav? A pak jsme svědky markantního vlnění, když se někdo rozhodne ke své menšinové sexuální orientaci vyjádřit veřejně, jako nedávno Mons. Charamsa."
         },
         "Jiří Mrázek": {
             "fullname": "Doc. ThDr. Jiří Mrázek",
@@ -432,7 +434,7 @@
             "talkname": "Vlna vs břeh: promítání a beseda se členem Slovenské nové vlny"
         },
         "Martin Šíp": {
-            "talkdesc": "Mnoho lidí považuje Bitcoin, první digitální měnu nezavislou ná státech, za mediální bublinu a podvod. Málo z nich ale tuší, že Bitcoin je přelomová decentralizační technologie, srovnatelná svým významem s významem Internetu. Co je Bitcoin a čím je přelomový? Proč se odvětví kolem Bitcoinu tak rychle rozrůstá a jaké nové aplikace a služby přináší?",
+            "talkdesc": "Mnoho lidí považuje Bitcoin, první digitální měnu nezavislou ná státech, za mediální bublinu a podvod. Málo z nich ale tuší, že Bitcoin je přelomová decentralizační technologie, srovnatelná svým společenským významem s technologií Internetu. Co je Bitcoin, čím je přelomový a proč se odvětví kolem Bitcoinu rychle rozrůstá?",
             "talkname": "O P2P a dencentralizaci aneb proč Bitcoin změní svět",
             "speakerdesc": "se o Bitcoin zajímá od roku 2011. Pracuje v úspěšném českém startupu SatoshiLabs, který jako první vytvořil hardwarovou peněžku, tzv. TREZOR. Organizuje také pravidelné úterní Bitcoin meetupy v Paralelní Polis v Praze."
         },

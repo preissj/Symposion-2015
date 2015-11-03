@@ -11,6 +11,11 @@ $(document).ready(function () {
             scrollTop: $("#section2").offset().top
         }, 600);
     });
+    $(".toHarmonogram").click(function () {
+        $('html, body').animate({
+            scrollTop: $("#section3").offset().top
+        }, 600);
+    });
 });
 
 var dataJSON;
