@@ -1,297 +1,229 @@
 {
     "events": [{
-            "label": "Pátek 13. 11."
-        },
-        {
-            "events": [{
-                "speaker": "_Vlny endorfinů: Koncert ve Fatal Music Clubu"
-            }]
-        },
-        {
-            "label": "Neděle 15. 11."
-        },
-        {
-            "events": [{
-                "speaker": "_Zahájení"
-            }],
-            "time": "18:00"
-      },
-        {
-            "events": [{
-                    "room": "BLOK1",
-                    "speaker": "Ondřej Štindl"
-            },
-                {
-                    "room": "BLOK2",
-                    "speaker": "Jaroslav Lorman"
-            },
-                {
-                    "room": "BLOK3",
-                    "speaker": "Vladimír Kočí"
-                }
-          ],
-            "time": "18:30"
-      },
-        {
-            "events": [{
-                "speaker": "_Studentské přednášky"
-            }],
-            "time": "20:00"
-      },
-        {
-            "label": "Pondělí 16. 11."
-        },
-        {
-            "events": [{
-                    "room": "BLOK1",
-                    "speaker": "Otomar Kittnar"
-            },
-                {
-                    "room": "BLOK2",
-                    "speaker": "Cyril Höschl"
-            },
-                {
-                    "room": "BLOK3",
-                    "speaker": "Mirek Kovářík"
-            },
-                {
-                    "room": "BLOK4",
-                    "speaker": "David Vávra"
-            },
-                {
-                    "room": "BLOK5",
-                    "speaker": "Apolena Rychlíková, Tereza Reichová, Martina Malinová"
-            }
-          ],
-            "time": "10:00"
-      },
-        {
-            "events": [{
-                "speaker": "_Oběd"
-            }],
-            "time": "12:00"
-      },
-        {
-            "events": [{
-                    "room": "BLOK1",
-                    "speaker": "Václav Klaus ml., Jana Straková, Michal Černý, Bob Kartous"
-            },
-                {
-                    "room": "BLOK2",
-                    "speaker": "Vladimír Binar"
-            },
-                {
-                    "room": "BLOK3",
-                    "speaker": "Vít Vilímek"
-            },
-                {
-                    "room": "BLOK4",
-                    "speaker": "Michal Stehlík"
-            },
-                {
-                    "room": "BLOK5",
-                    "speaker": "Zdeněk Ďuriš"
-            }
-          ],
-            "time": "13:00"
-      },
-        {
-            "events": [{
-                    "room": "BLOK1",
-                    "speaker": "Petr Cuhra"
-            },
-                {
-                    "room": "BLOK2",
-                    "speaker": "Ladislav Machala, Veronika Kulířová"
-            },
-                {
-                    "room": "BLOK3",
-                    "speaker": "Tereza Freidingerová"
-            },
-                {
-                    "room": "BLOK4",
-                    "speaker": "Václav Švorčík"
-            },
-                {
-                    "room": "BLOK5",
-                    "speaker": "Vít Vlnas"
-            }
-          ],
-            "time": "15:00"
-      },
-        {
-            "events": [{
-                    "room": "BLOK1",
-                    "speaker": "David Uhlíř"
-            },
-                {
-                    "room": "BLOK2",
-                    "speaker": "Jaromír Typlt"
-            },
-                {
-                    "room": "BLOK3",
-                    "speaker": "Václav Janda"
-            },
-                {
-                    "room": "BLOK4",
-                    "speaker": "Dino Numerato"
-            },
-                {
-                    "room": "BLOK5",
-                    "speaker": "Michal Burian"
-            }
-          ],
-            "time": "17:00"
-      },
-        {
-            "events": [{
-                    "room": "BLOK1",
-                    "speaker": "Martin Šíp"
-            },
-                {
-                    "room": "BLOK2",
-                    "speaker": "Martin Štrba"
-            },
-                {
-                    "room": "BLOK3",
-                    "speaker": "Janek Rubeš"
-            },
-                {
-                    "room": "BLOK4",
-                    "speaker": "Pavel Klusák"
-            }
-          ],
-            "time": "19:00"
-      },
-        {
-            "events": [{
-                "speaker": "_Filmová noc"
-            }],
-            "time": "21:30"
-      },
-        {
-            "label": "Úterý 17. 11."
-        },
-        {
-            "events": [{
-                    "room": "BLOK1",
-                    "speaker": "Ivan Douda"
-            },
-                {
-                    "room": "BLOK2",
-                    "speaker": "Ondřej Pilný"
-            },
-                {
-                    "room": "BLOK3",
-                    "speaker": "Julius Lukeš"
-            },
-                {
-                    "room": "BLOK4",
-                    "speaker": "Marek Orko Vácha"
-            },
-                {
-                    "room": "BLOK5",
-                    "speaker": "Bronislav Ostřanský"
-            }
-          ],
-            "time": "10:00"
-      },
-        {
-            "events": [{
-                "speaker": "_Oběd"
-            }],
-            "time": "12:00"
-      },
-        {
-            "events": [{
-                    "room": "BLOK1",
-                    "speaker": "Miroslav Zámečník"
-            },
-                {
-                    "room": "BLOK2",
-                    "speaker": "Radim Tolasz"
-            },
-                {
-                    "room": "BLOK3",
-                    "speaker": "Tomáš Lindner, Břetislav Tureček, Ondřej Beránek, Chalid Bitar"
-            },
-                {
-                    "room": "BLOK4",
-                    "speaker": "Joe Grim Feinberg"
-            },
-                {
-                    "room": "BLOK5",
-                    "speaker": "Milan Šotek"
-            }
-          ],
-            "time": "13:00"
-      },
-        {
-            "events": [{
-                    "room": "BLOK1",
-                    "speaker": "Martin Doleček"
-            },
-                {
-                    "room": "BLOK2",
-                    "speaker": "David Girsa"
-            },
-                {
-                    "room": "BLOK3",
-                    "speaker": "Veronika Křesťanová"
-            },
-                {
-                    "room": "BLOK4",
-                    "speaker": "Gunther Kletetschka"
-            },
-                {
-                    "room": "BLOK5",
-                    "speaker": "Ladislav Koreň"
-            },
-                {
-                    "room": "BLOK6",
-                    "speaker": "Jiří Rejzek"
-            }
-          ],
-            "time": "15:00"
-      },
-        {
-            "events": [{
-                    "room": "BLOK1",
-                    "speaker": "Kateřina Novotná, Michal Zeman"
-            },
-                {
-                    "room": "BLOK2",
-                    "speaker": "Jiří Svoboda"
-            },
-                {
-                    "room": "BLOK3",
-                    "speaker": "Martin Čeněk, Karolína Kripnerová"
-            },
-                {
-                    "room": "BLOK4",
-                    "speaker": "Kateřina Kolářová"
-            },
-                {
-                    "room": "BLOK5",
-                    "speaker": "Jiří Mrázek"
-            }
-          ],
-            "time": "17:00"
-      }
-    ],
+        "label": "Pátek 13. 11."
+    }, {
+        "events": [{
+            "speaker": "_Vlny endorfinů: Koncert ve Fatal Music Clubu"
+        }]
+    }, {
+        "label": "Neděle 15. 11."
+    }, {
+        "events": [{
+            "speaker": "_Zahájení"
+        }],
+        "time": "18:00"
+    }, {
+        "events": [{
+            "room": "Aula",
+            "speaker": "Vladimír Kočí"
+        }, {
+            "room": "Sborovna",
+            "speaker": "Ondřej Štindl"
+        }, {
+            "room": "USV",
+            "speaker": "Jaroslav Lorman"
+        }],
+        "time": "18:30"
+    }, {
+        "events": [{
+            "speaker": "_Studentské přednášky"
+        }],
+        "time": "20:00"
+    }, {
+        "label": "Pondělí 16. 11."
+    }, {
+        "events": [{
+            "room": "Aula",
+            "speaker": "Cyril Höschl"
+        }, {
+            "room": "Sborovna",
+            "speaker": "Apolena Rychlíková, Tereza Reichová, Martina Malinová"
+        }, {
+            "room": "USV",
+            "speaker": "David Vávra"
+        }, {
+            "room": "P2.2",
+            "speaker": "Mirek Kovářík"
+        }, {
+            "room": "P2.3",
+            "speaker": "Otomar Kittnar"
+        }],
+        "time": "10:00"
+    }, {
+        "events": [{
+            "speaker": "_Oběd"
+        }],
+        "time": "12:00"
+    }, {
+        "events": [{
+            "room": "Aula",
+            "speaker": "Václav Klaus ml., Jana Straková, Michal Černý, Bob Kartous"
+        }, {
+            "room": "Sborovna",
+            "speaker": "Vladimír Binar"
+        }, {
+            "room": "USV",
+            "speaker": "Vít Vilímek"
+        }, {
+            "room": "P2.2",
+            "speaker": "Zdeněk Ďuriš"
+        }, {
+            "room": "P2.3",
+            "speaker": "Michal Stehlík"
+        }],
+        "time": "13:00"
+    }, {
+        "events": [{
+            "room": "Aula",
+            "speaker": "Vít Vlnas"
+        }, {
+            "room": "Sborovna",
+            "speaker": "Václav Švorčík"
+        }, {
+            "room": "USV",
+            "speaker": "Tereza Freidingerová"
+        }, {
+            "room": "P2.2",
+            "speaker": "Petr Cuhra"
+        }, {
+            "room": "P2.3",
+            "speaker": "Ladislav Machala, Veronika Kulířová"
+        }],
+        "time": "15:00"
+    }, {
+        "events": [{
+            "room": "Aula",
+            "speaker": "David Uhlíř"
+        }, {
+            "room": "Sborovna",
+            "speaker": "Jaromír Typlt"
+        }, {
+            "room": "USV",
+            "speaker": "Michal Burian"
+        }, {
+            "room": "P2.2",
+            "speaker": "Václav Janda"
+        }, {
+            "room": "P2.3",
+            "speaker": "Dino Numerato"
+        }],
+        "time": "17:00"
+    }, {
+        "events": [{
+            "room": "Aula",
+            "speaker": "Janek Rubeš"
+        }, {
+            "room": "Sborovna",
+            "speaker": "Martin Štrba"
+        }, {
+            "room": "P2.1",
+            "speaker": "Pavel Klusák"
+        }, {
+            "room": "P2.3",
+            "speaker": "Martin Šíp"
+        }],
+        "time": "19:00"
+    }, {
+        "events": [{
+            "speaker": "_Filmová noc"
+        }],
+        "time": "21:30"
+    }, {
+        "label": "Úterý 17. 11."
+    }, {
+        "events": [{
+            "room": "Aula",
+            "speaker": "Bronislav Ostřanský"
+        }, {
+            "room": "Sborovna",
+            "speaker": "Marek Orko Vácha"
+        }, {
+            "room": "USV",
+            "speaker": "Ondřej Pilný"
+        }, {
+            "room": "P2.2",
+            "speaker": "Julius Lukeš"
+        }, {
+            "room": "P2.3",
+            "speaker": "Ivan Douda"
+        }],
+        "time": "10:00"
+    }, {
+        "events": [{
+            "speaker": "_Oběd"
+        }],
+        "time": "12:00"
+    }, {
+        "events": [{
+            "room": "Aula",
+            "speaker": "Tomáš Lindner, Břetislav Tureček, Ondřej Beránek, Chalid Bitar"
+        }, {
+            "room": "Sborovna",
+            "speaker": "Miroslav Zámečník"
+        }, {
+            "room": "USV",
+            "speaker": "Radim Tolasz"
+        }, {
+            "room": "P2.2",
+            "speaker": "Joe Grim Feinberg"
+        }, {
+            "room": "P2.3",
+            "speaker": "Milan Šotek"
+        }],
+        "time": "13:00"
+    }, {
+        "events": [{
+            "room": "Aula",
+            "speaker": "Gunther Kletetschka"
+        }, {
+            "room": "Sborovna",
+            "speaker": "Jiří Rejzek"
+        }, {
+            "room": "USV",
+            "speaker": "Martin Doleček"
+        }, {
+            "room": "P2.1",
+            "speaker": "David Girsa"
+        }, {
+            "room": "P2.2",
+            "speaker": "Ladislav Koreň"
+        }, {
+            "room": "P2.3",
+            "speaker": "Veronika Křesťanová"
+        }],
+        "time": "15:00"
+    }, {
+        "events": [{
+            "room": "Aula",
+            "speaker": "Martin Čeněk, Karolína Kripnerová"
+        }, {
+            "room": "Sborovna",
+            "speaker": "Jiří Svoboda"
+        }, {
+            "room": "USV",
+            "speaker": "Jiří Mrázek"
+        }, {
+            "room": "P2.2",
+            "speaker": "Kateřina Kolářová"
+        }, {
+            "room": "P2.3",
+            "speaker": "Kateřina Novotná, Michal Zeman"
+        }],
+        "time": "17:00"
+    }],
+    "roomOrder": ["Aula", "Sborovna", "USV", "P2.1", "P2.2", "P2.3"],
     "speakers": {
         "David Uhlíř": {
             "talkname": "Právo",
             "fullname": "JUDr. David Uhlíř",
-            "speakerdesc": "vystudoval Právnickou fakultu Univerzity Karlovy v Praze. V roce 1981 složil rigorózní zkoušku a získal titul doktora práv. V roce 1983 složil advokátní zkoušky stal se členem Městského sdružení advokátů v Praze, kde se zabýval především trestním právem. Ač byl do roku 1989 členem KSČ, věnoval se obhajobě a zastupování klientů, kteří byli z politických důvodů perzekuováni. V letech 1990 a 1991 byl tajemníkem Magistrátu hl. m. Prahy za OF, v září 1991 na svoji funkci rezignoval a vrátil se do advokacie.V roce 1994 založil advokátní kancelář Uhlíř, Homola a společníci, kterou vedl do roku 2014. Kancelář se věnuje celému spektru obvyklé advokátní agendy, zejména civilnímu právu a trestním obhajobám. JUDr. David Uhlíř se zde věnoval  především občanskoprávní a obchodní agendě, byl také insolvenčním správcem se zvláštním povolením. Od roku 1998 jako externí učitel vede semináře občanského práva hmotného na Právnické fakultě UK. Je členem l’Union Internationale des Avocats, sekce práva odpovědnosti za škodu. Publikuje v odborném i denním tisku, zejména články na témata spojená s rekodifikací soukromého práva. Od roku 2005 byl náhradníkem, od roku 2009 členem a od roku 2013 do svého jmenování ústavním soudcem dokonce místopředsedou představenstva České advokátní komory."
+            "speakerdesc": "vystudoval Právnickou fakultu Univerzity Karlovy v Praze. V roce 1981 složil rigorózní zkoušku a získal titul doktora práv. V roce 1983 složil advokátní zkoušky stal se členem Městského sdružení advokátů v Praze, kde se zabýval především trestním právem. Ač byl do roku 1989 členem KSČ, věnoval se obhajobě a zastupování klientů, kteří byli z politických důvodů perzekuováni. V letech 1990 a 1991 byl tajemníkem Magistrátu hl. m. Prahy za OF, v září 1991 na svoji funkci rezignoval a vrátil se do advokacie.V roce 1994 založil advokátní kancelář Uhlíř, Homola a společníci, kterou vedl do roku 2014. Kancelář se věnuje celému spektru obvyklé advokátní agendy, zejména civilnímu právu a trestním obhajobám. JUDr. David Uhlíř se zde věnoval především občanskoprávní a obchodní agendě, byl také insolvenčním správcem se zvláštním povolením. Od roku 1998 jako externí učitel vede semináře občanského práva hmotného na Právnické fakultě UK. Je členem l’Union Internationale des Avocats, sekce práva odpovědnosti za škodu. Publikuje v odborném i denním tisku, zejména články na témata spojená s rekodifikací soukromého práva. Od roku 2005 byl náhradníkem, od roku 2009 členem a od roku 2013 do svého jmenování ústavním soudcem dokonce místopředsedou představenstva České advokátní komory."
         },
-
         "Vladimír Kočí": {
-            "talkname": "Workshop: Vlna jako základní projev renesančního dvorského tance",
+            "talkname": "Vlna jako základní projev renesančního dvorského tance (workshop)",
             "fullname": "Doc. Ing. Vladimír Kočí, PhD.",
-            "speakerdesc": "je děkanem fakulty Technologie ochrany prostředí na Vysoké škole chemicko-technologické v Praze. Zároveň pravidelně přednáší na ČVUT Praha i na Karlově univerzitě. Ve své praxi se zabývá studiemi o životním cyklu (LCA) a environmentálními prohlášeními o produktu velkých průmyslových podniků (EPD), ale řeší i vědeckovýzkumné projekty odpadového hospodářství, vodního hospodářství, dekontaminací a starých ekologických zátěží. Kromě své vědecké dráhy se Vladimír Kočí zabývá i historií a uměním a příležitostně lektoruje hodiny tance. Jeho hlavním zaměřením v této oblasti je renesanční tanec na panských dvorech v 15. století."
+            "speakerdesc": "je děkanem fakulty Technologie ochrany prostředí na Vysoké škole chemicko-technologické v Praze. Zároveň pravidelně přednáší na ČVUT Praha i na Karlově univerzitě. Ve své praxi se zabývá studiemi o životním cyklu (LCA) a environmentálními prohlášeními o produktu velkých průmyslových podniků (EPD), ale řeší i vědeckovýzkumné projekty odpadového hospodářství, vodního hospodářství, dekontaminací a starých ekologických zátěží. Kromě své vědecké dráhy se Vladimír Kočí zabývá i historií a uměním a příležitostně lektoruje hodiny tance. Jeho hlavním zaměřením v této oblasti je renesanční tanec na panských dvorech v 15. století.",
+            "talkdesc": "Pan docent Vladimír Kočí, kterýžto ve svém profesním životě proplouvá vlnami Vysoké školy chemicko-technologické v Praze na Ústavu chemie ochrany prostředí, se nechává často unášet též vlnami tanců z dob renesančních. Přijďte se v neděli večer zhoupnout v rytmu panských dvorů 16. století. (Pro páry i jednotlivce.)"
         },
-
         "Bronislav Ostřanský": {
             "fullname": "PhDr. Bronislav Ostřanský, Ph.D.",
             "speakerdesc": "je český orientalista, momentálně pracující v Orientálním ústavu Akademie věd ČR. Na Filozofické fakultě Univerzity Karlovy vystudoval arabistiku a dějiny a kulturu islámských zemí, také absolvoval intenzivní kurz arabského jazyka v Sýrii na damašském Institutu pro výuku arabského jazyka pro cizince. Odborně se specializuje na islámskou středověkou mystiku, ale zajímá se i o přístup české společnosti k muslimům. Ve své nedávno vydané knize Atlas muslimských strašáků se pokouší vyvracet rozšířené mýty o východním náboženství.",
@@ -316,7 +248,7 @@
         "David Vávra": {
             "fullname": "Akad. arch. David Vávra",
             "speakerdesc": "je český architekt, herec a spisovatel. Absolvoval Akademii výtvarných umění a stavební fakultu ČVUT v Praze. Je zároveň spoluzakladatelem a dlouhodobě účinkujícím hercem alternativního divadla Sklep ze sedmdesátých let minulého století. Nasbírané zkušenosti a znalosti z obou oborů zužitkoval při výrobě populárně naučných televizních sérií <i><a href=\"http://www.ceskatelevize.cz/porady/1008546862-sumna-mesta/video/\">Šumná města</a></i> a <i><a href=\"http://www.ceskatelevize.cz/porady/10262550261-sumne-stopy/video/\">Šumné stopy</a></i>. Mezi jeho nejvýznamnější architektonické počiny patří stavba kulturního domu Dobeška, rekonstrukce Švandova divadla na Smíchově nebo třeba výstavba interiéru kulturního paláce Akropolis. Mezi jeho hereckými výkony třeba neopomenout roli ve filmech, jako je Mazaný Filip, či v televizní sérii Česká soda. David Vávra mimo jiné působí jako příležitostný básník na nejrůznější společenských událostech.",
-            "talkname": "Vlastní tvorba  + povídání o emigrantských vlnách českých architektů (Šumné stopy)"
+            "talkname": "Vlastní tvorba + povídání o emigrantských vlnách českých architektů (Šumné stopy)"
         },
         "Dino Numerato": {
             "fullname": "Dino Numerato, Ph.D.",
@@ -334,7 +266,7 @@
             "fullname": "PhDr. Ivan Douda",
             "speakerdesc": "je vedoucím psychologem nadace Drop In, kterou s MUDr. Jiřím Preslem založili v roce 1991. Nadace se zabývá prevencí a léčbou závislostí se zaměřením na nealkoholové drogy. Tomuto tématu se PhDr. Ivan Douda věnuje více než třicet let své profesní kariéry. Velký důraz klade na prevenci, sám mezi dětmi a studenty základních a středních škol pořádá přednášky a diskuse. Jedním z jeho stěžejních názorů je nerepresivní přístup k drogám. Argumentuje tím, že zakazovat je nemá smysl, zakázané ovoce totiž chutná nejlépe.",
             "talkname": "Drogový mix aneb vlny drog a prevence",
-            "talkdesc": "Drogy, v současné době běžně dostupná látka. Co je to drogová prevence? Jak vlastně prevence samotná probíhá? Vyskytují se ve společnosti vlny v užívání drog? Liší se od sebe alkoholová a drogová závislost a jejich prevence? O tom, jestli je přístup dnešní společnosti k závislostní problematice příliš tolerantní, nebo naopak příliš odmítavý, odborně promluví PhDr. Ivan Douda, psycholog s celoživotní praktickou zkušeností s uživateli drog a zakladatel nadace Drop-in."
+            "talkdesc": "Drogový mix aneb vlny drog a prevence Drogy, v současné době běžně dostupná látka. Co je to drogová prevence? Jak vlastně prevence samotná probíhá? Vyskytují se ve společnosti vlny v užívání drog? Liší se od sebe alkoholová a drogová závislost a jejich prevence? O tom, jestli je přístup dnešní společnosti k závislostní problematice příliš tolerantní, nebo naopak příliš odmítavý, odborně promluví psycholog Ivan Douda."
         },
         "Jan Royt": {
             "fullname": "Prof. PhDr. Ing. Jan Royt",
@@ -354,15 +286,15 @@
         },
         "Jaroslav Lorman": {
             "fullname": "ThLic. Mgr. Jaroslav Lorman, Th.D.",
-            "speakerdesc": "(*1973) je teologický etik, překladatel, dnes manažer a tajemník organizace ŽIVOT 90. Vystudoval němčinu, latinu a katolickou teologii, promoval na KTF UK v oboru morální teologie, kterou také roky tamtéž přednášel. Předmětem jeho zájmu byly křesťanské aspekty teologické etiky, etika partnerství, manželství a rodiny. Ač gay, oženil se a roky žil v manželství. Po svém coming outu dostal od pražského arcibiskupa zákaz vyučovat.",
+            "speakerdesc": "(*1973) je teologický etik, překladatel, dnes manažer a tajemník organizace ŽIVOT 90. Vystudoval němčinu, latinu a katolickou teologii, promoval na KTF UK v oboru morální teologie, kterou také roky tamtéž přednášel. Předmětem jeho zájmu byly křesťanské aspekty teologické etiky, etika partnerství, manželství a rodiny. Ač gay, oženil se a roky žil v manželství. Po svém coming outu dostal od pražského arcibiskupa zákaz vyučovat.",
             "talkname": "Sexuální menšiny v katolické většině",
-            "talkdesc": "Pokud se zaměříme na sexuální přitažlivost, pak je římskokatolická církev velmi paradoxní skupinou: Výzkumy ukazují, že mezi římskokatolickým klérem může být až desetkrát vyšší přítomnost gayů, než se odhaduje v běžné populaci, ačkoliv oficiálně tato skupina zakazuje gayům, aby přijímali jakékoliv svěcení. Pro homosexuály platí v jejím rámci přísná omezení. Proto znamená pro většinu LGBT katolíků coming out také rozloučení se s církví. A pokud přesto někteří tzv. homosexuálové v církvi vědomě setrvávají, většinou prožívají svou sexualitu utajeně. Je to dobrý stav? A pak jsme svědky markantního vlnění, když se někdo rozhodne ke své menšinové sexuální orientaci vyjádřit veřejně, jako nedávno Mons. Charamsa."
+            "talkdesc": "Pokud se zaměříme na sexuální přitažlivost, pak je římskokatolická církev velmi paradoxní skupinou: Výzkumy ukazují, že mezi římskokatolickým klérem může být až desetkrát vyšší přítomnost gayů, než se odhaduje v běžné populaci, ačkoliv oficiálně tato skupina zakazuje gayům, aby přijímali jakékoliv svěcení. Pro homosexuály platí v jejím rámci přísná omezení. Proto znamená pro většinu LGBT katolíků coming out také rozloučení se s církví. A pokud přesto někteří tzv. homosexuálové v církvi vědomě setrvávají, většinou prožívají svou sexualitu utajeně. Je to dobrý stav? A pak jsme svědky markantního vlnění, když se někdo rozhodne ke své menšinové sexuální orientaci vyjádřit veřejně, <a href=\"http://www.ceskatelevize.cz/ct24/svet/1595625-jsem-gay-oznamil-vysoce-postaveny-teolog-a-prisel-o-funkci-ve-vatikanu\">jako nedávno Mons. Charamsa</a>."
         },
         "Jiří Mrázek": {
             "fullname": "Doc. ThDr. Jiří Mrázek",
             "speakerdesc": "je děkanem Evangelické teologické fakulty Univerzity Karlovy v Praze a autorem teologických knih zejména na téma teologie synoptických evangelií, obecných epištol, podobenství a Apokalypsy. Narodil se v roce 1960 v Brně, studoval na Komenského evangelické bohoslovecké fakultě (dnešní ETF) v Praze a na teologické fakultě univerzity v Halle. V letech 1984-1989 působil jako farář ČCE v Kostelci nad Orlicí. Od roku 1990 učí při Centru biblických studií AV a UK v Praze a na katedře Nového Zákona EFT UK.",
-            "talkdesc": "Symbolika vody v Novém zákoně Voda patří k základním lidským symbolům, ale současně je to i symbol velmi ambivalentní. Je životodárná i ničivá. Zahrnuje celou škálu symbolických významů, od studánky, která napojí žíznivého, přes vodu, která omývá a čistí – ať už Augiášův chlév, nebo lidské nitro, až po povodeň nebo potopu, která je obrazem soudu, a dokonce „řeku zapomnění“, za kterou je „onen břeh“. Křesťanská Bible, zejména její novozákonní část spolu-formovala po dlouhá staletí evropské myšlení a evropskou kulturu. Jakou roli má tedy voda v Bibli? Který z těch základních významů je v ní nejsilnější? A jak s tím vším souvisí křest?",
-            "talkname": "Voda v Novém zákoně"
+            "talkdesc": "Voda patří k základním lidským symbolům, ale současně je to i symbol velmi ambivalentní. Je životodárná i ničivá. Zahrnuje celou škálu symbolických významů, od studánky, která napojí žíznivého, přes vodu, která omývá a čistí – ať už Augiášův chlév, nebo lidské nitro, až po povodeň nebo potopu, která je obrazem soudu, a dokonce „řeku zapomnění“, za kterou je „onen břeh“. Křesťanská Bible, zejména její novozákonní část spolu-formovala po dlouhá staletí evropské myšlení a evropskou kulturu. Jakou roli má tedy voda v Bibli? Který z těch základních významů je v ní nejsilnější? A jak s tím vším souvisí křest?",
+            "talkname": "Symbolika vody v Novém zákoně"
         },
         "Jiří Rejzek": {
             "fullname": "Doc. PhDr. Jiří Rejzek, Ph.D.",
@@ -372,8 +304,8 @@
         },
         "Jiří Svoboda": {
             "fullname": "RNDr. Jiří Svoboda, Ph.D",
-            "speakerdesc": "pracuje v Astronomickém ústavu Akademie věd ČR. Astronomii vystudoval na Matematicko-fyzikální fakultě Univerzity Karlovy. V letech 2011-2013 působil v Evropské kosmické agentuře v Madridu ve Španělsku. V roce 2014 získal prestižní Prémii Otty Wichterleho. Jiří Svoboda se zabývá rentgenovou astronomii, zejména výzkumem černých děr v aktivních galaxiích.  V současné době patří k významným tuzemským vědcům. ",
-            "talkdesc": "Objevy rentgenové astronomie - minulé i budoucí: Rentgenové okno do vesmíru bylo otevřeno před více než půl stoletím a přineslo spoustu nečekaných objevů, od neutronových hvězd až po bizarní černé díry s hmotností miliardkrát převyšující hmotnost Slunce. Co se astronomům podařilo za uplynulá desetiletí zjistit o těchto objektech a co dalšího nás zajímá? Povíme si, jaké odpovědi může přinést nová rentgenová mise, plánovaná Evropskou kosmickou agenturou, jejímž členem je i Česká Republika.",
+            "speakerdesc": "pracuje v Astronomickém ústavu Akademie věd ČR. Astronomii vystudoval na Matematicko-fyzikální fakultě Univerzity Karlovy. V letech 2011-2013 působil v Evropské kosmické agentuře v Madridu ve Španělsku. V roce 2014 získal prestižní Prémii Otty Wichterleho. Jiří Svoboda se zabývá rentgenovou astronomii, zejména výzkumem černých děr v aktivních galaxiích. V současné době patří k významným tuzemským vědcům. ",
+            "talkdesc": "Objevy rentgenové astronomie - minulé i budoucí: Rentgenové okno do vesmíru bylo otevřeno před více než půl stoletím a přineslo spoustu nečekaných objevů, od neutronových hvězd až po bizarní černé díry s hmotností miliardkrát převyšující hmotnost Slunce. Co se astronomům podařilo za uplynulá desetiletí zjistit o těchto objektech a co dalšího nás zajímá? Povíme si, jaké odpovědi může přinést nová rentgenová mise, plánovaná Evropskou kosmickou agenturou, jejímž členem je i Česká Republika.",
             "talkname": "Objevy rentgenové astronomie - minulé i budoucí"
         },
         "Joe Grim Feinberg": {
@@ -413,7 +345,8 @@
             "talkdesc": "Počet HIV pozitivních osob v České republice neustále přibývá. K 31. srpnu 2015 bylo v naší zemi diagnostikováno již 2450 HIV pozitivních osob (2063 mužů a 387 žen) a skutečný počet infikovaných v naší společnosti je ještě mnohem vyšší - a to i přesto, že fungují dlouhodobé preventivní programy. Nárůst onemocnění nelze zastavit a přibližně každý druhý den je u nás odhalen další nový HIV pozitivní pacient. Na přednášce se budou doktoři z AIDS centra nemocnice Na Bulovce nejprve věnovat prostému popisu nemoci, ale budete se také moci dozvědet více jak už o samotném přenosném viru, proč se mu vlastně tak „daří“, tak i o různých metodách léčby a možnostech péče, které v České republice máme k dispozici."
         },
         "Marek Orko Vácha": {
-            "talkname": "Etika",
+            "talkname": "Vlny v evoluci života",
+            "talkdesc": "V evoluci života proběhlo pět velkých, masových vymírání. Po těchto vymíráních ovšem vždy přichází vlna renesance, znovuzrození, přičemž každá další tato vlna přináší vyšší komplexnost života a spolu s ní i vyšší krásu. Množství krásy ve vesmíru narůstá. V poslední vlně, která na písečné pláži dosáhla nejdál, vzniká vědomí, hmota začíná reflektovat samu sebe. Podle filosofa Thomase Nagela a paleontologa Simona Conway Morrise je vznik inteligence nutným důsledkem evoluce hmoty.",
             "fullname": "Mgr. Marek Orko Vácha, Ph.D.",
             "speakerdesc": "vystudoval na Přírodovědecké fakultě MU v Brně obor molekulární biologie a genetika, teologii studoval v Olomouci a v Bruselu. V letech 1997 a 2000 se účastnil dvou výprav na Antarktidu. V roce 2002 žil šest měsíců v trapistickém klášteře Sept-Fons ve Francii. Na Biskupském gymnáziu v Brně donedávna učil biologii a náboženství. Mimo jiné je také přednosta Ústavu etiky III. lékařské fakulty UK v Praze a farní vikář akademické farnosti Praha. Za svůj život publikoval několik knih, týkajících se zejména vztahu moderní biologie a náboženství, ale také lékařské etiky. Jeho prostřední jméno „Orko“ je přezdívka ze skautských let, která ho provází již od dob jeho dětství."
         },
@@ -479,7 +412,8 @@
         },
         "Ondřej Štindl": {
             "speakerdesc": "(*1966) je novinář, spisovatel, scénárista a DJ. Psal pro Lidové noviny či českou verzi BBC, momentálně je komentátorem týdeníku Echo24. Příležitostně píše o hudbě do časopisů Týden a Respekt. Stojí za scénáři k filmům Pouta a Místa Radima Špačka - , za prvně jmenovaný získal Českého lva. V roce 2014 mu vyšla literární prvotina <i>Mondschein</i>. Výrazně se podílel na vzniku Radia Stalin, první soukromé rozhlasové stanice v Čechách. V její modifikaci, Radiu 1, vysílá jako DJ i dnes.",
-            "talkname": "Na vlně pirátského rádia"
+            "talkname": "Na vlně pirátského rádia",
+            "talkdesc": "„Program byl, že si každej přinesl z domova, co měl, do toho tam pořád chodili nějaký lidi, když měli potřebu něco říct do mikrofonu, tak to tam řekli, taky se tam vysílaly přenosy koncertů, který tam byly.“</p><p>Bylo 19. září 1990. Praha se ještě nacházela v euforické náladě období Sametové revoluce, když ze zapomenutých podzemních prostor na kopci Letná zazněl patetický hlas, který v ruštině hlásil: „Posloucháte Radio Stalin!“ A první soukromé, tehdy ještě nelegální rádio v České republice bylo na světě. Co tomu ale předcházelo? Jaké překotné události se děly poté? Jak Radio Stalin, později Radio 1 formovalo hudební povědomí raných 90. let?"
         },
         "Otomar Kittnar": {
             "fullname": "Prof. MUDr. Otomar Kittnar, CSc., MBA",
@@ -500,10 +434,12 @@
         },
         "Radim Tolasz": {
             "fullname": "RNDr. Radim Tolasz, Ph.D.",
-            "speakerdesc": "se narodil roku 1964 ve Frýdku-Místku. V roce 1987 absolvoval obor Fyzická geografie na Masarykově univerzitě v Brně. Od roku 1986 pracuje nepřetržitě v ČHMÚ, kde se postupně seznámil s praktickou klimatologií a meteorologií, s hydrologií a okrajově i s výzkumem čistoty ovzduší. V současnosti tam vede oddělení klimatické změny. Je expertem na zpracování klimatologických dat, významně se podílel na vývoji dnes již mezinárodně používané aplikace CLIMADATA. Dále působí jako vedoucí redaktor časopisu Meteorologické zprávy. Zastává funkci národní kontaktní osoby pro IPCC (Intergovernmental Panel on Climate Change). Z jeho bohaté bibliografie lze upozornit např. na edici známého <i>Atlasu podnebí Česka</i> (Univerzita Palackého v Olomouci, 2007).",
+            "speakerdesc": "se narodil roku 1964 ve Frýdku-Místku. V roce 1987 absolvoval obor Fyzická geografie na Masarykově univerzitě v Brně. Od roku 1986 pracuje nepřetržitě v ČHMÚ, kde se postupně seznámil s praktickou klimatologií a meteorologií, s hydrologií a okrajově i s výzkumem čistoty ovzduší. V současnosti tam vede oddělení klimatické změny. Je expertem na zpracování klimatologických dat, významně se podílel na vývoji dnes již mezinárodně používané aplikace CLIMADATA. Dále působí jako vedoucí redaktor časopisu Meteorologické zprávy. Zastává funkci národní kontaktní osoby pro IPCC (Intergovernmental Panel on Climate Change). Z jeho bohaté bibliografie lze upozornit např. na edici známého <i>Atlasu podnebí Česka</i> (Univerzita Palackého v Olomouci, 2007).",
             "talkname": "Vlny extrémních klimatologicko-meteorologických jevů"
         },
         "Apolena Rychlíková, Tereza Reichová, Martina Malinová": {
+            "fullname": "Apolena Rychlíková, Martina Malinová a Tereza Reichová",
+            "speakerdesc": ", absolventky FAMU, patří do nejmladší generace českých dokumentaristek a svou tvorbu výrazně propojují s levicově orientovanou občanskou aktivitou. Své práce pravidelně uvádějí na festivalu v Jihlavě či jiných filmových festivalech po celém světě. Všechny tři také přispívají do webového deníku A2larm a časopisu Nový prostor. Apolena se momentálně věnuje uprchlické krizi, o dobrovolních na Hlavním nádraží, kde sama také pomáhá, točí film Kolize-krize-solidarita aneb Efektivní komunity. Tereza zase má se svým partnerem rozpracovaný film Epidemie svobody, v němž se zabývá povinným očkováním, kvůli němuž také zažalovala stát.",
             "talkdesc": "Jak se u nás média staví k problematice menšin, v čem selhávají a v čem naopak fungují dobře? Jaký typ filmů je vhodný pro rozbourávání předsudků? Jaké typy kampaní? Jaké máme zkušenosti s vlastními předsudky a limity? Apolena Rychlíková a Martina Malinová představí svůj krátký experimentální film <i>Za Adolfa by žádní morgoši neměli žádná práva</i>. Ten skrz vhled do života rodiny paterčat a střet každodennosti reálných starostí a virtuální reality internetových diskuzí odhaluje to nejhorší z českého vztahu k Romům.<br>Následně Tereza Reichová promítne svůj film <i>Terapie Mírou</i>, přinášející reality show o islamofobii a hranicích diskuze v každém z nás.",
             "talkname": "Média a menšiny (+ promítání dokumentu)"
         },
@@ -534,18 +470,19 @@
         "Václav Janda": {
             "speakerdesc": "V roce dokočil 1997 inženýrské a v roce 1981 doktorské studium v oboru Technologie vody na Katedře technologie vody a prostředí. Pracuje v Ústavu technologie vody a prostředí; roku 1993 se stal docentem a v roce 2000 byl jmenován profesorem. Absolvoval zahraniční stáže na University of Ghent v Belgii a University of Leeds ve Velké Británii. Je tajemníkem Československé asociace vodárenských expertů. Jeho hlavním zaměřením ve vědecké a pedagogické činnosti jsou chemické a biologické způsoby úpravy vlastností vody a analýza organických látek ve vodách a obecně v životním prostředí.",
             "speakername": "Prof. Ing. Václav Janda, CSc.",
-            "talkname": "Kvalita pitných vod v ČR"
+            "talkname": "Vlna, co prohnala Dejvice",
+            "talkdesc": "Vodu po cestě do našich vodovodních kohoutků rozvlní mnohé. Od jejího odběru, přes úpravu a cestu potrubím až k nám domů se toho děje opravdu hodně a občas se stane i něco, co nečekáme. Co pijeme tady doma, v České republice, co pijí ostatní lidé ve světě kolem nás, co vše se svezlo na vlně událostí s vodou, jež prohnala Dejvice - o tom a ještě o mnohém jiném nám přijde povědět pan profesor Václav Janda z Vysoké školy chemicko-technologické v Praze."
         },
         "Václav Klaus ml., Jana Straková, Michal Černý, Bob Kartous": {
             "fullname": "Mgr. Václav Klaus",
-            "speakerdesc": "absolvoval Přírodovědeckou fakultu UK, přes 15 let vedl gymnázium a poté síť škol PORG. Středoškolský profesor matematiky, autor mnoha odborných článků a zatím jedné učebnice (Matematika pro trojkaře aneb Maturita v kapse; 2013), zakladatel Asociace aktivních škol (sdružuje přes 100 českých škol). Vede jeden z největších českých šachových klubů a dosud aktivně závodí na kole. Je členem expertního týmu předsedy ODS pro školství.</p><p><span class=\"speakername\">RNDr. Jana Straková, Ph.D.</span> vystudovala elektronickou fyziku a optiku na MFF UK. Od 90. let se věnuje pedagogickému výzkumu, roku 2008 získala v tomto oboru doktorát. Dlouhá léta organizovala v ČR mezinárodní výzkumy vědomostí a dovedností. Spolupracuje s řadou nevládních i vládních organizací v ČR i v zahraničí, učí na Pedagogické fakultě UK. Spoluzakládala PORG a také tam několik let učila. Jejím hlavním odborným tématem je problematika <a href=\"http://www.eduin.cz/clanky/hospodarske-noviny-rozdelene-skolstvi-skodi-vsem-detem/\">nerovností ve vzdělávání</a>.</p><p><span class=\"speakername\">PaeDr. Michal Černý</span> (*1962), pedagog. Po několika odbočkách a slepých uličkách vystudoval Pedagogickou fakultu Univerzity Karlovy v Praze. Od roku 1993 je ředitelem Masarykovy základní školy v Praze-Klánovicích, učí především matematiku a angličtinu. Při řízení školy i pedagogické práci se neuzavírá před žádnými vlivy ani impulsy, za nejdůležitější však považuje zdravý rozum (nikoli nutně selský). Klánovická škola je díky svému prosazování některých moderních trendů ve vzdělávání okolím považována za progresivní instituci. Kromě ředitelování Michal Černý amatérsky hraje a režíruje divadlo, působí v hudební skupině Bedřich & Zoufalci.</p><p><span class=\"speakername\">Mgr. Bohumil Kartous, Ph.D.</span> je absolvent Pedagogické fakulty, Fakulty sportovních studií MU v Brně a doktorského programu na Fakultě sociálních věd UK. Projekty, na kterých se podílí, mají těžiště v oblasti vzdělávání a médií. Jsou to zejména EDUin a Britské listy. Učí, publikuje, konferuje a moderuje. Typický představitel parazitického neziskového sektoru a omylu zvaného občanská společnost.</p>",
+            "speakerdesc": "absolvoval Přírodovědeckou fakultu UK, přes 15 let vedl gymnázium a poté síť škol PORG. Středoškolský profesor matematiky, autor mnoha odborných článků a zatím jedné učebnice (Matematika pro trojkaře aneb Maturita v kapse; 2013), zakladatel Asociace aktivních škol (sdružuje přes 100 českých škol). Vede jeden z největších českých šachových klubů a dosud aktivně závodí na kole. Je členem expertního týmu předsedy ODS pro školství.</p><p><span class=\"speakername\">RNDr. Jana Straková, Ph.D.</span> vystudovala elektronickou fyziku a optiku na MFF UK. Od 90. let se věnuje pedagogickému výzkumu, roku 2008 získala v tomto oboru doktorát. Dlouhá léta organizovala v ČR mezinárodní výzkumy vědomostí a dovedností. Spolupracuje s řadou nevládních i vládních organizací v ČR i v zahraničí, učí na Pedagogické fakultě UK. Spoluzakládala PORG a také tam několik let učila. Jejím hlavním odborným tématem je problematika <a href=\"http://www.eduin.cz/clanky/hospodarske-noviny-rozdelene-skolstvi-skodi-vsem-detem/\">nerovností ve vzdělávání</a>.</p><p><span class=\"speakername\">PaeDr. Michal Černý</span> (*1962), pedagog. Po několika odbočkách a slepých uličkách vystudoval Pedagogickou fakultu Univerzity Karlovy v Praze. Od roku 1993 je ředitelem Masarykovy základní školy v Praze-Klánovicích, učí především matematiku a angličtinu. Při řízení školy i pedagogické práci se neuzavírá před žádnými vlivy ani impulsy, za nejdůležitější však považuje zdravý rozum (nikoli nutně selský). Klánovická škola je, snad díky svému prosazování některých moderních trendů ve vzdělávání, okolím považována za progresivní instituci. Kromě ředitelování Michal Černý amatérsky hraje a režíruje divadlo, působí v hudební skupině Bedřich & Zoufalci.</p><p><span class=\"speakername\">Mgr. Bohumil Kartous, Ph.D.</span> je absolvent Pedagogické fakulty, Fakulty sportovních studií MU v Brně a doktorského programu na Fakultě sociálních věd UK. Projekty, na kterých se podílí, mají těžiště v oblasti vzdělávání a médií. Jsou to zejména EDUin a Britské listy. Učí, publikuje, konferuje a moderuje. Typický představitel parazitického neziskového sektoru a omylu zvaného občanská společnost.</p>",
             "talkname": "Debata: Vlny v dnešním školství",
             "talkdesc": "Dva studenti dovršující třináctý rok prožitý v českém školství budou v roli moderátorů zpovídat čtyři své hosty - Janu Strakovou, Václava Klause, Bohumila Kartouse a Michala Černého. Debata by se měla držet těchto bodů:<ul><li>Míra nezávislosti škol na ministerstvu - vlastní ŠVP, plošné testování, státní maturity; stát ovlivňující počty škol jednotlivých oborů</li><li>Škola v dnešním světě - online vzdělávací programy (CTY, Khan academy), tablety a další el. zařízení ve školách, škola - knihovna, nebo škola - knihovník</li><li>Ambice školy - snaha tvořit názory studentů, předávat jim hodnoty ideologie, kterou stát považuje za správnou; zabrat dětem ve jménu vzdělání co nejvíce času... ganztagsschule v Německu... není toho moc?</li><li>Iniciativa rodičů jako hybný či konzervační prvek, rodiče stojící za vznikem nových škol</li><li>Školství jako jednotící prvek?... začleňování znevýhodněných dětí do škol, výběrová gymnázia a paběrkující základky</li></ul>Samozřejmostí je, že svými dotazy či připomínkami se mohou zapojit i posluchači."
         },
         "Václav Švorčík": {
             "fullname": "Prof. Ing. Václav Švorčík, DrSc.",
-            "speakerdesc": "(*1957) je badatel v oblasti biomateriálů. Zabývá se modifikací materiálů, zejména polymerů, pomocí iontových, laserových a plasmatických svazků a zkoumá jejich povrchové, chemické a fyzikální vlastnosti včetně jejich cytokompatibility, tj. vzájemných reakcí mezi živými buňkami a testovaným materiálem. Je absolventem VŠCHT v Praze, konkrétně oboru Technologie výroby a zpracování polymerů. Na stejné škole získal titul kandidáta věd v oblasti technologie makromolekulárních látek. V roce 1992 se stal docentem v oboru materiálového inženýrství a o dva roky později obhájil práci (doktor věd) v oblasti Elektroniky a vakuové techniky (AV ČR). Obdivuhodný výčet jeho akamdemických titulů završuje ten nejvyšší - profesor oboru materiálového inženýrství na VŠCHT Praha. Od roku 1991 působí jako vedoucí Ústavu inženýrství pevných látek na VŠCHT. Absolvoval také dlouhodobé pobyty na zahraničních univerzitách a vědeckých pracovištích, především na J.Kepler Universität Linz, A.Fridrich Universität Erlangen a Fraunhofer Institut Erlangen. V impaktovaných časopisech publikoval celkem 338 prací, které byly 3296 krát citovány. Je autorem/spoluautorem 23 kapitol ve vědeckých knihách a původcem 14 patentů.",
-            "talkdesc": "Biokompatibilita polymerů Polymery a polymerní materiály vynikají řadou odlišných vlastností v porovnání s kovovými, skelnými a keramickými materiály. Právě tyto unikátní vlastnosti přiměly vědce ke studiu jejich modifikace, která je činí velmi atraktivními pro novodobé využití prakticky ve všech oblastech lidské činnosti. Přednáška se zaměří zejména na povrchovou úpravu polymerních folií fyzikálními a chemickými metodami s cílem zatraktivnit povrch pro další aplikace. Tyto podložky a materiály jsou vhodné pro tkáňové inženýrství, například jako podklady pro pěstování lidských buněk. Jsou však využitelné i pro elektroniku, kde napomáhají vyšší adhezi kovových vrstev na polymerní podložce či pro optoelektroniku, kde je lze použít např. k přípravě tzv. „neviditelných“ metamateriálů. V rámci přednášky bude ukázána i možnost přípravy a využití kovových nanostruktur pro tyto aplikace.",
+            "speakerdesc": "(*1957) je badatel v oblasti biomateriálů. Zabývá se modifikací materiálů, zejména polymerů, pomocí iontových, laserových a plasmatických svazků a zkoumá jejich povrchové, chemické a fyzikální vlastnosti včetně jejich cytokompatibility, tj. vzájemných reakcí mezi živými buňkami a testovaným materiálem. Je absolventem VŠCHT v Praze, konkrétně oboru Technologie výroby a zpracování polymerů. Na stejné škole získal titul kandidáta věd v oblasti technologie makromolekulárních látek. V roce 1992 se stal docentem v oboru materiálového inženýrství a o dva roky později obhájil práci (doktor věd) v oblasti Elektroniky a vakuové techniky (AV ČR). Obdivuhodný výčet jeho akamdemických titulů završuje ten nejvyšší - profesor oboru materiálového inženýrství na VŠCHT Praha. Od roku 1991 působí jako vedoucí Ústavu inženýrství pevných látek na VŠCHT. Absolvoval také dlouhodobé pobyty na zahraničních univerzitách a vědeckých pracovištích, především na J.Kepler Universität Linz, A.Fridrich Universität Erlangen a Fraunhofer Institut Erlangen. V impaktovaných časopisech publikoval celkem 338 prací, které byly 3296 krát citovány. Je autorem/spoluautorem 23 kapitol ve vědeckých knihách a původcem 14 patentů.",
+            "talkdesc": "Biokompatibilita polymerů Polymery a polymerní materiály vynikají řadou odlišných vlastností v porovnání s kovovými, skelnými a keramickými materiály. Právě tyto unikátní vlastnosti přiměly vědce ke studiu jejich modifikace, která je činí velmi atraktivními pro novodobé využití prakticky ve všech oblastech lidské činnosti. Přednáška se zaměří zejména na povrchovou úpravu polymerních folií fyzikálními a chemickými metodami s cílem zatraktivnit povrch pro další aplikace. Tyto podložky a materiály jsou vhodné pro tkáňové inženýrství, například jako podklady pro pěstování lidských buněk. Jsou však využitelné i pro elektroniku, kde napomáhají vyšší adhezi kovových vrstev na polymerní podložce či pro optoelektroniku, kde je lze použít např. k přípravě tzv. „neviditelných“ metamateriálů. V rámci přednášky bude ukázána i možnost přípravy a využití kovových nanostruktur pro tyto aplikace.",
             "talkname": "Biokompatibilita polymerů"
         },
         "Vít Vilímek": {
