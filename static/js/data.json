@@ -1,239 +1,316 @@
 {
     "events": [{
-        "label": "Pátek 13. 11."
-    }, {
-        "events": [{
-            "speaker": "_Vlny endorfinů: Koncert ve Fatal Music Clubu"
-        }]
-    }, {
-        "label": "Neděle 15. 11."
-    }, {
-        "events": [{
-            "speaker": "_Zahájení"
-        }],
-        "time": "18:00"
-    }, {
-        "events": [{
-            "room": "Aula",
-            "speaker": "Vladimír Kočí"
-        }, {
-            "room": "Sbor.",
-            "speaker": "Ondřej Štindl"
-        }, {
-            "room": "USV",
-            "speaker": "Jaroslav Lorman"
-        }],
-        "time": "18:30"
-    }, {
-        "events": [{
-            "speaker": "_Studentské přednášky"
-        }],
-        "time": "20:00"
-    }, {
-        "label": "Pondělí 16. 11."
-    }, {
-        "events": [{
-            "room": "Aula",
-            "speaker": "Cyril Höschl"
-        }, {
-            "room": "Sbor.",
-            "speaker": "Apolena Rychlíková, Tereza Reichová, Martina Malinová"
-        }, {
-            "room": "USV",
-            "speaker": "David Vávra"
-        }, {
-            "room": "P2.2",
-            "speaker": "Mirek Kovářík"
-        }, {
-            "room": "P2.3",
-            "speaker": "Otomar Kittnar"
-        }],
-        "time": "10:00"
-    }, {
-        "events": [{
-            "speaker": "_Oběd"
-        }],
-        "time": "12:00"
-    }, {
-        "events": [{
-            "room": "Aula",
-            "speaker": "Václav Klaus ml., Jana Straková, Michal Černý, Bob Kartous"
-        }, {
-            "room": "Sbor.",
-            "speaker": "Vladimír Binar"
-        }, {
-            "room": "USV",
-            "speaker": "Vít Vilímek"
-        }, {
-            "room": "P2.2",
-            "speaker": "Zdeněk Ďuriš"
-        }, {
-            "room": "P2.3",
-            "speaker": "Michal Stehlík"
-        }],
-        "time": "13:00"
-    }, {
-        "events": [{
-            "room": "Aula",
-            "speaker": "Vít Vlnas"
-        }, {
-            "room": "Sbor.",
-            "speaker": "Václav Švorčík"
-        }, {
-            "room": "USV",
-            "speaker": "Tereza Freidingerová"
-        }, {
-            "room": "P2.2",
-            "speaker": "Petr Cuhra"
-        }, {
-            "room": "P2.3",
-            "speaker": "Ladislav Machala, Veronika Kulířová"
-        }],
-        "time": "15:00"
-    }, {
-        "events": [{
-            "room": "Aula",
-            "speaker": "David Uhlíř"
-        }, {
-            "room": "Sbor.",
-            "speaker": "Jaromír Typlt"
-        }, {
-            "room": "USV",
-            "speaker": "Michal Burian"
-        }, {
-            "room": "P2.2",
-            "speaker": "Václav Janda"
-        }, {
-            "room": "P2.3",
-            "speaker": "Dino Numerato"
-        }],
-        "time": "17:00"
-    }, {
-        "events": [{
-            "room": "Aula",
-            "speaker": "Janek Rubeš"
-        }, {
-            "room": "Sbor.",
-            "speaker": "Martin Štrba"
-        }, {
-            "room": "P2.1",
-            "speaker": "Pavel Klusák"
-        }, {
-            "room": "P2.3",
-            "speaker": "Martin Šíp"
-        }],
-        "time": "19:00"
-    }, {
-        "events": [{
-            "speaker": "_Filmová noc"
-        }],
-        "time": "21:30"
-    }, {
-        "label": "Úterý 17. 11."
-    }, {
-        "events": [{
-            "room": "Aula",
-            "speaker": "Bronislav Ostřanský"
-        }, {
-            "room": "Sbor.",
-            "speaker": "Marek Orko Vácha"
-        }, {
-            "room": "USV",
-            "speaker": "Ondřej Pilný"
-        }, {
-            "room": "P2.2",
-            "speaker": "Julius Lukeš"
-        }, {
-            "room": "P2.3",
-            "speaker": "Ivan Douda"
-        }],
-        "time": "10:00"
-    }, {
-        "events": [{
-            "speaker": "_Oběd"
-        }],
-        "time": "12:00"
-    }, {
-        "events": [{
-            "room": "P2.1",
-            "speaker": "Adam Šimčík"
-        }],
-        "time": "12:15"
-    }, {
-        "events": [{
-            "room": "Aula",
-            "speaker": "Břetislav Tureček, Ondřej Beránek, Chalid Bitar"
-        }, {
-            "room": "Sbor.",
-            "speaker": "Miroslav Zámečník"
-        }, {
-            "room": "USV",
-            "speaker": "Radim Tolasz"
-        }, {
-            "room": "P2.2",
-            "speaker": "Joe Grim Feinberg"
-        }, {
-            "room": "P2.3",
-            "speaker": "Milan Šotek"
-        }],
-        "time": "13:00"
-    }, {
-        "events": [{
-            "room": "Aula",
-            "speaker": "Gunther Kletetschka"
-        }, {
-            "room": "Sbor.",
-            "speaker": "Jiří Rejzek"
-        }, {
-            "room": "USV",
-            "speaker": "Martin Doleček"
-        }, {
-            "room": "P2.1",
-            "speaker": "David Girsa"
-        }, {
-            "room": "P2.2",
-            "speaker": "Ladislav Koreň"
-        }, {
-            "room": "P2.3",
-            "speaker": "Veronika Křesťanová"
-        }],
-        "time": "15:00"
-    }, {
-        "events": [{
-            "room": "Aula",
-            "speaker": "Martin Čeněk, Karolína Kripnerová"
-        }, {
-            "room": "Sbor.",
-            "speaker": "Jiří Svoboda"
-        }, {
-            "room": "USV",
-            "speaker": "Jiří Mrázek"
-        }, {
-            "room": "P2.2",
-            "speaker": "Kateřina Kolářová"
-        }, {
-            "room": "P2.3",
-            "speaker": "Kateřina Novotná, Michal Zeman"
-        }],
-        "time": "17:00"
-    }],
-    "roomOrder": ["Aula", "Sbor.", "USV", "P2.1", "P2.2", "P2.3"],
+            "label": "Pátek 13. 11."
+        },
+        {
+            "events": [{
+                "speaker": "_Vlny endorfinů: Koncert ve Fatal Music Clubu"
+            }],
+            "time": "18:00"
+        },
+        {
+            "label": "Neděle 15. 11.",
+            "headers": ["Chodba", "Aula", "Sbor.", "USV"]
+        },
+        {
+            "events": [{
+                "speaker": "_Zahájení",
+                "room": "Chodba"
+            }],
+            "time": "18:00"
+      },
+        {
+            "events": [{}, {
+                    "room": "Aula",
+                    "speaker": "Vladimír Kočí"
+            },
+                {
+                    "room": "Sbor.",
+                    "speaker": "Ondřej Štindl"
+            },
+                {
+                    "room": "USV",
+                    "speaker": "Jaroslav Lorman"
+            }
+          ],
+            "time": "18:30"
+      },
+        {
+            "events": [{
+                "speaker": "_Studentské přednášky",
+                "room": "Chodba"
+            }],
+            "time": "20:00"
+      },
+        {
+            "label": "Pondělí 16. 11.",
+            "headers": ["Aula", "Sbor.", "USV", "P2.3", "P2.2"]
+        },
+        {
+            "events": [{
+                    "room": "Aula",
+                    "speaker": "Cyril Höschl"
+            },
+                {
+                    "room": "Sbor.",
+                    "speaker": "Apolena Rychlíková, Tereza Reichová, Martina Malinová"
+            },
+                {
+                    "room": "USV",
+                    "speaker": "David Vávra"
+            },
+                {
+                    "room": "P2.3",
+                    "speaker": "Otomar Kittnar"
+            },
+                {
+                    "room": "P2.2",
+                    "speaker": "Mirek Kovářík"
+            }
+          ],
+            "time": "10:00"
+      },
+        {
+            "events": [{
+                "speaker": "_Oběd"
+            }],
+            "time": "12:00"
+      },
+        {
+            "events": [{
+                    "room": "Aula",
+                    "speaker": "Václav Klaus ml., Jana Straková, Michal Černý, Bob Kartous"
+            },
+                {
+                    "room": "Sbor.",
+                    "speaker": "Vladimír Binar"
+            },
+                {
+                    "room": "USV",
+                    "speaker": "Vít Vilímek"
+            },
+                {
+                    "room": "P2.3",
+                    "speaker": "Michal Stehlík"
+            },
+                {
+                    "room": "P2.2",
+                    "speaker": "Zdeněk Ďuriš"
+            }
+          ],
+            "time": "13:00"
+      },
+        {
+            "events": [{
+                    "room": "Aula",
+                    "speaker": "Vít Vlnas"
+            },
+                {
+                    "room": "Sbor.",
+                    "speaker": "Václav Švorčík"
+            },
+                {
+                    "room": "USV",
+                    "speaker": "Tereza Freidingerová"
+            },
+                {
+                    "room": "P2.3",
+                    "speaker": "Ladislav Machala, Veronika Kulířová"
+            },
+                {
+                    "room": "P2.2",
+                    "speaker": "Petr Cuhra"
+            }
+          ],
+            "time": "15:00"
+      },
+        {
+            "events": [{
+                    "room": "Aula",
+                    "speaker": "David Uhlíř"
+            },
+                {
+                    "room": "Sbor.",
+                    "speaker": "Jaromír Typlt"
+            },
+                {
+                    "room": "USV",
+                    "speaker": "Michal Burian"
+            },
+                {
+                    "room": "P2.3",
+                    "speaker": "Dino Numerato"
+            },
+                {
+                    "room": "P2.2",
+                    "speaker": "Václav Janda"
+            }
+          ],
+            "time": "17:00"
+      },
+        {
+            "events": [{
+                    "room": "Sbor.",
+                    "speaker": "Martin Štrba"
+            },
+                {
+                    "room": "USV",
+                    "speaker": "Martin Doleček"
+            },
+                {
+                    "room": "P2.3",
+                    "speaker": "Martin Šíp"
+            }
+          ],
+            "time": "19:00"
+      },
+        {
+            "headers": ["P2.2", "P2.1"],
+            "events": [{
+                "room": "P2.2",
+                "speaker": "_Filmová noc - Sál <i>Těžká vlna</i>"
+            }, {
+                "room": "P2.1",
+                "speaker": "_Filmová noc - Sál <i>Lehká vlna</i>"
+            }],
+            "time": "21:30"
+      },
+        {
+            "label": "Úterý 17. 11.",
+            "headers": ["Aula", "Sbor.", "USV", "P2.3", "P2.2", "P2.1"]
+        },
+        {
+            "events": [{
+                    "room": "Aula",
+                    "speaker": "Bronislav Ostřanský"
+            },
+                {
+                    "room": "Sbor.",
+                    "speaker": "Marek Orko Vácha"
+            },
+                {
+                    "room": "USV",
+                    "speaker": "Ondřej Pilný"
+            },
+                {
+                    "room": "P2.3",
+                    "speaker": "Ivan Douda"
+            },
+                {
+                    "room": "P2.2",
+                    "speaker": "Julius Lukeš"
+            }
+          ],
+            "time": "10:00"
+      },
+        {
+            "events": [{
+                "speaker": "_Oběd"
+            }],
+            "time": "12:00"
+      },
+        {
+            "events": [{}, {}, {}, {}, {}, {
+                "room": "P2.1",
+                "speaker": "Adam Šimčík"
+            }],
+            "time": "12:15"
+      },
+        {
+            "events": [{
+                    "room": "Aula",
+                    "speaker": "Břetislav Tureček, Ondřej Beránek, Chalid Bitar"
+            },
+                {
+                    "room": "Sbor.",
+                    "speaker": "Miroslav Zámečník"
+            },
+                {
+                    "room": "USV",
+                    "speaker": "Radim Tolasz"
+            },
+                {
+                    "room": "P2.3",
+                    "speaker": "Milan Šotek"
+            },
+                {
+                    "room": "P2.2",
+                    "speaker": "Joe Grim Feinberg"
+            }
+          ],
+            "time": "13:00"
+      },
+        {
+            "events": [{
+                    "room": "Aula",
+                    "speaker": "Gunther Kletetschka"
+            },
+                {
+                    "room": "Sbor.",
+                    "speaker": "Jiří Rejzek"
+            },
+                {
+                    "room": "USV",
+                    "speaker": "Josef Vojvodík"
+            },
+                {
+                    "room": "P2.3",
+                    "speaker": "Veronika Křesťanová"
+            },
+                {
+                    "room": "P2.2",
+                    "speaker": "Ladislav Koreň"
+            },
+                {
+                    "room": "P2.1",
+                    "speaker": "David Girsa"
+            }
+          ],
+            "time": "15:00"
+      },
+        {
+            "events": [{
+                    "room": "Aula",
+                    "speaker": "Martin Čeněk, Karolína Kripnerová"
+            },
+                {
+                    "room": "Sbor.",
+                    "speaker": "Jiří Svoboda"
+            },
+                {
+                    "room": "USV",
+                    "speaker": "Jiří Mrázek"
+            },
+                {
+                    "room": "P2.3",
+                    "speaker": "Kateřina Novotná, Michal Zeman"
+            },
+                {
+                    "room": "P2.2",
+                    "speaker": "Kateřina Kolářová"
+            }
+          ],
+            "time": "17:00"
+      }
+    ],
+    "roomOrder": ["Aula",
+      "Sbor.",
+      "USV",
+      "P2.3",
+      "P2.2",
+      "P2.1",
+      "Chodba"
+    ],
     "speakers": {
         "Adam Šimčík": {
-            "talkname": "Včera ovce, dneska svetr (workshop)",
-            "talkdesc": "Vlna není jen vodní! Přijďte si vyzkoušet práci s vlnami a přízemi, naučte se začít řadu, být hladcí a obrací či chytit sloupek a ponořte se v našich teplých a útulných třídách štrikováním do listopadové idyly. Workshop se bude konat pod vedením mistra Adama Šimčíka z nedaleké malovanecké galanterie, který s ženou pořádá ve svém obchodě mnoho kurzů pletení a jiných ručních prací.</p><p><b>Workshop bude probíhat od 12:15 do 13:15.</b>"
+            "talkdesc": "Vlna není jen vodní! Přijďte si vyzkoušet práci s vlnami a přízemi, naučte se začít řadu, být hladcí a obrací či chytit sloupek a ponořte se v našich teplých a útulných třídách štrikováním do listopadové idyly. Workshop se bude konat pod vedením mistra Adama Šimčíka z nedaleké malovanecké galanterie, který s ženou pořádá ve svém obchodě mnoho kurzů pletení a jiných ručních prací.</p><p><b>Workshop bude probíhat od 12:15 do 13:15.</b>",
+            "talkname": "Včera ovce, dneska svetr (workshop)"
         },
-
-        "David Uhlíř": {
-            "talkname": "Právo",
-            "fullname": "JUDr. David Uhlíř",
-            "speakerdesc": "vystudoval Právnickou fakultu Univerzity Karlovy v Praze. V roce 1981 složil rigorózní zkoušku a získal titul doktora práv. V roce 1983 složil advokátní zkoušky stal se členem Městského sdružení advokátů v Praze, kde se zabýval především trestním právem. Ač byl do roku 1989 členem KSČ, věnoval se obhajobě a zastupování klientů, kteří byli z politických důvodů perzekuováni. V letech 1990 a 1991 byl tajemníkem Magistrátu hl. m. Prahy za OF, v září 1991 na svoji funkci rezignoval a vrátil se do advokacie.V roce 1994 založil advokátní kancelář Uhlíř, Homola a společníci, kterou vedl do roku 2014. Kancelář se věnuje celému spektru obvyklé advokátní agendy, zejména civilnímu právu a trestním obhajobám. JUDr. David Uhlíř se zde věnoval především občanskoprávní a obchodní agendě, byl také insolvenčním správcem se zvláštním povolením. Od roku 1998 jako externí učitel vede semináře občanského práva hmotného na Právnické fakultě UK. Je členem l’Union Internationale des Avocats, sekce práva odpovědnosti za škodu. Publikuje v odborném i denním tisku, zejména články na témata spojená s rekodifikací soukromého práva. Od roku 2005 byl náhradníkem, od roku 2009 členem a od roku 2013 do svého jmenování ústavním soudcem dokonce místopředsedou představenstva České advokátní komory."
-        },
-        "Vladimír Kočí": {
-            "talkname": "Vlna jako základní projev renesančního dvorského tance (workshop)",
-            "fullname": "Doc. Ing. Vladimír Kočí, PhD.",
-            "speakerdesc": "je děkanem fakulty Technologie ochrany prostředí na Vysoké škole chemicko-technologické v Praze. Zároveň pravidelně přednáší na ČVUT Praha i na Karlově univerzitě. Ve své praxi se zabývá studiemi o životním cyklu (LCA) a environmentálními prohlášeními o produktu velkých průmyslových podniků (EPD), ale řeší i vědeckovýzkumné projekty odpadového hospodářství, vodního hospodářství, dekontaminací a starých ekologických zátěží. Kromě své vědecké dráhy se Vladimír Kočí zabývá i historií a uměním a příležitostně lektoruje hodiny tance. Jeho hlavním zaměřením v této oblasti je renesanční tanec na panských dvorech v 15. století.",
-            "talkdesc": "Pan docent Vladimír Kočí, kterýžto ve svém profesním životě proplouvá vlnami Vysoké školy chemicko-technologické v Praze na Ústavu chemie ochrany prostředí, se nechává často unášet též vlnami tanců z dob renesančních. Přijďte se v neděli večer zhoupnout v rytmu panských dvorů 16. století. (Pro páry i jednotlivce.)"
+        "Apolena Rychlíková, Tereza Reichová, Martina Malinová": {
+            "fullname": "Apolena Rychlíková, Martina Malinová a Tereza Reichová",
+            "speakerdesc": ", absolventky FAMU, patří do nejmladší generace českých dokumentaristek a svou tvorbu výrazně propojují s levicově orientovanou občanskou aktivitou. Své práce pravidelně uvádějí na festivalu v Jihlavě či jiných filmových festivalech po celém světě. Všechny tři také přispívají do webového deníku A2larm a časopisu Nový prostor. Apolena se momentálně věnuje uprchlické krizi, o dobrovolních na Hlavním nádraží, kde sama také pomáhá, točí film Kolize-krize-solidarita aneb Efektivní komunity. Tereza zase má se svým partnerem rozpracovaný film Epidemie svobody, v němž se zabývá povinným očkováním, kvůli němuž také zažalovala stát.",
+            "talkdesc": "Jak se u nás média staví k problematice menšin, v čem selhávají a v čem naopak fungují dobře? Jaký typ filmů je vhodný pro rozbourávání předsudků? Jaké typy kampaní? Jaké máme zkušenosti s vlastními předsudky a limity? Apolena Rychlíková a Martina Malinová představí svůj krátký experimentální film <i>Za Adolfa by žádní morgoši neměli žádná práva</i>. Ten skrz vhled do života rodiny paterčat a střet každodennosti reálných starostí a virtuální reality internetových diskuzí odhaluje to nejhorší z českého vztahu k Romům.<br>Následně Tereza Reichová promítne svůj film <i>Terapie Mírou</i>, přinášející reality show o islamofobii a hranicích diskuze v každém z nás.",
+            "talkname": "Média a menšiny (+ promítání dokumentu)"
         },
         "Bronislav Ostřanský": {
             "fullname": "PhDr. Bronislav Ostřanský, Ph.D.",
@@ -241,8 +318,11 @@
             "talkdesc": "Přednáška se zamýšlí nad současnými českými debatami o islámu, jejich mediálními, jakož i politickými přesahy, pokusí se rovněž přiblížit spory o koncept islamofobie i odpovědět na věčné otázky, odkud odpor proti islámu vychází, jaké jsou jeho reálné motivace i soudobé projevy, jak lze odlišit kritiku islámu od islamofobie, kterak je tomu s paralelami mezi antisemitismem a islamofobií atd. Velký důraz bude kladen na prostor pro diskusi.",
             "talkname": "Islám a muslimové jako předmět českých veřejných polemik"
         },
-        "Bušková": {
-            "talkname": "Spánek, sny"
+        "Břetislav Tureček, Ondřej Beránek, Chalid Bitar": {
+            "fullname": "Břetislav Tureček",
+            "speakerdesc": "je vysokoškolský učitel působící na Metropolitní univerzitě Praha, jako novinář zároveň spolupracuje s Lidovými novinami, Českou televizí a Českým rozhlasem. Od roku 1993 působil v tištěných médiích, v letech 2008-2013 byl stálým zpravodajem Českého rozhlasu na Blízkém východě se sídlem v Jeruzalémě. Břetislav Tureček je autorem tří knih: <i>Světla a stíny islámu - Drama Blízkého východu a sonda do duší jeho obyvatel</i> (2007), <i>Labyrintem Íránu - Cesta do nitra jaderné říše a k pramenům jejího vzdoru</i> (2013) a <i>Nesvatá válka o Svatou zemi - Málo známá zákoutí nelítostného boje mezi Židy a Araby</i>, za niž v roce 2012 obdržel Cenu Egona Erwina Kische. Příští rok mu má vyjít kniha Blízký východ nad propastí.</p><p><span class=\"speakername\">Mgr. Ondřej Beránek, Ph.D.</span> je český arabista a islamolog. Na Filosofické fakultě Univerzity Karlovy v Praze vystudoval arabistiku a dějiny a kulturu islámských zemí. V roce 2003 několik měsíců studoval na Univerzitě Krále Saúda v Rijádu v Saudské Arábii. V současnosti působí jako ředitel Orientálního ústavu Akademie věd ČR, odborně se specializuje na moderní a soudobé dějiny Blízkého východu a nedávno mu vyšla kniha Arabské revoluce, jež se zabývá dramatickými událostmi v arabských zemích v roce 2011.</p><p><span class=\"speakername\">Chalid Bitar</span> je politický aktivista v syrské revoluci, syn syrského otce a české matky. Po maturitě odjel ze Sýrie do České republiky, protože cítil, že režim, ve kterém žije, mu nevyhovuje. Vystudoval marketing a managment na Anglo-americké univerzitě. Je jedním ze zakladatelů Iniciativy pro Svobodnou Sýrii, která pracuje na medializaci syrské revoluce. Dále je členem Damašské deklarace pro demokratické změny v Sýrii.",
+            "talkdesc": "Mezitím, co se Evropa zoufale snaží vypořádat s migrační vlnou, z války v Sýrii se pomalu stává celosvětový konflikt. Naše pozornost se upírá k uprchlickým kvótám a posilujícímu hnutí islamofobie, neměli bychom ale raději pohlédnout za své hranice a zaměřit se na řešení situace v domovské zemi většiny uprchlíků? Je možné najít kompromis v místě, kde se střetávají zájmy západního a východního světa, a udělat tak ze Sýrie zemi, ve které se dá žít v míru?",
+            "talkname": "Debata: Válka v Sýrii - existuje řešení?"
         },
         "Cyril Höschl": {
             "fullname": "Prof. MUDr. Cyril Höschl, DrSc., FRCPsych.",
@@ -256,11 +336,16 @@
             "talkdesc": "Stručný průvodce fyzikálními základy, historií i současností radiologie, tedy jednoho z dnes nejbouřlivěji se rozvíjejících medicínských oborů. Kromě rentgenu bude řeč i o ultrazvuku a nukleární magnetické rezonanci. V průběhu vymezeného času se pokusíme najít odpovědi nejen na následující otázky: Jaké informace můžeme od těchto vyšetření očekávat a jaké ne? Kdy je vhodné které vyšetření použít? Jak tato vyšetření probíhají? A jde o vyšetření pro pacienta i personál bezpečná? Opravdu je doménou radiologie pouze zobrazování? Jakým směrem se vyšetřovací metody dnes ubírají a co lze od nich očekávat v budoucnosti?",
             "talkname": "O tom, co Vilém Konrád objevil a co z toho vzešlo, aneb rentgenologie není jen Röntgen"
         },
+        "David Uhlíř": {
+            "fullname": "JUDr. David Uhlíř",
+            "speakerdesc": "vystudoval Právnickou fakultu Univerzity Karlovy v Praze. V roce 1981 složil rigorózní zkoušku a získal titul doktora práv. V roce 1983 složil advokátní zkoušky stal se členem Městského sdružení advokátů v Praze, kde se zabýval především trestním právem. Ač byl do roku 1989 členem KSČ, věnoval se obhajobě a zastupování klientů, kteří byli z politických důvodů perzekuováni. V letech 1990 a 1991 byl tajemníkem Magistrátu hl. m. Prahy za OF, v září 1991 na svoji funkci rezignoval a vrátil se do advokacie.V roce 1994 založil advokátní kancelář Uhlíř, Homola a společníci, kterou vedl do roku 2014. Kancelář se věnuje celému spektru obvyklé advokátní agendy, zejména civilnímu právu a trestním obhajobám. JUDr. David Uhlíř se zde věnoval především občanskoprávní a obchodní agendě, byl také insolvenčním správcem se zvláštním povolením. Od roku 1998 jako externí učitel vede semináře občanského práva hmotného na Právnické fakultě UK. Je členem l’Union Internationale des Avocats, sekce práva odpovědnosti za škodu. Publikuje v odborném i denním tisku, zejména články na témata spojená s rekodifikací soukromého práva. Od roku 2005 byl náhradníkem, od roku 2009 členem a od roku 2013 do svého jmenování ústavním soudcem dokonce místopředsedou představenstva České advokátní komory.",
+            "talkname": "Právo"
+        },
         "David Vávra": {
             "fullname": "Akad. arch. David Vávra",
             "speakerdesc": "je český architekt, herec a spisovatel. Absolvoval Akademii výtvarných umění a stavební fakultu ČVUT v Praze. Je zároveň spoluzakladatelem a dlouhodobě účinkujícím hercem alternativního divadla Sklep ze sedmdesátých let minulého století. Nasbírané zkušenosti a znalosti z obou oborů zužitkoval při výrobě populárně naučných televizních sérií <i><a href=\"http://www.ceskatelevize.cz/porady/1008546862-sumna-mesta/video/\">Šumná města</a></i> a <i><a href=\"http://www.ceskatelevize.cz/porady/10262550261-sumne-stopy/video/\">Šumné stopy</a></i>. Mezi jeho nejvýznamnější architektonické počiny patří stavba kulturního domu Dobeška, rekonstrukce Švandova divadla na Smíchově nebo třeba výstavba interiéru kulturního paláce Akropolis. Mezi jeho hereckými výkony třeba neopomenout roli ve filmech, jako je Mazaný Filip, či v televizní sérii Česká soda. David Vávra mimo jiné působí jako příležitostný básník na nejrůznější společenských událostech.",
-            "talkname": "David Vávra - Čeští architekti a jejch <i>Šumné stopy</i>",
-            "talkdesc": "Přijďte si poslechnout povídání branického rodáka a herce divadla Sklep o jeho nejvýznamnějších architektonických realizacích jak pražských (kulturní dům Dobeška, rekonstrukce Švandova divadla), tak mimopražských (rekonstrukce továrny Vertex v Hradci Králové na městskou knihovnu či stavba řady vil na Šumavě a v Krkonoších). V rámci jedenapůlhodinové časové dotace stihne David Vávra ještě krátce navázat na svou druhou televizní sérii <i>Šumné stopy</i> vyprávěním o emigrantských vlnách českých architektů do Jižní Ameriky."
+            "talkdesc": "Přijďte si poslechnout povídání branického rodáka a herce divadla Sklep o jeho nejvýznamnějších architektonických realizacích jak pražských (kulturní dům Dobeška, rekonstrukce Švandova divadla), tak mimopražských (rekonstrukce továrny Vertex v Hradci Králové na městskou knihovnu či stavba řady vil na Šumavě a v Krkonoších). V rámci jedenapůlhodinové časové dotace stihne David Vávra ještě krátce navázat na svou druhou televizní sérii <i>Šumné stopy</i> vyprávěním o emigrantských vlnách českých architektů do Jižní Ameriky.",
+            "talkname": "David Vávra - Čeští architekti a jejch <i>Šumné stopy</i>"
         },
         "Dino Numerato": {
             "fullname": "Dino Numerato, Ph.D.",
@@ -277,8 +362,8 @@
         "Ivan Douda": {
             "fullname": "PhDr. Ivan Douda",
             "speakerdesc": "je vedoucím psychologem nadace Drop In, kterou s MUDr. Jiřím Preslem založili v roce 1991. Nadace se zabývá prevencí a léčbou závislostí se zaměřením na nealkoholové drogy. Tomuto tématu se PhDr. Ivan Douda věnuje více než třicet let své profesní kariéry. Velký důraz klade na prevenci, sám mezi dětmi a studenty základních a středních škol pořádá přednášky a diskuse. Jedním z jeho stěžejních názorů je nerepresivní přístup k drogám. Argumentuje tím, že zakazovat je nemá smysl, zakázané ovoce totiž chutná nejlépe.",
-            "talkname": "Drogový mix aneb vlny drog a prevence",
-            "talkdesc": "Drogový mix aneb vlny drog a prevence Drogy, v současné době běžně dostupná látka. Co je to drogová prevence? Jak vlastně prevence samotná probíhá? Vyskytují se ve společnosti vlny v užívání drog? Liší se od sebe alkoholová a drogová závislost a jejich prevence? O tom, jestli je přístup dnešní společnosti k závislostní problematice příliš tolerantní, nebo naopak příliš odmítavý, odborně promluví psycholog Ivan Douda."
+            "talkdesc": "Drogový mix aneb vlny drog a prevence Drogy, v současné době běžně dostupná látka. Co je to drogová prevence? Jak vlastně prevence samotná probíhá? Vyskytují se ve společnosti vlny v užívání drog? Liší se od sebe alkoholová a drogová závislost a jejich prevence? O tom, jestli je přístup dnešní společnosti k závislostní problematice příliš tolerantní, nebo naopak příliš odmítavý, odborně promluví psycholog Ivan Douda.",
+            "talkname": "Drogový mix aneb vlny drog a prevence"
         },
         "Jan Royt": {
             "fullname": "Prof. PhDr. Ing. Jan Royt",
@@ -299,8 +384,8 @@
         "Jaroslav Lorman": {
             "fullname": "ThLic. Mgr. Jaroslav Lorman, Th.D.",
             "speakerdesc": "(*1973) je teologický etik, překladatel, dnes manažer a tajemník organizace ŽIVOT 90. Vystudoval němčinu, latinu a katolickou teologii, promoval na KTF UK v oboru morální teologie, kterou také roky tamtéž přednášel. Předmětem jeho zájmu byly křesťanské aspekty teologické etiky, etika partnerství, manželství a rodiny. Ač gay, oženil se a roky žil v manželství. Po svém coming outu dostal od pražského arcibiskupa zákaz vyučovat.",
-            "talkname": "Sexuální menšiny v katolické většině",
-            "talkdesc": "Pokud se zaměříme na sexuální přitažlivost, pak je římskokatolická církev velmi paradoxní skupinou: Výzkumy ukazují, že mezi římskokatolickým klérem může být až desetkrát vyšší přítomnost gayů, než se odhaduje v běžné populaci, ačkoliv oficiálně tato skupina zakazuje gayům, aby přijímali jakékoliv svěcení. Pro homosexuály platí v jejím rámci přísná omezení. Proto znamená pro většinu LGBT katolíků coming out také rozloučení se s církví. A pokud přesto někteří tzv. homosexuálové v církvi vědomě setrvávají, většinou prožívají svou sexualitu utajeně. Je to dobrý stav? A pak jsme svědky markantního vlnění, když se někdo rozhodne ke své menšinové sexuální orientaci vyjádřit veřejně, <a href=\"http://www.ceskatelevize.cz/ct24/svet/1595625-jsem-gay-oznamil-vysoce-postaveny-teolog-a-prisel-o-funkci-ve-vatikanu\">jako nedávno Mons. Charamsa</a>."
+            "talkdesc": "Pokud se zaměříme na sexuální přitažlivost, pak je římskokatolická církev velmi paradoxní skupinou: Výzkumy ukazují, že mezi římskokatolickým klérem může být až desetkrát vyšší přítomnost gayů, než se odhaduje v běžné populaci, ačkoliv oficiálně tato skupina zakazuje gayům, aby přijímali jakékoliv svěcení. Pro homosexuály platí v jejím rámci přísná omezení. Proto znamená pro většinu LGBT katolíků coming out také rozloučení se s církví. A pokud přesto někteří tzv. homosexuálové v církvi vědomě setrvávají, většinou prožívají svou sexualitu utajeně. Je to dobrý stav? A pak jsme svědky markantního vlnění, když se někdo rozhodne ke své menšinové sexuální orientaci vyjádřit veřejně, <a href=\"http://www.ceskatelevize.cz/ct24/svet/1595625-jsem-gay-oznamil-vysoce-postaveny-teolog-a-prisel-o-funkci-ve-vatikanu\">jako nedávno Mons. Charamsa</a>.",
+            "talkname": "Sexuální menšiny v katolické většině"
         },
         "Jiří Mrázek": {
             "fullname": "Doc. ThDr. Jiří Mrázek",
@@ -311,8 +396,8 @@
         "Jiří Rejzek": {
             "fullname": "Doc. PhDr. Jiří Rejzek, Ph.D.",
             "speakerdesc": "(*1964). Absolvoval Filozofickou fakultu Univerzity Karlovy (obor čeština - angličtina). Od r. 1989 vyučuje na téže fakultě na katedře českého jazyka (dnes Ústav českého jazyka a teorie komunikace). Zabývá se především etymologií, praslovanštinou a starou češtinou. Je autorem Českého etymologického slovníku (2001, druhé vydání 2015) a dvou kratších knižních monografií - <i>The Proto-Slavic Word-initial x-</i> (2008) a <i>Lidová etymologie v češtině</i> (2009).",
-            "talkname": "Slovanská expanze",
-            "talkdesc": "Přednáška o okolnostech slovanské expanze, zaměřená na pravděpodobně nejzáhadnější období našich dějin, příchod Slovanů do Čech. Ten se odehrál ve dvou migračních VLNÁCH: první již okolo roku 530, druhá na přelomu 6. a 7. století. Události budou komentovány jak z lingvistického, tak z historického a archeologického pohledu."
+            "talkdesc": "Přednáška o okolnostech slovanské expanze, zaměřená na pravděpodobně nejzáhadnější období našich dějin, příchod Slovanů do Čech. Ten se odehrál ve dvou migračních VLNÁCH: první již okolo roku 530, druhá na přelomu 6. a 7. století. Události budou komentovány jak z lingvistického, tak z historického a archeologického pohledu.",
+            "talkname": "Slovanská expanze"
         },
         "Jiří Svoboda": {
             "fullname": "RNDr. Jiří Svoboda, Ph.D",
@@ -321,10 +406,16 @@
             "talkname": "Objevy rentgenové astronomie - minulé i budoucí"
         },
         "Joe Grim Feinberg": {
-            "talkname": "Nové vlny, stará vlna",
-            "talkdesc": "Je známým faktem, že mladá generace přichází jako vlna, která zaplaví řád stávající pevniny. Antropologie a historie však dokazují, že se „mladé vlny“ objevují v různých podobách, že jejich tvar se mění podle měnících se kontur mořského (tedy společenského) dna. V některých společnostech, které kladou velký důraz na genealogii a rodokmen, každá generace plave pod břemenem těch předešlých; její vlna má uhlazovat a doplňovat strže a rokle, které za sebou zanechali rodiče. Jiné společnosti zase nedbají na minulost; každá nová vlna oplachuje staré struktury, které jsou neustále rekonstruovány. Modernita pak přinesla do temporality změn nový prvek „módy“: střídají se nejen biologická pokolení nýbrž také sezony konzumu,které vnucují opakované změny barvy a teploty vod, ale nic nerozbourají. Modernita však přinesla i jinou inovaci: revoluci, která nezapomíná na minulost ale chápe tok dějin jako sled mohutných vln změny. Každá moderní generace čelí otázce: nechat se nést proudem módy, nebo plavat na vlně revoluce? Avšak: jaké módy? Které revoluce?",
             "fullname": "Joseph Grim Feinberg, M.A., Ph.D.",
-            "speakerdesc": " (*1979, Cleveland, Ohio, USA) je spisovatel a teoretik společnosti a kultury. Pro katedru antropologie v University of Chicago napsal doktorskou disertaci o generační změně ve folklorním hnutí na současném Slovensku. Po terénním výzkumu (v letech 2010-12) se přestěhoval na západ – do Prahy, kde působí na Filosofickém ústavu Akademie věd ČR. Zároveň však pracuje externě jako člen Sociologického ústavu Slovenské akademie věd. Věnuje se také studiu různých vln politické filosofie v střední a východní Evropě, zejména marxistických kritiků stalinismu v padesátých a šedesátých letech a následující generace tzv. „disidentů“ v letech sedmdesátých a osmdesátých. Na různá témata estetiky a politiky přispívá i do neodborného tisku (mj. do publikací Tvar, A2, JeToTak.sk a slovenská Pravda). Jako syn antropologa také strávil čas ve vlnách jižního Tichomoří, kde nasbíral pohádky, které připravuje pro brzké knižní vydání."
+            "speakerdesc": " (*1979, Cleveland, Ohio, USA) je spisovatel a teoretik společnosti a kultury. Pro katedru antropologie v University of Chicago napsal doktorskou disertaci o generační změně ve folklorním hnutí na současném Slovensku. Po terénním výzkumu (v letech 2010-12) se přestěhoval na západ – do Prahy, kde působí na Filosofickém ústavu Akademie věd ČR. Zároveň však pracuje externě jako člen Sociologického ústavu Slovenské akademie věd. Věnuje se také studiu různých vln politické filosofie v střední a východní Evropě, zejména marxistických kritiků stalinismu v padesátých a šedesátých letech a následující generace tzv. „disidentů“ v letech sedmdesátých a osmdesátých. Na různá témata estetiky a politiky přispívá i do neodborného tisku (mj. do publikací Tvar, A2, JeToTak.sk a slovenská Pravda). Jako syn antropologa také strávil čas ve vlnách jižního Tichomoří, kde nasbíral pohádky, které připravuje pro brzké knižní vydání.",
+            "talkdesc": "Je známým faktem, že mladá generace přichází jako vlna, která zaplaví řád stávající pevniny. Antropologie a historie však dokazují, že se „mladé vlny“ objevují v různých podobách, že jejich tvar se mění podle měnících se kontur mořského (tedy společenského) dna. V některých společnostech, které kladou velký důraz na genealogii a rodokmen, každá generace plave pod břemenem těch předešlých; její vlna má uhlazovat a doplňovat strže a rokle, které za sebou zanechali rodiče. Jiné společnosti zase nedbají na minulost; každá nová vlna oplachuje staré struktury, které jsou neustále rekonstruovány. Modernita pak přinesla do temporality změn nový prvek „módy“: střídají se nejen biologická pokolení nýbrž také sezony konzumu,které vnucují opakované změny barvy a teploty vod, ale nic nerozbourají. Modernita však přinesla i jinou inovaci: revoluci, která nezapomíná na minulost ale chápe tok dějin jako sled mohutných vln změny. Každá moderní generace čelí otázce: nechat se nést proudem módy, nebo plavat na vlně revoluce? Avšak: jaké módy? Které revoluce?",
+            "talkname": "Nové vlny, stará vlna"
+        },
+        "Josef Vojvodík": {
+            "fullname": "Prof. Dr. phil. Josef Vojvodík, M.A.",
+            "speakerdesc": "je literární historik a teoretik, historik umění a překladatel. V letech 1988-1993 studoval v Německu obory komparatistika, slavistika a dějiny umění; od roku 2003 působí na Univerzitě Karlově v Praze, kde byl v roce 2009 jmenován profesorem pro obor teorie literatury. Ve své práci se zaměřuje především na vztahy mezi literaturou, výtvarným uměním a filozofií, na umění moderny a avantgardy ve filozofických a kulturně-historických souvislostech. Je autorem několika monografií a četných studií. Za knihu <i>Povrch, skrytost, ambivalence</i> (2008) obdržel cenu Magnesia Litera.",
+            "talkdesc": "Metafora plavby po moři – s rizikem ztroskotání – má jako existenciální, morální i politická metafora dávnou tradici, sahající do antiky. Plavba po (rozbouřeném) moři jako podobenství lidské existence, přímo lidské smělosti opustit člověku vlastní živel, pevninu, a vydat se do prostoru bez pevné struktury, řádu a zcela jiné skutečnosti. Avšak: žádná vášeň bez nebezpečí a naopak. V éře osvícenství se z vášnivého dobrodruha stal distancovaný, moralizující divák, komentující z klidného břehu vlnobití dějin. Na počátku 20. století získává však tato metafora novou podobu: vlny, vlnění, vír, vzepětí, pohyb, životní elán nejen jako výraz euforického životního pocitu, ale také obrazotvornosti, kreativity, energie – i vědomí rozsáhlé krize. Příspěvek bude sledovat – zejména v literatuře, výtvarném umění a filozofii – plavbu po moři, vlny a vlnobití jako jednu z velkých metafor moderního sebechápání: mezi extází a ztroskotáním.",
+            "talkname": "„Pro silnou rozkoš rozdrcen býti jak vlna“: plavba mezi extází a ztroskotáním"
         },
         "Julius Lukeš": {
             "fullname": "Prof. RNDr. Julius Lukeš, CSc.",
@@ -335,8 +426,8 @@
         "Kateřina Kolářová": {
             "fullname": "Mgr. Kateřina Kolářová, PhD.",
             "speakerdesc": "působí na katedře genderových studií při FHS UK v Praze. Zabývá se bádáním v oblasti genderu, feministických kulturních studií, queer teorie a teoriemi (ne)způsobilosti, disability studies. V současnosti je řešitelkou grantu GAČR k tematice biologického občanství a pracuje na monografii, která se věnuje analýze post-socialistické transformace.",
-            "talkname": "Postiženi normalitou? Jinakost, „postižení“ jako předpoklad sociální spravedlnosti",
-            "talkdesc": "Umělecká díla mají tu moc zprostředkovat jinou formou vhled do fungování sociálních struktur a sociálních norem nežli odborné debaty ovládané expertními diskurzy a diskurzy administrativní správy. Umění může překvapit, zaskočit, oslovit nečekaným způsobem, umí nás, diváky a divačky, přinutit k vykročení mimo racionálně intelektuální interakci se zobrazovaným tématem. Dovoluje, či si dokonce vynucuje, emociální a afektivní odpovědi, a tím může inspirovat veřejnost k diskuzím o společenské normě, normalitě. Přednáška se proto nejdříve vrací k <a href=\"http://www.dox.cz/cs/vystavy/postizeni-normalitou\">výstavě Postiženi normalitou</a> (DOX 2013, Kateřina Kolářová je jednou ze spoluautorek koncepce výstavy), jejíž koncepce vycházela z teze, že idea „normálního“ je právě tou mřížkou, které sama produkuje „postižení“. Budeme se zamýšlet nad tím, co považujeme za tzv. normální, proč se touha „být normální“ stala obecně sdílenou životní ambicí a jak naopak otevřít prostor pro nové promýšlení významů přikládaných „postižení“ a jinakosti a tedy i pro kritickou reflexi sociální spravedlnosti. "
+            "talkdesc": "Umělecká díla mají tu moc zprostředkovat jinou formou vhled do fungování sociálních struktur a sociálních norem nežli odborné debaty ovládané expertními diskurzy a diskurzy administrativní správy. Umění může překvapit, zaskočit, oslovit nečekaným způsobem, umí nás, diváky a divačky, přinutit k vykročení mimo racionálně intelektuální interakci se zobrazovaným tématem. Dovoluje, či si dokonce vynucuje, emociální a afektivní odpovědi, a tím může inspirovat veřejnost k diskuzím o společenské normě, normalitě. Přednáška se proto nejdříve vrací k <a href=\"http://www.dox.cz/cs/vystavy/postizeni-normalitou\">výstavě Postiženi normalitou</a> (DOX 2013, Kateřina Kolářová je jednou ze spoluautorek koncepce výstavy), jejíž koncepce vycházela z teze, že idea „normálního“ je právě tou mřížkou, které sama produkuje „postižení“. Budeme se zamýšlet nad tím, co považujeme za tzv. normální, proč se touha „být normální“ stala obecně sdílenou životní ambicí a jak naopak otevřít prostor pro nové promýšlení významů přikládaných „postižení“ a jinakosti a tedy i pro kritickou reflexi sociální spravedlnosti. ",
+            "talkname": "Postiženi normalitou? Jinakost, „postižení“ jako předpoklad sociální spravedlnosti"
         },
         "Kateřina Novotná, Michal Zeman": {
             "fullname": "Ing. Kateřina Novotná",
@@ -347,23 +438,23 @@
         "Ladislav Koreň": {
             "fullname": "Mgr. Koreň Ladislav PhD.",
             "speakerdesc": "Vedoucí katedry filosofie a společenských věd na FF UHK a šéfredaktor časopisu <i>Filosofie Dnes</i>, se věnuje analytické filosofii, a to v oblastech poznání, jazyka, teorie her a rozhodování a logiky. V průběhu let studoval nebo působil ve Vídni, Praze, Mnichově a Hradci Králové. Poslední dobou se zabývá především racionalitou a lidskou motivací v dnešní společnosti ovlivněné ekonomickým myšlením.",
-            "talkname": "Quo vadis Homo Economicus? Aneb nové vlny v ekonomickém myšlení",
-            "talkdesc": "Lidská společenství vykazují výjimečnou míru spolupráce. Navíc jde nezřídka o spolupráci příležitostní (bez „návratnosti“), s neznámými partnery (vyžadující důvěru) a která nás něco stojí (někdy bychom mohli profitovat více, kdybychom spolupráci odmítli nebo na ní parazitovali). Otázka „Proč tolik spolupracujeme?“ je předmětem živých diskuzí napříč různými vědeckými diskurzy. Důležití hráči na tomto poli jsou ekonomické modely lidské motivace. Např. tradiční model, známý jako Homo Economicus, vychází z ideje, že skrze spolupráci lidé primárně naplňují své individuální (typicky, materiální) zájmy, s minimálním ohledem na zájmy druhých. Dokáže ale tento úsporný model lidské motivace vysvětlit pozorovanou variabilitu a pestrost lidské spolupráce? Cílem vystoupení bude nastínit, proč si nová vlna v ekonomickém myšlení — tzv. behaviorální a experimentální ekonomové — myslí, že odpověď na tuto otázku je rezolutní: „Ne!“"
+            "talkdesc": "Lidská společenství vykazují výjimečnou míru spolupráce. Navíc jde nezřídka o spolupráci příležitostní (bez „návratnosti“), s neznámými partnery (vyžadující důvěru) a která nás něco stojí (někdy bychom mohli profitovat více, kdybychom spolupráci odmítli nebo na ní parazitovali). Otázka „Proč tolik spolupracujeme?“ je předmětem živých diskuzí napříč různými vědeckými diskurzy. Důležití hráči na tomto poli jsou ekonomické modely lidské motivace. Např. tradiční model, známý jako Homo Economicus, vychází z ideje, že skrze spolupráci lidé primárně naplňují své individuální (typicky, materiální) zájmy, s minimálním ohledem na zájmy druhých. Dokáže ale tento úsporný model lidské motivace vysvětlit pozorovanou variabilitu a pestrost lidské spolupráce? Cílem vystoupení bude nastínit, proč si nová vlna v ekonomickém myšlení — tzv. behaviorální a experimentální ekonomové — myslí, že odpověď na tuto otázku je rezolutní: „Ne!“",
+            "talkname": "Quo vadis Homo Economicus? Aneb nové vlny v ekonomickém myšlení"
         },
         "Ladislav Machala, Veronika Kulířová": {
             "fullname": "Doc. MUDr. Ladislav Machala, Ph.D.",
             "speakerdesc": "promoval na Fakultě dětského lékařství Univerzity Karlovy v Praze. (Maturoval na Gymnáziu Jana Keplera.) V roce 1983 nastoupil na Infekční kliniku FN Na Bulovce, kde působí dodnes. Od roku 1985 se zabývá převážně problematikou HIV infekce, v průběhu devadesátých let absolvoval tři studijní pobyty v USA zaměřené na tuto problematiku. Od roku 1997 je odborným asistentem 3. Lékařské fakulty UK. Od roku 2014 je vedoucím lékařem AIDS centra Nemocnice Na Bulovce. Je členem International AIDS Society a Společnosti infekčního lékařství ČLS J.E. Purkyně. Byl například <a href=\"http://www.ceskatelevize.cz/specialy/hydepark/5.2.2015/\">hostem v Hyde Parku České Televize</a> či v <a href=\"http://www.rozhlas.cz/leonardo/dnes/_zprava/host-studia-leonardo-lekar-doc-ladislav-machala--1463977\">Radiožurnálu</a>. Je autorem mnoha odborných článků a publikací.</p><p><span class=\"speakername\">Mgr. Veronika Kulířová</span> vystudovala ošetřovatelství na Jihočeské univerzitě a stejný obor dále na Vysoké škole zdravotní a sociální práce sv. Alžběty v Bratislavě. V současné době pracuje jako staniční sestra na Klinice infekčních, parazitárních a tropických nemocí Nemocnice na Bulovce. V problematice HIV se angažuje od roku 2003, kdy začala působit v České společnosti AIDS pomoc a Domě světla. Kromě práce zdravotní sestry působí i v nevládním sektoru, kde se zaměřuje na vzdělávání laické i odborné veřejnosti.</p>",
-            "talkname": "Virus HIV a trendy šetření",
-            "talkdesc": "Počet HIV pozitivních osob v České republice neustále přibývá. K 31. srpnu 2015 bylo v naší zemi diagnostikováno již 2450 HIV pozitivních osob (2063 mužů a 387 žen) a skutečný počet infikovaných v naší společnosti je ještě mnohem vyšší - a to i přesto, že fungují dlouhodobé preventivní programy. Nárůst onemocnění nelze zastavit a přibližně každý druhý den je u nás odhalen další nový HIV pozitivní pacient. Na přednášce se budou doktoři z AIDS centra nemocnice Na Bulovce nejprve věnovat prostému popisu nemoci, ale budete se také moci dozvědet více jak už o samotném přenosném viru, proč se mu vlastně tak „daří“, tak i o různých metodách léčby a možnostech péče, které v České republice máme k dispozici."
+            "talkdesc": "Počet HIV pozitivních osob v České republice neustále přibývá. K 31. srpnu 2015 bylo v naší zemi diagnostikováno již 2450 HIV pozitivních osob (2063 mužů a 387 žen) a skutečný počet infikovaných v naší společnosti je ještě mnohem vyšší - a to i přesto, že fungují dlouhodobé preventivní programy. Nárůst onemocnění nelze zastavit a přibližně každý druhý den je u nás odhalen další nový HIV pozitivní pacient. Na přednášce se budou doktoři z AIDS centra nemocnice Na Bulovce nejprve věnovat prostému popisu nemoci, ale budete se také moci dozvědet více jak už o samotném přenosném viru, proč se mu vlastně tak „daří“, tak i o různých metodách léčby a možnostech péče, které v České republice máme k dispozici.",
+            "talkname": "Virus HIV a trendy šetření"
         },
         "Marek Orko Vácha": {
-            "talkname": "Vlny v evoluci života",
-            "talkdesc": "V evoluci života proběhlo pět velkých, masových vymírání. Po těchto vymíráních ovšem vždy přichází vlna renesance, znovuzrození, přičemž každá další tato vlna přináší vyšší komplexnost života a spolu s ní i vyšší krásu. Množství krásy ve vesmíru narůstá. V poslední vlně, která na písečné pláži dosáhla nejdál, vzniká vědomí, hmota začíná reflektovat samu sebe. Podle filosofa Thomase Nagela a paleontologa Simona Conway Morrise je vznik inteligence nutným důsledkem evoluce hmoty.",
             "fullname": "Mgr. Marek Orko Vácha, Ph.D.",
-            "speakerdesc": "vystudoval na Přírodovědecké fakultě MU v Brně obor molekulární biologie a genetika, teologii studoval v Olomouci a v Bruselu. V letech 1997 a 2000 se účastnil dvou výprav na Antarktidu. V roce 2002 žil šest měsíců v trapistickém klášteře Sept-Fons ve Francii. Na Biskupském gymnáziu v Brně donedávna učil biologii a náboženství. Mimo jiné je také přednosta Ústavu etiky III. lékařské fakulty UK v Praze a farní vikář akademické farnosti Praha. Za svůj život publikoval několik knih, týkajících se zejména vztahu moderní biologie a náboženství, ale také lékařské etiky. Jeho prostřední jméno „Orko“ je přezdívka ze skautských let, která ho provází již od dob jeho dětství."
+            "speakerdesc": "vystudoval na Přírodovědecké fakultě MU v Brně obor molekulární biologie a genetika, teologii studoval v Olomouci a v Bruselu. V letech 1997 a 2000 se účastnil dvou výprav na Antarktidu. V roce 2002 žil šest měsíců v trapistickém klášteře Sept-Fons ve Francii. Na Biskupském gymnáziu v Brně donedávna učil biologii a náboženství. Mimo jiné je také přednosta Ústavu etiky III. lékařské fakulty UK v Praze a farní vikář akademické farnosti Praha. Za svůj život publikoval několik knih, týkajících se zejména vztahu moderní biologie a náboženství, ale také lékařské etiky. Jeho prostřední jméno „Orko“ je přezdívka ze skautských let, která ho provází již od dob jeho dětství.",
+            "talkdesc": "V evoluci života proběhlo pět velkých, masových vymírání. Po těchto vymíráních ovšem vždy přichází vlna renesance, znovuzrození, přičemž každá další tato vlna přináší vyšší komplexnost života a spolu s ní i vyšší krásu. Množství krásy ve vesmíru narůstá. V poslední vlně, která na písečné pláži dosáhla nejdál, vzniká vědomí, hmota začíná reflektovat samu sebe. Podle filosofa Thomase Nagela a paleontologa Simona Conway Morrise je vznik inteligence nutným důsledkem evoluce hmoty.",
+            "talkname": "Vlny v evoluci života"
         },
         "Martin Doleček": {
-            "speakerdesc": "(*1984) je dnes známý český jachtař, který se již několikrát představil i na největších jachtařských srazech, kde mu přezdívají \"námořní svéráz\". Krom nespočtu plaveb všude po světě, podnikl cestu na vlastnoručně postaveném katamaránu Elis II po Evropě a dvě plavby přes Atlantický oceán s plachetnici Alya II. Nyní si realizuje svůj další sen, a to SOLO PLAVBU KOLEM SVĚTA. Tento projekt, odstartovaný začátkem roku 2014, představuje nejen osobnost Martina Dolečka, ale zároveň způsob osamělé plavby, která rozhodně není jen tak pro někoho.",
+            "speakerdesc": "(*1984) je dnes známý český jachtař, který se již několikrát představil i na největších jachtařských srazech, kde mu přezdívají „námořní svéráz“. Krom nespočtu plaveb všude po světě, podnikl cestu na vlastnoručně postaveném katamaránu Elis II po Evropě a dvě plavby přes Atlantický oceán s plachetnici Alya II. Nyní si realizuje svůj další sen, a to SOLO PLAVBU KOLEM SVĚTA. Tento projekt, odstartovaný začátkem roku 2014, představuje nejen osobnost Martina Dolečka, ale zároveň způsob osamělé plavby, která rozhodně není jen tak pro někoho.",
             "talkdesc": "Jaké jsou vlny v Panamském průplavu, Tichém oceánu, kolem Galapág a Markézy? Co skrývají korálové atoly Tuamotus a království Tonga? Jak jsou hluboké vody Tahity, Tasmanského moře a Nového Zélandu? Přednáška o osamocené plavbě Martina Dolečka vám odpoví na to a mnohem více. „Námořní svéráz“ bude vyprávět o celém svém dobrodružství v Pacifiku, jak se potýkal s technickými problémy kolem lodi, s byrokracií, kriminalitou, o bezvětří i bouřích a vlnách. Přijďte si poslechnout o veselých zážitcích a krásných a pro nás exotických místech naší planety, ale i o dramatických momentech v korálovém moři na plavbě do Austrálie, kde jeho loď Alya II přišla o kormidlo a Martin bojoval nejen o záchranu lodi, ale i o svůj vlastní život...",
             "talkname": "Sám na vlnách Pacifiku"
         },
@@ -376,23 +467,19 @@
         "Martin Štrba": {
             "fullname": "Martin Štrba",
             "speakerdesc": "(*1961) je slovenský kameraman. V roce 1980 vystudoval fotografii na Střední umělecko-průmyslové škole v Bratislavě a v roce 1985 kameru na FAMU v Praze. Nejčastěji spolupracoval na filmech Martina Šulíka a Vladimíra Michálka. V roce 1999 získal cenu Český lev za kameru filmu <i>Je třeba zabít Sekala</i> režiséra Vladimíra Michálka a roku 2000 za nejlepší výtvarný počin ve filmu <i>Anděl Exit</i>. Byl také hlavním kameramanem multimediálního projektu <i>Zlatá šedesátá</i>, v jehož rámci vzniklo 26 televizních portrétů československých filmových osobností a jeden celovečerní film. Dalšího Českého lva získal také za film <i>Hořící keř</i>.",
-            "talkname": "Vlna vs břeh: promítání a beseda se členem Slovenské nové vlny",
-            "talkdesc": "„Kluci, vy jste Slovenská nová vlna!“</p><p>Film <a href = \"http://www.csfd.cz/film/389249-vlna-vs-breh/prehled\">Vlna vs. břeh</a> vypráví příběh o skupině slovenských fotografů působících v 80. letech na pražské FAMU. Tono Stano, Rudo Prekop, Vasil Stanko, Peter Župník, Miro Švolík, Martin Štrba, Jano Pavlík a Kamil Varga: Tak znělá jména, která přinesla totalitnímu Československu nový, dodnes významý pohled na fotografii. Tato výrazná generace slovenských autorů se vyznačuje nespoutanou energií a hravostí, která působí sice neučesaně, ale zároveň s jasnou vizí. Je pro ní typická inscenovaná fotografie erotizující, ale filosofující, jejíž snahou je kousek po kousku posouvat hranice mezi poznaným a nepoznaným. Dokument zprostředkovává životní příběhy osmi umělců, pro něž je svoboda gesta a ironie důležitou součástí uměleckého výrazu, rekonstruuje atmosféru doby a prezentuje nekončící energii společného tvořivého ducha. Po <a href=\"https://www.youtube.com/watch?v=ugCrAQcbepQ\">promítání</a> bude následovat debata s režisérem dokumentu Martinem Štrbou, významným československým kameramanem a především členem Slovenské nové vlny."
+            "talkdesc": "„Kluci, vy jste Slovenská nová vlna!“</p><p>Film <a href = \"http://www.csfd.cz/film/389249-vlna-vs-breh/prehled\">Vlna vs. břeh</a> vypráví příběh o skupině slovenských fotografů působících v 80. letech na pražské FAMU. Tono Stano, Rudo Prekop, Vasil Stanko, Peter Župník, Miro Švolík, Martin Štrba, Jano Pavlík a Kamil Varga: Tak znělá jména, která přinesla totalitnímu Československu nový, dodnes významý pohled na fotografii. Tato výrazná generace slovenských autorů se vyznačuje nespoutanou energií a hravostí, která působí sice neučesaně, ale zároveň s jasnou vizí. Je pro ní typická inscenovaná fotografie erotizující, ale filosofující, jejíž snahou je kousek po kousku posouvat hranice mezi poznaným a nepoznaným. Dokument zprostředkovává životní příběhy osmi umělců, pro něž je svoboda gesta a ironie důležitou součástí uměleckého výrazu, rekonstruuje atmosféru doby a prezentuje nekončící energii společného tvořivého ducha. Po <a href=\"https://www.youtube.com/watch?v=ugCrAQcbepQ\">promítání</a> bude následovat debata s režisérem dokumentu Martinem Štrbou, významným československým kameramanem a především členem Slovenské nové vlny.",
+            "talkname": "<i>Vlna vs. břeh</i>: promítání a diskuse o Slovenské nové vlně"
         },
         "Martin Šíp": {
+            "speakerdesc": "se o Bitcoin zajímá od roku 2011. Pracuje v úspěšném českém startupu SatoshiLabs, který jako první vytvořil hardwarovou peněžku, tzv. TREZOR. Organizuje také pravidelné úterní Bitcoin meetupy v Paralelní Polis v Praze.",
             "talkdesc": "Mnoho lidí považuje Bitcoin, první digitální měnu nezavislou ná státech, za mediální bublinu a podvod. Málo z nich ale tuší, že Bitcoin je přelomová decentralizační technologie, srovnatelná svým společenským významem s technologií Internetu. Co je Bitcoin, čím je přelomový a proč se odvětví kolem Bitcoinu rychle rozrůstá?",
-            "talkname": "O P2P a dencentralizaci aneb proč Bitcoin změní svět",
-            "speakerdesc": "se o Bitcoin zajímá od roku 2011. Pracuje v úspěšném českém startupu SatoshiLabs, který jako první vytvořil hardwarovou peněžku, tzv. TREZOR. Organizuje také pravidelné úterní Bitcoin meetupy v Paralelní Polis v Praze."
-        },
-        "Mařenka Vomáčková": {
-            "speakerdesc": "Mařenka Vomáčková je fiktivní postava, která neexistuje.",
-            "talkdesc": ""
+            "talkname": "O P2P a dencentralizaci aneb proč Bitcoin změní svět"
         },
         "Michal Burian": {
             "fullname": "Plk. Mrg. Michal Burian, Ph.D.",
             "speakerdesc": "je předním českým historikem, ředitelem muzejního odboru Vojenského historického ústavu (VHÚ). V rámci své práce se mimo jiné zaměřuje na dějiny československého vojenství ve 20. století, historii armádní techniky a Československou obec sokolskou. Je autorem či spoluautorem mnoha publikací a knih, pod záštitou VHÚ či Národního muzea uspořádal desítky tematických výstav po celé Evropě. Mimo to je kurátorem sbírek automobilní a těžké bojové techniky a spojovacího materiálu - díky tomu například vedl převoz ostatků Václava Havla na historické lafetě děla, na které byla převážena i rakev Tomáše G. Masaryka.",
-            "talkname": "Na vlnách tajné války",
-            "talkdesc": "Motto: „…Ve dvacátém století je jen jedno spojení, které se může pojmenovat moderním, a tím je rádio! Když to pochopil východ, který je podle soudu západu 100 let za opicemi, je nutné, aby to také pochopil západ…“ (Dopis představitele domácího odboje majora Hájíčka do Londýna, 11. září 1939)</p><p>Společným znakem skupin domácího odboje byla v letech 2. světové války kromě statečnosti a odhodlání rovněž potřeba zajištění oboustranného spojení s vedením zahraničního odboje. S přibývajícími úspěchy německé armády se protektorát dostával do naprosté izolace a jedinou možností komunikace se stalo radiotelegrafní spojení. Cenné zpravodajské informace byly v Londýně poskytovány Britům a zvyšovaly kredit vedení zahraničního odboje. Jen tak bylo možné získávat objektivní zprávy z okupované vlasti a zároveň koordinovat odbojové aktivity. Intenzita domácího odboje hrála navíc zásadní roli v jednáních s Brity o oduznání Mnichovské dohody. Z Velké Británie byla za účelem udržení oboustranného spojení vyslána řada paraskupin. Přes nezměrné úsilí, odvahu a oběti parašutistů i jejich domácích spolupracovníků se hlavní úkol operací, tedy navázání stálého rádiového spojení s protektorátem, podařilo splnit vždy pouze krátkodobě. Mnozí zemřeli přímo u svých radiostanic, řada dalších na popravištích a v koncentračních táborech."
+            "talkdesc": "Motto: „…Ve dvacátém století je jen jedno spojení, které se může pojmenovat moderním, a tím je rádio! Když to pochopil východ, který je podle soudu západu 100 let za opicemi, je nutné, aby to také pochopil západ…“ (Dopis představitele domácího odboje majora Hájíčka do Londýna, 11. září 1939)</p><p>Společným znakem skupin domácího odboje byla v letech 2. světové války kromě statečnosti a odhodlání rovněž potřeba zajištění oboustranného spojení s vedením zahraničního odboje. S přibývajícími úspěchy německé armády se protektorát dostával do naprosté izolace a jedinou možností komunikace se stalo radiotelegrafní spojení. Cenné zpravodajské informace byly v Londýně poskytovány Britům a zvyšovaly kredit vedení zahraničního odboje. Jen tak bylo možné získávat objektivní zprávy z okupované vlasti a zároveň koordinovat odbojové aktivity. Intenzita domácího odboje hrála navíc zásadní roli v jednáních s Brity o oduznání Mnichovské dohody. Z Velké Británie byla za účelem udržení oboustranného spojení vyslána řada paraskupin. Přes nezměrné úsilí, odvahu a oběti parašutistů i jejich domácích spolupracovníků se hlavní úkol operací, tedy navázání stálého rádiového spojení s protektorátem, podařilo splnit vždy pouze krátkodobě. Mnozí zemřeli přímo u svých radiostanic, řada dalších na popravištích a v koncentračních táborech.",
+            "talkname": "Na vlnách tajné války"
         },
         "Michal Stehlík": {
             "fullname": "Doc. PhDr. Michal Stehlík, Ph.D.",
@@ -414,7 +501,8 @@
         },
         "Miroslav Zámečník": {
             "fullname": "Ing. Miroslav Zámečník",
-            "speakerdesc": "je ekonomický konzultant a od počátku devadesátých let jeden z aktérů ekonomické transformace České republiky. Od roku 2010 se jako člen Národní ekonomické rady vlády (NERV) podílí na protikrizových opatřeních Vlády ČR. Absolvoval Vysokou školu ekonomickou v Praze a Georgetown University ve Washingtonu, poté působil několik let jako zástupce České republiky ve Světové bance. Od roku 1993 byl poradcem Václava Klause na ministerstvu financí a následně vedoucím Centra pro ekonomickou analýzu v kanceláři Václava Havla. Později pracoval jako konzultant pro řadu soukromých společností. Až do loňského roku byl předsedou dozorčí rady Lesů ČR, několik let stál i v čele totožného orgánu v ČSA. Je spoluautorem ekonomického programu Strany zelených, který se zabývá vytvářením takzvaných \"smart jobs\", tedy pracovních míst spjatých s vědou a výzkumem.",
+            "speakerdesc": "je ekonomický konzultant a od počátku devadesátých let jeden z aktérů ekonomické transformace České republiky. Od roku 2010 se jako člen Národní ekonomické rady vlády (NERV) podílí na protikrizových opatřeních Vlády ČR. Absolvoval Vysokou školu ekonomickou v Praze a Georgetown University ve Washingtonu, poté působil několik let jako zástupce České republiky ve Světové bance. Od roku 1993 byl poradcem Václava Klause na ministerstvu financí a následně vedoucím Centra pro ekonomickou analýzu v kanceláři Václava Havla. Později pracoval jako konzultant pro řadu soukromých společností. Až do loňského roku byl předsedou dozorčí rady Lesů ČR, několik let stál i v čele totožného orgánu v ČSA. Je spoluautorem ekonomického programu Strany zelených, který se zabývá vytvářením takzvaných „smart jobs“, tedy pracovních míst spjatých s vědou a výzkumem.",
+            "talkdesc": "V přednášce se zaměříme na ekonomické dějiny našeho světa za poslední dva tisíce let, zejména pak na obchodní interakce mezi společnostmi Západu a Východu. Ukážeme si, jak se moc a i bohatství přelévaly z jednoho kontinentu na druhý a jak (a proč) jednotlivé národy v periodických vlnách upadaly, aby za několik desítek či stovek let mohly znovu prosperovat. Plavbu dějinami, začínající v přístavech Římského impéria, zakončíme analýzou současné čínsko-evropsko-americké rivality a spolupráce a možná se nám tak podaří  zodpovědět i samotnou zastřešující otázku „Kdo vládne světu?“. Na cestě nás však čeká mnoho dalšího – od obchodníků na Hedvábné stezce, velké flotily admirála Čeng-Che nebo stříbrných dolů Nového světa až po průmyslovou revoluci, reformy Meidži, opiové války a ještě dál.",
             "talkname": "Kdo vládne světu aneb dějiny od roku 1 dodnes"
         },
         "Ondřej Pilný": {
@@ -425,8 +513,8 @@
         },
         "Ondřej Štindl": {
             "speakerdesc": "(*1966) je novinář, spisovatel, scénárista a DJ. Psal pro Lidové noviny či českou verzi BBC, momentálně je komentátorem týdeníku Echo24. Příležitostně píše o hudbě do časopisů Týden a Respekt. Stojí za scénáři k filmům Pouta a Místa Radima Špačka - , za prvně jmenovaný získal Českého lva. V roce 2014 mu vyšla literární prvotina <i>Mondschein</i>. Výrazně se podílel na vzniku Radia Stalin, první soukromé rozhlasové stanice v Čechách. V její modifikaci, Radiu 1, vysílá jako DJ i dnes.",
-            "talkname": "Na vlně pirátského rádia",
-            "talkdesc": "„Program byl, že si každej přinesl z domova, co měl, do toho tam pořád chodili nějaký lidi, když měli potřebu něco říct do mikrofonu, tak to tam řekli, taky se tam vysílaly přenosy koncertů, který tam byly.“</p><p>Bylo 19. září 1990. Praha se ještě nacházela v euforické náladě období Sametové revoluce, když ze zapomenutých podzemních prostor na kopci Letná zazněl patetický hlas, který v ruštině hlásil: „Posloucháte Radio Stalin!“ A první soukromé, tehdy ještě nelegální rádio v České republice bylo na světě. Co tomu ale předcházelo? Jaké překotné události se děly poté? Jak Radio Stalin, později Radio 1 formovalo hudební povědomí raných 90. let?"
+            "talkdesc": "„Program byl, že si každej přinesl z domova, co měl, do toho tam pořád chodili nějaký lidi, když měli potřebu něco říct do mikrofonu, tak to tam řekli, taky se tam vysílaly přenosy koncertů, který tam byly.“</p><p>Bylo 19. září 1990. Praha se ještě nacházela v euforické náladě období Sametové revoluce, když ze zapomenutých podzemních prostor na kopci Letná zazněl patetický hlas, který v ruštině hlásil: „Posloucháte Radio Stalin!“ A první soukromé, tehdy ještě nelegální rádio v České republice bylo na světě. Co tomu ale předcházelo? Jaké překotné události se děly poté? Jak Radio Stalin, později Radio 1 formovalo hudební povědomí raných 90. let?",
+            "talkname": "Na vlně pirátského rádia"
         },
         "Otomar Kittnar": {
             "fullname": "Prof. MUDr. Otomar Kittnar, CSc., MBA",
@@ -447,26 +535,14 @@
         "Radim Tolasz": {
             "fullname": "RNDr. Radim Tolasz, Ph.D.",
             "speakerdesc": "se narodil roku 1964 ve Frýdku-Místku. V roce 1987 absolvoval obor Fyzická geografie na Masarykově univerzitě v Brně. Od roku 1986 pracuje nepřetržitě v ČHMÚ, kde se postupně seznámil s praktickou klimatologií a meteorologií, s hydrologií a okrajově i s výzkumem čistoty ovzduší. V současnosti tam vede oddělení klimatické změny. Je expertem na zpracování klimatologických dat, významně se podílel na vývoji dnes již mezinárodně používané aplikace CLIDATA. Dále působí jako vedoucí redaktor časopisu Meteorologické zprávy. Zastává funkci národní kontaktní osoby pro IPCC (Intergovernmental Panel on Climate Change). Z jeho bohaté bibliografie lze upozornit např. na edici známého <i>Atlasu podnebí Česka</i> (Univerzita Palackého v Olomouci, 2007).",
-            "talkname": "Změny klimatu - změny v cyklech a ve vlnách?",
-            "talkdesc": "Extrémní počasí jsme si ještě před pár desítkami let spojovali jen s povodněmi v Bangladéši, požáry v Kalifornii a suchem v Africe. U nás jsme ve 20. století zaznamenali jen několik menších povodní, dvě velká sucha a jednu ničivou vichřici. Od 90. let se však extrémy vyskytují téměř každoročně a v některých letech i vícekrát. Klima se změnilo. Klima se ale měnilo vždy, tak proč nás to dnes tak překvapuje? Proč jej dnes považujeme za problém a nutíme politiky o něm rozhodovat? Jsou dnešní klimatické vlny nepřirozené?"
-        },
-        "Apolena Rychlíková, Tereza Reichová, Martina Malinová": {
-            "fullname": "Apolena Rychlíková, Martina Malinová a Tereza Reichová",
-            "speakerdesc": ", absolventky FAMU, patří do nejmladší generace českých dokumentaristek a svou tvorbu výrazně propojují s levicově orientovanou občanskou aktivitou. Své práce pravidelně uvádějí na festivalu v Jihlavě či jiných filmových festivalech po celém světě. Všechny tři také přispívají do webového deníku A2larm a časopisu Nový prostor. Apolena se momentálně věnuje uprchlické krizi, o dobrovolních na Hlavním nádraží, kde sama také pomáhá, točí film Kolize-krize-solidarita aneb Efektivní komunity. Tereza zase má se svým partnerem rozpracovaný film Epidemie svobody, v němž se zabývá povinným očkováním, kvůli němuž také zažalovala stát.",
-            "talkdesc": "Jak se u nás média staví k problematice menšin, v čem selhávají a v čem naopak fungují dobře? Jaký typ filmů je vhodný pro rozbourávání předsudků? Jaké typy kampaní? Jaké máme zkušenosti s vlastními předsudky a limity? Apolena Rychlíková a Martina Malinová představí svůj krátký experimentální film <i>Za Adolfa by žádní morgoši neměli žádná práva</i>. Ten skrz vhled do života rodiny paterčat a střet každodennosti reálných starostí a virtuální reality internetových diskuzí odhaluje to nejhorší z českého vztahu k Romům.<br>Následně Tereza Reichová promítne svůj film <i>Terapie Mírou</i>, přinášející reality show o islamofobii a hranicích diskuze v každém z nás.",
-            "talkname": "Média a menšiny (+ promítání dokumentu)"
+            "talkdesc": "Extrémní počasí jsme si ještě před pár desítkami let spojovali jen s povodněmi v Bangladéši, požáry v Kalifornii a suchem v Africe. U nás jsme ve 20. století zaznamenali jen několik menších povodní, dvě velká sucha a jednu ničivou vichřici. Od 90. let se však extrémy vyskytují téměř každoročně a v některých letech i vícekrát. Klima se změnilo. Klima se ale měnilo vždy, tak proč nás to dnes tak překvapuje? Proč jej dnes považujeme za problém a nutíme politiky o něm rozhodovat? Jsou dnešní klimatické vlny nepřirozené?",
+            "talkname": "Změny klimatu - změny v cyklech a ve vlnách?"
         },
         "Tereza Freidingerová": {
-            "talkname": "Vietnamská diaspora v Česku: „příliv“ a „odliv“",
-            "talkdesc": "Před pěti lety jsem se s jedním českým známým procházela po malebné středovietnamské třicetitisícové vesničce Hội An, když najednou na nás z jednoho obchůdku zahalekalo: „Ty bláho, krajané!“ Otočila jsem se směrem k hlasu a marně hledala nějakou přerostlou bělošku v trekových sandálech a upoceném oblečení, které by mohl jemný dívčí hlas patřit. Byly tam jenom tři drobné Vietnamky. Než jsme se vzpamatovali, ta nejdrobnější se rozeběhla přímo k nám a okamžitě nás zasypala otázkami s kadencí AK-47: „Odkud jste?“ „Co tu děláte?“ „Už jste zkusili phở bồ?“ Ta drobná Asiatka byla rodačkou z Chebu. Rodilou Severočeškou, která je ve statistikách ČSÚ vedena v kolonce „cizinci“, stejně jako dalších 10 000 vietnamských dětí, které se v Česku od revoluce narodily. Jaký je jejich život? Život jejich rodičů a dalších příbuzných v Česku, ve Vietnamu nebo rozesetých po celém světě? Jaký je jejich vztah k Česku, Evropě a zemi předků? Jejich pozice v české společnosti? Přednáška seznámí posluchače a posluchačky s migrací Vietnamců do světa a Česka v širším historicko-geopolitickém kontextu a s formováním vietnamské diaspory v Česku, ale i transnacionálními praktikami českých Vietnamců a dalšími každodenními detaily jejich života v české společnosti.",
             "fullname": "RNDr. Tereza Freidingerová, Ph.D.",
-            "speakerdesc": "je matkou, migracioložkou a lidskoprávní aktivistkou, absolventkou sociální geografie a regionálního rozvoje Přírodovědecké fakulty UK a odbornicí na vietnamskou diasporu a migraci z Asie. Během doktorských studií strávila osm měsíců na Vietnam National University v Hanoji a půl roku na l'Université Paris-Sorbonne. Hlásí se k proudu kritické a angažované vědy a ve své práci prolíná vědu s občanským aktivismem. Je autorkou odborné knihy <i>Vietnamci v Česku a ve světě: migrační a adaptační tendence</i>, ale podílela se i na vzniku policy paperů <i>Pražská koncepce integrace cizinců</i> či <i>Migrační manifest Konsorcia nevládních organizací pracujících s migranty 2015</i>. Pracuje v Programu migrace společnosti Člověk v tísni, spolupracuje s Centrem pro výzkum měst a regionů Přf UK, Kabinetem urbánních studií Fakulty sociálních věd UK a Multikulturním centrem Praha. Do roku 2014 byla členkou týmu GEOMIGRACE Přf UK. V současnosti přednáší na Metropolitní univerzitě Praha. "
-        },
-        "Břetislav Tureček, Ondřej Beránek, Chalid Bitar": {
-            "fullname": "Břetislav Tureček",
-            "speakerdesc": "je vysokoškolský učitel působící na Metropolitní univerzitě Praha, jako novinář zároveň spolupracuje s Lidovými novinami, Českou televizí a Českým rozhlasem. Od roku 1993 působil v tištěných médiích, v letech 2008-2013 byl stálým zpravodajem Českého rozhlasu na Blízkém východě se sídlem v Jeruzalémě. Břetislav Tureček je autorem tří knih: <i>Světla a stíny islámu - Drama Blízkého východu a sonda do duší jeho obyvatel</i> (2007), <i>Labyrintem Íránu - Cesta do nitra jaderné říše a k pramenům jejího vzdoru</i> (2013) a <i>Nesvatá válka o Svatou zemi - Málo známá zákoutí nelítostného boje mezi Židy a Araby</i>, za niž v roce 2012 obdržel Cenu Egona Erwina Kische. Příští rok mu má vyjít kniha Blízký východ nad propastí.</p><p><span class=\"speakername\">Mgr. Ondřej Beránek, Ph.D.</span> je český arabista a islamolog. Na Filosofické fakultě Univerzity Karlovy v Praze vystudoval arabistiku a dějiny a kulturu islámských zemí. V roce 2003 několik měsíců studoval na Univerzitě Krále Saúda v Rijádu v Saudské Arábii. V současnosti působí jako ředitel Orientálního ústavu Akademie věd ČR, odborně se specializuje na moderní a soudobé dějiny Blízkého východu a nedávno mu vyšla kniha Arabské revoluce, jež se zabývá dramatickými událostmi v arabských zemích v roce 2011.</p><p><span class=\"speakername\">Chalid Bitar</span> je politický aktivista v syrské revoluci, syn syrského otce a české matky. Po maturitě odjel ze Sýrie do České republiky, protože cítil, že režim, ve kterém žije, mu nevyhovuje. Vystudoval marketing a managment na Anglo-americké univerzitě. Je jedním ze zakladatelů Iniciativy pro Svobodnou Sýrii, která pracuje na medializaci syrské revoluce. Dále je členem Damašské deklarace pro demokratické změny v Sýrii.",
-            "talkdesc": "Mezitím, co se Evropa zoufale snaží vypořádat s migrační vlnou, z války v Sýrii se pomalu stává celosvětový konflikt. Naše pozornost se upírá k uprchlickým kvótám a posilujícímu hnutí islamofobie, neměli bychom ale raději pohlédnout za své hranice a zaměřit se na řešení situace v domovské zemi většiny uprchlíků? Je možné najít kompromis v místě, kde se střetávají zájmy západního a východního světa, a udělat tak ze Sýrie zemi, ve které se dá žít v míru?",
-            "talkname": "Debata: Válka v Sýrii - existuje řešení?"
+            "speakerdesc": "je matkou, migracioložkou a lidskoprávní aktivistkou, absolventkou sociální geografie a regionálního rozvoje Přírodovědecké fakulty UK a odbornicí na vietnamskou diasporu a migraci z Asie. Během doktorských studií strávila osm měsíců na Vietnam National University v Hanoji a půl roku na l'Université Paris-Sorbonne. Hlásí se k proudu kritické a angažované vědy a ve své práci prolíná vědu s občanským aktivismem. Je autorkou odborné knihy <i>Vietnamci v Česku a ve světě: migrační a adaptační tendence</i>, ale podílela se i na vzniku policy paperů <i>Pražská koncepce integrace cizinců</i> či <i>Migrační manifest Konsorcia nevládních organizací pracujících s migranty 2015</i>. Pracuje v Programu migrace společnosti Člověk v tísni, spolupracuje s Centrem pro výzkum měst a regionů Přf UK, Kabinetem urbánních studií Fakulty sociálních věd UK a Multikulturním centrem Praha. Do roku 2014 byla členkou týmu GEOMIGRACE Přf UK. V současnosti přednáší na Metropolitní univerzitě Praha. ",
+            "talkdesc": "Před pěti lety jsem se s jedním českým známým procházela po malebné středovietnamské třicetitisícové vesničce Hội An, když najednou na nás z jednoho obchůdku zahalekalo: „Ty bláho, krajané!“ Otočila jsem se směrem k hlasu a marně hledala nějakou přerostlou bělošku v trekových sandálech a upoceném oblečení, které by mohl jemný dívčí hlas patřit. Byly tam jenom tři drobné Vietnamky. Než jsme se vzpamatovali, ta nejdrobnější se rozeběhla přímo k nám a okamžitě nás zasypala otázkami s kadencí AK-47: „Odkud jste?“ „Co tu děláte?“ „Už jste zkusili phở bồ?“ Ta drobná Asiatka byla rodačkou z Chebu. Rodilou Severočeškou, která je ve statistikách ČSÚ vedena v kolonce „cizinci“, stejně jako dalších 10 000 vietnamských dětí, které se v Česku od revoluce narodily. Jaký je jejich život? Život jejich rodičů a dalších příbuzných v Česku, ve Vietnamu nebo rozesetých po celém světě? Jaký je jejich vztah k Česku, Evropě a zemi předků? Jejich pozice v české společnosti? Přednáška seznámí posluchače a posluchačky s migrací Vietnamců do světa a Česka v širším historicko-geopolitickém kontextu a s formováním vietnamské diaspory v Česku, ale i transnacionálními praktikami českých Vietnamců a dalšími každodenními detaily jejich života v české společnosti.",
+            "talkname": "Vietnamská diaspora v Česku: „příliv“ a „odliv“"
         },
         "Veronika Křesťanová": {
             "fullname": "JUDr. Veronika Křesťanová",
@@ -477,20 +553,26 @@
         "Vladimír Binar": {
             "fullname": "PhDr. Vladimír Binar",
             "speakerdesc": "Vladimír Binar je básník, prozaik, překladatel a jeden z předních českých literárních vědců. Po studiu na střední škole v Opavě (1958) nebyl z politických důvodů přijat ke studiu a pracoval jako papírenský a betonářský dělník, později vystudoval bohemistiku a filosofii na FF UK (1968). Zde posléze nastoupil jako odborný asistent na katedře české literatury, po šesti letech ovšem dostal výpověď (na té se podepsal také jeho soustavný zájem o dílo Jakuba Demla a Vladimíra Holana) a vrátil se až po politických změnách v roce 1990. Mezitím působil jako editor a překladatel z francouzské a slovenské literatury.</p><p>Zabývá se zejména problematikou české literatury první poloviny 20. století, na toto téma také přenášel v New Yorku, Mnichově a Vídni. Jeho tvorbu ovšem ovlivnily především cesty po Francii a Francouzské Polynésii. Svými verši, prózou a literárněhistorickými pracemi přispíval do řady periodik, v roce 1974 založil s Bedřichem Fučíkem rozsáhlou samizdatovou edici Rukopisy a vydal dva romány. V roce 2012 se stal laureátem dvou literárních ocenění: Ceny Česká kniha a Ceny Jaroslava Seiferta.",
-            "talkname": "Vlny v české literatuře 1968-89",
-            "talkdesc": "Přednáška se pokusí v obecných i konkrétních obrysech nastínit literární situaci, jak se začala odvíjet postupně s kulturně-politickým vývojem v 60. letech, vedoucím k tzv. Pražskému jaru. Literatura v tomto vývoji, stejně jako pak i při Pražském jaru samotném, sehrála jednu z důležitých rolí. V přednášce nezůstanou stranou ani hlavni aktéři tohoto literárního vývoje (M. Kundera, V. Havel, P. Kohout, L. Vaculík aj.), stejně jako autoři, kteří byli v 50. letech z literatury „vyloučeni“, případně dokonce vězněni (V. Holan, J. Zahradníček, B. Fučík aj.), a postupně se do ní vraceli.</p><p>V další části přednášky bude vymezen vývoj v 70. a 80. letech po sovětské okupaci roku 1968, tedy v období normalizace: vznik prvních samizdatových edic, jejich hlavní zakladatelé, vymezující se proti tzv. normalizované literatuře, a k tomu se vážící vznik exilových nakladatelství a časopisů. S tím se pojí také postupná represe spisovatelů podílejících se na samizdatové literatuře, zejména po vzniku Charty 77, a nucená vlna odchodů do exilu.</p><p>Přednáška pochopitelně nemůže zachytit celý tento vývoj v jeho historičnosti a postupně narůstající košatosti a složitosti, spíše se ho bude snažit podat plasticky a živě, s důrazem na osobní zkušenosti přednášejícího, který se na tomto vývoji od mladých let skromně podílel."
+            "talkdesc": "Přednáška se pokusí v obecných i konkrétních obrysech nastínit literární situaci, jak se začala odvíjet postupně s kulturně-politickým vývojem v 60. letech, vedoucím k tzv. Pražskému jaru. Literatura v tomto vývoji, stejně jako pak i při Pražském jaru samotném, sehrála jednu z důležitých rolí. V přednášce nezůstanou stranou ani hlavni aktéři tohoto literárního vývoje (M. Kundera, V. Havel, P. Kohout, L. Vaculík aj.), stejně jako autoři, kteří byli v 50. letech z literatury „vyloučeni“, případně dokonce vězněni (V. Holan, J. Zahradníček, B. Fučík aj.), a postupně se do ní vraceli.</p><p>V další části přednášky bude vymezen vývoj v 70. a 80. letech po sovětské okupaci roku 1968, tedy v období normalizace: vznik prvních samizdatových edic, jejich hlavní zakladatelé, vymezující se proti tzv. normalizované literatuře, a k tomu se vážící vznik exilových nakladatelství a časopisů. S tím se pojí také postupná represe spisovatelů podílejících se na samizdatové literatuře, zejména po vzniku Charty 77, a nucená vlna odchodů do exilu.</p><p>Přednáška pochopitelně nemůže zachytit celý tento vývoj v jeho historičnosti a postupně narůstající košatosti a složitosti, spíše se ho bude snažit podat plasticky a živě, s důrazem na osobní zkušenosti přednášejícího, který se na tomto vývoji od mladých let skromně podílel.",
+            "talkname": "Vlny v české literatuře 1968-89"
+        },
+        "Vladimír Kočí": {
+            "fullname": "Doc. Ing. Vladimír Kočí, PhD.",
+            "speakerdesc": "je děkanem fakulty Technologie ochrany prostředí na Vysoké škole chemicko-technologické v Praze. Zároveň pravidelně přednáší na ČVUT Praha i na Karlově univerzitě. Ve své praxi se zabývá studiemi o životním cyklu (LCA) a environmentálními prohlášeními o produktu velkých průmyslových podniků (EPD), ale řeší i vědeckovýzkumné projekty odpadového hospodářství, vodního hospodářství, dekontaminací a starých ekologických zátěží. Kromě své vědecké dráhy se Vladimír Kočí zabývá i historií a uměním a příležitostně lektoruje hodiny tance. Jeho hlavním zaměřením v této oblasti je renesanční tanec na panských dvorech v 15. století.",
+            "talkdesc": "Pan docent Vladimír Kočí, kterýžto ve svém profesním životě proplouvá vlnami Vysoké školy chemicko-technologické v Praze na Ústavu chemie ochrany prostředí, se nechává často unášet též vlnami tanců z dob renesančních. Přijďte se v neděli večer zhoupnout v rytmu panských dvorů 16. století. (Pro páry i jednotlivce.)",
+            "talkname": "Vlna jako základní projev renesančního dvorského tance (workshop)"
         },
         "Václav Janda": {
             "speakerdesc": "V roce dokočil 1997 inženýrské a v roce 1981 doktorské studium v oboru Technologie vody na Katedře technologie vody a prostředí. Pracuje v Ústavu technologie vody a prostředí; roku 1993 se stal docentem a v roce 2000 byl jmenován profesorem. Absolvoval zahraniční stáže na University of Ghent v Belgii a University of Leeds ve Velké Británii. Je tajemníkem Československé asociace vodárenských expertů. Jeho hlavním zaměřením ve vědecké a pedagogické činnosti jsou chemické a biologické způsoby úpravy vlastností vody a analýza organických látek ve vodách a obecně v životním prostředí.",
             "speakername": "Prof. Ing. Václav Janda, CSc.",
-            "talkname": "Vlna, co prohnala Dejvice",
-            "talkdesc": "Vodu po cestě do našich vodovodních kohoutků rozvlní mnohé. Od jejího odběru, přes úpravu a cestu potrubím až k nám domů se toho děje opravdu hodně a občas se stane i něco, co nečekáme. Co pijeme tady doma, v České republice, co pijí ostatní lidé ve světě kolem nás, co vše se svezlo na vlně událostí s vodou, jež prohnala Dejvice - o tom a ještě o mnohém jiném nám přijde povědět pan profesor Václav Janda z Vysoké školy chemicko-technologické v Praze."
+            "talkdesc": "Vodu po cestě do našich vodovodních kohoutků rozvlní mnohé. Od jejího odběru, přes úpravu a cestu potrubím až k nám domů se toho děje opravdu hodně a občas se stane i něco, co nečekáme. Co pijeme tady doma, v České republice, co pijí ostatní lidé ve světě kolem nás, co vše se svezlo na vlně událostí s vodou, jež prohnala Dejvice - o tom a ještě o mnohém jiném nám přijde povědět pan profesor Václav Janda z Vysoké školy chemicko-technologické v Praze.",
+            "talkname": "Vlna, co prohnala Dejvice"
         },
         "Václav Klaus ml., Jana Straková, Michal Černý, Bob Kartous": {
             "fullname": "Mgr. Václav Klaus",
             "speakerdesc": "absolvoval Přírodovědeckou fakultu UK, přes 15 let vedl gymnázium a poté síť škol PORG. Středoškolský profesor matematiky, autor mnoha odborných článků a zatím jedné učebnice (Matematika pro trojkaře aneb Maturita v kapse; 2013), zakladatel Asociace aktivních škol (sdružuje přes 100 českých škol). Vede jeden z největších českých šachových klubů a dosud aktivně závodí na kole. Je členem expertního týmu předsedy ODS pro školství.</p><p><span class=\"speakername\">RNDr. Jana Straková, Ph.D.</span> vystudovala elektronickou fyziku a optiku na MFF UK. Od 90. let se věnuje pedagogickému výzkumu, roku 2008 získala v tomto oboru doktorát. Dlouhá léta organizovala v ČR mezinárodní výzkumy vědomostí a dovedností. Spolupracuje s řadou nevládních i vládních organizací v ČR i v zahraničí, učí na Pedagogické fakultě UK. Spoluzakládala PORG a také tam několik let učila. Jejím hlavním odborným tématem je problematika <a href=\"http://www.eduin.cz/clanky/hospodarske-noviny-rozdelene-skolstvi-skodi-vsem-detem/\">nerovností ve vzdělávání</a>.</p><p><span class=\"speakername\">PaeDr. Michal Černý</span> (*1962), pedagog. Po několika odbočkách a slepých uličkách vystudoval Pedagogickou fakultu Univerzity Karlovy v Praze. Od roku 1993 je ředitelem Masarykovy základní školy v Praze-Klánovicích, učí především matematiku a angličtinu. Při řízení školy i pedagogické práci se neuzavírá před žádnými vlivy ani impulsy, za nejdůležitější však považuje zdravý rozum (nikoli nutně selský). Klánovická škola je, snad díky svému prosazování některých moderních trendů ve vzdělávání, okolím považována za progresivní instituci. Kromě ředitelování Michal Černý amatérsky hraje a režíruje divadlo, působí v hudební skupině Bedřich & Zoufalci.</p><p><span class=\"speakername\">Mgr. Bohumil Kartous, Ph.D.</span> je absolvent Pedagogické fakulty, Fakulty sportovních studií MU v Brně a doktorského programu na Fakultě sociálních věd UK. Projekty, na kterých se podílí, mají těžiště v oblasti vzdělávání a médií. Jsou to zejména EDUin a Britské listy. Učí, publikuje, konferuje a moderuje. Typický představitel parazitického neziskového sektoru a omylu zvaného občanská společnost.</p>",
-            "talkname": "Debata: Vlny v dnešním školství",
-            "talkdesc": "Dva studenti dovršující třináctý rok prožitý v českém školství budou v roli moderátorů zpovídat čtyři své hosty - Janu Strakovou, Václava Klause, Bohumila Kartouse a Michala Černého. Debata by se měla držet těchto bodů:<ul><li>Míra nezávislosti škol na ministerstvu - vlastní ŠVP, plošné testování, státní maturity; stát ovlivňující počty škol jednotlivých oborů</li><li>Škola v dnešním světě - online vzdělávací programy (CTY, Khan academy), tablety a další el. zařízení ve školách, škola - knihovna, nebo škola - knihovník</li><li>Ambice školy - snaha tvořit názory studentů, předávat jim hodnoty ideologie, kterou stát považuje za správnou; zabrat dětem ve jménu vzdělání co nejvíce času... ganztagsschule v Německu... není toho moc?</li><li>Iniciativa rodičů jako hybný či konzervační prvek, rodiče stojící za vznikem nových škol</li><li>Školství jako jednotící prvek?... začleňování znevýhodněných dětí do škol, výběrová gymnázia a paběrkující základky</li></ul>Samozřejmostí je, že svými dotazy či připomínkami se mohou zapojit i posluchači."
+            "talkdesc": "Dva studenti dovršující třináctý rok prožitý v českém školství budou v roli moderátorů zpovídat čtyři své hosty - Janu Strakovou, Václava Klause, Bohumila Kartouse a Michala Černého. Debata by se měla držet těchto bodů:<ul><li>Míra nezávislosti škol na ministerstvu - vlastní ŠVP, plošné testování, státní maturity; stát ovlivňující počty škol jednotlivých oborů</li><li>Škola v dnešním světě - online vzdělávací programy (CTY, Khan academy), tablety a další el. zařízení ve školách, škola - knihovna, nebo škola - knihovník</li><li>Ambice školy - snaha tvořit názory studentů, předávat jim hodnoty ideologie, kterou stát považuje za správnou; zabrat dětem ve jménu vzdělání co nejvíce času... ganztagsschule v Německu... není toho moc?</li><li>Iniciativa rodičů jako hybný či konzervační prvek, rodiče stojící za vznikem nových škol</li><li>Školství jako jednotící prvek?... začleňování znevýhodněných dětí do škol, výběrová gymnázia a paběrkující základky</li></ul>Samozřejmostí je, že svými dotazy či připomínkami se mohou zapojit i posluchači.",
+            "talkname": "Debata: Vlny v dnešním školství"
         },
         "Václav Švorčík": {
             "fullname": "Prof. Ing. Václav Švorčík, DrSc.",
@@ -499,10 +581,10 @@
             "talkname": "Biokompatibilita polymerů"
         },
         "Vít Vilímek": {
-            "talkdesc": "Vlny tsunami odpradávna dokázaly devastovat pobřeží přímořských států. Ani současná, technicky vyspělá společnost není před nimi v bezpečí, jak jsme se mohli přesvědčit třeba v roce 2004 v Indonésii či poměrně nedávno v Japonsku. Jejich původ je samozřejmě již delší dobu znám, přesto ohrožují nejen rozvojové státy, ale i země hospodářsky vyspělé. Budeme schopni je někdy předpovídat? Týkají se i nás v Evropě? Na tyto a podobné otázky se zaměříme. Dozvíte se něco o jejich původu či následcích, a také jak se před nimi chránit.",
-            "talkname": "Ničivé vlny tsunami",
             "fullname": "Doc. RNDr. Vít Vilímek",
-            "speakerdesc": "vystudoval fyzickou geografii a kartografii na PfUK. Zabývá se hlavně studiem geomorfologických projevů neotektonických pohybů a rizikových geomorfologických procesů. Je členem mnoha mezinárodních odborných organizací a prováděl výzkum rizikových geomorfologických procesů v pohoří Vordillera Blanca v Peru, později monitoroval sesuvy na Machu Picchu."
+            "speakerdesc": "vystudoval fyzickou geografii a kartografii na PfUK. Zabývá se hlavně studiem geomorfologických projevů neotektonických pohybů a rizikových geomorfologických procesů. Je členem mnoha mezinárodních odborných organizací a prováděl výzkum rizikových geomorfologických procesů v pohoří Vordillera Blanca v Peru, později monitoroval sesuvy na Machu Picchu.",
+            "talkdesc": "Vlny tsunami odpradávna dokázaly devastovat pobřeží přímořských států. Ani současná, technicky vyspělá společnost není před nimi v bezpečí, jak jsme se mohli přesvědčit třeba v roce 2004 v Indonésii či poměrně nedávno v Japonsku. Jejich původ je samozřejmě již delší dobu znám, přesto ohrožují nejen rozvojové státy, ale i země hospodářsky vyspělé. Budeme schopni je někdy předpovídat? Týkají se i nás v Evropě? Na tyto a podobné otázky se zaměříme. Dozvíte se něco o jejich původu či následcích, a také jak se před nimi chránit.",
+            "talkname": "Ničivé vlny tsunami"
         },
         "Vít Vlnas": {
             "fullname": "Prof. PhDr. Vít Vlnas, Ph.D.",
@@ -515,14 +597,17 @@
             "talkdesc": "Většina krevet čeledi Palaemonidae obývajících tropická a subtropická moře Atlantského, Indického a Tichého oceánu se adaptovala k symbiózám se zástupci řady kmenů bezobratlých živočichů. Nejširší zastoupení symbiotických krevet je mezi těmi, které jsou ekto-symbioticky vázány na těla žahavců, je mezi nimi i řada čističů ryb. Známa jsou i podobná soužití s ostnokožci, ale najdeme je i jako endosymbionty v mořských houbách, mlžích a v sumkách. Většina symbiotických vztahů krevet s jejich hostiteli představuje komplex vztahů, vstupují do nich nezřídka i další organismy. Na korálových útesech patří mezi nejčastěji pozorované tzv. „sasankové krevetky“ rodu Ancylomene, které často působí jako čističi ryb. Video záběry, jež jsou součástí přednášky, přibližují některé prvky ekologie a chování těchto sasankových krevet.",
             "talkname": "Symbiózy krevet na korálových útesech"
         },
-        "_Filmová noc": {
-            "talkdesc": "Zveme Vás na tradiční symposionovou filmovou noc do prvního patra Gymnázia Jana Keplera. Nabízíme zároveň odpočinek pro Vaše znavené mozky po mnoha vlnách koncentrace při různorodých přednáškách, tak i další intelektuální stimulaci pro filmové fajnšmekry. V odpočinkovějším a poněkud mainstreamovějším filmovém sále na Vás budou čekat filmy jako <i>Die Welle, Žraloknádo, Piráti z Karibiku</i> či <i>Hledá se Nemo</i>, zatímco v našem druhém sále se můžete těšit na snímky z nové filmové vlny jak české, tak i mezinárodní, jako třeba <i>Případ pro začínajícího kata, Pytel blech, If...</i> nebo <i>A bout de souffle</i>."
+        "_Filmová noc - Sál <i>Lehká vlna</i>": {
+            "talkdesc": "Zveme Vás na tradiční symposionovou filmovou noc do druhého patra Gymnázia Jana Keplera. Nabízíme odpočinek pro Vaše mozky, znavené záplavami informací z přednášek, a zároveň i další intelektuální stimulaci pro filmové fajnšmekry. V prvním filmovém sále, naladěném na odpočinkovější a poněkud mainstreamovější vlnu, na Vás budou čekat filmy jako <i>Die Welle</i> či <i>Hledá se Nemo</i>, zatímco v druhém se můžete těšit na snímky z aktuální filmové scény české i mezinárodní, mezi jinými <i>Případ pro začínajícího kata</i> nebo <i>A bout de souffle</i>. Všechny filmy budou promítány v orginálních jazycích s titulky.<h2>Sál <i>Lehká vlna</i> (P2.1)</h2><h3><a href=\"http://www.csfd.cz/film/239674-nas-vudce/prehled/\">Die Welle</a> (Denis Gansel)</h3><p>Film, přestože zahajuje noc v „relax sálu“, rozhodně nebude odpočinkový. Přinese Vám svědectví pedagogického experimentu, zkoumajícího na třídě studentů vznik a utváření diktatury. Nenápadný školní projekt se v nestřeženou chvíli vymkne kontrole...</p><h3><a href=\"http://www.csfd.cz/film/43924-hleda-se-nemo/prehled/\">Hledá se Nemo</a> (Andrew Stanton, Lee Unkrich)</h3><p>Tragický příběh otce, který se stal svědkem brutální vraždy partnerky a všech jejich dětí, s výjimkou jediného, které se záhy pohřešuje. Starostlivý Marlin putuje po světě s mentálně postiženou rybou, aby našel jedinou bytost, která mu v životě ještě zůstala.</p><h3><a href=\"http://www.csfd.cz/film/43513-pirati-z-karibiku-prokleti-cerne-perly/prehled/\">Piráti z Karibiku</a> (George Verbinski)</h3><p>Stále opilý Johnny Depp, mladý Orlando Bloom, krásná Keira Knightley, lodě, moře a karibik, bitvy, boje a děla, mystéria, prokletí a osud, to všechno na Vás čeká ve filmu <i>Piráti z Karibiku.</i></p>"
+        },
+        "_Filmová noc - Sál <i>Těžká vlna</i>": {
+            "talkdesc": "Zveme Vás na tradiční symposionovou filmovou noc do druhého patra Gymnázia Jana Keplera. Nabízíme odpočinek pro Vaše mozky, znavené záplavami informací z přednášek, a zároveň i další intelektuální stimulaci pro filmové fajnšmekry. V prvním filmovém sále, naladěném na odpočinkovější a poněkud mainstreamovější vlnu, na Vás budou čekat filmy jako <i>Die Welle</i> či <i>Hledá se Nemo</i>, zatímco v druhém se můžete těšit na snímky z aktuální filmové scény české i mezinárodní, mezi jinými <i>Případ pro začínajícího kata</i> nebo <i>A bout de souffle</i>. Všechny filmy budou promítány v orginálních jazycích s titulky.<h2>Sál <i>Těžká vlna</i> (P2.2)</h2><h3><a href=\"http://www.csfd.cz/film/1540-pytel-blech/prehled/\">Případ pro začínajícího kata</a> (Pavel Juráček) / <a href=\"http://www.csfd.cz/film/4915-pripad-pro-zacinajiciho-kata/prehled/\">Pytel blech</a> (Věra Chytilová)</h3><p>Který film budeme promítat jako první, si můžete zvolit na místě. Poměrně náročný dokument <i>Pytel blech</i> bez přetváření pojednává o životě dívek na internátní škole na přelomu 50. a 60. let, <i>Případ pro začínajícího kata</i> je absurdním vyprávěním o Lemmulelu Gulliverovi v zemi Balnibarbi (podle knihy Jonathana Swifta). Oba snímky se řadí mezi důležitou tvorbu nové filmové vlny československé.</p><h3><a href=\"http://www.csfd.cz/film/14679-kdyby/prehled/\">if…</a> (Lindsay Anderson)</h3><p>Film ze 60. let minulého století z nové vlny anglické. Student Mick na své internátní škole vyburcuje ostatní, aby se vzbouřili proti zažitým normám.</p><h3><a href=\"http://www.csfd.cz/film/32453-u-konce-s-dechem/prehled/\">A bout de souffle</a> (Jean-Luc Godard)</h3><p>Námět se může zdát jednoduchý. Krádež auta, vražda a útěk. Jelikož ale film vznikl pod režií Jean-Luc Godarda a jako hlavní hvězda zazáří Jean-Paul Belmondo v roli přitažlivého rebela, máte se zajisté na co těšit. Jeden z prvních a nejvýznamnějších filmů nouvelle vague („nová vlna“), který přinesl nové způsoby střihu i kamery. (Český název: <i>U konce s dechem</i>)</p>"
         },
         "_Oběd": {
             "talkdesc": "Čas na oběd!"
         },
         "_Studentské přednášky": {
-            "talkdesc": "<h2 class=\"talkname\">Zrod, stárnutí a zánik staveb – Daniel Baše (maturant 2013)</h2>Jak vnímají stárnutí staveb různé kultury a architektonická hnutí. Japonsko a trvanlivost křehkého. Západní mentalita bunkrů. Zásahy do památek – poučené nebo lidové. (Corbusierova čtvrť v Pessacu – funkcionalismus folklorizovaný a znovu očištěný.) Obnova formy a nemožnost návratu původního obsahu.</p><p><h2 class=\"talkname\">Surfování – Martin Loužecký (maturant 2013)</h2>Někdo utíká před vlnou a někdo utíká za vlnou. Někdo se vln bojí a někdo se bojí, že vlny nebudou. Někdo by rád vlny chytal, ale nemá tušení, kde a jak. Každopádně kdo chytí povídání o tom, proč se vlny chytaj, kde se chytaj a jaký to je, se buď bude chytat za hlavu, nebo se rozhodne jet chytat taky. Probereme téma vln a serfování od hlavy až k patě a snad se i trochu zasmějem.</p><h2 class=\"talkname\">evaluace | ejakulace – Marek Háša (maturant 2015)</h2>Osm let na GJK mladého člověka zásadně poznamená. Orgasmus je výsledkem fáze plateau sexuálního reakčního cyklu. V čem spočívá podstata kepleráctví? A proč je obvykle vyvrcholení doprovázeno rychlými cykly svalových kontrakcí v pánevních svalech? Přednáška, jež by se ráda zvrhla v diskusi, si dává za cíl vyvrcholit otevřeným pojmenováním společných charakteristik řečníka a publika, přičemž by však nerada vynechala obohacující odbočky do oblasti lidské sexuality. Vzhledem k velice interaktivní podstatě této seance záleží především na posluchačích, zda společně nahlédneme do niter našich duší, nebo do hlubin našich pohlaví."
+            "talkdesc": "<h2>Zrod, stárnutí a zánik staveb – Daniel Baše (maturant 2013)</h2>Jak vnímají stárnutí staveb různé kultury a architektonická hnutí. Japonsko a trvanlivost křehkého. Západní mentalita bunkrů. Zásahy do památek – poučené nebo lidové. (Corbusierova čtvrť v Pessacu – funkcionalismus folklorizovaný a znovu očištěný.) Obnova formy a nemožnost návratu původního obsahu.</p><p><h2>Surfování – Martin Loužecký (maturant 2013)</h2>Někdo utíká před vlnou a někdo utíká za vlnou. Někdo se vln bojí a někdo se bojí, že vlny nebudou. Někdo by rád vlny chytal, ale nemá tušení, kde a jak. Každopádně kdo chytí povídání o tom, proč se vlny chytaj, kde se chytaj a jaký to je, se buď bude chytat za hlavu, nebo se rozhodne jet chytat taky. Probereme téma vln a serfování od hlavy až k patě a snad se i trochu zasmějem.</p><h2>evaluace | ejakulace – Marek Háša (maturant 2015)</h2>Osm let na GJK mladého člověka zásadně poznamená. Orgasmus je výsledkem fáze plateau sexuálního reakčního cyklu. V čem spočívá podstata kepleráctví? A proč je obvykle vyvrcholení doprovázeno rychlými cykly svalových kontrakcí v pánevních svalech? Přednáška, jež by se ráda zvrhla v diskusi, si dává za cíl vyvrcholit otevřeným pojmenováním společných charakteristik řečníka a publika, přičemž by však nerada vynechala obohacující odbočky do oblasti lidské sexuality. Vzhledem k velice interaktivní podstatě této seance záleží především na posluchačích, zda společně nahlédneme do niter našich duší, nebo do hlubin našich pohlaví."
         },
         "_Vlny endorfinů: Koncert ve Fatal Music Clubu": {
             "talkdesc": "Ještě než nás nedělní zahájení naplno vtáhne do kulturně-intelektuálního programu Symposionu, je zde tradičně možnost naladit se na tu správnou frekvenci už v pátek 13.11., v rámci páteční klubové předehry. Zveme Vás do Fatal Music Club na pražském Žižkově, kde Vaše údy svým uměním rozvlní hitparáda nejlepších hudebních skupin z Keplera a okolí. Zahrají Vám FadeX, The Life of Grandma, Frenchise a další. Nechte se s námi unést na páteční Vlně endorfinů!<br><a href=\"https://www.facebook.com/events/1081201488571427/\">Podívejte se i na Facebookovou událost této akce.</a>"

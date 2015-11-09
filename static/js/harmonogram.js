@@ -22,16 +22,38 @@ var dataJSON;
 
 $.getJSON("/static/js/data.json", function (data) {
     dataJSON = data;
-    $('#harmonogram').html("");
+    //$('.harmonogram').html("");
+    var curTable = undefined;
+    var headers = [];
     for (var i = 0; i < data.events.length; i++) {
         if (data.events[i].label !== undefined) {
-            $('#harmonogram')
+            if (curTable) curTable.appendTo($('#section3'));
+            curTable = $('<table>').addClass('harmonogram');
+            curTable
                 .append($('<tr>')
                     .append($('<td>')
                         .attr('colspan', 3)
                         .html(data.events[i].label).addClass("label")));
-        } else {
+        }
+        if (data.events[i].headers !== undefined) {
+            headers = data.events[i].headers;
+            var added = $('<tr>');
+            added.append($('<td>'));
+            $.each(headers, function (index, val) {
+                added.append($('<td>').html(val).addClass('roomHeader'));
+            });
+            added.appendTo(curTable);
+        }
+        if (data.events[i].label === undefined) {
+            var added = $('<tr>').append(
+                $('<td>').html(data.events[i].time)
+                .addClass("time")
+                .addClass("firstCol"));
             data.events[i].events.forEach(function (event, j) {
+                if ($.isEmptyObject(event)) { //"padding"
+                    added.append($('<td>'));
+                    return;
+                }
                 var id = event.speaker;
                 var speaker, talk;
 
@@ -40,16 +62,34 @@ $.getJSON("/static/js/data.json", function (data) {
                     talk = id.substring(1);
                 } else {
                     speaker = id;
-                    if (dataJSON.speakers[speaker]) {
-                        talk = dataJSON.speakers[speaker].talkname + " – "; //en dash, ne pomlcka
+                    if (data.speakers[speaker]) {
+                        talk = data.speakers[speaker].talkname + " – "; //en dash, ne pomlcka
                     } else { //chybějící název
                         talk = "?";
                     }
                 }
-                var completeTalk = dataJSON.speakers[id] && dataJSON.speakers[id].talkdesc;
-                var completeSpeaker = dataJSON.speakers[id] && dataJSON.speakers[id].speakerdesc;
-
-                $('#harmonogram')
+                var completeTalk = data.speakers[id] && data.speakers[id].talkdesc;
+                var completeSpeaker = data.speakers[id] && data.speakers[id].speakerdesc;
+                added.append($('<td>')
+                    .addClass("singleEvent")
+                    .attr('roomName', event.room ? (event.room) : "")
+                    .click(function () {
+                        if (completeTalk || completeSpeaker) handleClick(id);
+                    })
+                    .append($('<span>')
+                        .html(talk)
+                        .addClass("talk")
+                        .addClass((completeTalk || completeSpeaker) ? "" : "invalid")
+                        .addClass(completeTalk ? "" : "missingText")
+                    )
+                    .append($('<span>')
+                        .html(speaker ? speaker : "")
+                        .addClass("speaker")
+                        .addClass((completeTalk || completeSpeaker) ? "" : "invalid")
+                        .addClass(completeSpeaker ? "" : "missingText")
+                    )
+                );
+                /*$('#harmonogram')
                     .append($('<tr>')
                         .append($('<td>').html((j === 0) ? data.events[i].time : "")
                             .addClass((j === 0) ? "time" : undefined)
@@ -73,10 +113,12 @@ $.getJSON("/static/js/data.json", function (data) {
                                 .addClass(completeSpeaker ? "" : "missingText")
                             )
                         )
-                    );
+                    );*/
             });
+            added.appendTo(curTable);
         }
     }
+    if (curTable) curTable.appendTo($('#section3'));
 
     $('#section1').ripples({
         resolution: 512,
@@ -118,19 +160,18 @@ var nameToDescription = function (name) {
         return "-chybí popis-";
     }
     var str = '';
-    var talkname;
     if (!name.startsWith('_')) {
-        talkname = "Téma: " + info.talkname;
-        str += "<h2>" + name + "</h2>";
+        str += "<h1>" + name + "</h1>";
         if (info.speakerdesc) {
             str += "<p class=\"speakerdesc\"><span class=\"speakername\">" +
                 (info.fullname ? info.fullname : name) + "</span>";
             str += (info.speakerdesc.startsWith(",") ? "" : " ") + info.speakerdesc + "</p>";
         }
+        str += "<h2>Téma: " + info.talkname + "</h2>";
     } else {
-        talkname = name.substring(1);
+        str += "<h1>" + name.substring(1) + "</h1>";
     }
-    str += "<h2 class=\"talkname\">" + talkname + "</h2>";
+
     if (info.talkdesc) {
         str += "<p class=\"talkdesc\">";
         str += info.talkdesc;
