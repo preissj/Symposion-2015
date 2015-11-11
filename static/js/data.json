@@ -4,7 +4,7 @@
         },
         {
             "events": [{
-                "speaker": "_Vlny endorfinů: Koncert ve Fatal Music Clubu"
+                "speaker": "_Vlny endorfinů: Koncert ve Vinohradském pivovaru"
             }],
             "time": "18:00"
         },
@@ -41,6 +41,12 @@
                 "room": "Chodba"
             }],
             "time": "20:00"
+      }, {
+            "events": [{
+                "speaker": "Eliška Blažková",
+                "room": "Aula"
+            }],
+            "time": "21:00"
       },
         {
             "label": "Pondělí 16. 11.",
@@ -149,7 +155,8 @@
             "time": "17:00"
       },
         {
-            "events": [{
+            "events": [{},
+                {
                     "room": "Sbor.",
                     "speaker": "Martin Štrba"
             },
@@ -219,7 +226,7 @@
         {
             "events": [{
                     "room": "Aula",
-                    "speaker": "Břetislav Tureček, Ondřej Beránek, Chalid Bitar"
+                    "speaker": "Jitka Škovránková, Břetislav Tureček, Ondřej Beránek, Chalid Bitar"
             },
                 {
                     "room": "Sbor.",
@@ -288,7 +295,11 @@
                 {
                     "room": "P2.2",
                     "speaker": "Kateřina Kolářová"
-            }
+            },
+                {
+                    "room": "P2.1",
+                    "speaker": "Janek Rubeš"
+                }
           ],
             "time": "17:00"
       }
@@ -302,15 +313,19 @@
       "Chodba"
     ],
     "speakers": {
+        "Eliška Blažková": {
+            "talkdesc": "",
+            "talkname": "Workshop swingu"
+        },
         "Adam Šimčík": {
-            "talkdesc": "Vlna není jen vodní! Přijďte si vyzkoušet práci s vlnami a přízemi, naučte se začít řadu, být hladcí a obrací či chytit sloupek a ponořte se v našich teplých a útulných třídách štrikováním do listopadové idyly. Workshop se bude konat pod vedením mistra Adama Šimčíka z nedaleké malovanecké galanterie, který s ženou pořádá ve svém obchodě mnoho kurzů pletení a jiných ručních prací.</p><p><b>Workshop bude probíhat od 12:15 do 13:15.</b>",
+            "talkdesc": "Vlna není jen vodní! Přijďte si vyzkoušet práci s vlnami a přízemi, naučte se začít řadu, být hladcí a obrací či chytit sloupek a ponořte se v našich teplých a útulných třídách štrikováním do listopadové idyly. Workshop se bude konat pod vedením mistra Adama Šimčíka a jeho ženy, kteří ve své malovanecké galanterii pořádají mnoho kurzů pletení a jiných ručních prací.</p><p><b>Workshop bude probíhat od 12:15 do 13:15.</b>",
             "talkname": "Včera ovce, dneska svetr (workshop)"
         },
         "Apolena Rychlíková, Tereza Reichová, Martina Malinová": {
             "fullname": "Apolena Rychlíková, Martina Malinová a Tereza Reichová",
             "speakerdesc": ", absolventky FAMU, patří do nejmladší generace českých dokumentaristek a svou tvorbu výrazně propojují s levicově orientovanou občanskou aktivitou. Své práce pravidelně uvádějí na festivalu v Jihlavě či jiných filmových festivalech po celém světě. Všechny tři také přispívají do webového deníku A2larm a časopisu Nový prostor. Apolena se momentálně věnuje uprchlické krizi, o dobrovolních na Hlavním nádraží, kde sama také pomáhá, točí film Kolize-krize-solidarita aneb Efektivní komunity. Tereza zase má se svým partnerem rozpracovaný film Epidemie svobody, v němž se zabývá povinným očkováním, kvůli němuž také zažalovala stát.",
             "talkdesc": "Jak se u nás média staví k problematice menšin, v čem selhávají a v čem naopak fungují dobře? Jaký typ filmů je vhodný pro rozbourávání předsudků? Jaké typy kampaní? Jaké máme zkušenosti s vlastními předsudky a limity? Apolena Rychlíková a Martina Malinová představí svůj krátký experimentální film <i>Za Adolfa by žádní morgoši neměli žádná práva</i>. Ten skrz vhled do života rodiny paterčat a střet každodennosti reálných starostí a virtuální reality internetových diskuzí odhaluje to nejhorší z českého vztahu k Romům.<br>Následně Tereza Reichová promítne svůj film <i>Terapie Mírou</i>, přinášející reality show o islamofobii a hranicích diskuze v každém z nás.",
-            "talkname": "Média a menšiny (+ promítání dokumentu)"
+            "talkname": "Média a menšiny"
         },
         "Bronislav Ostřanský": {
             "fullname": "PhDr. Bronislav Ostřanský, Ph.D.",
@@ -318,8 +333,8 @@
             "talkdesc": "Přednáška se zamýšlí nad současnými českými debatami o islámu, jejich mediálními, jakož i politickými přesahy, pokusí se rovněž přiblížit spory o koncept islamofobie i odpovědět na věčné otázky, odkud odpor proti islámu vychází, jaké jsou jeho reálné motivace i soudobé projevy, jak lze odlišit kritiku islámu od islamofobie, kterak je tomu s paralelami mezi antisemitismem a islamofobií atd. Velký důraz bude kladen na prostor pro diskusi.",
             "talkname": "Islám a muslimové jako předmět českých veřejných polemik"
         },
-        "Břetislav Tureček, Ondřej Beránek, Chalid Bitar": {
-            "fullname": "Břetislav Tureček",
+        "Jitka Škovránková, Břetislav Tureček, Ondřej Beránek, Chalid Bitar": {
+            "fullname": "Jitka ŠkovránkováBřetislav Tureček",
             "speakerdesc": "je vysokoškolský učitel působící na Metropolitní univerzitě Praha, jako novinář zároveň spolupracuje s Lidovými novinami, Českou televizí a Českým rozhlasem. Od roku 1993 působil v tištěných médiích, v letech 2008-2013 byl stálým zpravodajem Českého rozhlasu na Blízkém východě se sídlem v Jeruzalémě. Břetislav Tureček je autorem tří knih: <i>Světla a stíny islámu - Drama Blízkého východu a sonda do duší jeho obyvatel</i> (2007), <i>Labyrintem Íránu - Cesta do nitra jaderné říše a k pramenům jejího vzdoru</i> (2013) a <i>Nesvatá válka o Svatou zemi - Málo známá zákoutí nelítostného boje mezi Židy a Araby</i>, za niž v roce 2012 obdržel Cenu Egona Erwina Kische. Příští rok mu má vyjít kniha Blízký východ nad propastí.</p><p><span class=\"speakername\">Mgr. Ondřej Beránek, Ph.D.</span> je český arabista a islamolog. Na Filosofické fakultě Univerzity Karlovy v Praze vystudoval arabistiku a dějiny a kulturu islámských zemí. V roce 2003 několik měsíců studoval na Univerzitě Krále Saúda v Rijádu v Saudské Arábii. V současnosti působí jako ředitel Orientálního ústavu Akademie věd ČR, odborně se specializuje na moderní a soudobé dějiny Blízkého východu a nedávno mu vyšla kniha Arabské revoluce, jež se zabývá dramatickými událostmi v arabských zemích v roce 2011.</p><p><span class=\"speakername\">Chalid Bitar</span> je politický aktivista v syrské revoluci, syn syrského otce a české matky. Po maturitě odjel ze Sýrie do České republiky, protože cítil, že režim, ve kterém žije, mu nevyhovuje. Vystudoval marketing a managment na Anglo-americké univerzitě. Je jedním ze zakladatelů Iniciativy pro Svobodnou Sýrii, která pracuje na medializaci syrské revoluce. Dále je členem Damašské deklarace pro demokratické změny v Sýrii.",
             "talkdesc": "Mezitím, co se Evropa zoufale snaží vypořádat s migrační vlnou, z války v Sýrii se pomalu stává celosvětový konflikt. Naše pozornost se upírá k uprchlickým kvótám a posilujícímu hnutí islamofobie, neměli bychom ale raději pohlédnout za své hranice a zaměřit se na řešení situace v domovské zemi většiny uprchlíků? Je možné najít kompromis v místě, kde se střetávají zájmy západního a východního světa, a udělat tak ze Sýrie zemi, ve které se dá žít v míru?",
             "talkname": "Debata: Válka v Sýrii - existuje řešení?"
@@ -339,13 +354,14 @@
         "David Uhlíř": {
             "fullname": "JUDr. David Uhlíř",
             "speakerdesc": "vystudoval Právnickou fakultu Univerzity Karlovy v Praze. V roce 1981 složil rigorózní zkoušku a získal titul doktora práv. V roce 1983 složil advokátní zkoušky stal se členem Městského sdružení advokátů v Praze, kde se zabýval především trestním právem. Ač byl do roku 1989 členem KSČ, věnoval se obhajobě a zastupování klientů, kteří byli z politických důvodů perzekuováni. V letech 1990 a 1991 byl tajemníkem Magistrátu hl. m. Prahy za OF, v září 1991 na svoji funkci rezignoval a vrátil se do advokacie.V roce 1994 založil advokátní kancelář Uhlíř, Homola a společníci, kterou vedl do roku 2014. Kancelář se věnuje celému spektru obvyklé advokátní agendy, zejména civilnímu právu a trestním obhajobám. JUDr. David Uhlíř se zde věnoval především občanskoprávní a obchodní agendě, byl také insolvenčním správcem se zvláštním povolením. Od roku 1998 jako externí učitel vede semináře občanského práva hmotného na Právnické fakultě UK. Je členem l’Union Internationale des Avocats, sekce práva odpovědnosti za škodu. Publikuje v odborném i denním tisku, zejména články na témata spojená s rekodifikací soukromého práva. Od roku 2005 byl náhradníkem, od roku 2009 členem a od roku 2013 do svého jmenování ústavním soudcem dokonce místopředsedou představenstva České advokátní komory.",
-            "talkname": "Právo"
+            "talkname": "Vlny v právu a jejich návraty",
+            "talkdesc": "Přichází s přílivem uprchlíků odliv práva? Jaké je právní postavení uprchlíků a jak jsou omezována občanská práva? A také o tom, jak se stát za tři sta let posunul od útrpného práva k uznání práva na obhajobu a jestli nám opět hrozí návrat k právu útrpnému. O nebezpečí, právní jistotě, našich svobodách a právech."
         },
         "David Vávra": {
             "fullname": "Akad. arch. David Vávra",
-            "speakerdesc": "je český architekt, herec a spisovatel. Absolvoval Akademii výtvarných umění a stavební fakultu ČVUT v Praze. Je zároveň spoluzakladatelem a dlouhodobě účinkujícím hercem alternativního divadla Sklep ze sedmdesátých let minulého století. Nasbírané zkušenosti a znalosti z obou oborů zužitkoval při výrobě populárně naučných televizních sérií <i><a href=\"http://www.ceskatelevize.cz/porady/1008546862-sumna-mesta/video/\">Šumná města</a></i> a <i><a href=\"http://www.ceskatelevize.cz/porady/10262550261-sumne-stopy/video/\">Šumné stopy</a></i>. Mezi jeho nejvýznamnější architektonické počiny patří stavba kulturního domu Dobeška, rekonstrukce Švandova divadla na Smíchově nebo třeba výstavba interiéru kulturního paláce Akropolis. Mezi jeho hereckými výkony třeba neopomenout roli ve filmech, jako je Mazaný Filip, či v televizní sérii Česká soda. David Vávra mimo jiné působí jako příležitostný básník na nejrůznější společenských událostech.",
-            "talkdesc": "Přijďte si poslechnout povídání branického rodáka a herce divadla Sklep o jeho nejvýznamnějších architektonických realizacích jak pražských (kulturní dům Dobeška, rekonstrukce Švandova divadla), tak mimopražských (rekonstrukce továrny Vertex v Hradci Králové na městskou knihovnu či stavba řady vil na Šumavě a v Krkonoších). V rámci jedenapůlhodinové časové dotace stihne David Vávra ještě krátce navázat na svou druhou televizní sérii <i>Šumné stopy</i> vyprávěním o emigrantských vlnách českých architektů do Jižní Ameriky.",
-            "talkname": "David Vávra - Čeští architekti a jejch <i>Šumné stopy</i>"
+            "speakerdesc": "je český architekt, herec a spisovatel, absolvoval Akademii výtvarných umění a stavební fakultu ČVUT v Praze. Je zároveň spoluzakladatelem a dlouhodobě účinkujícím hercem alternativního divadla Sklep ze sedmdesátých let minulého století. Nasbírané zkušenosti a znalosti z obou oborů zužitkoval při výrobě populárně-naučných televizních sérií <i><a href=\"http://www.ceskatelevize.cz/porady/1008546862-sumna-mesta/video/\">Šumná města</a></i> a <i><a href=\"http://www.ceskatelevize.cz/porady/10262550261-sumne-stopy/video/\">Šumné stopy</a></i>. Mezi jeho hereckými výkony nesmíme opomenout roli ve filmech, jako je třeba <i>Mazaný Filip</i>, či v televizní sérii <i>Česká soda</i>. David Vávra mimo jiné působí jako příležitostný básník na nejrůznější společenských událostech.",
+            "talkdesc": "Přijďte si poslechnout povídání branického rodáka a herce divadla Sklep o jeho nejvýznamnějších architektonických realizacích jak pražských (kulturní dům Dobeška, rekonstrukce Švandova divadla), tak mimopražských (rekonstrukce továrny Vertex v Hradci Králové na městskou knihovnu či stavba řady vil od Šumavy po Krkonoše). V rámci jedenapůlhodinové časové dotace stihne David Vávra ještě krátce navázat na svou druhou televizní sérii <i>Šumné stopy</i> vyprávěním o emigrantských vlnách českých architektů do Jižní Ameriky.",
+            "talkname": "Čeští architekti a jejch <i>Šumné stopy</i>"
         },
         "Dino Numerato": {
             "fullname": "Dino Numerato, Ph.D.",
@@ -372,13 +388,13 @@
         },
         "Janek Rubeš": {
             "fullname": "Janek Rubeš",
-            "speakerdesc": "(*1987) vystudoval marketing ve Zlíně na Univerzitě Tomáše Bati, ale už na střední škole, současně s rozšiřováním internetu a digitálních kamer, se začal věnovat natáčení virálních zábavných videí a krátkých spotů. Dneska působí jako redaktor v internetové televizi Stream.cz, sám o sobě tvrdí, že tam \"tak ryje do všeho\". Zde se podílí na kameře i střihu mnoha pořadů. V listopadu 2013 se začal věnovat tématu pražských podvodníků s pořadem <i>Město podvodů?</i>, ve kterém ověřoval používané podvodné praktiky, zveřejněné v dokumentu Scam City od National Geographic. Po znepokujících zjištěních o situaci v našem městě a neochotě magistrátu podniknout protiopatření se po roce a půl vrací na obrazovky internetové televize s pořadem <a href=\"https://www.stream.cz/porady/praha-vs-prachy\">Praha vs. Prachy</a>, kde se problémům věnuje důkladněji.",
-            "talkname": "Praha vs. Prachy"
+            "speakerdesc": "(*1987) vystudoval marketing ve Zlíně na Univerzitě Tomáše Bati, ale už na střední škole, současně s rozšiřováním internetu a digitálních kamer, se začal věnovat natáčení virálních zábavných videí a krátkých spotů. Dneska působí jako redaktor v internetové televizi Stream.cz, sám o sobě tvrdí, že tam „tak ryje do všeho“. Zde se podílí na kameře i střihu mnoha pořadů. V listopadu 2013 se začal věnovat tématu pražských podvodníků s pořadem <i>Město podvodů?</i>, ve kterém ověřoval používané podvodné praktiky, zveřejněné v dokumentu Scam City od National Geographic. Po znepokujících zjištěních o situaci v našem městě a neochotě magistrátu podniknout protiopatření se po roce a půl vrací na obrazovky internetové televize s pořadem <a href=\"https://www.stream.cz/porady/praha-vs-prachy\">Praha vs. Prachy</a>, kde se problémům věnuje důkladněji.",
+            "talkname": "O <i>Praha vs. Prachy</i>"
         },
         "Jaromír Typlt": {
             "fullname": "PHDr. Jaromír Typlt",
             "speakerdesc": "(*1973) je mnohostranný experimentální umělec. Vystudoval obor filozofie a český jazyk a literatura na Filozofické fakultě Univerzity Karlovy. Hlavním těžištěm jeho práce je literární tvorba, především próza a poezie, mimo to ale také píše mnohé odborné eseje. Za sbírku poezie Ztracené peklo získal v roce 1994 cenu Jiřího Ortena. Při svých literárních počinech experimentuje s přesahem literárního textu do jiných forem uměleckého projevu prostřednictvím zvukových nahrávek, autorského čtení, performance a improvizace. Věnuje se také editorské činnosti a kurátorství.",
-            "talkdesc": "Mozky vysílající a přijímající myšlenky, osobně řídící počasí na planetě Zemi, vynalézající stroje na ochranu před všemi nemocemi... Krátký průhled do podivuhodného světa několika osobností vylučovaných za hranici psychické \"normality\", kterým se snad začalo trochu lépe rozumět až po objevení kategorie \"art brut\" (ve volném překladu \"umění v surovém stavu\").",
+            "talkdesc": "Mozky vysílající a přijímající myšlenky, osobně řídící počasí na planetě Zemi, vynalézající stroje na ochranu před všemi nemocemi... Krátký průhled do podivuhodného světa několika osobností vylučovaných za hranici psychické „normality“, kterým se snad začalo trochu lépe rozumět až po objevení kategorie „art brut“ (ve volném překladu „umění v surovém stavu“).",
             "talkname": "Vlny pronikající"
         },
         "Jaroslav Lorman": {
@@ -467,7 +483,7 @@
         "Martin Štrba": {
             "fullname": "Martin Štrba",
             "speakerdesc": "(*1961) je slovenský kameraman. V roce 1980 vystudoval fotografii na Střední umělecko-průmyslové škole v Bratislavě a v roce 1985 kameru na FAMU v Praze. Nejčastěji spolupracoval na filmech Martina Šulíka a Vladimíra Michálka. V roce 1999 získal cenu Český lev za kameru filmu <i>Je třeba zabít Sekala</i> režiséra Vladimíra Michálka a roku 2000 za nejlepší výtvarný počin ve filmu <i>Anděl Exit</i>. Byl také hlavním kameramanem multimediálního projektu <i>Zlatá šedesátá</i>, v jehož rámci vzniklo 26 televizních portrétů československých filmových osobností a jeden celovečerní film. Dalšího Českého lva získal také za film <i>Hořící keř</i>.",
-            "talkdesc": "„Kluci, vy jste Slovenská nová vlna!“</p><p>Film <a href = \"http://www.csfd.cz/film/389249-vlna-vs-breh/prehled\">Vlna vs. břeh</a> vypráví příběh o skupině slovenských fotografů působících v 80. letech na pražské FAMU. Tono Stano, Rudo Prekop, Vasil Stanko, Peter Župník, Miro Švolík, Martin Štrba, Jano Pavlík a Kamil Varga: Tak znělá jména, která přinesla totalitnímu Československu nový, dodnes významý pohled na fotografii. Tato výrazná generace slovenských autorů se vyznačuje nespoutanou energií a hravostí, která působí sice neučesaně, ale zároveň s jasnou vizí. Je pro ní typická inscenovaná fotografie erotizující, ale filosofující, jejíž snahou je kousek po kousku posouvat hranice mezi poznaným a nepoznaným. Dokument zprostředkovává životní příběhy osmi umělců, pro něž je svoboda gesta a ironie důležitou součástí uměleckého výrazu, rekonstruuje atmosféru doby a prezentuje nekončící energii společného tvořivého ducha. Po <a href=\"https://www.youtube.com/watch?v=ugCrAQcbepQ\">promítání</a> bude následovat debata s režisérem dokumentu Martinem Štrbou, významným československým kameramanem a především členem Slovenské nové vlny.",
+            "talkdesc": "„Kluci, vy jste Slovenská nová vlna!“</p><p>Film <a href=\"http://www.csfd.cz/film/389249-vlna-vs-breh/prehled\">Vlna vs. břeh</a> vypráví příběh o skupině slovenských fotografů působících v 80. letech na pražské FAMU. Tono Stano, Rudo Prekop, Vasil Stanko, Peter Župník, Miro Švolík, Martin Štrba, Jano Pavlík a Kamil Varga: To jsou znělá jména, která přinesla totalitnímu Československu nový, dodnes významý pohled na fotografii. Tato výrazná generace slovenských autorů se vyznačuje nespoutanou energií a hravostí, která působí sice neučesaně, ale zároveň s jasnou vizí. Je pro ní typická inscenovaná fotografie erotizující, ale filosofující, jejíž snahou je kousek po kousku posouvat hranice mezi poznaným a nepoznaným. Dokument zprostředkovává životní příběhy osmi umělců, pro něž je svoboda gesta a ironie důležitou součástí uměleckého výrazu, rekonstruuje atmosféru doby a prezentuje nekončící energii společného tvořivého ducha. Po <a href=\"https://www.youtube.com/watch?v=ugCrAQcbepQ\">promítání</a> bude následovat debata s režisérem dokumentu Martinem Štrbou, významným československým kameramanem a především členem Slovenské nové vlny.",
             "talkname": "<i>Vlna vs. břeh</i>: promítání a diskuse o Slovenské nové vlně"
         },
         "Martin Šíp": {
@@ -589,7 +605,8 @@
         "Vít Vlnas": {
             "fullname": "Prof. PhDr. Vít Vlnas, Ph.D.",
             "speakerdesc": "krátce pracoval jako projektant, poté vystudoval historii na Filozofické fakultě Univerzity Karlovy v Praze. Od roku 1987 působí v Národní galerii, nejprve 10 let jako vedoucí jejího archivu, od roku 2001 pak v pozici ředitele Sbírky starého umění. Zároveň přednáší dějiny 16. až 18. století na Katedře dějin a didaktiky dějepisu Pedagogické fakulty UK. V Národní galerii v Praze se podílel na přípravě 11 výstavních projektů, z toho tří zahraničních (Itálie, Francie, SRN), a dvou vědeckých konferencí. Přednášel na univerzitách v Německu, Švýcarsku, Francii, Velké Británii a USA. Je autorem řady odborných i populárně naučných publikací, šéfredaktorem <i>Bulletinu Národní galerie</i> a členem pracovní skupiny pro historii při Akreditační komisi MŠMT. Zasedá též v řadě akademických orgánů. Je držitelem literární ceny Magnesia Litera. Jeho specializací je zejména baroko a svatý Jan Nepomucký.</p><p><a href=\"http://www.rozhlas.cz/dvojka/jejakaje/_zprava/podle-vita-vlnase-baroko-stale-vzrusuje-soucasniky--756374\">Rozhovor s Vítem Vlnasem o odkazu baroka v současnosti, vedení Národní galerie, Santinim či práci historika si můžete poslechnout zde.</a>",
-            "talkname": "Vlny v baroku"
+            "talkname": "Baroko a sv. Jan Nepomucký",
+            "talkdesc": "Devatenáctého března 1393 skončilo ve vlnách Vltavy tělo pražského kněze Johánka z Pomuka. Muže, který po mučednictví nijak netoužil a který se zřejmě jen ocitl ve špatný čas na špatném místě. Jeho fyzická smrt ale odstartovala pozoruhodný druhý život, jenž vyvrcholil v 17. a 18. století triumfem svatořečení Jana Nepomuckého. Posmrtná cesta arcibiskupského úředníka ke svatozáři však nebyla ani krátká, ani přímá."
         },
         "Zdeněk Ďuriš": {
             "fullname": "Prof. RNDr. Zdeněk Ďuriš, CSc",
@@ -607,10 +624,10 @@
             "talkdesc": "Čas na oběd!"
         },
         "_Studentské přednášky": {
-            "talkdesc": "<h2>Zrod, stárnutí a zánik staveb – Daniel Baše (maturant 2013)</h2>Jak vnímají stárnutí staveb různé kultury a architektonická hnutí. Japonsko a trvanlivost křehkého. Západní mentalita bunkrů. Zásahy do památek – poučené nebo lidové. (Corbusierova čtvrť v Pessacu – funkcionalismus folklorizovaný a znovu očištěný.) Obnova formy a nemožnost návratu původního obsahu.</p><p><h2>Surfování – Martin Loužecký (maturant 2013)</h2>Někdo utíká před vlnou a někdo utíká za vlnou. Někdo se vln bojí a někdo se bojí, že vlny nebudou. Někdo by rád vlny chytal, ale nemá tušení, kde a jak. Každopádně kdo chytí povídání o tom, proč se vlny chytaj, kde se chytaj a jaký to je, se buď bude chytat za hlavu, nebo se rozhodne jet chytat taky. Probereme téma vln a serfování od hlavy až k patě a snad se i trochu zasmějem.</p><h2>evaluace | ejakulace – Marek Háša (maturant 2015)</h2>Osm let na GJK mladého člověka zásadně poznamená. Orgasmus je výsledkem fáze plateau sexuálního reakčního cyklu. V čem spočívá podstata kepleráctví? A proč je obvykle vyvrcholení doprovázeno rychlými cykly svalových kontrakcí v pánevních svalech? Přednáška, jež by se ráda zvrhla v diskusi, si dává za cíl vyvrcholit otevřeným pojmenováním společných charakteristik řečníka a publika, přičemž by však nerada vynechala obohacující odbočky do oblasti lidské sexuality. Vzhledem k velice interaktivní podstatě této seance záleží především na posluchačích, zda společně nahlédneme do niter našich duší, nebo do hlubin našich pohlaví."
+            "talkdesc": "<h2>Zrod, stárnutí a zánik staveb – Daniel Baše (maturant 2013)</h2>Jak vnímají stárnutí staveb různé kultury a architektonická hnutí. Japonsko a trvanlivost křehkého. Západní mentalita bunkrů. Zásahy do památek – poučené nebo lidové. (Corbusierova čtvrť v Pessacu – funkcionalismus folklorizovaný a znovu očištěný.) Obnova formy a nemožnost návratu původního obsahu.</p><p><h2>Čerstvé vlny v komunální politice – Adam Zábranský (maturant 2013)</h2>Zástupci České pirátské strany se v roce 2014 poprvé dostali do zastupitelstva hl. m. Prahy. Od té doby jsou trnem v oku některým politikům a úředníkům. Je komunální politika vůbec zajímavá? A jak lze bojovat proti špinavostem v Praze?</p><p><h2>Surfování – Martin Loužecký (maturant 2013), David Mothejl (4.C), Matyáš Menšík (mistr Česka a Slovenska v surfování)</h2>Někdo utíká před vlnou a někdo utíká za vlnou. Někdo se vln bojí a někdo se bojí, že vlny nebudou. Někdo by rád vlny chytal, ale nemá tušení, kde a jak. Každopádně kdo chytí povídání o tom, proč se vlny chytaj, kde se chytaj a jaký to je, se buď bude chytat za hlavu, nebo se rozhodne jet chytat taky. Probereme téma vln a serfování od hlavy až k patě a snad se i trochu zasmějem.</p><p>Ale... nestačí ti jen poslouchat a chtěl by ses sám rozvlnit? K osvobození duše ti chybí magická tříska i oceán? Poslechni si přednášku Martina Loužeckého a hned poté se na stejném místě s mistrem republiky Matyášem pohoupej za sucha v rozbouřenejch vodách. Změříš-li svý surfařský ego s otatníma, třeba se ti poštěstí na jedný takový třísce odplout."
         },
-        "_Vlny endorfinů: Koncert ve Fatal Music Clubu": {
-            "talkdesc": "Ještě než nás nedělní zahájení naplno vtáhne do kulturně-intelektuálního programu Symposionu, je zde tradičně možnost naladit se na tu správnou frekvenci už v pátek 13.11., v rámci páteční klubové předehry. Zveme Vás do Fatal Music Club na pražském Žižkově, kde Vaše údy svým uměním rozvlní hitparáda nejlepších hudebních skupin z Keplera a okolí. Zahrají Vám FadeX, The Life of Grandma, Frenchise a další. Nechte se s námi unést na páteční Vlně endorfinů!<br><a href=\"https://www.facebook.com/events/1081201488571427/\">Podívejte se i na Facebookovou událost této akce.</a>"
+        "_Vlny endorfinů: Koncert ve Vinohradském pivovaru": {
+            "talkdesc": "Ještě než nás nedělní zahájení naplno vtáhne do kulturně-intelektuálního programu Symposionu, je zde tradičně možnost naladit se na tu správnou frekvenci už v pátek 13.11., v rámci páteční klubové předehry. Zveme Vás do klubu Vinohradského pivovaru, kde Vaše údy svým uměním rozvlní hitparáda nejlepších hudebních skupin z Keplera a okolí. Zahrají Vám FadeX, The Life of Grandma, Frenchise a další. Nechte se s námi unést na páteční Vlně endorfinů!</p><p><a href=\"https://www.facebook.com/events/1081201488571427/\">Podívejte se i na Facebookovou událost této akce.</a>"
         },
         "_Zahájení": {
             "talkdesc": "Oficiální zahájení Symposionu 2015."
