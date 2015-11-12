@@ -239,8 +239,40 @@ b {
 }
 
 #section4 {
+    h1 {
+        font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 2.2em;
+        padding-top: 0vh;
+    }
     background-color: $svetle_modra;
     color: darken($modra, 5%);
+    #partners {
+        //display: block;
+        margin-left: auto;
+        margin-right: auto;
+        td {
+            padding: 10px;
+            display: block;
+            @media (min-width: $small_table_width) {
+                display: table-cell;
+            }
+            vertical-align: middle;
+            text-align: center;
+            max-width: 100%;
+            white-space: nowrap;
+        }
+    }
+    a {
+        border: none;
+    }
+    #prahazdarma {
+        font-size: 200%;
+        font-weight: bold;
+    }
+    #goout {
+        width: 150px;
+        height: 150px;
+    }
 }
 
 #modal {
