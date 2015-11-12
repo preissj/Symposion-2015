@@ -16,6 +16,9 @@
             "events": [{
                 "speaker": "_Zahájení",
                 "room": "Chodba"
+            }, {
+                "speaker": "_Večeře (Scolarest)",
+                "room": "Scolarest"
             }],
             "time": "18:00"
       },
@@ -43,10 +46,13 @@
             "time": "20:00"
       }, {
             "events": [{
-                "speaker": "Eliška Blažková",
+                "speaker": "_Autorské čtení",
+                "room": "Chodba"
+            }, {
+                "speaker": "Eliška Blažková, Martin Kadlec",
                 "room": "Aula"
             }],
-            "time": "21:00"
+            "time": "21:30"
       },
         {
             "label": "Pondělí 16. 11.",
@@ -78,7 +84,7 @@
       },
         {
             "events": [{
-                "speaker": "_Oběd"
+                "speaker": "_Oběd (Scolarest)"
             }],
             "time": "12:00"
       },
@@ -153,6 +159,12 @@
             }
           ],
             "time": "17:00"
+      }, {
+            "events": [{
+                "speaker": "_Večeře (Scolarest)",
+                "room": "Scolarest"
+            }],
+            "time": "18:00"
       },
         {
             "events": [{},
@@ -212,7 +224,7 @@
       },
         {
             "events": [{
-                "speaker": "_Oběd"
+                "speaker": "_Oběd (Scolarest)"
             }],
             "time": "12:00"
       },
@@ -279,27 +291,25 @@
             "events": [{
                     "room": "Aula",
                     "speaker": "Martin Čeněk, Karolína Kripnerová"
-            },
-                {
+            }, {
                     "room": "Sbor.",
-                    "speaker": "Jiří Svoboda"
-            },
-                {
+                    "speaker": "Janek Rubeš"
+                }, {
                     "room": "USV",
                     "speaker": "Jiří Mrázek"
             },
                 {
                     "room": "P2.3",
                     "speaker": "Kateřina Novotná, Michal Zeman"
-            },
-                {
+            }, {
                     "room": "P2.2",
-                    "speaker": "Kateřina Kolářová"
+                    "speaker": "Jiří Svoboda"
             },
                 {
                     "room": "P2.1",
-                    "speaker": "Janek Rubeš"
-                }
+                    "speaker": "Kateřina Kolářová"
+            }
+
           ],
             "time": "17:00"
       }
@@ -313,8 +323,8 @@
       "Chodba"
     ],
     "speakers": {
-        "Eliška Blažková": {
-            "talkdesc": "",
+        "Eliška Blažková, Martin Kadlec": {
+            "talkdesc": "Počet fanoušků Electro Swingu velmi dynamicky roste, pravděpodobně proto, že spojuje výjmečně elegantní styl se skvělými rytmy, na které se dá výborně tančit - jak solo, tak i v páru. Provedeme Vás jednoduchou úvodní lekcí se zaměřením na klasické swingové tance. Primárně Vás naučíme Lindy Hop, ale také budete mít tu možnost poznat prvky z Charleston dance a Jazz dance; vše okořeníme i prvky pro docílení dojmu Electro Swingu. Zaměříme se jak na dokonalý prožitek ze samotného tance, tak na techniku lead (vedení), follow (následování) a správné držení těla.</p><p>Lekci povedou Martin Kadlec a Eliška Blažková, lektoři a tanečníci z taneční školy Cream Swing, která se jako jediná v Praze zaměřuje kromě klasického swingu i na Electro Swing. Workshopu se též zúčastní bývalí i současní studenti z Gymnázia Jana Keplera, kteří se swingu věnují.",
             "talkname": "Workshop swingu"
         },
         "Adam Šimčík": {
@@ -334,8 +344,8 @@
             "talkname": "Islám a muslimové jako předmět českých veřejných polemik"
         },
         "Jitka Škovránková, Břetislav Tureček, Ondřej Beránek, Chalid Bitar": {
-            "fullname": "Jitka ŠkovránkováBřetislav Tureček",
-            "speakerdesc": "je vysokoškolský učitel působící na Metropolitní univerzitě Praha, jako novinář zároveň spolupracuje s Lidovými novinami, Českou televizí a Českým rozhlasem. Od roku 1993 působil v tištěných médiích, v letech 2008-2013 byl stálým zpravodajem Českého rozhlasu na Blízkém východě se sídlem v Jeruzalémě. Břetislav Tureček je autorem tří knih: <i>Světla a stíny islámu - Drama Blízkého východu a sonda do duší jeho obyvatel</i> (2007), <i>Labyrintem Íránu - Cesta do nitra jaderné říše a k pramenům jejího vzdoru</i> (2013) a <i>Nesvatá válka o Svatou zemi - Málo známá zákoutí nelítostného boje mezi Židy a Araby</i>, za niž v roce 2012 obdržel Cenu Egona Erwina Kische. Příští rok mu má vyjít kniha Blízký východ nad propastí.</p><p><span class=\"speakername\">Mgr. Ondřej Beránek, Ph.D.</span> je český arabista a islamolog. Na Filosofické fakultě Univerzity Karlovy v Praze vystudoval arabistiku a dějiny a kulturu islámských zemí. V roce 2003 několik měsíců studoval na Univerzitě Krále Saúda v Rijádu v Saudské Arábii. V současnosti působí jako ředitel Orientálního ústavu Akademie věd ČR, odborně se specializuje na moderní a soudobé dějiny Blízkého východu a nedávno mu vyšla kniha Arabské revoluce, jež se zabývá dramatickými událostmi v arabských zemích v roce 2011.</p><p><span class=\"speakername\">Chalid Bitar</span> je politický aktivista v syrské revoluci, syn syrského otce a české matky. Po maturitě odjel ze Sýrie do České republiky, protože cítil, že režim, ve kterém žije, mu nevyhovuje. Vystudoval marketing a managment na Anglo-americké univerzitě. Je jedním ze zakladatelů Iniciativy pro Svobodnou Sýrii, která pracuje na medializaci syrské revoluce. Dále je členem Damašské deklarace pro demokratické změny v Sýrii.",
+            "fullname": "Ing. arch. Jitka (Škovránková) Trachtová",
+            "speakerdesc": "vystudovala Fakultu architektury v Praze a jako architektka několik let působila. V roce 2004 se začala věnovat humanitární pomoci a rozvojové spolupráci. Několik let strávila jako koordinátorka programů společnosti Člověk v tísni (ČvT) v Jordánsku, na Srí Lance a v Angole; krátkodobě podporovala na místě či z centrály ČvT v Praze také mise v Namíbii, Iráku, na Haiti, Filipínách a Ukrajině. V roce 2012 pomáhala založit misi ČvT v Sýrii a později její programy z Prahy koordinovala. Pracovala také pro Arcidiecézní charitu Praha v Ugandě, kde řidila Česko-ugandskou nemocnici. Od léta letošního roku je na mateřské dovolené.</p><p><span class=\"speakername\">Ing. Břetislav Tureček</span> je vysokoškolský učitel působící na Metropolitní univerzitě Praha, jako novinář zároveň spolupracuje s Lidovými novinami, Českou televizí a Českým rozhlasem. Od roku 1993 působil v tištěných médiích, v letech 2008-2013 byl stálým zpravodajem Českého rozhlasu na Blízkém východě se sídlem v Jeruzalémě. Břetislav Tureček je autorem tří knih: <i>Světla a stíny islámu - Drama Blízkého východu a sonda do duší jeho obyvatel</i> (2007), <i>Labyrintem Íránu - Cesta do nitra jaderné říše a k pramenům jejího vzdoru</i> (2013) a <i>Nesvatá válka o Svatou zemi - Málo známá zákoutí nelítostného boje mezi Židy a Araby</i>, za niž v roce 2012 obdržel Cenu Egona Erwina Kische. Příští rok mu má vyjít kniha Blízký východ nad propastí.</p><p><span class=\"speakername\">Mgr. Ondřej Beránek, Ph.D.</span> je český arabista a islamolog. Na Filosofické fakultě Univerzity Karlovy v Praze vystudoval arabistiku a dějiny a kulturu islámských zemí. V roce 2003 několik měsíců studoval na Univerzitě Krále Saúda v Rijádu v Saudské Arábii. V současnosti působí jako ředitel Orientálního ústavu Akademie věd ČR, odborně se specializuje na moderní a soudobé dějiny Blízkého východu a nedávno mu vyšla kniha Arabské revoluce, jež se zabývá dramatickými událostmi v arabských zemích v roce 2011.</p><p><span class=\"speakername\">Bc. Chalid Bitar</span> je politický aktivista v syrské revoluci, syn syrského otce a české matky. Po maturitě odjel ze Sýrie do České republiky, protože cítil, že režim, ve kterém žije, mu nevyhovuje. Vystudoval marketing a managment na Anglo-americké univerzitě. Je jedním ze zakladatelů Iniciativy pro Svobodnou Sýrii, která pracuje na medializaci syrské revoluce. Dále je členem Damašské deklarace pro demokratické změny v Sýrii.",
             "talkdesc": "Mezitím, co se Evropa zoufale snaží vypořádat s migrační vlnou, z války v Sýrii se pomalu stává celosvětový konflikt. Naše pozornost se upírá k uprchlickým kvótám a posilujícímu hnutí islamofobie, neměli bychom ale raději pohlédnout za své hranice a zaměřit se na řešení situace v domovské zemi většiny uprchlíků? Je možné najít kompromis v místě, kde se střetávají zájmy západního a východního světa, a udělat tak ze Sýrie zemi, ve které se dá žít v míru?",
             "talkname": "Debata: Válka v Sýrii - existuje řešení?"
         },
@@ -378,7 +388,7 @@
         "Ivan Douda": {
             "fullname": "PhDr. Ivan Douda",
             "speakerdesc": "je vedoucím psychologem nadace Drop In, kterou s MUDr. Jiřím Preslem založili v roce 1991. Nadace se zabývá prevencí a léčbou závislostí se zaměřením na nealkoholové drogy. Tomuto tématu se PhDr. Ivan Douda věnuje více než třicet let své profesní kariéry. Velký důraz klade na prevenci, sám mezi dětmi a studenty základních a středních škol pořádá přednášky a diskuse. Jedním z jeho stěžejních názorů je nerepresivní přístup k drogám. Argumentuje tím, že zakazovat je nemá smysl, zakázané ovoce totiž chutná nejlépe.",
-            "talkdesc": "Drogový mix aneb vlny drog a prevence Drogy, v současné době běžně dostupná látka. Co je to drogová prevence? Jak vlastně prevence samotná probíhá? Vyskytují se ve společnosti vlny v užívání drog? Liší se od sebe alkoholová a drogová závislost a jejich prevence? O tom, jestli je přístup dnešní společnosti k závislostní problematice příliš tolerantní, nebo naopak příliš odmítavý, odborně promluví psycholog Ivan Douda.",
+            "talkdesc": "Drogy, v současné době běžně dostupná látka. Co je to drogová prevence? Jak vlastně prevence samotná probíhá? Vyskytují se ve společnosti vlny v užívání drog? Liší se od sebe alkoholová a drogová závislost a jejich prevence? O tom, jestli je přístup dnešní společnosti k závislostní problematice příliš tolerantní, nebo naopak příliš odmítavý, odborně promluví psycholog Ivan Douda.",
             "talkname": "Drogový mix aneb vlny drog a prevence"
         },
         "Jan Royt": {
@@ -389,7 +399,8 @@
         "Janek Rubeš": {
             "fullname": "Janek Rubeš",
             "speakerdesc": "(*1987) vystudoval marketing ve Zlíně na Univerzitě Tomáše Bati, ale už na střední škole, současně s rozšiřováním internetu a digitálních kamer, se začal věnovat natáčení virálních zábavných videí a krátkých spotů. Dneska působí jako redaktor v internetové televizi Stream.cz, sám o sobě tvrdí, že tam „tak ryje do všeho“. Zde se podílí na kameře i střihu mnoha pořadů. V listopadu 2013 se začal věnovat tématu pražských podvodníků s pořadem <i>Město podvodů?</i>, ve kterém ověřoval používané podvodné praktiky, zveřejněné v dokumentu Scam City od National Geographic. Po znepokujících zjištěních o situaci v našem městě a neochotě magistrátu podniknout protiopatření se po roce a půl vrací na obrazovky internetové televize s pořadem <a href=\"https://www.stream.cz/porady/praha-vs-prachy\">Praha vs. Prachy</a>, kde se problémům věnuje důkladněji.",
-            "talkname": "O <i>Praha vs. Prachy</i>"
+            "talkname": "O <i>Praha vs. Prachy</i>",
+            "talkdesc": "O pořadu <i><a href=\"https://www.stream.cz/porady/praha-vs-prachy\">Praha vs. Prachy</a></i>, věnujícím se problematice pražských podvodníků, o jeho pozadí a zákulisí bude hovořit Janek Rubeš, který se tématem zabývá již od roku 2013. Pořad samotný vznikl v roce 2015 a nepřímo navazuje na autorův předcházející snímek <i><a href=\"https://www.stream.cz/porady/mesto-podvodu\">Město podvodů?</a></i>. Ten se zabýval dokumentem Scam City, který vykreslil Prahu jako město podvodů. Režisér provedl sérii pokusů v Praze ohledně turistické přívětivosti a získal negativní zkušenosti. Magistrát následně označil záběry za neobjektivní a požadoval omluvu. Janek se pokusil dokument reprodukovat a záměrně vyhledával stejné situace, aby ověřil jejich pravdivost - a většinou se tak i stalo. Dokonce ani po dvou letech se však v Praze neudálo nic pro zlepšení stavu, a Janek se proto vrací s pořadem Praha vs. Prachy, zaměřeným na pražské taxi. Odhaluje praktiky taxikářů, dostává se do pozadí problému a zároveň se znovu vrací na pražský magistrát, ale ani tentokrát se nesetkává se snahou a ochotou problémy řešit. Na Streamu se pořadu dostalo velké pozornosti s průměrnou sledovaností přes 300 000 diváků na epizodu a hodnocením přes 90% na ČSFD."
         },
         "Jaromír Typlt": {
             "fullname": "PHDr. Jaromír Typlt",
@@ -614,17 +625,23 @@
             "talkdesc": "Většina krevet čeledi Palaemonidae obývajících tropická a subtropická moře Atlantského, Indického a Tichého oceánu se adaptovala k symbiózám se zástupci řady kmenů bezobratlých živočichů. Nejširší zastoupení symbiotických krevet je mezi těmi, které jsou ekto-symbioticky vázány na těla žahavců, je mezi nimi i řada čističů ryb. Známa jsou i podobná soužití s ostnokožci, ale najdeme je i jako endosymbionty v mořských houbách, mlžích a v sumkách. Většina symbiotických vztahů krevet s jejich hostiteli představuje komplex vztahů, vstupují do nich nezřídka i další organismy. Na korálových útesech patří mezi nejčastěji pozorované tzv. „sasankové krevetky“ rodu Ancylomene, které často působí jako čističi ryb. Video záběry, jež jsou součástí přednášky, přibližují některé prvky ekologie a chování těchto sasankových krevet.",
             "talkname": "Symbiózy krevet na korálových útesech"
         },
+        "_Autorské čtení": {
+            "talkdesc": "Přichází nová vlna! Přijďte si na naše autorské čtení poslechnout, co si o životě a světě myslí mladá generace - poezií i prozaickou tvorbou Vás provedeme nevídanými hlubinami študákovy duše. Těšit se můžete třeba na beatem prodchnuté básně, úryvky neokoukané prózy a možná bude i esej...</p><p>Číst budou především studenti z loňského semináře Jazyk a styl."
+        },
         "_Filmová noc - Sál <i>Lehká vlna</i>": {
             "talkdesc": "Zveme Vás na tradiční symposionovou filmovou noc do druhého patra Gymnázia Jana Keplera. Nabízíme odpočinek pro Vaše mozky, znavené záplavami informací z přednášek, a zároveň i další intelektuální stimulaci pro filmové fajnšmekry. V prvním filmovém sále, naladěném na odpočinkovější a poněkud mainstreamovější vlnu, na Vás budou čekat filmy jako <i>Die Welle</i> či <i>Hledá se Nemo</i>, zatímco v druhém se můžete těšit na snímky z aktuální filmové scény české i mezinárodní, mezi jinými <i>Případ pro začínajícího kata</i> nebo <i>A bout de souffle</i>. Všechny filmy budou promítány v orginálních jazycích s titulky.<h2>Sál <i>Lehká vlna</i> (P2.1)</h2><h3><a href=\"http://www.csfd.cz/film/239674-nas-vudce/prehled/\">Die Welle</a> (Denis Gansel)</h3><p>Film, přestože zahajuje noc v „relax sálu“, rozhodně nebude odpočinkový. Přinese Vám svědectví pedagogického experimentu, zkoumajícího na třídě studentů vznik a utváření diktatury. Nenápadný školní projekt se v nestřeženou chvíli vymkne kontrole...</p><h3><a href=\"http://www.csfd.cz/film/43924-hleda-se-nemo/prehled/\">Hledá se Nemo</a> (Andrew Stanton, Lee Unkrich)</h3><p>Tragický příběh otce, který se stal svědkem brutální vraždy partnerky a všech jejich dětí, s výjimkou jediného, které se záhy pohřešuje. Starostlivý Marlin putuje po světě s mentálně postiženou rybou, aby našel jedinou bytost, která mu v životě ještě zůstala.</p><h3><a href=\"http://www.csfd.cz/film/43513-pirati-z-karibiku-prokleti-cerne-perly/prehled/\">Piráti z Karibiku</a> (George Verbinski)</h3><p>Stále opilý Johnny Depp, mladý Orlando Bloom, krásná Keira Knightley, lodě, moře a karibik, bitvy, boje a děla, mystéria, prokletí a osud, to všechno na Vás čeká ve filmu <i>Piráti z Karibiku.</i></p>"
         },
         "_Filmová noc - Sál <i>Těžká vlna</i>": {
             "talkdesc": "Zveme Vás na tradiční symposionovou filmovou noc do druhého patra Gymnázia Jana Keplera. Nabízíme odpočinek pro Vaše mozky, znavené záplavami informací z přednášek, a zároveň i další intelektuální stimulaci pro filmové fajnšmekry. V prvním filmovém sále, naladěném na odpočinkovější a poněkud mainstreamovější vlnu, na Vás budou čekat filmy jako <i>Die Welle</i> či <i>Hledá se Nemo</i>, zatímco v druhém se můžete těšit na snímky z aktuální filmové scény české i mezinárodní, mezi jinými <i>Případ pro začínajícího kata</i> nebo <i>A bout de souffle</i>. Všechny filmy budou promítány v orginálních jazycích s titulky.<h2>Sál <i>Těžká vlna</i> (P2.2)</h2><h3><a href=\"http://www.csfd.cz/film/1540-pytel-blech/prehled/\">Případ pro začínajícího kata</a> (Pavel Juráček) / <a href=\"http://www.csfd.cz/film/4915-pripad-pro-zacinajiciho-kata/prehled/\">Pytel blech</a> (Věra Chytilová)</h3><p>Který film budeme promítat jako první, si můžete zvolit na místě. Poměrně náročný dokument <i>Pytel blech</i> bez přetváření pojednává o životě dívek na internátní škole na přelomu 50. a 60. let, <i>Případ pro začínajícího kata</i> je absurdním vyprávěním o Lemmulelu Gulliverovi v zemi Balnibarbi (podle knihy Jonathana Swifta). Oba snímky se řadí mezi důležitou tvorbu nové filmové vlny československé.</p><h3><a href=\"http://www.csfd.cz/film/14679-kdyby/prehled/\">if…</a> (Lindsay Anderson)</h3><p>Film ze 60. let minulého století z nové vlny anglické. Student Mick na své internátní škole vyburcuje ostatní, aby se vzbouřili proti zažitým normám.</p><h3><a href=\"http://www.csfd.cz/film/32453-u-konce-s-dechem/prehled/\">A bout de souffle</a> (Jean-Luc Godard)</h3><p>Námět se může zdát jednoduchý. Krádež auta, vražda a útěk. Jelikož ale film vznikl pod režií Jean-Luc Godarda a jako hlavní hvězda zazáří Jean-Paul Belmondo v roli přitažlivého rebela, máte se zajisté na co těšit. Jeden z prvních a nejvýznamnějších filmů nouvelle vague („nová vlna“), který přinesl nové způsoby střihu i kamery. (Český název: <i>U konce s dechem</i>)</p>"
         },
-        "_Oběd": {
-            "talkdesc": "Čas na oběd!"
+        "_Oběd (Scolarest)": {
+            "talkdesc": "Čas na oběd ve Scolarestu!"
         },
         "_Studentské přednášky": {
-            "talkdesc": "<h2>Zrod, stárnutí a zánik staveb – Daniel Baše (maturant 2013)</h2>Jak vnímají stárnutí staveb různé kultury a architektonická hnutí. Japonsko a trvanlivost křehkého. Západní mentalita bunkrů. Zásahy do památek – poučené nebo lidové. (Corbusierova čtvrť v Pessacu – funkcionalismus folklorizovaný a znovu očištěný.) Obnova formy a nemožnost návratu původního obsahu.</p><p><h2>Čerstvé vlny v komunální politice – Adam Zábranský (maturant 2013)</h2>Zástupci České pirátské strany se v roce 2014 poprvé dostali do zastupitelstva hl. m. Prahy. Od té doby jsou trnem v oku některým politikům a úředníkům. Je komunální politika vůbec zajímavá? A jak lze bojovat proti špinavostem v Praze?</p><p><h2>Surfování – Martin Loužecký (maturant 2013), David Mothejl (4.C), Matyáš Menšík (mistr Česka a Slovenska v surfování)</h2>Někdo utíká před vlnou a někdo utíká za vlnou. Někdo se vln bojí a někdo se bojí, že vlny nebudou. Někdo by rád vlny chytal, ale nemá tušení, kde a jak. Každopádně kdo chytí povídání o tom, proč se vlny chytaj, kde se chytaj a jaký to je, se buď bude chytat za hlavu, nebo se rozhodne jet chytat taky. Probereme téma vln a serfování od hlavy až k patě a snad se i trochu zasmějem.</p><p>Ale... nestačí ti jen poslouchat a chtěl by ses sám rozvlnit? K osvobození duše ti chybí magická tříska i oceán? Poslechni si přednášku Martina Loužeckého a hned poté se na stejném místě s mistrem republiky Matyášem pohoupej za sucha v rozbouřenejch vodách. Změříš-li svý surfařský ego s otatníma, třeba se ti poštěstí na jedný takový třísce odplout."
+            "talkdesc": "<h2>Zrod, stárnutí a zánik staveb – Daniel Baše (maturant 2013)</h2>Jak vnímají stárnutí staveb různé kultury a architektonická hnutí. Japonsko a trvanlivost křehkého. Západní mentalita bunkrů. Zásahy do památek – poučené nebo lidové. (Corbusierova čtvrť v Pessacu – funkcionalismus folklorizovaný a znovu očištěný.) Obnova formy a nemožnost návratu původního obsahu.</p><p><h2>Čerstvé vlny v komunální politice – Adam Zábranský (maturant 2013)</h2>Zástupci České pirátské strany se v roce 2014 poprvé dostali do zastupitelstva hl. m. Prahy. Od té doby jsou trnem v oku některým politikům a úředníkům. Je komunální politika vůbec zajímavá? A jak lze bojovat proti špinavostem v Praze?</p><p><h2>Surfování – Martin Loužecký (maturant 2013)</h2>Někdo utíká před vlnou a někdo utíká za vlnou. Někdo se vln bojí a někdo se bojí, že vlny nebudou. Někdo by rád vlny chytal, ale nemá tušení, kde a jak. Každopádně kdo chytí povídání o tom, proč se vlny chytaj, kde se chytaj a jaký to je, se buď bude chytat za hlavu, nebo se rozhodne jet chytat taky. Probereme téma vln a serfování od hlavy až k patě a snad se i trochu zasmějem."
+        },
+        "_Večeře (Scolarest)": {
+            "talkdesc": "Čas na večeři ve Scolarestu - 18:00 až 19:30."
         },
         "_Vlny endorfinů: Koncert ve Vinohradském pivovaru": {
             "talkdesc": "Ještě než nás nedělní zahájení naplno vtáhne do kulturně-intelektuálního programu Symposionu, je zde tradičně možnost naladit se na tu správnou frekvenci už v pátek 13.11., v rámci páteční klubové předehry. Zveme Vás do klubu Vinohradského pivovaru, kde Vaše údy svým uměním rozvlní hitparáda nejlepších hudebních skupin z Keplera a okolí. Zahrají Vám FadeX, The Life of Grandma, Frenchise a další. Nechte se s námi unést na páteční Vlně endorfinů!</p><p><a href=\"https://www.facebook.com/events/1081201488571427/\">Podívejte se i na Facebookovou událost této akce.</a>"

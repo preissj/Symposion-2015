@@ -137,11 +137,17 @@ b {
             padding-top: 1em;
         }
     }
+    @media print {
+        display: none;
+    }
 }
 
 #section2 {
     background-color: $svetle_modra;
     color: darken($modra, 5%);
+    @media print {
+        display: none;
+    }
 }
 
 #section3 {
@@ -151,44 +157,51 @@ b {
     color: lighten($modra, 90%);
     width: 100%;
     line-height: 120%;
+    a {
+        //PDF odkaz
+        color: white;
+        border: none;
+        text-align: center;
+        display: block;
+    }
     td {
         display: block;
-        padding: 5px 5px 5px 8px;
-        @media (min-width: $small_table_width) {
-            padding: 10px;
+        padding: 0.5em 0.5em 0.5em 0.8em;
+        @media print,
+        (min-width: $small_table_width) {
+            padding: 0.6em 1em 0.6em 0em;
         }
     }
     .harmonogram {
         margin-left: auto;
         margin-right: auto;
-        border-spacing: 10px;
+        border-spacing: 0.6em;
         width: 100%;
     }
     .label {
         font-weight: bold;
         font-size: 180%;
-        padding-top: 30px;
-        padding-bottom: 20px;
+        padding: 1em 0 0.7em 0.35em;
     }
     .roomHeader {
         font-weight: bold;
         font-size: 150%;
         display: none;
-        @media (min-width: $small_table_width) {
+        @media print,
+        (min-width: $small_table_width) {
             display: table-cell;
         }
     }
     .time {
         font-weight: bold;
         font-size: 150%;
-        padding-top: 20px;
-        @media (min-width: $small_table_width) {
+        padding-top: 1.2em;
+        @media print,
+        (min-width: $small_table_width) {
             font-weight: normal;
             font-size: 100%;
             padding-top: 0px;
         }
-        //padding-top: 20px;
-        //vertical-align: middle;
     }
     .room {
         //visibility: hidden;
@@ -209,7 +222,8 @@ b {
     }
     .firstCol {
         //border-right: 1px white solid;
-        padding-right: 10px;
+        padding-right: 1em;
+        padding-left: 0.7em;
     }
     .singleEvent {
         &:before {
@@ -220,20 +234,36 @@ b {
             margin-left: -4.5em;
             display: inline-block;
             // end options
-            @media (min-width: $small_table_width) {
+            @media print,
+            (min-width: $small_table_width) {
                 display: none;
             }
         }
         margin-left: 5em;
-        @media (min-width: $small_table_width) {
+        @media print,
+        (min-width: $small_table_width) {
             margin-left: 0;
         }
     }
     th,
     td {
         text-align: left;
-        @media (min-width: $small_table_width) {
+        @media print,
+        (min-width: $small_table_width) {
             display: table-cell;
+        }
+    }
+    @media print {
+        font-size: 53%;
+        color: black;
+        h1 {
+            padding-top: 1em;
+            &:before {
+                content: "Symposion 2015 - ";
+            }
+        }
+        a {
+            display: none;
         }
     }
 }
@@ -253,7 +283,8 @@ b {
         td {
             padding: 10px;
             display: block;
-            @media (min-width: $small_table_width) {
+            @media print,
+            (min-width: $small_table_width) {
                 display: table-cell;
             }
             vertical-align: middle;
@@ -272,6 +303,9 @@ b {
     #goout {
         width: 150px;
         height: 150px;
+    }
+    @media print {
+        display: none;
     }
 }
 

@@ -33,7 +33,8 @@ $.getJSON("/static/js/data.json", function (data) {
                 .append($('<tr>')
                     .append($('<td>')
                         .attr('colspan', 3)
-                        .html(data.events[i].label).addClass("label")));
+                        .html(data.events[i].label)
+                        .addClass("label")));
         }
         if (data.events[i].headers !== undefined) {
             headers = data.events[i].headers;
