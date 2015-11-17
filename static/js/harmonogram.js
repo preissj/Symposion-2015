@@ -6,7 +6,7 @@ if (!String.prototype.startsWith) {
 }
 
 $(document).ready(function () {
-    $("#arrow").click(function () {
+    $(".toAbout").click(function () {
         $('html, body').animate({
             scrollTop: $("#section2").offset().top
         }, 600);

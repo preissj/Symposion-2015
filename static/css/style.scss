@@ -128,6 +128,17 @@ b {
         margin-top: 0.4em;
         cursor: pointer;
     }
+    #sectiontable {
+        width: 100%;
+        table-layout: fixed;
+        position: absolute;
+        bottom: 0;
+    }
+    .sectionlink {
+        padding: 2em;
+        cursor: pointer;
+        text-align: center;
+    }
     @media only screen and (max-width: $small_width) {
         font-size: 3.5vw;
         #logo {
@@ -254,7 +265,7 @@ b {
         }
     }
     @media print {
-        font-size: 53%;
+        font-size: 50%;
         color: black;
         h1 {
             padding-top: 1em;
